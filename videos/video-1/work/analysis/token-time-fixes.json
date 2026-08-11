@@ -1,0 +1,121 @@
+{
+ "note": "ASR token starts corrected against the RMS envelope (see qa-report hard entries). Re-apply after any transcribe.py --force.",
+ "fixes": [
+  {
+   "clip": "0258",
+   "word": "my",
+   "from_ms": 102504,
+   "to_ms": 102240,
+   "late_s": 0.264
+  },
+  {
+   "clip": "0258",
+   "word": "is",
+   "from_ms": 149471,
+   "to_ms": 149250,
+   "late_s": 0.221
+  },
+  {
+   "clip": "0258",
+   "word": "get",
+   "from_ms": 277058,
+   "to_ms": 276800,
+   "late_s": 0.258
+  },
+  {
+   "clip": "0261",
+   "word": "Mind-reader",
+   "from_ms": 173830,
+   "to_ms": 173430,
+   "late_s": 0.4
+  },
+  {
+   "clip": "0262",
+   "word": "And",
+   "from_ms": 45960,
+   "to_ms": 45700,
+   "late_s": 0.26
+  },
+  {
+   "clip": "0262",
+   "word": "Then",
+   "from_ms": 268050,
+   "to_ms": 267810,
+   "late_s": 0.24
+  },
+  {
+   "clip": "0262",
+   "word": "then",
+   "from_ms": 343930,
+   "to_ms": 343610,
+   "late_s": 0.32
+  },
+  {
+   "clip": "0262",
+   "word": "Connect",
+   "from_ms": 374400,
+   "to_ms": 373960,
+   "late_s": 0.44
+  },
+  {
+   "clip": "0264",
+   "word": "Run",
+   "from_ms": 308790,
+   "to_ms": 308570,
+   "late_s": 0.22
+  },
+  {
+   "clip": "0264",
+   "word": "or",
+   "from_ms": 389100,
+   "to_ms": 388840,
+   "late_s": 0.26
+  },
+  {
+   "clip": "0264",
+   "word": "attach",
+   "from_ms": 259160,
+   "to_ms": 259240,
+   "late_s": -0.08,
+   "why": "pushed LATER (not earlier): an untranscribed ghost burst sits 258.84-259.02; this lands the cut-in in the dip after it without clipping the word"
+  }
+ ],
+ "inflated_spans": [
+  {
+   "clip": "0258",
+   "word": "post",
+   "start_ms": 66600,
+   "end_ms": 72401,
+   "new_end_ms": 67160,
+   "applied": true,
+   "freed_s": 5.24
+  },
+  {
+   "clip": "0264",
+   "word": "and",
+   "start_ms": 603246,
+   "end_ms": 605770,
+   "new_start_ms": 605630,
+   "applied": true,
+   "freed_s": 2.38
+  },
+  {
+   "clip": "0261",
+   "word": "junk",
+   "start_ms": 155589,
+   "end_ms": 157957,
+   "new_end_ms": 156160,
+   "applied": true,
+   "freed_s": 1.8
+  },
+  {
+   "clip": "0262",
+   "word": "here",
+   "start_ms": 404277,
+   "end_ms": 405246,
+   "new_end_ms": 404690,
+   "applied": true,
+   "freed_s": 0.56
+  }
+ ]
+}

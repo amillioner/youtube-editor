@@ -1,0 +1,13 @@
+{
+ "request_id": "019fd7aa-1c92-7fa2-ad17-0aabba1adb7d",
+ "endpoint": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+ "prompt": "The seated man picks up a thick black cable and plugs its metal connector into the side of his head. Instantly blue electric sparks crackle around his skull, his whole body jolts and vibrates, his eyes go wide, his hair frizzes and stands straight up, a small puff of smoke rises. Exaggerated comedic slapstick electrocution. The camera stays locked off in the same bedroom.",
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aa543f1/bTqnoUDLyQO7GVmdKyIPp_output.mp4",
+   "content_type": "video/mp4",
+   "file_name": "output.mp4",
+   "file_size": 15968301
+  }
+ }
+}

@@ -1,0 +1,161 @@
+# Verify report — video-1 (rendered: preview-tight)
+
+Extra: 3 · missing: 21 · heard differently: 19 · big interior pauses: 45 · low-confidence: 31 · A/V drift flags: 1
+
+- **3 EXTRA words in the render** (ghost speech that rode along — listen and cut):
+  - 02:54 (174.06s) · "and" (heard as 'and')
+  - 08:07 (487.28s) · "and" (heard as 'and')
+  - 08:49 (529.07s) · "to" (heard as 'to')
+- **21 intended words MISSING from the render** (clipped or dropped):
+  - raw 04:34 (274.15s) · "uh," (expected 'uh')
+  - raw 00:03 (3.83s) · "other" (expected 'other')
+  - raw 03:26 (206.10s) · "use" (expected 'use')
+  - raw 02:50 (170.32s) · "And" (expected 'and')
+  - raw 01:47 (107.01s) · "code" (expected 'code')
+  - raw 02:01 (121.27s) · "its" (expected 'its')
+  - raw 02:49 (169.38s) · "Now" (expected 'now')
+  - raw 03:02 (182.42s) · "code" (expected 'code')
+  - raw 00:57 (57.60s) · "shark?" (expected 'shark')
+  - raw 03:17 (197.69s) · "buildpack" (expected 'buildpack')
+  - raw 06:48 (408.07s) · "what" (expected 'what')
+  - raw 06:48 (408.17s) · "is" (expected 'is')
+  - raw 01:42 (102.91s) · "Evernote," (expected 'evernote')
+  - raw 01:55 (115.32s) · "code" (expected 'code')
+  - raw 03:59 (239.99s) · "codes," (expected 'codes')
+  - raw 04:10 (250.64s) · "call" (expected 'call')
+  - raw 05:59 (359.44s) · "is" (expected 'is')
+  - raw 08:53 (533.22s) · "iRobot" (expected 'irobot')
+  - raw 08:56 (536.28s) · "side." (expected 'side')
+  - raw 11:36 (696.80s) · "star" (expected 'star')
+  - raw 11:37 (697.05s) · "the" (expected 'the')
+- **19 words heard DIFFERENTLY in the render** (possible mangled join — or just ASR variance; listen):
+  - 01:33 (93.57s) · render heard "another"
+  - 02:45 (165.88s) · render heard "used"
+  - 05:28 (328.05s) · render heard "quote"
+  - 05:36 (336.55s) · render heard "and"
+  - 05:36 (336.70s) · render heard "it's"
+  - 06:04 (364.08s) · render heard "cost"
+  - 06:44 (404.87s) · render heard "shock?"
+  - 07:39 (459.72s) · render heard "build"
+  - 07:40 (460.02s) · render heard "pack"
+  - 09:20 (560.21s) · render heard "what's"
+  - 10:32 (632.93s) · render heard "every"
+  - 10:33 (633.20s) · render heard "note"
+  - 10:40 (640.80s) · render heard "cost"
+  - 11:41 (701.15s) · render heard "quotes,"
+  - 11:45 (705.32s) · render heard "code"
+  - 14:15 (855.57s) · render heard "I,"
+  - 14:15 (855.73s) · render heard "Robot"
+  - 15:22 (922.21s) · render heard "start"
+  - 15:22 (922.46s) · render heard "a"
+- **45 big interior pauses** (>= 0.40s between rendered words — hesitation or skipped ghost; joins land ~0.33s):
+  - 01:03 (63.44s) · 0.51s · …Yes, ⟂ my…
+  - 01:09 (69.90s) · 0.64s · …AI, ⟂ to…
+  - 01:30 (90.74s) · 0.43s · …get ⟂ started.…
+  - 01:42 (102.79s) · 0.51s · …brain, ⟂ sent…
+  - 01:45 (105.36s) · 0.43s · …said, ⟂ do…
+  - 01:57 (117.00s) · 0.50s · …brain, ⟂ and…
+  - 02:11 (131.52s) · 0.95s · …opposite. ⟂ Okay,…
+  - 02:22 (142.37s) · 0.45s · …is ⟂ a…
+  - 02:23 (143.41s) · 0.42s · …copy ⟂ of…
+  - 02:58 (178.14s) · 0.43s · …days ⟂ and…
+  - 03:13 (193.33s) · 0.56s · …AI ⟂ should…
+  - 03:40 (220.11s) · 0.43s · …education, ⟂ everything…
+  - 03:57 (237.09s) · 0.45s · …deploy ⟂ and…
+  - 04:08 (248.05s) · 0.40s · …brain ⟂ online,…
+  - 04:22 (262.69s) · 0.47s · …MCP ⟂ and…
+  - 04:26 (266.90s) · 0.42s · …any ⟂ AI…
+  - 04:53 (293.68s) · 0.53s · …Now ⟂ open…
+  - 05:01 (301.01s) · 0.43s · …thing. ⟂ The…
+  - 05:04 (304.33s) · 0.50s · …mind-reader ⟂ reads.…
+  - 05:46 (346.41s) · 0.42s · …brain ⟂ you…
+  - 06:04 (364.93s) · 0.43s · …story, ⟂ the…
+  - 06:13 (373.82s) · 0.42s · …limit ⟂ and…
+  - 06:40 (400.48s) · 0.90s · …real— ⟂ and…
+  - 07:57 (477.75s) · 0.47s · …a— ⟂ the…
+  - 08:24 (504.49s) · 0.45s · …Now ⟂ let…
+  - 09:14 (554.63s) · 0.43s · …now ⟂ is…
+  - 09:27 (567.71s) · 0.53s · …guide ⟂ step…
+  - 09:43 (583.76s) · 0.42s · …reason ⟂ I…
+  - 10:01 (601.26s) · 0.40s · …server ⟂ pulls…
+  - 10:13 (613.55s) · 0.43s · …local ⟂ and…
+  - 10:15 (615.03s) · 0.40s · …brain, ⟂ are…
+  - 10:19 (619.34s) · 0.42s · …one ⟂ source…
+  - 11:01 (661.74s) · 0.42s · …on. ⟂ And…
+  - 11:19 (679.68s) · 0.45s · …server ⟂ running…
+  - 12:00 (720.45s) · 0.43s · …something, ⟂ it…
+  - 12:16 (736.22s) · 0.53s · …for ⟂ content.…
+  - 12:22 (742.41s) · 0.42s · …brain ⟂ holds…
+  - 12:30 (750.85s) · 0.48s · …reflect, ⟂ doesn't…
+  - 12:41 (761.48s) · 0.42s · …holds— ⟂ it…
+  - 13:23 (803.91s) · 0.56s · …now ⟂ is…
+  - 13:46 (826.82s) · 0.51s · …chat ⟂ with…
+  - 14:36 (876.17s) · 0.61s · …all ⟂ the…
+  - 14:40 (880.83s) · 0.59s · …Okay, ⟂ the…
+  - 14:46 (886.30s) · 0.74s · …guide. ⟂ And…
+  - 14:51 (891.21s) · 0.43s · …his ⟂ clone.…
+- **A/V DRIFT — 1 keep(s) beyond the rounding budget** (audio and video timelines are separating; check the renderer):
+  - 15:25 · audio-vs-plan +4.104s (budget ±9.82s) · "any"
+  - 15:24 · audio-vs-plan +4.090s (budget ±9.80s) · "And"
+  - 15:28 · audio-vs-plan +4.026s (budget ±9.84s) · "See"
+  - 15:21 · audio-vs-plan +4.019s (budget ±9.76s) · "and"
+  - 15:09 · audio-vs-plan +4.018s (budget ±9.62s) · "that's"
+  - 15:14 · audio-vs-plan +4.017s (budget ±9.68s) · "and"
+  - 15:19 · audio-vs-plan +3.997s (budget ±9.74s) · "Hit"
+  - 15:22 · audio-vs-plan +3.992s (budget ±9.78s) · "to"
+  - 15:11 · audio-vs-plan +3.992s (budget ±9.64s) · "where"
+  - 15:13 · audio-vs-plan +3.984s (budget ±9.66s) · "Put"
+  - 15:03 · audio-vs-plan +3.983s (budget ±9.56s) · "The"
+  - 14:57 · audio-vs-plan +3.979s (budget ±9.52s) · "Everyone"
+  - 14:48 · audio-vs-plan +3.972s (budget ±9.40s) · "should"
+  - 15:08 · audio-vs-plan +3.966s (budget ±9.60s) · "And"
+  - 14:45 · audio-vs-plan +3.936s (budget ±9.36s) · "with"
+  - 14:40 · audio-vs-plan +3.919s (budget ±9.30s) · "Okay,"
+  - 14:53 · audio-vs-plan +3.911s (budget ±9.48s) · "Not"
+  - 15:00 · audio-vs-plan +3.910s (budget ±9.54s) · "The"
+  - 14:42 · audio-vs-plan +3.904s (budget ±9.32s) · "it's"
+  - 14:55 · audio-vs-plan +3.902s (budget ±9.50s) · "because"
+  - 14:31 · audio-vs-plan +3.864s (budget ±9.20s) · "And"
+  - 14:19 · audio-vs-plan +3.860s (budget ±9.10s) · "Looks"
+  - 14:22 · audio-vs-plan +3.860s (budget ±9.14s) · "Everything"
+  - 14:20 · audio-vs-plan +3.844s (budget ±9.12s) · "Okay."
+  - 14:26 · audio-vs-plan +3.791s (budget ±9.16s) · "But"
+  - 14:09 · audio-vs-plan +3.784s (budget ±8.96s) · "same"
+  - 14:14 · audio-vs-plan +3.763s (budget ±9.04s) · "That's"
+  - 13:42 · audio-vs-plan +3.751s (budget ±8.56s) · "or"
+  - 13:49 · audio-vs-plan +3.719s (budget ±8.66s) · "Think"
+  - 14:15 · audio-vs-plan +3.716s (budget ±9.06s) · "the"
+  - 14:02 · audio-vs-plan +3.713s (budget ±8.86s) · "saying"
+  - 13:54 · audio-vs-plan +3.713s (budget ±8.72s) · "and"
+- **31 low-confidence rendered tokens** (< 0.70 — unclear audio in the deliverable):
+  - 00:32 (32.68s) · conf 0.69 · "twice"
+  - 00:50 (50.09s) · conf 0.59 · "and"
+  - 00:51 (51.45s) · conf 0.57 · "And"
+  - 02:02 (122.58s) · conf 0.62 · "is"
+  - 02:20 (140.54s) · conf 0.56 · "in"
+  - 02:45 (165.74s) · conf 0.63 · "you"
+  - 03:07 (187.54s) · conf 0.67 · "Which"
+  - 03:25 (205.53s) · conf 0.68 · "git"
+  - 03:46 (226.80s) · conf 0.59 · "with"
+  - 03:46 (226.99s) · conf 0.70 · "magic,"
+  - 04:51 (291.08s) · conf 0.57 · "and"
+  - 05:03 (303.35s) · conf 0.68 · "and"
+  - 05:36 (336.55s) · conf 0.59 · "and"
+  - 05:37 (337.61s) · conf 0.53 · "git"
+  - 07:32 (452.36s) · conf 0.53 · "new"
+  - 07:40 (460.02s) · conf 0.55 · "pack"
+  - 07:40 (460.14s) · conf 0.62 · "to"
+  - 08:07 (487.61s) · conf 0.30 · "And"
+  - 08:25 (505.10s) · conf 0.60 · "it"
+  - 08:34 (514.39s) · conf 0.64 · "put—"
+  - 08:49 (529.07s) · conf 0.65 · "to"
+  - 08:49 (529.15s) · conf 0.68 · "the"
+  - 08:59 (539.27s) · conf 0.67 · "And"
+  - 09:28 (568.24s) · conf 0.51 · "step"
+  - 10:20 (620.56s) · conf 0.68 · "and"
+  - 10:59 (659.04s) · conf 0.58 · "token,"
+  - 12:09 (729.27s) · conf 0.51 · "Not"
+  - 13:29 (809.67s) · conf 0.48 · "some"
+  - 14:09 (849.11s) · conf 0.61 · "same"
+  - 14:52 (892.17s) · conf 0.48 · "His"
+  - 15:22 (922.21s) · conf 0.52 · "start"

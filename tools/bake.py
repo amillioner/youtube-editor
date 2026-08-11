@@ -62,6 +62,12 @@ def main():
     W, H, FPS = int(pv["width"]), int(pv["height"]), int(pv["fps"])
     out_path = proj(pv["out"])                                      # project data -> CWD
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    # Encoder is overridable from the timeline's preview block. The 1080p30 defaults below are
+    # what every preview bake has always used; a 4K60 bake needs the GPU (libx264 at 4K60 is
+    # hours per pass, and bake encodes twice: once per segment, once on the concat).
+    VSEG = pv.get("vcodec_seg") or ["-c:v", "libx264", "-crf", "18"]
+    VOUT = pv.get("vcodec_out") or ["-c:v", "libx264", "-crf", "20", "-preset", "medium"]
+    WITH_AUDIO = bool(pv.get("audio", True))
 
     # resolve each shot to its rendered file (cutaway->.mp4, overlay->.mov)
     shots = []
@@ -115,7 +121,7 @@ def main():
             kind = f"cutaway:{cut['id']} @+{off:.2f}s"
             cmd = ["ffmpeg", "-y", "-ss", f"{off:.4f}", "-i", cut["file"],
                    "-vf", common_vf, "-frames:v", str(n), "-an",
-                   "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", seg]
+                   *VSEG, "-pix_fmt", "yuv420p", seg]
         elif ov:
             off = a - ov["in"]
             kind = f"master+overlay:{ov['id']} @+{off:.2f}s"
@@ -126,12 +132,12 @@ def main():
             cmd = ["ffmpeg", "-y", "-ss", f"{a:.4f}", "-i", master,
                    "-ss", f"{off:.4f}", "-i", ov["file"],
                    "-filter_complex", fc, "-map", "[v]", "-frames:v", str(n), "-an",
-                   "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", seg]
+                   *VSEG, "-pix_fmt", "yuv420p", seg]
         else:
             kind = "master"
             cmd = ["ffmpeg", "-y", "-ss", f"{a:.4f}", "-i", master,
                    "-vf", common_vf, "-frames:v", str(n), "-an",
-                   "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", seg]
+                   *VSEG, "-pix_fmt", "yuv420p", seg]
 
         print(f"  [{a:6.2f}-{b:6.2f}] {n:4d}f  {kind}")
         run(cmd)
@@ -143,14 +149,17 @@ def main():
         for s in seg_files:
             f.write(f"file '{s.replace(os.sep, '/')}'\n")
 
-    print("concat + master audio -> " + os.path.relpath(out_path, ROOT))
-    run(["ffmpeg", "-y",
-         "-f", "concat", "-safe", "0", "-i", listf,
-         "-i", master,
-         "-map", "0:v:0", "-map", "1:a:0",
-         "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p", "-r", str(FPS),
-         "-c:a", "aac", "-b:a", "192k",
-         "-t", f"{END:.4f}", "-movflags", "+faststart", out_path])
+    print(("concat + master audio -> " if WITH_AUDIO else "concat (no audio) -> ") + os.path.relpath(out_path, ROOT))
+    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", listf]
+    if WITH_AUDIO:
+        cmd += ["-i", master, "-map", "0:v:0", "-map", "1:a:0"]
+    else:
+        cmd += ["-map", "0:v:0", "-an"]
+    cmd += [*VOUT, "-pix_fmt", "yuv420p", "-r", str(FPS)]
+    if WITH_AUDIO:
+        cmd += ["-c:a", "aac", "-b:a", "192k"]
+    cmd += ["-t", f"{END:.4f}", "-movflags", "+faststart", out_path]
+    run(cmd)
 
     if not keep:
         shutil.rmtree(scratch)

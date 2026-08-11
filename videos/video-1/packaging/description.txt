@@ -1,0 +1,30 @@
+Same AI model, same prompt — one reply is generic AI slop, the other sounds exactly like me, because it is connected to my brain. That brain is just a private GitHub repo of markdown files that holds who you are, how you write and what you believe, and it runs two ways: locally with Claude Code, and online on your own server over MCP so any AI can read it. Free, open source, self hosted — here is how to build yours.
+
+RESOURCES
+Full written setup guide (free): [GUIDE-LINK]
+BrainOutside, the online brain (open source): [REPO-LINK]
+The brain template repo: [TEMPLATE-LINK]
+If it saves you time, star it on GitHub.
+
+My newsletter: [NEWSLETTER-LINK]
+
+CHAPTERS
+0:00 Same AI, same prompt, one big difference
+1:42 My brain told the AI what not to make up
+2:13 What I built: an AI brain called BrainOutside
+3:17 How it works: markdown files in a git repo, 2 heads
+4:38 Build the local brain (Claude Code)
+6:18 The second head: taking your brain online
+6:55 Self-host it: VPS, Coolify, and the setup wizard
+9:37 Local and online: one repo, two doors
+10:16 Dashboard tour: rings, graph, queue, chat
+11:02 Claude reads my brain over MCP
+11:44 What I use it for every day
+12:11 Books, courses, and building with AI
+12:45 The rule: read always, feed always
+13:15 The ladder: voice, avatar, humanoid (simulated)
+14:41 Free and open source: go build yours
+
+If this was useful, hit like. If not, tell me what you didn't like in the comments.
+
+#ClaudeAI #SecondBrain #OpenSource #ClaudeCode #MCP #SelfHosted #AIAgents #PersonalAI #AITools #BuildWithAI

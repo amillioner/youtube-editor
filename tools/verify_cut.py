@@ -146,17 +146,21 @@ def main() -> None:
     if args.style:
         style = data["styles"][args.style]
         probe = AudioProbe(project)
-        seg_plan = []  # (raw_start, raw_end, cum_video_start, seg_index)
+        seg_plan = []  # (clip_id, raw_start, raw_end, cum_video_start, seg_index)
         cum = 0.0
         for c in data["clips"]:
             words = load_words(project, c["id"])
-            for si, (s, e) in enumerate(plan_clip(c["id"], active_keeps(c), words, style, probe)):
-                seg_plan.append((s, e, cum, len(seg_plan)))
+            for si, (s, e) in enumerate(plan_clip(c["id"], active_keeps(c), words, style, probe,
+                                                   c.get("cuts"))):
+                seg_plan.append((c["id"], s, e, cum, len(seg_plan)))
                 cum += e - s
 
-        def plan_video_time(raw_t: float):
-            for s, e, cv, si in seg_plan:
-                if s - 0.05 <= raw_t <= e + 0.05:
+        # MUST match on clip too: raw times restart at 0 in every clip, so a bare time
+        # lookup returns the first coincidentally-overlapping segment (nearly always from
+        # clip #1) and reports nonsense offsets on any multi-clip project.
+        def plan_video_time(clip_id: str, raw_t: float):
+            for cid_, s, e, cv, si in seg_plan:
+                if cid_ == clip_id and s - 0.05 <= raw_t <= e + 0.05:
                     return cv + (raw_t - s), si
             return None, None
 
@@ -173,7 +177,7 @@ def main() -> None:
                     break
             if raw_w is None:
                 continue
-            vt, si = plan_video_time(raw_w["start"] / 1000)
+            vt, si = plan_video_time(k[0], raw_w["start"] / 1000)
             if vt is None:
                 continue
             at = w["start"] / 1000

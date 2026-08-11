@@ -1,0 +1,82 @@
+# clip 0263 — 350 words, ends 04:11
+#01 [2.48 - 4.70] (00:02) Now the part I actually love.
+     -- pause 4.1s --
+#02 [8.79 - 12.37] (00:08) Watch what happens when I add something from my computer.
+     -- pause 3.1s --
+#03 [15.50 - 18.50] (00:15) I feed a note locally, I approve it,
+     -- pause 0.9s --
+#04 [19.39 - 21.36] (00:19) it commits, and I push.
+     -- pause 1.6s --
+#05 [22.92 - 26.11] (00:22) What happens— GitHub fires a webhook.
+     -- pause 1.3s --
+#06 [27.38 - 28.76] (00:27) Notifying the server,
+     -- pause 0.8s --
+#07 [29.57 - 31.86] (00:29) and the server pulls the updates.
+     -- pause 0.8s --
+#08 [32.69 - 33.63] (00:32) It reindexes.
+     -- pause 0.9s --
+#09 [34.53 - 37.45] (00:34) The note now is live on the online brain.
+     -- pause 8.6s --
+#10 [46.08 - 48.21] (00:46) And this works too in the other direction.
+     -- pause 3.8s --
+#11 [52.01 - 58.76] (00:52) So we have the same repo Both directions, the local and the online brain, are like in sync.
+     -- pause 13.3s --
+#12 [72.09 - 76.78] (01:12) Actually, there is no syncing. We have one source and 2 doors.
+     -- pause 9.5s --
+#13 [86.23 - 88.47] (01:26) Now let me take you through a quick tour,
+     -- pause 3.3s --
+#14 [91.81 - 93.75] (01:31) then we get to the exciting part.
+     -- pause 2.0s --
+#15 [95.78 - 104.22] (01:35) We have the dashboard. The rings are your brain by kind: identity, projects, knowledge. The browser, Evernote, filterable.
+     -- pause 2.9s --
+#16 [107.08 - 108.96] (01:47) It is just the markdown files
+     -- pause 0.9s --
+#17 [109.88 - 110.62] (01:49) but rendered.
+     -- pause 1.8s --
+#18 [112.38 - 123.19] (01:52) We have the graph, what links to what. My code story and my downtime take both point at self-hosting. So when I ask about self-hosting, both show up.
+     -- pause 1.0s --
+#19 [124.15 - 128.21] (02:04) We have the queue, everything an agent wants to write waiting on me.
+     -- pause 1.0s --
+#20 [129.26 - 132.50] (02:09) Nothing gets in behind Nothing gets in behind my back.
+     -- pause 2.1s --
+#21 [134.61 - 137.55] (02:14) And then we have the consumers, who is reading my brain,
+     -- pause 1.0s --
+#22 [138.55 - 144.43] (02:18) creating the MCP token, creating the MCP API keys, and so on. And we have the chat.
+     -- pause 1.6s --
+#23 [146.05 - 148.28] (02:26) This is me talking to me.
+     -- pause 2.9s --
+#24 [151.16 - 153.23] (02:31) And here things become really strange.
+     -- pause 10.6s --
+#25 [163.81 - 165.46] (02:43) You heard me saying MCP
+     -- pause 1.5s --
+#26 [166.97 - 167.56] (02:46) and API,
+     -- pause 2.6s --
+#27 [170.19 - 174.20] (02:50) and it's one of the main reasons behind me building this project.
+     -- pause 7.7s --
+#28 [181.94 - 185.23] (03:01) My brain is online. I can connect Claude,
+     -- pause 7.2s --
+#29 [192.42 - 194.29] (03:12) and it can now read my brain.
+     -- pause 4.2s --
+#30 [198.48 - 198.83] (03:18) Other take.
+     -- pause 2.4s --
+#31 [201.21 - 203.02] (03:21) I simply connect Claude
+     -- pause 1.2s --
+#32 [204.19 - 207.78] (03:24) once to the MCP server running inside my brain.
+     -- pause 2.2s --
+#33 [209.94 - 212.94] (03:29) And that's it. Claude can now read my brain.
+     -- pause 3.1s --
+#34 [216.06 - 217.24] (03:36) Literally, that's the feature.
+     -- pause 5.1s --
+#35 [222.37 - 222.82] (03:42) Watch this.
+     -- pause 0.8s --
+#36 [223.66 - 228.47] (03:43) get-index. That's everything my brain holds. One line each.
+     -- pause 0.9s --
+#37 [229.33 - 230.52] (03:49) assemble-context.
+     -- pause 1.0s --
+#38 [231.48 - 241.24] (03:51) This is the good one. I hand it a task and it goes and builds a pack for that exact task. The right notes, the real codes, and the gaps.
+     -- pause 1.9s --
+#39 [243.09 - 245.09] (04:03) Remember the reply from the beginning of the video?
+     -- pause 2.5s --
+#40 [247.62 - 248.98] (04:07) That's the call I made.
+     -- pause 1.3s --
+#41 [250.25 - 251.58] (04:10) That's the call that made it.

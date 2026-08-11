@@ -1,0 +1,31 @@
+{
+  "note": "COMPOSITE. Same A3-v3 plate as A3, but the Claude mark is knocked out of a solid rounded-square app-icon tile instead of sitting bare. Reason: the bare starburst fills only 22% of its own bounding box, so it dissolves at browse size; a tile fills ~95%.",
+  "plate": {
+    "image": "A3-v3.png",
+    "prompt_file": "A4.txt",
+    "model": "gemini-3-pro-image",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "seed": 111,
+    "refs": [
+      "media\\library\\faces\\hasan-ref-01.jpg",
+      "media\\library\\logos\\claude-1024.png"
+    ]
+  },
+  "composite": {
+    "tool": "tools/composite_logo.py",
+    "command": "venv/Scripts/python tools/composite_logo.py --base videos/video-1/packaging/thumbs/A3-v3.png --logo media/library/logos/claude-1024.png --out videos/video-1/packaging/thumbs/A4.png --clear-box 170,455,1105,1465 --center 705,965 --size 860 --tile --tile-color 255,122,56 --glow 255,120,50 --jpg",
+    "mode": "app-icon tile",
+    "tile_color": [255, 122, 56],
+    "tile_color_note": "deliberately louder than brand #D97757 (60% sat / 137 lum) -> #FF7A38 (78% sat / 146 lum). Thumbnails run louder than brand.md by design.",
+    "mark_color": [250, 243, 236],
+    "size": 860,
+    "center": [705, 965]
+  },
+  "measured": {
+    "hero_region": "mean luminance 151/255, mean saturation 66%",
+    "benchmark_A_cyan_brain": "mean luminance 153/255, mean saturation 82%",
+    "bare_mark_A3": "mean luminance 105/255, mean saturation 64%"
+  },
+  "created": "2026-08-08"
+}

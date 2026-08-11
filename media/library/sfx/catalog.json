@@ -791,6 +791,52 @@
       ]
     },
     {
+      "id": "zap-electric",
+      "file": "clips/zap-electric.mp3",
+      "category": "foley",
+      "tags": [
+        "zap",
+        "electric",
+        "arc",
+        "spark",
+        "shock",
+        "electrocution",
+        "gag",
+        "foley"
+      ],
+      "duration_s": 0.68,
+      "peak_dbfs": -12.3,
+      "loudness_lufs": -20.0,
+      "source": "elevenlabs:sound-generation",
+      "model": "eleven_text_to_sound_v2",
+      "license": "ElevenLabs generated (text-to-sfx); owner: the repo author, commercial use per the account's ElevenLabs plan",
+      "prompt": "A single short high-voltage electrical arc: a bright snapping spark discharge with a brief crackling buzz tail, like jumper cables arcing across a gap. Real and physical, punchy, close-miked, dry, about half a second, decays cleanly. No sci-fi laser, no digital glitch stutter, no music, no voices.",
+      "used_in": []
+    },
+    {
+      "id": "sting-scare-comic",
+      "file": "clips/sting-scare-comic.mp3",
+      "category": "emphasis",
+      "tags": [
+        "sting",
+        "scare",
+        "jump-scare",
+        "stab",
+        "horror",
+        "comic",
+        "gag",
+        "emphasis"
+      ],
+      "duration_s": 1.0,
+      "peak_dbfs": -7.2,
+      "loudness_lufs": -20.0,
+      "source": "elevenlabs:sound-generation",
+      "model": "eleven_text_to_sound_v2",
+      "license": "ElevenLabs generated (text-to-sfx); owner: the repo author, commercial use per the account's ElevenLabs plan",
+      "prompt": "A short comedic jump-scare sting: one sharp dissonant string stab with a quick shivering tremolo tail, deliberately cheesy old B-movie horror. Dry and close, about one second, ends cleanly. Obviously a joke rather than genuinely frightening, no long reverb tail, no drums, no music bed.",
+      "used_in": []
+    },
+    {
       "id": "piano-c-maj",
       "file": "clips/piano-c-maj.mp3",
       "desc": "C major triad (I) — warm electric-piano voicing",

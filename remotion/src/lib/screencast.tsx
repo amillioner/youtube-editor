@@ -23,9 +23,13 @@ const CHROME_H = 46 + 56;
 const DRIFT = 0.02; // default constant slow push per page (never perfectly static)
 
 export type ScreencastPage = {
-  img: string;            // staticFile-relative path, e.g. 'projects/video-1/myapp/dashboard.png'
+  img?: string;           // staticFile-relative path, e.g. 'projects/video-1/myapp/dashboard.png'
+  // v3: a page can be a live DOM tree instead of a screenshot (TSX clone of a UI).
+  // All page machinery (drift, zoom, scroll, transitions, cursor) applies the same.
+  node?: React.ReactNode;
   url: string;            // URL bar text for this page
   tabTitle: string;       // browser tab label for this page
+  favicon?: React.ReactNode; // per-page tab icon (multi-site walkthroughs); falls back to the global
   enterAt: number;        // absolute frame this page becomes the active/top layer
   transition?: 'cut' | 'crossfade'; // how we ARRIVE at this page (default 'cut')
   transitionFrames?: number;         // crossfade length in frames (default 5)
@@ -99,7 +103,7 @@ export const Screencast: React.FC<{
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY }}>
       <BrandBg glow={glow} />
-      <WebBrowserFrame url={active.url} tabTitle={active.tabTitle} favicon={favicon} box={box} appearAt={appearAt}>
+      <WebBrowserFrame url={active.url} tabTitle={active.tabTitle} favicon={active.favicon ?? favicon} box={box} appearAt={appearAt}>
         {pages.map((p, i) => {
           const start = p.enterAt;
           const end = pages[i + 1]?.enterAt ?? durationInFrames;
@@ -133,9 +137,11 @@ export const Screencast: React.FC<{
           return (
             // explicit region dims: WebBrowserFrame's translateY wrapper is a
             // transformed (zero-height) containing block, so inset:0 would collapse
-            <div key={p.img} style={{ position: 'absolute', top: 0, left: 0, width: region.w, height: region.h, opacity: op, overflow: 'hidden', background: '#ffffff' }}>
+            <div key={p.img ?? `node-${i}`} style={{ position: 'absolute', top: 0, left: 0, width: region.w, height: region.h, opacity: op, overflow: 'hidden', background: '#ffffff' }}>
               <div style={{ width: '100%', height: '100%', transform: `translateY(${-scrollY}px) scale(${scale})`, transformOrigin: origin }}>
-                <Img src={staticFile(p.img)} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                {p.node ?? (p.img
+                  ? <Img src={staticFile(p.img)} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  : null)}
               </div>
             </div>
           );

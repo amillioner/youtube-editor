@@ -1,0 +1,78 @@
+# clip 0259 — 237 words, ends 03:29
+#01 [2.29 - 5.79] (00:02) Okay, let me start with other small example.
+     -- pause 2.4s --
+#02 [8.24 - 11.24] (00:08) While I was testing this project, while I'm building it,
+     -- pause 3.8s --
+#03 [15.06 - 16.33] (00:15) I asked for a reply.
+     -- pause 2.7s --
+#04 [19.00 - 22.99] (00:18) My brain, my AI brain, sent me a warning.
+     -- pause 2.9s --
+#05 [25.90 - 29.69] (00:25) It said, do not invent, do not invent this number,
+     -- pause 6.3s --
+#06 [36.00 - 39.19] (00:35) which is how much time maintenance takes,
+     -- pause 1.4s --
+#07 [40.64 - 42.16] (00:40) something in one of my projects.
+     -- pause 2.0s --
+#08 [44.17 - 49.48] (00:44) That number was not there, was not in my brain, and was not accurate.
+     -- pause 3.2s --
+#09 [52.68 - 53.37] (00:52) Read that again.
+     -- pause 4.1s --
+#10 [57.43 - 60.33] (00:57) My brain told the AI model
+     -- pause 2.1s --
+#11 [62.45 - 62.86] (01:02) what,
+     -- pause 1.5s --
+#12 [64.37 - 65.53] (01:04) what it's not allowed.
+     -- pause 2.5s --
+#13 [68.00 - 68.56] (01:07) Other take.
+     -- pause 3.8s --
+#14 [72.34 - 76.40] (01:12) My brain told the AI model what is not allowed.
+     -- pause 2.3s --
+#15 [78.68 - 79.28] (01:18) To make up.
+     -- pause 5.5s --
+#16 [84.77 - 87.24] (01:24) Everyone is worried about AI hallucinations.
+     -- pause 6.2s --
+#17 [93.43 - 94.98] (01:33) Other take. Everyone,
+     -- pause 1.5s --
+#18 [96.47 - 100.72] (01:36) everyone is worried about AI hallucinating when writing in your voice.
+     -- pause 2.4s --
+#19 [103.13 - 103.67] (01:43) This one,
+     -- pause 1.1s --
+#20 [104.74 - 106.70] (01:44) this project does the
+     -- pause 7.4s --
+#21 [114.08 - 115.87] (01:54) opposite. Okay, enough talking.
+     -- pause 2.1s --
+#22 [118.02 - 119.48] (01:58) So what did I build?
+     -- pause 1.5s --
+#23 [120.97 - 123.37] (02:00) I think you know now, it's like an AI brain,
+     -- pause 0.9s --
+#24 [124.30 - 124.88] (02:04) but
+     -- pause 0.9s --
+#25 [125.83 - 126.59] (02:05) let's explain it.
+     -- pause 4.9s --
+#26 [131.47 - 132.74] (02:11) In simple terms,
+     -- pause 0.8s --
+#27 [133.56 - 136.66] (02:13) it is a copy of my brain.
+     -- pause 1.6s --
+#28 [138.24 - 139.96] (02:18) I called it BrainOutside.
+     -- pause 1.0s --
+#29 [140.94 - 143.89] (02:20) As the name means, it's my brain outside.
+     -- pause 8.6s --
+#30 [152.46 - 153.75] (02:32) It knows how I write.
+     -- pause 1.9s --
+#31 [155.70 - 157.11] (02:35) It knows what I believe.
+     -- pause 1.1s --
+#32 [158.18 - 163.81] (02:38) It knows— other take. It knows what I write. It knows my beliefs,
+     -- pause 2.2s --
+#33 [166.06 - 166.71] (02:46) my philosophy,
+     -- pause 0.9s --
+#34 [167.64 - 168.58] (02:47) my projects,
+     -- pause 1.4s --
+#35 [169.98 - 170.66] (02:49) what I do.
+     -- pause 20.7s --
+#36 [191.39 - 194.07] (03:11) Just everything about me. It's my clone.
+     -- pause 3.0s --
+#37 [197.05 - 199.52] (03:17) And some people call it second brain.
+     -- pause 2.6s --
+#38 [202.13 - 203.13] (03:22) I know, maybe you know,
+     -- pause 1.2s --
+#39 [204.32 - 209.83] (03:24) maybe you heard about it, maybe you use one. But what you will see today is something really different.

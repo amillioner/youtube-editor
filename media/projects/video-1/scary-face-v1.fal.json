@@ -1,0 +1,17 @@
+{
+ "request_id": "019fdc80-9033-7d50-a7c6-ec03a204ae8c",
+ "endpoint": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+ "duration": "5",
+ "resolution": null,
+ "image": "media/projects/video-1/scary-ref-802.065.jpg",
+ "prompt": "The same bearded man in the olive-green sweatshirt, in the same bright bedroom with the same framing and daylight, pulls a big comic mock-scared face straight into the camera. His eyes go wide, his eyebrows shoot up, his mouth opens into an exaggerated silent-movie 'oh no', his shoulders hunch up toward his ears, and he raises both hands beside his face with the fingers spread like a cartoon spooky claw. Playful and clearly a joke, not real fear. He holds the face at its peak for a beat. Locked-off static camera, no zoom, no cut, natural daylight, photoreal home-video look.",
+ "negative_prompt": "horror, gore, blood, genuinely frightening, distorted face, melting face, extra fingers, extra limbs, different person, clean shaven, changed clothes, camera movement, zoom, cut, text, watermark, subtitles",
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aa56394/LmAFVgefpZxNvYVaNmKKa_output.mp4",
+   "content_type": "video/mp4",
+   "file_name": "output.mp4",
+   "file_size": 14149028
+  }
+ }
+}

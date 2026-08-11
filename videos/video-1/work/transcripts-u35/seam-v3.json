@@ -1,0 +1,390 @@
+{
+ "id": "536b7bf8-6c7d-46e3-a752-5a8e10495ddd",
+ "language_model": "assemblyai_default",
+ "acoustic_model": "assemblyai_default",
+ "language_code": "en",
+ "speech_understanding": null,
+ "translated_texts": null,
+ "status": "completed",
+ "audio_url": "https://cdn.assemblyai.com/upload/4919a0fb20e6263a909c529190308c325d8bf7d735df07a901cd651675b832b4/76ad82cf-171a-4ebb-9fce-a46a0cfe3159",
+ "text": "I'm super excited to show you what I built this week. Let's say I want to build an AI agent that can reply to my X posts or maybe my emails. Look at this example.",
+ "words": [
+  {
+   "text": "I'm",
+   "start": 451,
+   "end": 757,
+   "confidence": 0.9955712,
+   "speaker": null
+  },
+  {
+   "text": "super",
+   "start": 757,
+   "end": 1143,
+   "confidence": 0.9995988,
+   "speaker": null
+  },
+  {
+   "text": "excited",
+   "start": 1143,
+   "end": 1497,
+   "confidence": 0.9999713,
+   "speaker": null
+  },
+  {
+   "text": "to",
+   "start": 1497,
+   "end": 1578,
+   "confidence": 0.9998611,
+   "speaker": null
+  },
+  {
+   "text": "show",
+   "start": 1578,
+   "end": 1804,
+   "confidence": 0.999775,
+   "speaker": null
+  },
+  {
+   "text": "you",
+   "start": 1804,
+   "end": 1916,
+   "confidence": 0.99996495,
+   "speaker": null
+  },
+  {
+   "text": "what",
+   "start": 1948,
+   "end": 2061,
+   "confidence": 0.9996351,
+   "speaker": null
+  },
+  {
+   "text": "I",
+   "start": 2110,
+   "end": 2206,
+   "confidence": 0.9998394,
+   "speaker": null
+  },
+  {
+   "text": "built",
+   "start": 2287,
+   "end": 2657,
+   "confidence": 0.990343,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 2689,
+   "end": 2963,
+   "confidence": 0.99948716,
+   "speaker": null
+  },
+  {
+   "text": "week.",
+   "start": 3479,
+   "end": 3753,
+   "confidence": 0.98684686,
+   "speaker": null
+  },
+  {
+   "text": "Let's",
+   "start": 3962,
+   "end": 4155,
+   "confidence": 0.9975182,
+   "speaker": null
+  },
+  {
+   "text": "say",
+   "start": 4155,
+   "end": 4413,
+   "confidence": 0.999876,
+   "speaker": null
+  },
+  {
+   "text": "I",
+   "start": 4703,
+   "end": 4751,
+   "confidence": 0.9932633,
+   "speaker": null
+  },
+  {
+   "text": "want",
+   "start": 4848,
+   "end": 5009,
+   "confidence": 0.99841917,
+   "speaker": null
+  },
+  {
+   "text": "to",
+   "start": 5009,
+   "end": 5057,
+   "confidence": 0.9998275,
+   "speaker": null
+  },
+  {
+   "text": "build",
+   "start": 5170,
+   "end": 5331,
+   "confidence": 0.9998016,
+   "speaker": null
+  },
+  {
+   "text": "an",
+   "start": 5331,
+   "end": 5395,
+   "confidence": 0.99961096,
+   "speaker": null
+  },
+  {
+   "text": "AI",
+   "start": 5573,
+   "end": 5863,
+   "confidence": 0.9997458,
+   "speaker": null
+  },
+  {
+   "text": "agent",
+   "start": 6056,
+   "end": 6604,
+   "confidence": 0.999368,
+   "speaker": null
+  },
+  {
+   "text": "that",
+   "start": 6797,
+   "end": 6877,
+   "confidence": 0.99936837,
+   "speaker": null
+  },
+  {
+   "text": "can",
+   "start": 6877,
+   "end": 7038,
+   "confidence": 0.9998387,
+   "speaker": null
+  },
+  {
+   "text": "reply",
+   "start": 7038,
+   "end": 7377,
+   "confidence": 0.9995858,
+   "speaker": null
+  },
+  {
+   "text": "to",
+   "start": 7586,
+   "end": 7667,
+   "confidence": 0.99988735,
+   "speaker": null
+  },
+  {
+   "text": "my",
+   "start": 7667,
+   "end": 7763,
+   "confidence": 0.9997751,
+   "speaker": null
+  },
+  {
+   "text": "X",
+   "start": 7924,
+   "end": 8246,
+   "confidence": 0.9966306,
+   "speaker": null
+  },
+  {
+   "text": "posts",
+   "start": 8246,
+   "end": 8665,
+   "confidence": 0.99974316,
+   "speaker": null
+  },
+  {
+   "text": "or",
+   "start": 8971,
+   "end": 9116,
+   "confidence": 0.80861366,
+   "speaker": null
+  },
+  {
+   "text": "maybe",
+   "start": 9116,
+   "end": 9551,
+   "confidence": 0.9993728,
+   "speaker": null
+  },
+  {
+   "text": "my",
+   "start": 9551,
+   "end": 9777,
+   "confidence": 0.99550253,
+   "speaker": null
+  },
+  {
+   "text": "emails.",
+   "start": 9922,
+   "end": 10308,
+   "confidence": 0.99946016,
+   "speaker": null
+  },
+  {
+   "text": "Look",
+   "start": 10727,
+   "end": 10840,
+   "confidence": 0.98666316,
+   "speaker": null
+  },
+  {
+   "text": "at",
+   "start": 10840,
+   "end": 10953,
+   "confidence": 0.99978787,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 10969,
+   "end": 11081,
+   "confidence": 0.9997601,
+   "speaker": null
+  },
+  {
+   "text": "example.",
+   "start": 11146,
+   "end": 11710,
+   "confidence": 0.99454105,
+   "speaker": null
+  }
+ ],
+ "utterances": null,
+ "confidence": 0.9924816,
+ "audio_duration": 12,
+ "punctuate": true,
+ "format_text": true,
+ "webhook_url": null,
+ "webhook_status_code": null,
+ "webhook_auth": false,
+ "webhook_auth_header_name": null,
+ "speed_boost": false,
+ "auto_highlights_result": null,
+ "auto_highlights": false,
+ "audio_start_from": null,
+ "audio_end_at": null,
+ "word_boost": [],
+ "boost_param": null,
+ "prompt": "Verbatim transcription of a solo YouTube tutorial recording with multiple takes. Transcribe exactly as spoken: keep false starts, repeated words, self-corrections, and filler words (um, uh) \u2014 do not clean them up.",
+ "keyterms_prompt": [
+  "BrainOutside",
+  "mind-feeder",
+  "mind-reader",
+  "get-index",
+  "assemble-context",
+  "context pack",
+  "Claude",
+  "Claude Code",
+  "MCP",
+  "MCP server",
+  "API key",
+  "TTS",
+  "voice clone",
+  "lipsync",
+  "humanoid",
+  "Coolify",
+  "Contabo",
+  "VPS",
+  "SSH",
+  "Postgres",
+  "Docker Compose",
+  "Docker",
+  "GHCR",
+  "Django",
+  "webhook",
+  "reindex",
+  "self hosting",
+  "REST API",
+  "subdomain",
+  "GitHub",
+  "git repo",
+  "VS Code",
+  "markdown",
+  "repository",
+  "Use this template",
+  "fine grained tokens",
+  "personal access token",
+  "read and write",
+  "commit",
+  "push",
+  "pull",
+  "clone",
+  "dashboard",
+  "the queue",
+  "the graph",
+  "the browser",
+  "consumers",
+  "cost story",
+  "the real quotes",
+  "every note",
+  "downtime number",
+  "downtime take",
+  "voice rules",
+  "the shock",
+  "second brain",
+  "AI slop"
+ ],
+ "filter_profanity": false,
+ "redact_pii": false,
+ "redact_pii_audio": false,
+ "redact_pii_audio_quality": null,
+ "redact_pii_audio_options": null,
+ "redact_pii_policies": null,
+ "redact_pii_sub": null,
+ "redact_static_entities": null,
+ "speaker_labels": false,
+ "speaker_options": null,
+ "content_safety": false,
+ "iab_categories": false,
+ "content_safety_labels": {
+  "status": "unavailable",
+  "results": [],
+  "summary": {}
+ },
+ "iab_categories_result": {
+  "status": "unavailable",
+  "results": [],
+  "summary": {}
+ },
+ "language_detection": true,
+ "language_detection_options": null,
+ "language_detection_results": null,
+ "language_confidence_threshold": null,
+ "language_confidence": 0.9885,
+ "custom_spelling": null,
+ "throttled": false,
+ "auto_chapters": false,
+ "summarization": false,
+ "summary_type": null,
+ "summary_model": null,
+ "custom_topics": false,
+ "topics": [],
+ "speech_threshold": null,
+ "speech_model": null,
+ "speech_models": [
+  "universal-3-5-pro",
+  "universal-2"
+ ],
+ "speech_model_used": "universal-3-5-pro",
+ "temperature": null,
+ "remove_audio_tags": "all",
+ "chapters": null,
+ "disfluencies": true,
+ "entity_detection": false,
+ "sentiment_analysis": false,
+ "sentiment_analysis_results": null,
+ "entities": null,
+ "speakers_expected": null,
+ "summary": null,
+ "custom_topics_results": null,
+ "is_deleted": null,
+ "multichannel": null,
+ "project_id": 1809504,
+ "token_id": 1834437
+}

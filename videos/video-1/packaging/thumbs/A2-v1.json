@@ -1,0 +1,12 @@
+{
+  "prompt": "A bright, authentic DSLR photograph used as a YouTube thumbnail, 16:9 — one genuinely photographed, natural scene with a single playful surreal element.\n\nREFERENCE ROLES: Image 1 is the identity reference — render this exact man with an identical face, beard, hair and skin tone; do not stylize his face. Image 2 is the Claude AI logo, a coral-orange starburst spark — reproduce it faithfully, large, crisp and centered on the laptop screen.\n\nSUBJECT & ACTION: the man from Image 1 sitting at his wooden desk, head and shoulders large on the right third, amazed and delighted — big open-mouthed smile, raised eyebrows, wide bright eyes — looking straight into the lens. His right hand rests on the desk near the laptop, his left hand is out of frame; both visible hands correctly formed, no other hands anywhere in the image.\n\nCOMPOSITION: on the left third, an open laptop angled three-quarters toward the camera, its screen clean white with the coral starburst spark from Image 2 shown big and crisp — the screen carries the spark logo only, pure imagery, no lettering or interface anywhere on it. One softly glowing white cable runs out of the laptop, arcs up through the frame, and attaches to a small round soft-glow connector pad on his left temple — the one surreal element, clearly plugging his head into the laptop.\n\nSETTING: a bright, tidy home office — a window with soft natural daylight behind the desk, a green plant, a warm lamp glow in the blurred background.\n\nLIGHTING & CAMERA: soft diffused window light, warm and inviting, with a faint coral glow from the laptop screen touching his cheek; 35mm at f/2.8, shallow depth of field, sharp on his face, the screen and the cable; natural but punchy color grade, bright and high contrast.\n\nTEXT: one headline, \"PLUGGED IN\" (letters P-L-U-G-G-E-D, then I-N), in a heavy bold condensed sans-serif, vivid yellow fill with a thick black outline and a soft drop shadow, large across the top-left sky of the frame — the single dominant text element and the only text anywhere in the image.\n\nSTYLE: a believable candid desk photo elevated into a high-CTR thumbnail — premium, bright, wholesome, uncluttered, with the headline, the glowing cable and the Claude spark as the three read-at-a-glance elements.\n",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "16:9",
+  "image_size": "2K",
+  "seed": 44,
+  "refs": [
+    "media\\library\\faces\\hasan-ref-01.jpg",
+    "media\\library\\logos\\claude-1024.png"
+  ],
+  "created": "2026-08-07T18:50:42"
+}

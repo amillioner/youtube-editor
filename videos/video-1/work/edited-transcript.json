@@ -1,0 +1,11610 @@
+{
+ "project": "video-1",
+ "style": "natural",
+ "units": "ms",
+ "source": "master-natural-h264.mp4 (1920x1080@30, comp-native)",
+ "note": "word times in the FINAL master timeline. Derived from the v1 spine by the R7 splice: master 352.085-353.920 removed (delta 1.835167s), later words shifted by -delta. Not re-transcribed, so the keyterms.txt ASR fixes and every verified shot cue survive. v3: the V2 splice removed master 3787.117-4954.950ms ('Look at this.', 3 words, delta 1167.833ms); words after it shifted by -delta. Derived arithmetically from the v2 spine, not re-transcribed.",
+ "duration_ms": 931901,
+ "words": [
+  {
+   "text": "I'm",
+   "start": 449,
+   "end": 754
+  },
+  {
+   "text": "super",
+   "start": 754,
+   "end": 1139
+  },
+  {
+   "text": "excited",
+   "start": 1139,
+   "end": 1492
+  },
+  {
+   "text": "to",
+   "start": 1492,
+   "end": 1572
+  },
+  {
+   "text": "show",
+   "start": 1572,
+   "end": 1796
+  },
+  {
+   "text": "you",
+   "start": 1796,
+   "end": 1909
+  },
+  {
+   "text": "what",
+   "start": 1941,
+   "end": 2053
+  },
+  {
+   "text": "I",
+   "start": 2101,
+   "end": 2197
+  },
+  {
+   "text": "built",
+   "start": 2278,
+   "end": 2647
+  },
+  {
+   "text": "this",
+   "start": 2679,
+   "end": 2935
+  },
+  {
+   "text": "week.",
+   "start": 3465,
+   "end": 3786
+  },
+  {
+   "text": "Let's",
+   "start": 3917,
+   "end": 4174
+  },
+  {
+   "text": "say",
+   "start": 4174,
+   "end": 4431
+  },
+  {
+   "text": "I",
+   "start": 4703,
+   "end": 4767
+  },
+  {
+   "text": "want",
+   "start": 4783,
+   "end": 4960
+  },
+  {
+   "text": "to",
+   "start": 4960,
+   "end": 5056
+  },
+  {
+   "text": "build",
+   "start": 5120,
+   "end": 5297
+  },
+  {
+   "text": "an",
+   "start": 5297,
+   "end": 5377
+  },
+  {
+   "text": "AI",
+   "start": 5521,
+   "end": 5794
+  },
+  {
+   "text": "agent",
+   "start": 6067,
+   "end": 6612
+  },
+  {
+   "text": "that",
+   "start": 6789,
+   "end": 6869
+  },
+  {
+   "text": "can",
+   "start": 6885,
+   "end": 6981
+  },
+  {
+   "text": "reply",
+   "start": 6981,
+   "end": 7382
+  },
+  {
+   "text": "to",
+   "start": 7527,
+   "end": 7623
+  },
+  {
+   "text": "my",
+   "start": 7623,
+   "end": 7800
+  },
+  {
+   "text": "X",
+   "start": 7912,
+   "end": 8201
+  },
+  {
+   "text": "posts",
+   "start": 8233,
+   "end": 8618
+  },
+  {
+   "text": "or",
+   "start": 8955,
+   "end": 9003
+  },
+  {
+   "text": "maybe",
+   "start": 9051,
+   "end": 9548
+  },
+  {
+   "text": "my",
+   "start": 9612,
+   "end": 9773
+  },
+  {
+   "text": "emails.",
+   "start": 9917,
+   "end": 10302
+  },
+  {
+   "text": "Look",
+   "start": 10655,
+   "end": 10816
+  },
+  {
+   "text": "at",
+   "start": 10816,
+   "end": 10912
+  },
+  {
+   "text": "this",
+   "start": 10912,
+   "end": 11120
+  },
+  {
+   "text": "example.",
+   "start": 11120,
+   "end": 11682
+  },
+  {
+   "text": "We",
+   "start": 12099,
+   "end": 12244
+  },
+  {
+   "text": "have",
+   "start": 12244,
+   "end": 12645
+  },
+  {
+   "text": "the",
+   "start": 12645,
+   "end": 12677
+  },
+  {
+   "text": "same",
+   "start": 12677,
+   "end": 13206
+  },
+  {
+   "text": "post",
+   "start": 13302,
+   "end": 13960
+  },
+  {
+   "text": "and",
+   "start": 14345,
+   "end": 14441
+  },
+  {
+   "text": "I'm",
+   "start": 14441,
+   "end": 14650
+  },
+  {
+   "text": "using",
+   "start": 14650,
+   "end": 15115
+  },
+  {
+   "text": "the",
+   "start": 15388,
+   "end": 15468
+  },
+  {
+   "text": "same",
+   "start": 15468,
+   "end": 15853
+  },
+  {
+   "text": "AI",
+   "start": 16014,
+   "end": 16302
+  },
+  {
+   "text": "model,",
+   "start": 16447,
+   "end": 16912
+  },
+  {
+   "text": "Claude",
+   "start": 17377,
+   "end": 17634
+  },
+  {
+   "text": "in",
+   "start": 17634,
+   "end": 17714
+  },
+  {
+   "text": "my",
+   "start": 17714,
+   "end": 17875
+  },
+  {
+   "text": "case,",
+   "start": 17955,
+   "end": 18388
+  },
+  {
+   "text": "and",
+   "start": 18741,
+   "end": 18821
+  },
+  {
+   "text": "replying",
+   "start": 18821,
+   "end": 19447
+  },
+  {
+   "text": "to",
+   "start": 19880,
+   "end": 19976
+  },
+  {
+   "text": "the",
+   "start": 19976,
+   "end": 20040
+  },
+  {
+   "text": "same",
+   "start": 20040,
+   "end": 20490
+  },
+  {
+   "text": "post",
+   "start": 20522,
+   "end": 21260
+  },
+  {
+   "text": "and",
+   "start": 21548,
+   "end": 21629
+  },
+  {
+   "text": "writing",
+   "start": 21709,
+   "end": 22174
+  },
+  {
+   "text": "both",
+   "start": 22607,
+   "end": 22848
+  },
+  {
+   "text": "of",
+   "start": 22848,
+   "end": 22992
+  },
+  {
+   "text": "them.",
+   "start": 22992,
+   "end": 23169
+  },
+  {
+   "text": "Read",
+   "start": 23762,
+   "end": 23955
+  },
+  {
+   "text": "the",
+   "start": 23955,
+   "end": 24051
+  },
+  {
+   "text": "first",
+   "start": 24051,
+   "end": 24516
+  },
+  {
+   "text": "one.",
+   "start": 24516,
+   "end": 24661
+  },
+  {
+   "text": "It",
+   "start": 25014,
+   "end": 25094
+  },
+  {
+   "text": "is",
+   "start": 25094,
+   "end": 25174
+  },
+  {
+   "text": "generic,",
+   "start": 25174,
+   "end": 25672
+  },
+  {
+   "text": "and",
+   "start": 26121,
+   "end": 26201
+  },
+  {
+   "text": "this",
+   "start": 26297,
+   "end": 26442
+  },
+  {
+   "text": "is",
+   "start": 26442,
+   "end": 26506
+  },
+  {
+   "text": "what",
+   "start": 26586,
+   "end": 26778
+  },
+  {
+   "text": "makes",
+   "start": 26778,
+   "end": 27244
+  },
+  {
+   "text": "AI",
+   "start": 27324,
+   "end": 27645
+  },
+  {
+   "text": "slop.",
+   "start": 27645,
+   "end": 27982
+  },
+  {
+   "text": "Now",
+   "start": 28447,
+   "end": 28479
+  },
+  {
+   "text": "the",
+   "start": 28543,
+   "end": 28623
+  },
+  {
+   "text": "second",
+   "start": 28623,
+   "end": 29169
+  },
+  {
+   "text": "one,",
+   "start": 29169,
+   "end": 29313
+  },
+  {
+   "text": "16",
+   "start": 29762,
+   "end": 30356
+  },
+  {
+   "text": "seconds",
+   "start": 30388,
+   "end": 30885
+  },
+  {
+   "text": "of",
+   "start": 30933,
+   "end": 30982
+  },
+  {
+   "text": "downtime",
+   "start": 31030,
+   "end": 31880
+  },
+  {
+   "text": "twice",
+   "start": 31992,
+   "end": 32361
+  },
+  {
+   "text": "a",
+   "start": 32473,
+   "end": 32618
+  },
+  {
+   "text": "year,",
+   "start": 32618,
+   "end": 33019
+  },
+  {
+   "text": "$700",
+   "start": 33372,
+   "end": 34046
+  },
+  {
+   "text": "a",
+   "start": 34238,
+   "end": 34254
+  },
+  {
+   "text": "month.",
+   "start": 34254,
+   "end": 34687
+  },
+  {
+   "text": "That's",
+   "start": 35120,
+   "end": 35714
+  },
+  {
+   "text": "my",
+   "start": 36067,
+   "end": 36195
+  },
+  {
+   "text": "voice,",
+   "start": 36388,
+   "end": 36757
+  },
+  {
+   "text": "my",
+   "start": 37350,
+   "end": 37463
+  },
+  {
+   "text": "data,",
+   "start": 37751,
+   "end": 38168
+  },
+  {
+   "text": "my",
+   "start": 38570,
+   "end": 38682
+  },
+  {
+   "text": "numbers",
+   "start": 38746,
+   "end": 39179
+  },
+  {
+   "text": "from",
+   "start": 39709,
+   "end": 39917
+  },
+  {
+   "text": "my",
+   "start": 39917,
+   "end": 40078
+  },
+  {
+   "text": "own",
+   "start": 40238,
+   "end": 40382
+  },
+  {
+   "text": "servers,",
+   "start": 40414,
+   "end": 40944
+  },
+  {
+   "text": "my",
+   "start": 40976,
+   "end": 41200
+  },
+  {
+   "text": "own",
+   "start": 41361,
+   "end": 41425
+  },
+  {
+   "text": "experience.",
+   "start": 41521,
+   "end": 42147
+  },
+  {
+   "text": "So",
+   "start": 42596,
+   "end": 42757
+  },
+  {
+   "text": "we",
+   "start": 42757,
+   "end": 42885
+  },
+  {
+   "text": "have",
+   "start": 42885,
+   "end": 42981
+  },
+  {
+   "text": "the",
+   "start": 42981,
+   "end": 43061
+  },
+  {
+   "text": "same",
+   "start": 43061,
+   "end": 43446
+  },
+  {
+   "text": "model,",
+   "start": 43527,
+   "end": 44024
+  },
+  {
+   "text": "same",
+   "start": 44281,
+   "end": 44730
+  },
+  {
+   "text": "prompt,",
+   "start": 44826,
+   "end": 45468
+  },
+  {
+   "text": "same",
+   "start": 45805,
+   "end": 46238
+  },
+  {
+   "text": "post,",
+   "start": 46350,
+   "end": 46912
+  },
+  {
+   "text": "but",
+   "start": 47393,
+   "end": 47633
+  },
+  {
+   "text": "we",
+   "start": 47633,
+   "end": 47714
+  },
+  {
+   "text": "have",
+   "start": 47714,
+   "end": 48002
+  },
+  {
+   "text": "one",
+   "start": 48195,
+   "end": 48484
+  },
+  {
+   "text": "big",
+   "start": 48837,
+   "end": 49093
+  },
+  {
+   "text": "difference.",
+   "start": 49382,
+   "end": 49847
+  },
+  {
+   "text": "And",
+   "start": 50345,
+   "end": 50409
+  },
+  {
+   "text": "this",
+   "start": 50441,
+   "end": 50665
+  },
+  {
+   "text": "difference",
+   "start": 50665,
+   "end": 51516
+  },
+  {
+   "text": "changes",
+   "start": 51644,
+   "end": 52173
+  },
+  {
+   "text": "the",
+   "start": 52270,
+   "end": 52366
+  },
+  {
+   "text": "whole",
+   "start": 52366,
+   "end": 52558
+  },
+  {
+   "text": "game",
+   "start": 52831,
+   "end": 53184
+  },
+  {
+   "text": "when",
+   "start": 53232,
+   "end": 53312
+  },
+  {
+   "text": "you",
+   "start": 53312,
+   "end": 53376
+  },
+  {
+   "text": "work",
+   "start": 53489,
+   "end": 53809
+  },
+  {
+   "text": "with",
+   "start": 53809,
+   "end": 54002
+  },
+  {
+   "text": "AI.",
+   "start": 54114,
+   "end": 54291
+  },
+  {
+   "text": "It",
+   "start": 54852,
+   "end": 54948
+  },
+  {
+   "text": "is",
+   "start": 54948,
+   "end": 54996
+  },
+  {
+   "text": "simply",
+   "start": 54996,
+   "end": 55542
+  },
+  {
+   "text": "that",
+   "start": 56055,
+   "end": 56199
+  },
+  {
+   "text": "the",
+   "start": 56199,
+   "end": 56279
+  },
+  {
+   "text": "second",
+   "start": 56279,
+   "end": 56905
+  },
+  {
+   "text": "one",
+   "start": 57081,
+   "end": 57306
+  },
+  {
+   "text": "is",
+   "start": 57964,
+   "end": 58108
+  },
+  {
+   "text": "connected",
+   "start": 58605,
+   "end": 59311
+  },
+  {
+   "text": "to",
+   "start": 59728,
+   "end": 59840
+  },
+  {
+   "text": "my",
+   "start": 59840,
+   "end": 59985
+  },
+  {
+   "text": "brain.",
+   "start": 60546,
+   "end": 60771
+  },
+  {
+   "text": "Yes,",
+   "start": 61252,
+   "end": 61541
+  },
+  {
+   "text": "my",
+   "start": 61990,
+   "end": 62198
+  },
+  {
+   "text": "brain.",
+   "start": 62214,
+   "end": 62423
+  },
+  {
+   "text": "No,",
+   "start": 62952,
+   "end": 63096
+  },
+  {
+   "text": "not",
+   "start": 63112,
+   "end": 63289
+  },
+  {
+   "text": "this",
+   "start": 63337,
+   "end": 63594
+  },
+  {
+   "text": "way.",
+   "start": 63594,
+   "end": 63850
+  },
+  {
+   "text": "Let",
+   "start": 64235,
+   "end": 64347
+  },
+  {
+   "text": "me",
+   "start": 64412,
+   "end": 64492
+  },
+  {
+   "text": "show",
+   "start": 64492,
+   "end": 64700
+  },
+  {
+   "text": "you",
+   "start": 64700,
+   "end": 64748
+  },
+  {
+   "text": "how",
+   "start": 64941,
+   "end": 65053
+  },
+  {
+   "text": "so",
+   "start": 65679,
+   "end": 65984
+  },
+  {
+   "text": "you",
+   "start": 66144,
+   "end": 66208
+  },
+  {
+   "text": "can",
+   "start": 66224,
+   "end": 66320
+  },
+  {
+   "text": "connect",
+   "start": 66320,
+   "end": 66721
+  },
+  {
+   "text": "your",
+   "start": 66721,
+   "end": 66994
+  },
+  {
+   "text": "own",
+   "start": 67026,
+   "end": 67331
+  },
+  {
+   "text": "brain",
+   "start": 67363,
+   "end": 67652
+  },
+  {
+   "text": "to",
+   "start": 67764,
+   "end": 67892
+  },
+  {
+   "text": "AI,",
+   "start": 67908,
+   "end": 68165
+  },
+  {
+   "text": "to",
+   "start": 68807,
+   "end": 68935
+  },
+  {
+   "text": "any",
+   "start": 68967,
+   "end": 69175
+  },
+  {
+   "text": "AI",
+   "start": 69191,
+   "end": 69400
+  },
+  {
+   "text": "model,",
+   "start": 69448,
+   "end": 69929
+  },
+  {
+   "text": "and",
+   "start": 70330,
+   "end": 70394
+  },
+  {
+   "text": "this",
+   "start": 70491,
+   "end": 70747
+  },
+  {
+   "text": "will",
+   "start": 71196,
+   "end": 71421
+  },
+  {
+   "text": "completely",
+   "start": 71453,
+   "end": 72335
+  },
+  {
+   "text": "change",
+   "start": 72335,
+   "end": 73025
+  },
+  {
+   "text": "how",
+   "start": 73362,
+   "end": 73458
+  },
+  {
+   "text": "you",
+   "start": 74164,
+   "end": 74228
+  },
+  {
+   "text": "work",
+   "start": 74260,
+   "end": 74501
+  },
+  {
+   "text": "with",
+   "start": 74501,
+   "end": 74597
+  },
+  {
+   "text": "AI.",
+   "start": 74645,
+   "end": 74934
+  },
+  {
+   "text": "And",
+   "start": 75447,
+   "end": 75543
+  },
+  {
+   "text": "what",
+   "start": 75543,
+   "end": 75688
+  },
+  {
+   "text": "you",
+   "start": 75688,
+   "end": 75784
+  },
+  {
+   "text": "just",
+   "start": 75784,
+   "end": 76024
+  },
+  {
+   "text": "saw",
+   "start": 76024,
+   "end": 76345
+  },
+  {
+   "text": "is",
+   "start": 76682,
+   "end": 76810
+  },
+  {
+   "text": "a",
+   "start": 76810,
+   "end": 76826
+  },
+  {
+   "text": "very",
+   "start": 76826,
+   "end": 77308
+  },
+  {
+   "text": "basic",
+   "start": 77388,
+   "end": 77693
+  },
+  {
+   "text": "example",
+   "start": 77693,
+   "end": 78350
+  },
+  {
+   "text": "on",
+   "start": 78350,
+   "end": 78591
+  },
+  {
+   "text": "using",
+   "start": 78591,
+   "end": 79040
+  },
+  {
+   "text": "the",
+   "start": 79072,
+   "end": 79184
+  },
+  {
+   "text": "brain.",
+   "start": 79232,
+   "end": 79521
+  },
+  {
+   "text": "What",
+   "start": 79954,
+   "end": 80163
+  },
+  {
+   "text": "you",
+   "start": 80179,
+   "end": 80260
+  },
+  {
+   "text": "will",
+   "start": 80260,
+   "end": 80372
+  },
+  {
+   "text": "see",
+   "start": 80372,
+   "end": 80597
+  },
+  {
+   "text": "in",
+   "start": 80597,
+   "end": 80645
+  },
+  {
+   "text": "this",
+   "start": 80741,
+   "end": 80854
+  },
+  {
+   "text": "video",
+   "start": 80918,
+   "end": 81384
+  },
+  {
+   "text": "is",
+   "start": 81721,
+   "end": 81769
+  },
+  {
+   "text": "going",
+   "start": 81945,
+   "end": 82202
+  },
+  {
+   "text": "to",
+   "start": 82267,
+   "end": 82363
+  },
+  {
+   "text": "shock",
+   "start": 82363,
+   "end": 82829
+  },
+  {
+   "text": "you.",
+   "start": 82829,
+   "end": 82941
+  },
+  {
+   "text": "No,",
+   "start": 83118,
+   "end": 83214
+  },
+  {
+   "text": "not",
+   "start": 83407,
+   "end": 83776
+  },
+  {
+   "text": "this",
+   "start": 83792,
+   "end": 83856
+  },
+  {
+   "text": "way",
+   "start": 83969,
+   "end": 84049
+  },
+  {
+   "text": "also.",
+   "start": 84129,
+   "end": 84466
+  },
+  {
+   "text": "So",
+   "start": 84932,
+   "end": 85253
+  },
+  {
+   "text": "if",
+   "start": 85558,
+   "end": 85671
+  },
+  {
+   "text": "you",
+   "start": 85719,
+   "end": 85783
+  },
+  {
+   "text": "are",
+   "start": 85799,
+   "end": 85847
+  },
+  {
+   "text": "ready",
+   "start": 85879,
+   "end": 86024
+  },
+  {
+   "text": "to",
+   "start": 86120,
+   "end": 86200
+  },
+  {
+   "text": "get",
+   "start": 86217,
+   "end": 86457
+  },
+  {
+   "text": "shocked—",
+   "start": 86457,
+   "end": 86923
+  },
+  {
+   "text": "sorry,",
+   "start": 87100,
+   "end": 87389
+  },
+  {
+   "text": "if",
+   "start": 87581,
+   "end": 87678
+  },
+  {
+   "text": "you",
+   "start": 87678,
+   "end": 87790
+  },
+  {
+   "text": "are",
+   "start": 87806,
+   "end": 87854
+  },
+  {
+   "text": "ready,",
+   "start": 87886,
+   "end": 88159
+  },
+  {
+   "text": "let's",
+   "start": 88609,
+   "end": 88898
+  },
+  {
+   "text": "get",
+   "start": 89508,
+   "end": 90086
+  },
+  {
+   "text": "started.",
+   "start": 90247,
+   "end": 90793
+  },
+  {
+   "text": "Okay,",
+   "start": 91178,
+   "end": 91435
+  },
+  {
+   "text": "let",
+   "start": 91660,
+   "end": 91917
+  },
+  {
+   "text": "me",
+   "start": 91917,
+   "end": 91997
+  },
+  {
+   "text": "start",
+   "start": 91997,
+   "end": 92543
+  },
+  {
+   "text": "with",
+   "start": 92543,
+   "end": 92703
+  },
+  {
+   "text": "another",
+   "start": 92703,
+   "end": 93201
+  },
+  {
+   "text": "small",
+   "start": 93378,
+   "end": 93715
+  },
+  {
+   "text": "example.",
+   "start": 94004,
+   "end": 94566
+  },
+  {
+   "text": "While",
+   "start": 95048,
+   "end": 95289
+  },
+  {
+   "text": "I",
+   "start": 95289,
+   "end": 95401
+  },
+  {
+   "text": "was",
+   "start": 95433,
+   "end": 95578
+  },
+  {
+   "text": "testing",
+   "start": 95610,
+   "end": 95899
+  },
+  {
+   "text": "this",
+   "start": 95931,
+   "end": 96204
+  },
+  {
+   "text": "project,",
+   "start": 96236,
+   "end": 96926
+  },
+  {
+   "text": "while",
+   "start": 97135,
+   "end": 97296
+  },
+  {
+   "text": "I'm",
+   "start": 97296,
+   "end": 97440
+  },
+  {
+   "text": "building",
+   "start": 97456,
+   "end": 97729
+  },
+  {
+   "text": "it,",
+   "start": 97922,
+   "end": 98259
+  },
+  {
+   "text": "I",
+   "start": 98500,
+   "end": 98644
+  },
+  {
+   "text": "asked",
+   "start": 98805,
+   "end": 99206
+  },
+  {
+   "text": "for",
+   "start": 99206,
+   "end": 99383
+  },
+  {
+   "text": "a",
+   "start": 99383,
+   "end": 99447
+  },
+  {
+   "text": "reply.",
+   "start": 99447,
+   "end": 99784
+  },
+  {
+   "text": "My",
+   "start": 100250,
+   "end": 100346
+  },
+  {
+   "text": "brain,",
+   "start": 100507,
+   "end": 100940
+  },
+  {
+   "text": "my",
+   "start": 101374,
+   "end": 101535
+  },
+  {
+   "text": "AI",
+   "start": 101615,
+   "end": 101952
+  },
+  {
+   "text": "brain,",
+   "start": 101952,
+   "end": 102321
+  },
+  {
+   "text": "sent",
+   "start": 102771,
+   "end": 103220
+  },
+  {
+   "text": "me",
+   "start": 103237,
+   "end": 103397
+  },
+  {
+   "text": "a",
+   "start": 103542,
+   "end": 103558
+  },
+  {
+   "text": "warning.",
+   "start": 103622,
+   "end": 104088
+  },
+  {
+   "text": "It",
+   "start": 104537,
+   "end": 104666
+  },
+  {
+   "text": "said",
+   "start": 104666,
+   "end": 104971
+  },
+  {
+   "text": "Do",
+   "start": 105388,
+   "end": 105468
+  },
+  {
+   "text": "not",
+   "start": 105468,
+   "end": 105532
+  },
+  {
+   "text": "invent",
+   "start": 105709,
+   "end": 106094
+  },
+  {
+   "text": "this",
+   "start": 106207,
+   "end": 106383
+  },
+  {
+   "text": "number,",
+   "start": 106528,
+   "end": 106849
+  },
+  {
+   "text": "which",
+   "start": 107330,
+   "end": 107458
+  },
+  {
+   "text": "is",
+   "start": 107635,
+   "end": 107699
+  },
+  {
+   "text": "how",
+   "start": 107876,
+   "end": 108004
+  },
+  {
+   "text": "much",
+   "start": 108068,
+   "end": 108341
+  },
+  {
+   "text": "time",
+   "start": 108694,
+   "end": 109160
+  },
+  {
+   "text": "maintenance",
+   "start": 109481,
+   "end": 110139
+  },
+  {
+   "text": "takes.",
+   "start": 110139,
+   "end": 110443
+  },
+  {
+   "text": "Something",
+   "start": 110877,
+   "end": 111230
+  },
+  {
+   "text": "in",
+   "start": 111422,
+   "end": 111487
+  },
+  {
+   "text": "one",
+   "start": 111487,
+   "end": 111583
+  },
+  {
+   "text": "of",
+   "start": 111583,
+   "end": 111711
+  },
+  {
+   "text": "my",
+   "start": 111743,
+   "end": 111904
+  },
+  {
+   "text": "projects,",
+   "start": 111904,
+   "end": 112353
+  },
+  {
+   "text": "that",
+   "start": 112931,
+   "end": 113188
+  },
+  {
+   "text": "number",
+   "start": 113188,
+   "end": 113525
+  },
+  {
+   "text": "was",
+   "start": 113990,
+   "end": 114119
+  },
+  {
+   "text": "not",
+   "start": 114215,
+   "end": 114359
+  },
+  {
+   "text": "there,",
+   "start": 114456,
+   "end": 114793
+  },
+  {
+   "text": "was",
+   "start": 115258,
+   "end": 115387
+  },
+  {
+   "text": "not",
+   "start": 115387,
+   "end": 115579
+  },
+  {
+   "text": "in",
+   "start": 115579,
+   "end": 115627
+  },
+  {
+   "text": "my",
+   "start": 115627,
+   "end": 115884
+  },
+  {
+   "text": "brain,",
+   "start": 115916,
+   "end": 116125
+  },
+  {
+   "text": "and",
+   "start": 116638,
+   "end": 116703
+  },
+  {
+   "text": "was",
+   "start": 116783,
+   "end": 116927
+  },
+  {
+   "text": "not",
+   "start": 116959,
+   "end": 117168
+  },
+  {
+   "text": "accurate.",
+   "start": 117345,
+   "end": 117762
+  },
+  {
+   "text": "Read",
+   "start": 118179,
+   "end": 118404
+  },
+  {
+   "text": "that",
+   "start": 118404,
+   "end": 118580
+  },
+  {
+   "text": "again.",
+   "start": 118629,
+   "end": 118933
+  },
+  {
+   "text": "My",
+   "start": 119270,
+   "end": 119399
+  },
+  {
+   "text": "brain",
+   "start": 119511,
+   "end": 119816
+  },
+  {
+   "text": "told",
+   "start": 120169,
+   "end": 120442
+  },
+  {
+   "text": "the",
+   "start": 120490,
+   "end": 120619
+  },
+  {
+   "text": "AI",
+   "start": 120651,
+   "end": 121004
+  },
+  {
+   "text": "model",
+   "start": 121052,
+   "end": 121582
+  },
+  {
+   "text": "what",
+   "start": 121935,
+   "end": 122079
+  },
+  {
+   "text": "is",
+   "start": 122079,
+   "end": 122143
+  },
+  {
+   "text": "not",
+   "start": 122175,
+   "end": 122400
+  },
+  {
+   "text": "allowed",
+   "start": 122416,
+   "end": 123267
+  },
+  {
+   "text": "to",
+   "start": 123523,
+   "end": 123604
+  },
+  {
+   "text": "make",
+   "start": 123604,
+   "end": 123844
+  },
+  {
+   "text": "up.",
+   "start": 123925,
+   "end": 124021
+  },
+  {
+   "text": "Everyone",
+   "start": 124567,
+   "end": 124904
+  },
+  {
+   "text": "is",
+   "start": 124904,
+   "end": 125032
+  },
+  {
+   "text": "worried",
+   "start": 125144,
+   "end": 125401
+  },
+  {
+   "text": "about",
+   "start": 125401,
+   "end": 125835
+  },
+  {
+   "text": "AI",
+   "start": 125947,
+   "end": 126252
+  },
+  {
+   "text": "hallucinating",
+   "start": 126252,
+   "end": 127038
+  },
+  {
+   "text": "when",
+   "start": 127231,
+   "end": 127327
+  },
+  {
+   "text": "writing",
+   "start": 127407,
+   "end": 127760
+  },
+  {
+   "text": "in",
+   "start": 128017,
+   "end": 128065
+  },
+  {
+   "text": "your",
+   "start": 128194,
+   "end": 128515
+  },
+  {
+   "text": "voice.",
+   "start": 128515,
+   "end": 128804
+  },
+  {
+   "text": "This",
+   "start": 129301,
+   "end": 129510
+  },
+  {
+   "text": "project",
+   "start": 129542,
+   "end": 130248
+  },
+  {
+   "text": "does",
+   "start": 130360,
+   "end": 130569
+  },
+  {
+   "text": "the",
+   "start": 130617,
+   "end": 130746
+  },
+  {
+   "text": "opposite.",
+   "start": 130842,
+   "end": 131211
+  },
+  {
+   "text": "Okay,",
+   "start": 132302,
+   "end": 132543
+  },
+  {
+   "text": "enough",
+   "start": 132607,
+   "end": 132848
+  },
+  {
+   "text": "talking.",
+   "start": 132848,
+   "end": 133378
+  },
+  {
+   "text": "So",
+   "start": 133811,
+   "end": 134132
+  },
+  {
+   "text": "what",
+   "start": 134293,
+   "end": 134533
+  },
+  {
+   "text": "did",
+   "start": 134533,
+   "end": 134758
+  },
+  {
+   "text": "I",
+   "start": 134758,
+   "end": 134806
+  },
+  {
+   "text": "build?",
+   "start": 134935,
+   "end": 135336
+  },
+  {
+   "text": "I",
+   "start": 135817,
+   "end": 135849
+  },
+  {
+   "text": "think",
+   "start": 135898,
+   "end": 136106
+  },
+  {
+   "text": "you",
+   "start": 136122,
+   "end": 136219
+  },
+  {
+   "text": "know",
+   "start": 136219,
+   "end": 136379
+  },
+  {
+   "text": "now.",
+   "start": 136379,
+   "end": 136475
+  },
+  {
+   "text": "It's",
+   "start": 136861,
+   "end": 137085
+  },
+  {
+   "text": "like",
+   "start": 137085,
+   "end": 137262
+  },
+  {
+   "text": "an",
+   "start": 137262,
+   "end": 137358
+  },
+  {
+   "text": "AI",
+   "start": 137503,
+   "end": 137775
+  },
+  {
+   "text": "brain.",
+   "start": 137904,
+   "end": 138193
+  },
+  {
+   "text": "But",
+   "start": 138626,
+   "end": 139075
+  },
+  {
+   "text": "let's",
+   "start": 139589,
+   "end": 139814
+  },
+  {
+   "text": "explain",
+   "start": 139814,
+   "end": 140215
+  },
+  {
+   "text": "it",
+   "start": 140231,
+   "end": 140584
+  },
+  {
+   "text": "in",
+   "start": 140953,
+   "end": 141050
+  },
+  {
+   "text": "simple",
+   "start": 141210,
+   "end": 141692
+  },
+  {
+   "text": "terms.",
+   "start": 141740,
+   "end": 142205
+  },
+  {
+   "text": "It",
+   "start": 142703,
+   "end": 142863
+  },
+  {
+   "text": "is",
+   "start": 142863,
+   "end": 143008
+  },
+  {
+   "text": "a",
+   "start": 143441,
+   "end": 143489
+  },
+  {
+   "text": "copy",
+   "start": 143666,
+   "end": 144019
+  },
+  {
+   "text": "of",
+   "start": 144468,
+   "end": 144613
+  },
+  {
+   "text": "my",
+   "start": 144966,
+   "end": 145126
+  },
+  {
+   "text": "brain.",
+   "start": 145126,
+   "end": 145383
+  },
+  {
+   "text": "I",
+   "start": 145768,
+   "end": 145816
+  },
+  {
+   "text": "called",
+   "start": 145929,
+   "end": 146314
+  },
+  {
+   "text": "it",
+   "start": 146314,
+   "end": 146603
+  },
+  {
+   "text": "BrainOutside.",
+   "start": 146635,
+   "end": 147630
+  },
+  {
+   "text": "As",
+   "start": 147999,
+   "end": 148063
+  },
+  {
+   "text": "the",
+   "start": 148080,
+   "end": 148176
+  },
+  {
+   "text": "name",
+   "start": 148176,
+   "end": 148384
+  },
+  {
+   "text": "means,",
+   "start": 148497,
+   "end": 148866
+  },
+  {
+   "text": "it's",
+   "start": 149155,
+   "end": 149267
+  },
+  {
+   "text": "my",
+   "start": 149380,
+   "end": 149540
+  },
+  {
+   "text": "brain",
+   "start": 149540,
+   "end": 149909
+  },
+  {
+   "text": "outside.",
+   "start": 150407,
+   "end": 150920
+  },
+  {
+   "text": "It",
+   "start": 151241,
+   "end": 151450
+  },
+  {
+   "text": "knows",
+   "start": 151450,
+   "end": 151675
+  },
+  {
+   "text": "how",
+   "start": 151691,
+   "end": 151803
+  },
+  {
+   "text": "I",
+   "start": 151948,
+   "end": 152028
+  },
+  {
+   "text": "write.",
+   "start": 152172,
+   "end": 152590
+  },
+  {
+   "text": "It",
+   "start": 152991,
+   "end": 153087
+  },
+  {
+   "text": "knows",
+   "start": 153151,
+   "end": 153440
+  },
+  {
+   "text": "what",
+   "start": 153456,
+   "end": 153697
+  },
+  {
+   "text": "I",
+   "start": 153697,
+   "end": 153874
+  },
+  {
+   "text": "believe,",
+   "start": 153874,
+   "end": 154403
+  },
+  {
+   "text": "my",
+   "start": 154821,
+   "end": 154917
+  },
+  {
+   "text": "philosophy,",
+   "start": 154917,
+   "end": 155527
+  },
+  {
+   "text": "my",
+   "start": 156024,
+   "end": 156233
+  },
+  {
+   "text": "projects.",
+   "start": 156265,
+   "end": 156955
+  },
+  {
+   "text": "What",
+   "start": 157308,
+   "end": 157420
+  },
+  {
+   "text": "I",
+   "start": 157628,
+   "end": 157676
+  },
+  {
+   "text": "do,",
+   "start": 157789,
+   "end": 158061
+  },
+  {
+   "text": "just",
+   "start": 158446,
+   "end": 158622
+  },
+  {
+   "text": "everything",
+   "start": 158766,
+   "end": 159135
+  },
+  {
+   "text": "about",
+   "start": 159247,
+   "end": 159583
+  },
+  {
+   "text": "me.",
+   "start": 159583,
+   "end": 159727
+  },
+  {
+   "text": "It's",
+   "start": 160128,
+   "end": 160368
+  },
+  {
+   "text": "my",
+   "start": 160368,
+   "end": 160593
+  },
+  {
+   "text": "clone,",
+   "start": 160593,
+   "end": 160977
+  },
+  {
+   "text": "and",
+   "start": 161570,
+   "end": 161634
+  },
+  {
+   "text": "some",
+   "start": 161650,
+   "end": 161890
+  },
+  {
+   "text": "people",
+   "start": 161890,
+   "end": 162355
+  },
+  {
+   "text": "call",
+   "start": 162355,
+   "end": 162563
+  },
+  {
+   "text": "it",
+   "start": 162612,
+   "end": 162740
+  },
+  {
+   "text": "second",
+   "start": 163108,
+   "end": 163701
+  },
+  {
+   "text": "brain.",
+   "start": 163733,
+   "end": 163925
+  },
+  {
+   "text": "Maybe",
+   "start": 164454,
+   "end": 164855
+  },
+  {
+   "text": "you've",
+   "start": 164855,
+   "end": 165079
+  },
+  {
+   "text": "heard",
+   "start": 165079,
+   "end": 165271
+  },
+  {
+   "text": "about",
+   "start": 165271,
+   "end": 165656
+  },
+  {
+   "text": "it,",
+   "start": 165656,
+   "end": 165816
+  },
+  {
+   "text": "maybe",
+   "start": 165896,
+   "end": 166040
+  },
+  {
+   "text": "you",
+   "start": 166040,
+   "end": 166185
+  },
+  {
+   "text": "used",
+   "start": 166201,
+   "end": 166617
+  },
+  {
+   "text": "one,",
+   "start": 166617,
+   "end": 166826
+  },
+  {
+   "text": "but",
+   "start": 167258,
+   "end": 167402
+  },
+  {
+   "text": "what",
+   "start": 167402,
+   "end": 167499
+  },
+  {
+   "text": "you",
+   "start": 167499,
+   "end": 167579
+  },
+  {
+   "text": "will",
+   "start": 167579,
+   "end": 167739
+  },
+  {
+   "text": "see",
+   "start": 167739,
+   "end": 167915
+  },
+  {
+   "text": "today",
+   "start": 167915,
+   "end": 168380
+  },
+  {
+   "text": "is",
+   "start": 168556,
+   "end": 168604
+  },
+  {
+   "text": "something",
+   "start": 168604,
+   "end": 169037
+  },
+  {
+   "text": "really",
+   "start": 169101,
+   "end": 169341
+  },
+  {
+   "text": "different.",
+   "start": 169341,
+   "end": 169726
+  },
+  {
+   "text": "So",
+   "start": 170527,
+   "end": 170623
+  },
+  {
+   "text": "think",
+   "start": 170623,
+   "end": 170847
+  },
+  {
+   "text": "about",
+   "start": 170847,
+   "end": 171120
+  },
+  {
+   "text": "it",
+   "start": 171120,
+   "end": 171248
+  },
+  {
+   "text": "like",
+   "start": 171248,
+   "end": 171472
+  },
+  {
+   "text": "my",
+   "start": 171488,
+   "end": 171617
+  },
+  {
+   "text": "mirror",
+   "start": 171665,
+   "end": 172049
+  },
+  {
+   "text": "outside.",
+   "start": 172129,
+   "end": 172738
+  },
+  {
+   "text": "I",
+   "start": 173091,
+   "end": 173171
+  },
+  {
+   "text": "can",
+   "start": 173171,
+   "end": 173315
+  },
+  {
+   "text": "ask",
+   "start": 173651,
+   "end": 173972
+  },
+  {
+   "text": "it",
+   "start": 174052,
+   "end": 174421
+  },
+  {
+   "text": "and",
+   "start": 174853,
+   "end": 174917
+  },
+  {
+   "text": "it",
+   "start": 174933,
+   "end": 175013
+  },
+  {
+   "text": "simply",
+   "start": 175013,
+   "end": 175478
+  },
+  {
+   "text": "answers",
+   "start": 175574,
+   "end": 175879
+  },
+  {
+   "text": "like",
+   "start": 176151,
+   "end": 176472
+  },
+  {
+   "text": "me,",
+   "start": 176472,
+   "end": 176712
+  },
+  {
+   "text": "which",
+   "start": 177257,
+   "end": 177369
+  },
+  {
+   "text": "is",
+   "start": 177369,
+   "end": 177481
+  },
+  {
+   "text": "useful",
+   "start": 177577,
+   "end": 178026
+  },
+  {
+   "text": "most",
+   "start": 178378,
+   "end": 178619
+  },
+  {
+   "text": "of",
+   "start": 178619,
+   "end": 178651
+  },
+  {
+   "text": "the",
+   "start": 178651,
+   "end": 178763
+  },
+  {
+   "text": "days",
+   "start": 178779,
+   "end": 179083
+  },
+  {
+   "text": "and",
+   "start": 179516,
+   "end": 179660
+  },
+  {
+   "text": "sometimes",
+   "start": 179660,
+   "end": 180285
+  },
+  {
+   "text": "becomes",
+   "start": 180317,
+   "end": 180686
+  },
+  {
+   "text": "strange",
+   "start": 180782,
+   "end": 181327
+  },
+  {
+   "text": "and",
+   "start": 181759,
+   "end": 181855
+  },
+  {
+   "text": "somehow",
+   "start": 181855,
+   "end": 182256
+  },
+  {
+   "text": "shocking,",
+   "start": 182384,
+   "end": 182833
+  },
+  {
+   "text": "as",
+   "start": 183201,
+   "end": 183329
+  },
+  {
+   "text": "you",
+   "start": 183426,
+   "end": 183490
+  },
+  {
+   "text": "will",
+   "start": 183522,
+   "end": 183666
+  },
+  {
+   "text": "see",
+   "start": 183666,
+   "end": 183906
+  },
+  {
+   "text": "in",
+   "start": 183922,
+   "end": 183970
+  },
+  {
+   "text": "the",
+   "start": 184002,
+   "end": 184083
+  },
+  {
+   "text": "video.",
+   "start": 184147,
+   "end": 184563
+  },
+  {
+   "text": "In",
+   "start": 184804,
+   "end": 184884
+  },
+  {
+   "text": "a",
+   "start": 184884,
+   "end": 184900
+  },
+  {
+   "text": "few",
+   "start": 184900,
+   "end": 185140
+  },
+  {
+   "text": "minutes.",
+   "start": 185140,
+   "end": 185493
+  },
+  {
+   "text": "Like,",
+   "start": 185925,
+   "end": 186086
+  },
+  {
+   "text": "sometimes",
+   "start": 186102,
+   "end": 186775
+  },
+  {
+   "text": "I",
+   "start": 186887,
+   "end": 186967
+  },
+  {
+   "text": "disagree",
+   "start": 186967,
+   "end": 187512
+  },
+  {
+   "text": "with",
+   "start": 187512,
+   "end": 187608
+  },
+  {
+   "text": "its",
+   "start": 187608,
+   "end": 187832
+  },
+  {
+   "text": "answers,",
+   "start": 187912,
+   "end": 188377
+  },
+  {
+   "text": "which",
+   "start": 188954,
+   "end": 189018
+  },
+  {
+   "text": "is",
+   "start": 189130,
+   "end": 189258
+  },
+  {
+   "text": "myself.",
+   "start": 189611,
+   "end": 190220
+  },
+  {
+   "text": "That's",
+   "start": 190572,
+   "end": 190765
+  },
+  {
+   "text": "really",
+   "start": 190765,
+   "end": 191101
+  },
+  {
+   "text": "weird.",
+   "start": 191117,
+   "end": 191374
+  },
+  {
+   "text": "I",
+   "start": 191854,
+   "end": 191870
+  },
+  {
+   "text": "believe",
+   "start": 192015,
+   "end": 192431
+  },
+  {
+   "text": "that",
+   "start": 192495,
+   "end": 192720
+  },
+  {
+   "text": "every",
+   "start": 192880,
+   "end": 193200
+  },
+  {
+   "text": "human",
+   "start": 193281,
+   "end": 193665
+  },
+  {
+   "text": "being",
+   "start": 193681,
+   "end": 194066
+  },
+  {
+   "text": "working",
+   "start": 194418,
+   "end": 194627
+  },
+  {
+   "text": "with",
+   "start": 194723,
+   "end": 194883
+  },
+  {
+   "text": "AI",
+   "start": 194883,
+   "end": 195139
+  },
+  {
+   "text": "should",
+   "start": 195604,
+   "end": 195764
+  },
+  {
+   "text": "have",
+   "start": 195764,
+   "end": 195989
+  },
+  {
+   "text": "this",
+   "start": 196021,
+   "end": 196261
+  },
+  {
+   "text": "brain",
+   "start": 196261,
+   "end": 196550
+  },
+  {
+   "text": "configured.",
+   "start": 196662,
+   "end": 197191
+  },
+  {
+   "text": "And",
+   "start": 197864,
+   "end": 197928
+  },
+  {
+   "text": "the",
+   "start": 197944,
+   "end": 198088
+  },
+  {
+   "text": "idea",
+   "start": 198168,
+   "end": 198489
+  },
+  {
+   "text": "is",
+   "start": 198489,
+   "end": 198553
+  },
+  {
+   "text": "really",
+   "start": 198585,
+   "end": 198793
+  },
+  {
+   "text": "simple.",
+   "start": 198841,
+   "end": 199306
+  },
+  {
+   "text": "The",
+   "start": 199787,
+   "end": 199867
+  },
+  {
+   "text": "brain",
+   "start": 200011,
+   "end": 200395
+  },
+  {
+   "text": "is",
+   "start": 200428,
+   "end": 200476
+  },
+  {
+   "text": "simply",
+   "start": 200524,
+   "end": 201197
+  },
+  {
+   "text": "a",
+   "start": 201549,
+   "end": 201613
+  },
+  {
+   "text": "folder",
+   "start": 201613,
+   "end": 202270
+  },
+  {
+   "text": "with",
+   "start": 202655,
+   "end": 202959
+  },
+  {
+   "text": "markdown",
+   "start": 203296,
+   "end": 203841
+  },
+  {
+   "text": "files,",
+   "start": 203889,
+   "end": 204322
+  },
+  {
+   "text": "text",
+   "start": 204418,
+   "end": 204738
+  },
+  {
+   "text": "files,",
+   "start": 204738,
+   "end": 205123
+  },
+  {
+   "text": "inside",
+   "start": 205636,
+   "end": 206228
+  },
+  {
+   "text": "a",
+   "start": 206501,
+   "end": 206517
+  },
+  {
+   "text": "Git",
+   "start": 206597,
+   "end": 206821
+  },
+  {
+   "text": "repo.",
+   "start": 207142,
+   "end": 207462
+  },
+  {
+   "text": "So",
+   "start": 207879,
+   "end": 208023
+  },
+  {
+   "text": "your",
+   "start": 208023,
+   "end": 208264
+  },
+  {
+   "text": "brain",
+   "start": 208264,
+   "end": 208648
+  },
+  {
+   "text": "is",
+   "start": 209065,
+   "end": 209129
+  },
+  {
+   "text": "actually,",
+   "start": 209385,
+   "end": 209850
+  },
+  {
+   "text": "in",
+   "start": 209962,
+   "end": 210042
+  },
+  {
+   "text": "our",
+   "start": 210106,
+   "end": 210283
+  },
+  {
+   "text": "case,",
+   "start": 210283,
+   "end": 210587
+  },
+  {
+   "text": "a",
+   "start": 211068,
+   "end": 211084
+  },
+  {
+   "text": "GitHub",
+   "start": 211164,
+   "end": 211741
+  },
+  {
+   "text": "repo",
+   "start": 211741,
+   "end": 211981
+  },
+  {
+   "text": "and",
+   "start": 212510,
+   "end": 212574
+  },
+  {
+   "text": "simply",
+   "start": 212590,
+   "end": 213055
+  },
+  {
+   "text": "some",
+   "start": 213167,
+   "end": 213375
+  },
+  {
+   "text": "text",
+   "start": 213471,
+   "end": 213792
+  },
+  {
+   "text": "files.",
+   "start": 213792,
+   "end": 214096
+  },
+  {
+   "text": "Who",
+   "start": 214673,
+   "end": 214817
+  },
+  {
+   "text": "you",
+   "start": 214833,
+   "end": 214881
+  },
+  {
+   "text": "are,",
+   "start": 215074,
+   "end": 215554
+  },
+  {
+   "text": "how",
+   "start": 215570,
+   "end": 215747
+  },
+  {
+   "text": "you",
+   "start": 215875,
+   "end": 215955
+  },
+  {
+   "text": "write,",
+   "start": 215971,
+   "end": 216548
+  },
+  {
+   "text": "your",
+   "start": 217092,
+   "end": 217317
+  },
+  {
+   "text": "projects,",
+   "start": 217333,
+   "end": 218006
+  },
+  {
+   "text": "your",
+   "start": 218118,
+   "end": 218294
+  },
+  {
+   "text": "takes,",
+   "start": 218294,
+   "end": 218951
+  },
+  {
+   "text": "your",
+   "start": 219336,
+   "end": 219496
+  },
+  {
+   "text": "stories,",
+   "start": 219496,
+   "end": 220265
+  },
+  {
+   "text": "the",
+   "start": 220361,
+   "end": 220537
+  },
+  {
+   "text": "lessons,",
+   "start": 220537,
+   "end": 221194
+  },
+  {
+   "text": "your",
+   "start": 221226,
+   "end": 221323
+  },
+  {
+   "text": "education,",
+   "start": 221323,
+   "end": 222108
+  },
+  {
+   "text": "everything",
+   "start": 222444,
+   "end": 222749
+  },
+  {
+   "text": "about",
+   "start": 222845,
+   "end": 223245
+  },
+  {
+   "text": "you",
+   "start": 223245,
+   "end": 223357
+  },
+  {
+   "text": "inside",
+   "start": 223806,
+   "end": 224191
+  },
+  {
+   "text": "this",
+   "start": 224207,
+   "end": 224399
+  },
+  {
+   "text": "private",
+   "start": 224864,
+   "end": 225392
+  },
+  {
+   "text": "GitHub",
+   "start": 225745,
+   "end": 226386
+  },
+  {
+   "text": "repo.",
+   "start": 226626,
+   "end": 226882
+  },
+  {
+   "text": "That",
+   "start": 227908,
+   "end": 228228
+  },
+  {
+   "text": "folder,",
+   "start": 228228,
+   "end": 228821
+  },
+  {
+   "text": "that",
+   "start": 229334,
+   "end": 229654
+  },
+  {
+   "text": "GitHub",
+   "start": 229654,
+   "end": 230007
+  },
+  {
+   "text": "repo,",
+   "start": 230055,
+   "end": 230472
+  },
+  {
+   "text": "your",
+   "start": 230872,
+   "end": 231097
+  },
+  {
+   "text": "external",
+   "start": 231097,
+   "end": 231657
+  },
+  {
+   "text": "brain",
+   "start": 231657,
+   "end": 231898
+  },
+  {
+   "text": "has",
+   "start": 232378,
+   "end": 232603
+  },
+  {
+   "text": "2",
+   "start": 232715,
+   "end": 232827
+  },
+  {
+   "text": "heads.",
+   "start": 233260,
+   "end": 233564
+  },
+  {
+   "text": "The",
+   "start": 233997,
+   "end": 234077
+  },
+  {
+   "text": "first",
+   "start": 234077,
+   "end": 234477
+  },
+  {
+   "text": "head",
+   "start": 234477,
+   "end": 235054
+  },
+  {
+   "text": "is",
+   "start": 235198,
+   "end": 235327
+  },
+  {
+   "text": "local,",
+   "start": 235423,
+   "end": 235839
+  },
+  {
+   "text": "so",
+   "start": 236256,
+   "end": 236336
+  },
+  {
+   "text": "you",
+   "start": 236368,
+   "end": 236400
+  },
+  {
+   "text": "can",
+   "start": 236480,
+   "end": 236592
+  },
+  {
+   "text": "deploy",
+   "start": 236721,
+   "end": 237057
+  },
+  {
+   "text": "and",
+   "start": 237506,
+   "end": 237618
+  },
+  {
+   "text": "run",
+   "start": 237682,
+   "end": 237890
+  },
+  {
+   "text": "locally",
+   "start": 238066,
+   "end": 238451
+  },
+  {
+   "text": "privately",
+   "start": 238804,
+   "end": 239333
+  },
+  {
+   "text": "on",
+   "start": 239750,
+   "end": 239814
+  },
+  {
+   "text": "your",
+   "start": 239846,
+   "end": 240151
+  },
+  {
+   "text": "own",
+   "start": 240151,
+   "end": 240376
+  },
+  {
+   "text": "computer.",
+   "start": 240472,
+   "end": 240969
+  },
+  {
+   "text": "The",
+   "start": 241451,
+   "end": 241515
+  },
+  {
+   "text": "second",
+   "start": 241515,
+   "end": 241932
+  },
+  {
+   "text": "head",
+   "start": 241932,
+   "end": 242381
+  },
+  {
+   "text": "is",
+   "start": 242574,
+   "end": 242670
+  },
+  {
+   "text": "online.",
+   "start": 242878,
+   "end": 243360
+  },
+  {
+   "text": "So",
+   "start": 243937,
+   "end": 244066
+  },
+  {
+   "text": "what",
+   "start": 244066,
+   "end": 244226
+  },
+  {
+   "text": "I",
+   "start": 244322,
+   "end": 244370
+  },
+  {
+   "text": "did",
+   "start": 244483,
+   "end": 244868
+  },
+  {
+   "text": "is",
+   "start": 244980,
+   "end": 245044
+  },
+  {
+   "text": "I",
+   "start": 245140,
+   "end": 245317
+  },
+  {
+   "text": "built",
+   "start": 245381,
+   "end": 245686
+  },
+  {
+   "text": "also",
+   "start": 245766,
+   "end": 246167
+  },
+  {
+   "text": "a",
+   "start": 246648,
+   "end": 246809
+  },
+  {
+   "text": "layer",
+   "start": 246809,
+   "end": 247033
+  },
+  {
+   "text": "that",
+   "start": 247370,
+   "end": 247467
+  },
+  {
+   "text": "you",
+   "start": 247467,
+   "end": 247547
+  },
+  {
+   "text": "can",
+   "start": 247547,
+   "end": 247771
+  },
+  {
+   "text": "publish",
+   "start": 247771,
+   "end": 248092
+  },
+  {
+   "text": "your",
+   "start": 248092,
+   "end": 248333
+  },
+  {
+   "text": "brain",
+   "start": 248333,
+   "end": 248638
+  },
+  {
+   "text": "online,",
+   "start": 248975,
+   "end": 249360
+  },
+  {
+   "text": "as",
+   "start": 249456,
+   "end": 249552
+  },
+  {
+   "text": "you",
+   "start": 249552,
+   "end": 249632
+  },
+  {
+   "text": "will",
+   "start": 249632,
+   "end": 249793
+  },
+  {
+   "text": "see",
+   "start": 249793,
+   "end": 249953
+  },
+  {
+   "text": "in",
+   "start": 249953,
+   "end": 250033
+  },
+  {
+   "text": "a",
+   "start": 250033,
+   "end": 250098
+  },
+  {
+   "text": "few",
+   "start": 250098,
+   "end": 250274
+  },
+  {
+   "text": "seconds.",
+   "start": 250274,
+   "end": 250804
+  },
+  {
+   "text": "And",
+   "start": 251060,
+   "end": 251205
+  },
+  {
+   "text": "it's",
+   "start": 251205,
+   "end": 251397
+  },
+  {
+   "text": "free",
+   "start": 251397,
+   "end": 251734
+  },
+  {
+   "text": "and",
+   "start": 251959,
+   "end": 252023
+  },
+  {
+   "text": "open",
+   "start": 252183,
+   "end": 252440
+  },
+  {
+   "text": "source",
+   "start": 252440,
+   "end": 252809
+  },
+  {
+   "text": "and",
+   "start": 252985,
+   "end": 253049
+  },
+  {
+   "text": "self",
+   "start": 253082,
+   "end": 253467
+  },
+  {
+   "text": "hosted.",
+   "start": 253467,
+   "end": 253852
+  },
+  {
+   "text": "So",
+   "start": 254221,
+   "end": 254365
+  },
+  {
+   "text": "it's",
+   "start": 254365,
+   "end": 254461
+  },
+  {
+   "text": "fully",
+   "start": 254606,
+   "end": 254894
+  },
+  {
+   "text": "private",
+   "start": 254926,
+   "end": 255456
+  },
+  {
+   "text": "too.",
+   "start": 255504,
+   "end": 255664
+  },
+  {
+   "text": "And",
+   "start": 256130,
+   "end": 256194
+  },
+  {
+   "text": "what",
+   "start": 256210,
+   "end": 256434
+  },
+  {
+   "text": "makes",
+   "start": 256434,
+   "end": 256771
+  },
+  {
+   "text": "it",
+   "start": 256771,
+   "end": 256916
+  },
+  {
+   "text": "so",
+   "start": 256916,
+   "end": 257253
+  },
+  {
+   "text": "powerful,",
+   "start": 257253,
+   "end": 257686
+  },
+  {
+   "text": "this",
+   "start": 258135,
+   "end": 258247
+  },
+  {
+   "text": "online",
+   "start": 258600,
+   "end": 259386
+  },
+  {
+   "text": "brain",
+   "start": 259579,
+   "end": 259948
+  },
+  {
+   "text": "can",
+   "start": 260381,
+   "end": 260622
+  },
+  {
+   "text": "be",
+   "start": 260622,
+   "end": 260718
+  },
+  {
+   "text": "accessed",
+   "start": 260846,
+   "end": 261552
+  },
+  {
+   "text": "with",
+   "start": 261809,
+   "end": 261953
+  },
+  {
+   "text": "both",
+   "start": 261985,
+   "end": 262242
+  },
+  {
+   "text": "MCP",
+   "start": 262451,
+   "end": 263044
+  },
+  {
+   "text": "and",
+   "start": 263413,
+   "end": 263493
+  },
+  {
+   "text": "API",
+   "start": 263734,
+   "end": 264311
+  },
+  {
+   "text": "endpoints.",
+   "start": 264552,
+   "end": 264937
+  },
+  {
+   "text": "So",
+   "start": 265435,
+   "end": 265499
+  },
+  {
+   "text": "you",
+   "start": 265499,
+   "end": 265579
+  },
+  {
+   "text": "can",
+   "start": 265579,
+   "end": 265724
+  },
+  {
+   "text": "connect",
+   "start": 265756,
+   "end": 266494
+  },
+  {
+   "text": "with",
+   "start": 266559,
+   "end": 266832
+  },
+  {
+   "text": "any",
+   "start": 266944,
+   "end": 267169
+  },
+  {
+   "text": "AI",
+   "start": 267506,
+   "end": 267795
+  },
+  {
+   "text": "agent",
+   "start": 268068,
+   "end": 268486
+  },
+  {
+   "text": "you",
+   "start": 268486,
+   "end": 268694
+  },
+  {
+   "text": "want.",
+   "start": 268710,
+   "end": 269015
+  },
+  {
+   "text": "So",
+   "start": 269304,
+   "end": 269449
+  },
+  {
+   "text": "we",
+   "start": 269449,
+   "end": 269529
+  },
+  {
+   "text": "have",
+   "start": 269529,
+   "end": 269690
+  },
+  {
+   "text": "the",
+   "start": 269690,
+   "end": 269770
+  },
+  {
+   "text": "same",
+   "start": 269770,
+   "end": 270139
+  },
+  {
+   "text": "repo,",
+   "start": 270171,
+   "end": 270637
+  },
+  {
+   "text": "same",
+   "start": 271151,
+   "end": 271472
+  },
+  {
+   "text": "files,",
+   "start": 271536,
+   "end": 272146
+  },
+  {
+   "text": "the",
+   "start": 272500,
+   "end": 272580
+  },
+  {
+   "text": "same",
+   "start": 272580,
+   "end": 273046
+  },
+  {
+   "text": "brain",
+   "start": 273046,
+   "end": 273351
+  },
+  {
+   "text": "you",
+   "start": 273864,
+   "end": 273945
+  },
+  {
+   "text": "can",
+   "start": 273945,
+   "end": 274153
+  },
+  {
+   "text": "access",
+   "start": 274250,
+   "end": 274683
+  },
+  {
+   "text": "locally",
+   "start": 274812,
+   "end": 275277
+  },
+  {
+   "text": "or",
+   "start": 275695,
+   "end": 275904
+  },
+  {
+   "text": "online",
+   "start": 276016,
+   "end": 276642
+  },
+  {
+   "text": "from",
+   "start": 276979,
+   "end": 277204
+  },
+  {
+   "text": "anywhere.",
+   "start": 277381,
+   "end": 278296
+  },
+  {
+   "text": "Okay,",
+   "start": 278987,
+   "end": 279388
+  },
+  {
+   "text": "enough",
+   "start": 279484,
+   "end": 279805
+  },
+  {
+   "text": "theory.",
+   "start": 279805,
+   "end": 280175
+  },
+  {
+   "text": "Let's",
+   "start": 280528,
+   "end": 280769
+  },
+  {
+   "text": "get",
+   "start": 280769,
+   "end": 281042
+  },
+  {
+   "text": "into",
+   "start": 281074,
+   "end": 281267
+  },
+  {
+   "text": "work",
+   "start": 281331,
+   "end": 281588
+  },
+  {
+   "text": "and",
+   "start": 281796,
+   "end": 281877
+  },
+  {
+   "text": "build",
+   "start": 282037,
+   "end": 282358
+  },
+  {
+   "text": "our",
+   "start": 282439,
+   "end": 282599
+  },
+  {
+   "text": "first",
+   "start": 282599,
+   "end": 283225
+  },
+  {
+   "text": "brain",
+   "start": 283322,
+   "end": 283627
+  },
+  {
+   "text": "locally.",
+   "start": 284125,
+   "end": 284510
+  },
+  {
+   "text": "And",
+   "start": 284944,
+   "end": 285072
+  },
+  {
+   "text": "it's",
+   "start": 285104,
+   "end": 285216
+  },
+  {
+   "text": "way",
+   "start": 285409,
+   "end": 285538
+  },
+  {
+   "text": "easier",
+   "start": 285746,
+   "end": 286148
+  },
+  {
+   "text": "than",
+   "start": 286148,
+   "end": 286276
+  },
+  {
+   "text": "you",
+   "start": 286308,
+   "end": 286405
+  },
+  {
+   "text": "think.",
+   "start": 286405,
+   "end": 286870
+  },
+  {
+   "text": "You",
+   "start": 287336,
+   "end": 287480
+  },
+  {
+   "text": "just",
+   "start": 287497,
+   "end": 287673
+  },
+  {
+   "text": "open",
+   "start": 287898,
+   "end": 288123
+  },
+  {
+   "text": "the",
+   "start": 288155,
+   "end": 288203
+  },
+  {
+   "text": "template",
+   "start": 288235,
+   "end": 288845
+  },
+  {
+   "text": "repo",
+   "start": 288942,
+   "end": 289343
+  },
+  {
+   "text": "I",
+   "start": 289520,
+   "end": 289568
+  },
+  {
+   "text": "built",
+   "start": 289680,
+   "end": 289905
+  },
+  {
+   "text": "for",
+   "start": 289905,
+   "end": 290146
+  },
+  {
+   "text": "you.",
+   "start": 290146,
+   "end": 290290
+  },
+  {
+   "text": "Click",
+   "start": 290644,
+   "end": 290917
+  },
+  {
+   "text": "Use",
+   "start": 291190,
+   "end": 291286
+  },
+  {
+   "text": "this",
+   "start": 291286,
+   "end": 291511
+  },
+  {
+   "text": "template",
+   "start": 291511,
+   "end": 292201
+  },
+  {
+   "text": "and",
+   "start": 292570,
+   "end": 292635
+  },
+  {
+   "text": "make",
+   "start": 292715,
+   "end": 292956
+  },
+  {
+   "text": "it",
+   "start": 292956,
+   "end": 293004
+  },
+  {
+   "text": "private.",
+   "start": 293116,
+   "end": 293502
+  },
+  {
+   "text": "That's",
+   "start": 294016,
+   "end": 294337
+  },
+  {
+   "text": "your",
+   "start": 294337,
+   "end": 294561
+  },
+  {
+   "text": "brain.",
+   "start": 294561,
+   "end": 294867
+  },
+  {
+   "text": "Now",
+   "start": 295364,
+   "end": 295477
+  },
+  {
+   "text": "open",
+   "start": 296007,
+   "end": 296231
+  },
+  {
+   "text": "it",
+   "start": 296247,
+   "end": 296376
+  },
+  {
+   "text": "in",
+   "start": 296504,
+   "end": 296665
+  },
+  {
+   "text": "VS",
+   "start": 296665,
+   "end": 296938
+  },
+  {
+   "text": "Code.",
+   "start": 297050,
+   "end": 297516
+  },
+  {
+   "text": "That's",
+   "start": 297949,
+   "end": 298351
+  },
+  {
+   "text": "the",
+   "start": 298351,
+   "end": 298431
+  },
+  {
+   "text": "interface.",
+   "start": 298576,
+   "end": 299041
+  },
+  {
+   "text": "Inside",
+   "start": 299635,
+   "end": 300069
+  },
+  {
+   "text": "there",
+   "start": 300181,
+   "end": 300615
+  },
+  {
+   "text": "are",
+   "start": 300904,
+   "end": 301096
+  },
+  {
+   "text": "2",
+   "start": 301096,
+   "end": 301321
+  },
+  {
+   "text": "skills,",
+   "start": 301321,
+   "end": 301771
+  },
+  {
+   "text": "and",
+   "start": 302188,
+   "end": 302269
+  },
+  {
+   "text": "that's",
+   "start": 302349,
+   "end": 302606
+  },
+  {
+   "text": "the",
+   "start": 302606,
+   "end": 302686
+  },
+  {
+   "text": "whole",
+   "start": 302750,
+   "end": 302895
+  },
+  {
+   "text": "thing.",
+   "start": 303007,
+   "end": 303216
+  },
+  {
+   "text": "The",
+   "start": 303649,
+   "end": 303698
+  },
+  {
+   "text": "mind-feeder",
+   "start": 303730,
+   "end": 304613
+  },
+  {
+   "text": "writes",
+   "start": 304693,
+   "end": 305287
+  },
+  {
+   "text": "and",
+   "start": 305560,
+   "end": 305640
+  },
+  {
+   "text": "the",
+   "start": 305657,
+   "end": 305753
+  },
+  {
+   "text": "mind-reader",
+   "start": 305753,
+   "end": 306540
+  },
+  {
+   "text": "reads.",
+   "start": 307037,
+   "end": 307391
+  },
+  {
+   "text": "It's",
+   "start": 307599,
+   "end": 307985
+  },
+  {
+   "text": "that",
+   "start": 308049,
+   "end": 308290
+  },
+  {
+   "text": "simple.",
+   "start": 308290,
+   "end": 308675
+  },
+  {
+   "text": "Watch",
+   "start": 309189,
+   "end": 309606
+  },
+  {
+   "text": "what",
+   "start": 309735,
+   "end": 309976
+  },
+  {
+   "text": "feeding",
+   "start": 309976,
+   "end": 310281
+  },
+  {
+   "text": "looks",
+   "start": 310313,
+   "end": 310618
+  },
+  {
+   "text": "like.",
+   "start": 310618,
+   "end": 310875
+  },
+  {
+   "text": "I'll",
+   "start": 311341,
+   "end": 311485
+  },
+  {
+   "text": "paste",
+   "start": 311597,
+   "end": 312063
+  },
+  {
+   "text": "in",
+   "start": 312143,
+   "end": 312208
+  },
+  {
+   "text": "something,",
+   "start": 312240,
+   "end": 312754
+  },
+  {
+   "text": "let's",
+   "start": 312802,
+   "end": 312978
+  },
+  {
+   "text": "say",
+   "start": 312978,
+   "end": 313123
+  },
+  {
+   "text": "a",
+   "start": 313203,
+   "end": 313219
+  },
+  {
+   "text": "video",
+   "start": 313283,
+   "end": 313540
+  },
+  {
+   "text": "transcript",
+   "start": 313605,
+   "end": 314247
+  },
+  {
+   "text": "I",
+   "start": 314247,
+   "end": 314359
+  },
+  {
+   "text": "created,",
+   "start": 314407,
+   "end": 315098
+  },
+  {
+   "text": "a",
+   "start": 315210,
+   "end": 315291
+  },
+  {
+   "text": "post,",
+   "start": 315291,
+   "end": 315997
+  },
+  {
+   "text": "a",
+   "start": 316254,
+   "end": 316270
+  },
+  {
+   "text": "doc,",
+   "start": 316334,
+   "end": 316655
+  },
+  {
+   "text": "or",
+   "start": 316799,
+   "end": 316879
+  },
+  {
+   "text": "just",
+   "start": 316879,
+   "end": 317120
+  },
+  {
+   "text": "a",
+   "start": 317120,
+   "end": 317216
+  },
+  {
+   "text": "thought",
+   "start": 317216,
+   "end": 317601
+  },
+  {
+   "text": "I",
+   "start": 317601,
+   "end": 317649
+  },
+  {
+   "text": "had",
+   "start": 317761,
+   "end": 318066
+  },
+  {
+   "text": "in",
+   "start": 318178,
+   "end": 318226
+  },
+  {
+   "text": "the",
+   "start": 318274,
+   "end": 318403
+  },
+  {
+   "text": "car.",
+   "start": 318419,
+   "end": 318659
+  },
+  {
+   "text": "And",
+   "start": 319060,
+   "end": 319124
+  },
+  {
+   "text": "here's",
+   "start": 319204,
+   "end": 319365
+  },
+  {
+   "text": "the",
+   "start": 319381,
+   "end": 319461
+  },
+  {
+   "text": "part",
+   "start": 319541,
+   "end": 319798
+  },
+  {
+   "text": "that",
+   "start": 319798,
+   "end": 320086
+  },
+  {
+   "text": "really",
+   "start": 320086,
+   "end": 320343
+  },
+  {
+   "text": "matters.",
+   "start": 320343,
+   "end": 320792
+  },
+  {
+   "text": "It",
+   "start": 321225,
+   "end": 321289
+  },
+  {
+   "text": "doesn't",
+   "start": 321289,
+   "end": 321546
+  },
+  {
+   "text": "just",
+   "start": 321546,
+   "end": 321786
+  },
+  {
+   "text": "save",
+   "start": 321786,
+   "end": 322316
+  },
+  {
+   "text": "it.",
+   "start": 322364,
+   "end": 322508
+  },
+  {
+   "text": "It",
+   "start": 322909,
+   "end": 323069
+  },
+  {
+   "text": "reads",
+   "start": 323133,
+   "end": 323470
+  },
+  {
+   "text": "it.",
+   "start": 323470,
+   "end": 323775
+  },
+  {
+   "text": "It",
+   "start": 324192,
+   "end": 324272
+  },
+  {
+   "text": "decides",
+   "start": 324272,
+   "end": 324929
+  },
+  {
+   "text": "what's",
+   "start": 325138,
+   "end": 325491
+  },
+  {
+   "text": "worth",
+   "start": 325539,
+   "end": 325763
+  },
+  {
+   "text": "keeping.",
+   "start": 325940,
+   "end": 326405
+  },
+  {
+   "text": "Then",
+   "start": 326838,
+   "end": 327046
+  },
+  {
+   "text": "it",
+   "start": 327383,
+   "end": 327479
+  },
+  {
+   "text": "shows",
+   "start": 327479,
+   "end": 327848
+  },
+  {
+   "text": "me",
+   "start": 327944,
+   "end": 328040
+  },
+  {
+   "text": "a",
+   "start": 328185,
+   "end": 328201
+  },
+  {
+   "text": "proposal",
+   "start": 328201,
+   "end": 328890
+  },
+  {
+   "text": "with",
+   "start": 329147,
+   "end": 329243
+  },
+  {
+   "text": "the",
+   "start": 329243,
+   "end": 329388
+  },
+  {
+   "text": "exact",
+   "start": 329468,
+   "end": 330029
+  },
+  {
+   "text": "quote",
+   "start": 330029,
+   "end": 330606
+  },
+  {
+   "text": "it",
+   "start": 330751,
+   "end": 330863
+  },
+  {
+   "text": "wants",
+   "start": 330991,
+   "end": 331216
+  },
+  {
+   "text": "to",
+   "start": 331232,
+   "end": 331376
+  },
+  {
+   "text": "preserve",
+   "start": 331392,
+   "end": 331937
+  },
+  {
+   "text": "in",
+   "start": 332274,
+   "end": 332338
+  },
+  {
+   "text": "my",
+   "start": 332595,
+   "end": 332723
+  },
+  {
+   "text": "words.",
+   "start": 332932,
+   "end": 333300
+  },
+  {
+   "text": "Then",
+   "start": 333798,
+   "end": 333990
+  },
+  {
+   "text": "it",
+   "start": 333990,
+   "end": 334038
+  },
+  {
+   "text": "stops",
+   "start": 334038,
+   "end": 334647
+  },
+  {
+   "text": "and",
+   "start": 334840,
+   "end": 334920
+  },
+  {
+   "text": "waits",
+   "start": 335080,
+   "end": 335353
+  },
+  {
+   "text": "for",
+   "start": 335401,
+   "end": 335481
+  },
+  {
+   "text": "my",
+   "start": 335481,
+   "end": 335642
+  },
+  {
+   "text": "approval.",
+   "start": 335642,
+   "end": 336139
+  },
+  {
+   "text": "When",
+   "start": 336684,
+   "end": 336748
+  },
+  {
+   "text": "I",
+   "start": 336764,
+   "end": 336860
+  },
+  {
+   "text": "approve,",
+   "start": 336860,
+   "end": 337470
+  },
+  {
+   "text": "it",
+   "start": 337919,
+   "end": 338143
+  },
+  {
+   "text": "writes",
+   "start": 338143,
+   "end": 338592
+  },
+  {
+   "text": "it.",
+   "start": 338592,
+   "end": 338641
+  },
+  {
+   "text": "It's",
+   "start": 339009,
+   "end": 339282
+  },
+  {
+   "text": "one",
+   "start": 339490,
+   "end": 339795
+  },
+  {
+   "text": "Git",
+   "start": 340132,
+   "end": 340356
+  },
+  {
+   "text": "commit.",
+   "start": 340709,
+   "end": 340998
+  },
+  {
+   "text": "This",
+   "start": 341415,
+   "end": 341495
+  },
+  {
+   "text": "is",
+   "start": 341495,
+   "end": 341559
+  },
+  {
+   "text": "how",
+   "start": 341671,
+   "end": 341784
+  },
+  {
+   "text": "it",
+   "start": 341912,
+   "end": 342008
+  },
+  {
+   "text": "works.",
+   "start": 342056,
+   "end": 342409
+  },
+  {
+   "text": "Locally.",
+   "start": 342634,
+   "end": 343035
+  },
+  {
+   "text": "Why",
+   "start": 343501,
+   "end": 343613
+  },
+  {
+   "text": "so",
+   "start": 343678,
+   "end": 343838
+  },
+  {
+   "text": "strict?",
+   "start": 343919,
+   "end": 344497
+  },
+  {
+   "text": "Because",
+   "start": 344882,
+   "end": 345252
+  },
+  {
+   "text": "in",
+   "start": 345284,
+   "end": 345332
+  },
+  {
+   "text": "simple",
+   "start": 345380,
+   "end": 345990
+  },
+  {
+   "text": "words,",
+   "start": 345990,
+   "end": 346344
+  },
+  {
+   "text": "a",
+   "start": 346633,
+   "end": 346729
+  },
+  {
+   "text": "brain",
+   "start": 346793,
+   "end": 347179
+  },
+  {
+   "text": "you",
+   "start": 347211,
+   "end": 347372
+  },
+  {
+   "text": "don't",
+   "start": 347372,
+   "end": 347757
+  },
+  {
+   "text": "trust",
+   "start": 347805,
+   "end": 348432
+  },
+  {
+   "text": "is",
+   "start": 348817,
+   "end": 348897
+  },
+  {
+   "text": "a",
+   "start": 348897,
+   "end": 348978
+  },
+  {
+   "text": "brain",
+   "start": 348978,
+   "end": 349427
+  },
+  {
+   "text": "you",
+   "start": 349765,
+   "end": 349925
+  },
+  {
+   "text": "will",
+   "start": 349925,
+   "end": 350102
+  },
+  {
+   "text": "not",
+   "start": 350102,
+   "end": 350279
+  },
+  {
+   "text": "use",
+   "start": 350343,
+   "end": 350760
+  },
+  {
+   "text": "Let's",
+   "start": 351222,
+   "end": 351463
+  },
+  {
+   "text": "move",
+   "start": 351463,
+   "end": 351656
+  },
+  {
+   "text": "into",
+   "start": 351656,
+   "end": 351897
+  },
+  {
+   "text": "reading.",
+   "start": 351897,
+   "end": 352234
+  },
+  {
+   "text": "Mind-reader",
+   "start": 352828,
+   "end": 353647
+  },
+  {
+   "text": "pulls",
+   "start": 354049,
+   "end": 354386
+  },
+  {
+   "text": "what's",
+   "start": 354434,
+   "end": 354675
+  },
+  {
+   "text": "relevant",
+   "start": 354675,
+   "end": 355141
+  },
+  {
+   "text": "to",
+   "start": 355237,
+   "end": 355270
+  },
+  {
+   "text": "the",
+   "start": 355270,
+   "end": 355382
+  },
+  {
+   "text": "task,",
+   "start": 355398,
+   "end": 355896
+  },
+  {
+   "text": "not",
+   "start": 356137,
+   "end": 356249
+  },
+  {
+   "text": "everything",
+   "start": 356378,
+   "end": 356747
+  },
+  {
+   "text": "it",
+   "start": 356844,
+   "end": 356940
+  },
+  {
+   "text": "has.",
+   "start": 356940,
+   "end": 357229
+  },
+  {
+   "text": "Ask",
+   "start": 357647,
+   "end": 357968
+  },
+  {
+   "text": "it",
+   "start": 357968,
+   "end": 358064
+  },
+  {
+   "text": "for",
+   "start": 358064,
+   "end": 358144
+  },
+  {
+   "text": "a",
+   "start": 358144,
+   "end": 358161
+  },
+  {
+   "text": "reply",
+   "start": 358161,
+   "end": 358610
+  },
+  {
+   "text": "about",
+   "start": 358610,
+   "end": 358819
+  },
+  {
+   "text": "self-hosting,",
+   "start": 358867,
+   "end": 359638
+  },
+  {
+   "text": "it",
+   "start": 360008,
+   "end": 360232
+  },
+  {
+   "text": "brings",
+   "start": 360232,
+   "end": 360602
+  },
+  {
+   "text": "the",
+   "start": 360634,
+   "end": 360795
+  },
+  {
+   "text": "cost",
+   "start": 360795,
+   "end": 361196
+  },
+  {
+   "text": "story,",
+   "start": 361196,
+   "end": 361726
+  },
+  {
+   "text": "the",
+   "start": 362079,
+   "end": 362160
+  },
+  {
+   "text": "downtime",
+   "start": 362240,
+   "end": 362915
+  },
+  {
+   "text": "number,",
+   "start": 362963,
+   "end": 363348
+  },
+  {
+   "text": "and",
+   "start": 363750,
+   "end": 364055
+  },
+  {
+   "text": "my",
+   "start": 364151,
+   "end": 364280
+  },
+  {
+   "text": "voice.",
+   "start": 364473,
+   "end": 364778
+  },
+  {
+   "text": "It",
+   "start": 365356,
+   "end": 365468
+  },
+  {
+   "text": "leaves",
+   "start": 365516,
+   "end": 365822
+  },
+  {
+   "text": "like",
+   "start": 365854,
+   "end": 366014
+  },
+  {
+   "text": "the",
+   "start": 366014,
+   "end": 366207
+  },
+  {
+   "text": "other",
+   "start": 366320,
+   "end": 366657
+  },
+  {
+   "text": "notes",
+   "start": 366657,
+   "end": 367010
+  },
+  {
+   "text": "alone.",
+   "start": 367139,
+   "end": 367427
+  },
+  {
+   "text": "And",
+   "start": 367925,
+   "end": 367989
+  },
+  {
+   "text": "this",
+   "start": 368086,
+   "end": 368198
+  },
+  {
+   "text": "is",
+   "start": 368198,
+   "end": 368230
+  },
+  {
+   "text": "very",
+   "start": 368278,
+   "end": 368471
+  },
+  {
+   "text": "important",
+   "start": 368503,
+   "end": 369305
+  },
+  {
+   "text": "for",
+   "start": 369305,
+   "end": 369578
+  },
+  {
+   "text": "context",
+   "start": 369610,
+   "end": 370333
+  },
+  {
+   "text": "limit",
+   "start": 370333,
+   "end": 370798
+  },
+  {
+   "text": "and",
+   "start": 371215,
+   "end": 371279
+  },
+  {
+   "text": "context",
+   "start": 371312,
+   "end": 371793
+  },
+  {
+   "text": "window",
+   "start": 371857,
+   "end": 372259
+  },
+  {
+   "text": "and",
+   "start": 372580,
+   "end": 372820
+  },
+  {
+   "text": "hallucinations,",
+   "start": 372820,
+   "end": 373607
+  },
+  {
+   "text": "and",
+   "start": 374024,
+   "end": 374249
+  },
+  {
+   "text": "of",
+   "start": 374506,
+   "end": 374570
+  },
+  {
+   "text": "course",
+   "start": 374666,
+   "end": 374955
+  },
+  {
+   "text": "for",
+   "start": 375067,
+   "end": 375131
+  },
+  {
+   "text": "accurate",
+   "start": 375308,
+   "end": 375934
+  },
+  {
+   "text": "results.",
+   "start": 376351,
+   "end": 376817
+  },
+  {
+   "text": "Okay,",
+   "start": 377411,
+   "end": 377764
+  },
+  {
+   "text": "that's",
+   "start": 378117,
+   "end": 378374
+  },
+  {
+   "text": "the",
+   "start": 378374,
+   "end": 378454
+  },
+  {
+   "text": "local",
+   "start": 378518,
+   "end": 378903
+  },
+  {
+   "text": "version.",
+   "start": 378919,
+   "end": 379353
+  },
+  {
+   "text": "It's",
+   "start": 379658,
+   "end": 379770
+  },
+  {
+   "text": "finished.",
+   "start": 379882,
+   "end": 380396
+  },
+  {
+   "text": "And",
+   "start": 380765,
+   "end": 380829
+  },
+  {
+   "text": "honestly,",
+   "start": 381006,
+   "end": 381279
+  },
+  {
+   "text": "you",
+   "start": 381311,
+   "end": 381343
+  },
+  {
+   "text": "can",
+   "start": 381343,
+   "end": 381455
+  },
+  {
+   "text": "stop",
+   "start": 381487,
+   "end": 382049
+  },
+  {
+   "text": "right",
+   "start": 382049,
+   "end": 382450
+  },
+  {
+   "text": "here",
+   "start": 382450,
+   "end": 382884
+  },
+  {
+   "text": "if",
+   "start": 383173,
+   "end": 383269
+  },
+  {
+   "text": "you",
+   "start": 383269,
+   "end": 383349
+  },
+  {
+   "text": "want",
+   "start": 383349,
+   "end": 383510
+  },
+  {
+   "text": "the",
+   "start": 383510,
+   "end": 383590
+  },
+  {
+   "text": "brain",
+   "start": 383670,
+   "end": 384039
+  },
+  {
+   "text": "to",
+   "start": 384376,
+   "end": 384441
+  },
+  {
+   "text": "be",
+   "start": 384473,
+   "end": 384617
+  },
+  {
+   "text": "inside",
+   "start": 384697,
+   "end": 385115
+  },
+  {
+   "text": "VS",
+   "start": 385115,
+   "end": 385436
+  },
+  {
+   "text": "Code",
+   "start": 385436,
+   "end": 385805
+  },
+  {
+   "text": "running",
+   "start": 385981,
+   "end": 386126
+  },
+  {
+   "text": "locally",
+   "start": 386302,
+   "end": 386768
+  },
+  {
+   "text": "on",
+   "start": 387105,
+   "end": 387201
+  },
+  {
+   "text": "your",
+   "start": 387201,
+   "end": 387378
+  },
+  {
+   "text": "machine.",
+   "start": 387378,
+   "end": 387731
+  },
+  {
+   "text": "That's",
+   "start": 388244,
+   "end": 388549
+  },
+  {
+   "text": "fine.",
+   "start": 388549,
+   "end": 388774
+  },
+  {
+   "text": "It's",
+   "start": 389207,
+   "end": 389432
+  },
+  {
+   "text": "only",
+   "start": 389512,
+   "end": 389657
+  },
+  {
+   "text": "on",
+   "start": 389689,
+   "end": 389753
+  },
+  {
+   "text": "your",
+   "start": 389769,
+   "end": 389914
+  },
+  {
+   "text": "machine.",
+   "start": 389914,
+   "end": 390283
+  },
+  {
+   "text": "Let's",
+   "start": 390796,
+   "end": 391117
+  },
+  {
+   "text": "now",
+   "start": 391117,
+   "end": 391246
+  },
+  {
+   "text": "give",
+   "start": 391599,
+   "end": 391775
+  },
+  {
+   "text": "it",
+   "start": 391775,
+   "end": 391904
+  },
+  {
+   "text": "a",
+   "start": 392016,
+   "end": 392161
+  },
+  {
+   "text": "door",
+   "start": 392177,
+   "end": 392449
+  },
+  {
+   "text": "and",
+   "start": 392819,
+   "end": 392883
+  },
+  {
+   "text": "allow",
+   "start": 393059,
+   "end": 393300
+  },
+  {
+   "text": "it",
+   "start": 393541,
+   "end": 393749
+  },
+  {
+   "text": "to",
+   "start": 393782,
+   "end": 393942
+  },
+  {
+   "text": "connect",
+   "start": 393942,
+   "end": 394841
+  },
+  {
+   "text": "with",
+   "start": 395130,
+   "end": 395242
+  },
+  {
+   "text": "any",
+   "start": 395451,
+   "end": 395595
+  },
+  {
+   "text": "app",
+   "start": 395772,
+   "end": 396045
+  },
+  {
+   "text": "you",
+   "start": 396109,
+   "end": 396205
+  },
+  {
+   "text": "want.",
+   "start": 396269,
+   "end": 396558
+  },
+  {
+   "text": "And",
+   "start": 397152,
+   "end": 397312
+  },
+  {
+   "text": "here's",
+   "start": 397377,
+   "end": 397762
+  },
+  {
+   "text": "where",
+   "start": 398259,
+   "end": 398420
+  },
+  {
+   "text": "the",
+   "start": 398420,
+   "end": 398516
+  },
+  {
+   "text": "real",
+   "start": 398516,
+   "end": 398853
+  },
+  {
+   "text": "magic",
+   "start": 398853,
+   "end": 399543
+  },
+  {
+   "text": "begins.",
+   "start": 399559,
+   "end": 400009
+  },
+  {
+   "text": "Remember",
+   "start": 400362,
+   "end": 400763
+  },
+  {
+   "text": "the",
+   "start": 400763,
+   "end": 400843
+  },
+  {
+   "text": "shock?",
+   "start": 400843,
+   "end": 401245
+  },
+  {
+   "text": "It",
+   "start": 401806,
+   "end": 401871
+  },
+  {
+   "text": "starts",
+   "start": 401887,
+   "end": 402448
+  },
+  {
+   "text": "here.",
+   "start": 402448,
+   "end": 402689
+  },
+  {
+   "text": "Okay,",
+   "start": 403171,
+   "end": 403524
+  },
+  {
+   "text": "since",
+   "start": 404069,
+   "end": 404358
+  },
+  {
+   "text": "this",
+   "start": 404374,
+   "end": 404615
+  },
+  {
+   "text": "project",
+   "start": 404615,
+   "end": 405096
+  },
+  {
+   "text": "is",
+   "start": 405096,
+   "end": 405193
+  },
+  {
+   "text": "open",
+   "start": 405321,
+   "end": 405514
+  },
+  {
+   "text": "source,",
+   "start": 405514,
+   "end": 405979
+  },
+  {
+   "text": "free,",
+   "start": 406059,
+   "end": 406413
+  },
+  {
+   "text": "and",
+   "start": 406461,
+   "end": 406573
+  },
+  {
+   "text": "self-hosted,",
+   "start": 406605,
+   "end": 407472
+  },
+  {
+   "text": "you",
+   "start": 407809,
+   "end": 407873
+  },
+  {
+   "text": "will",
+   "start": 407905,
+   "end": 408066
+  },
+  {
+   "text": "need",
+   "start": 408066,
+   "end": 408274
+  },
+  {
+   "text": "to",
+   "start": 408306,
+   "end": 408387
+  },
+  {
+   "text": "host",
+   "start": 408387,
+   "end": 408643
+  },
+  {
+   "text": "it",
+   "start": 408643,
+   "end": 408772
+  },
+  {
+   "text": "somewhere.",
+   "start": 408772,
+   "end": 409269
+  },
+  {
+   "text": "In",
+   "start": 409671,
+   "end": 409719
+  },
+  {
+   "text": "my",
+   "start": 409751,
+   "end": 409911
+  },
+  {
+   "text": "case",
+   "start": 409911,
+   "end": 410120
+  },
+  {
+   "text": "now,",
+   "start": 410232,
+   "end": 410345
+  },
+  {
+   "text": "for",
+   "start": 410537,
+   "end": 410585
+  },
+  {
+   "text": "the",
+   "start": 410585,
+   "end": 410714
+  },
+  {
+   "text": "quick",
+   "start": 410714,
+   "end": 411035
+  },
+  {
+   "text": "demo,",
+   "start": 411035,
+   "end": 411372
+  },
+  {
+   "text": "I",
+   "start": 411821,
+   "end": 411837
+  },
+  {
+   "text": "will",
+   "start": 411837,
+   "end": 411982
+  },
+  {
+   "text": "pick",
+   "start": 411998,
+   "end": 412094
+  },
+  {
+   "text": "a",
+   "start": 412158,
+   "end": 412222
+  },
+  {
+   "text": "VPS.",
+   "start": 412222,
+   "end": 412897
+  },
+  {
+   "text": "Any",
+   "start": 413378,
+   "end": 413506
+  },
+  {
+   "text": "provider",
+   "start": 413523,
+   "end": 413924
+  },
+  {
+   "text": "you",
+   "start": 413988,
+   "end": 414100
+  },
+  {
+   "text": "want.",
+   "start": 414148,
+   "end": 414421
+  },
+  {
+   "text": "I'll",
+   "start": 414566,
+   "end": 414694
+  },
+  {
+   "text": "go",
+   "start": 414726,
+   "end": 414871
+  },
+  {
+   "text": "with",
+   "start": 414871,
+   "end": 415015
+  },
+  {
+   "text": "Contabo.",
+   "start": 415031,
+   "end": 415593
+  },
+  {
+   "text": "I'll",
+   "start": 415834,
+   "end": 415978
+  },
+  {
+   "text": "pick",
+   "start": 416010,
+   "end": 416106
+  },
+  {
+   "text": "the",
+   "start": 416155,
+   "end": 416235
+  },
+  {
+   "text": "cheapest",
+   "start": 416315,
+   "end": 416957
+  },
+  {
+   "text": "VPS.",
+   "start": 416957,
+   "end": 417423
+  },
+  {
+   "text": "It's",
+   "start": 417551,
+   "end": 417776
+  },
+  {
+   "text": "more",
+   "start": 417776,
+   "end": 417920
+  },
+  {
+   "text": "than",
+   "start": 417920,
+   "end": 418081
+  },
+  {
+   "text": "enough.",
+   "start": 418161,
+   "end": 418402
+  },
+  {
+   "text": "And",
+   "start": 418739,
+   "end": 418803
+  },
+  {
+   "text": "now",
+   "start": 418899,
+   "end": 418979
+  },
+  {
+   "text": "simply",
+   "start": 419075,
+   "end": 419508
+  },
+  {
+   "text": "I'll",
+   "start": 419797,
+   "end": 419925
+  },
+  {
+   "text": "install",
+   "start": 419925,
+   "end": 420326
+  },
+  {
+   "text": "Coolify.",
+   "start": 420583,
+   "end": 421096
+  },
+  {
+   "text": "It's",
+   "start": 421545,
+   "end": 421657
+  },
+  {
+   "text": "one",
+   "start": 421866,
+   "end": 421994
+  },
+  {
+   "text": "command.",
+   "start": 422171,
+   "end": 422684
+  },
+  {
+   "text": "Just",
+   "start": 423213,
+   "end": 423389
+  },
+  {
+   "text": "connect",
+   "start": 423389,
+   "end": 423614
+  },
+  {
+   "text": "to",
+   "start": 423614,
+   "end": 423646
+  },
+  {
+   "text": "the",
+   "start": 423646,
+   "end": 423726
+  },
+  {
+   "text": "server",
+   "start": 423726,
+   "end": 424255
+  },
+  {
+   "text": "with",
+   "start": 424255,
+   "end": 424352
+  },
+  {
+   "text": "SSH",
+   "start": 424352,
+   "end": 424833
+  },
+  {
+   "text": "client,",
+   "start": 424833,
+   "end": 425474
+  },
+  {
+   "text": "paste",
+   "start": 425875,
+   "end": 426260
+  },
+  {
+   "text": "it,",
+   "start": 426260,
+   "end": 426501
+  },
+  {
+   "text": "and",
+   "start": 426821,
+   "end": 426886
+  },
+  {
+   "text": "let",
+   "start": 426902,
+   "end": 427046
+  },
+  {
+   "text": "it",
+   "start": 427094,
+   "end": 427158
+  },
+  {
+   "text": "run",
+   "start": 427158,
+   "end": 427367
+  },
+  {
+   "text": "for",
+   "start": 427383,
+   "end": 427511
+  },
+  {
+   "text": "a",
+   "start": 427543,
+   "end": 427559
+  },
+  {
+   "text": "few",
+   "start": 427559,
+   "end": 427816
+  },
+  {
+   "text": "minutes.",
+   "start": 427960,
+   "end": 428361
+  },
+  {
+   "text": "You",
+   "start": 428682,
+   "end": 428810
+  },
+  {
+   "text": "can",
+   "start": 428826,
+   "end": 428922
+  },
+  {
+   "text": "see",
+   "start": 428922,
+   "end": 429099
+  },
+  {
+   "text": "now",
+   "start": 429099,
+   "end": 429275
+  },
+  {
+   "text": "Coolify",
+   "start": 429468,
+   "end": 429820
+  },
+  {
+   "text": "running",
+   "start": 429820,
+   "end": 430125
+  },
+  {
+   "text": "on",
+   "start": 430189,
+   "end": 430285
+  },
+  {
+   "text": "my",
+   "start": 430285,
+   "end": 430366
+  },
+  {
+   "text": "server.",
+   "start": 430366,
+   "end": 430943
+  },
+  {
+   "text": "Now",
+   "start": 431312,
+   "end": 431344
+  },
+  {
+   "text": "you",
+   "start": 431424,
+   "end": 431472
+  },
+  {
+   "text": "can",
+   "start": 431472,
+   "end": 431617
+  },
+  {
+   "text": "self",
+   "start": 431649,
+   "end": 431953
+  },
+  {
+   "text": "host",
+   "start": 431953,
+   "end": 432467
+  },
+  {
+   "text": "anything",
+   "start": 432531,
+   "end": 432900
+  },
+  {
+   "text": "you",
+   "start": 433012,
+   "end": 433188
+  },
+  {
+   "text": "want.",
+   "start": 433252,
+   "end": 433493
+  },
+  {
+   "text": "And",
+   "start": 434038,
+   "end": 434134
+  },
+  {
+   "text": "this",
+   "start": 434134,
+   "end": 434199
+  },
+  {
+   "text": "is",
+   "start": 434199,
+   "end": 434263
+  },
+  {
+   "text": "exactly,",
+   "start": 434311,
+   "end": 434712
+  },
+  {
+   "text": "by",
+   "start": 434776,
+   "end": 434856
+  },
+  {
+   "text": "the",
+   "start": 434920,
+   "end": 435017
+  },
+  {
+   "text": "way,",
+   "start": 435017,
+   "end": 435161
+  },
+  {
+   "text": "how",
+   "start": 435177,
+   "end": 435337
+  },
+  {
+   "text": "I",
+   "start": 435337,
+   "end": 435369
+  },
+  {
+   "text": "save",
+   "start": 435417,
+   "end": 435706
+  },
+  {
+   "text": "more",
+   "start": 435738,
+   "end": 435899
+  },
+  {
+   "text": "than",
+   "start": 435899,
+   "end": 435979
+  },
+  {
+   "text": "$700",
+   "start": 435979,
+   "end": 436604
+  },
+  {
+   "text": "per",
+   "start": 437342,
+   "end": 437438
+  },
+  {
+   "text": "month",
+   "start": 437566,
+   "end": 437871
+  },
+  {
+   "text": "hosting",
+   "start": 438208,
+   "end": 438673
+  },
+  {
+   "text": "all",
+   "start": 438930,
+   "end": 438978
+  },
+  {
+   "text": "my",
+   "start": 439090,
+   "end": 439266
+  },
+  {
+   "text": "projects",
+   "start": 439266,
+   "end": 439667
+  },
+  {
+   "text": "and",
+   "start": 439667,
+   "end": 439748
+  },
+  {
+   "text": "services",
+   "start": 439748,
+   "end": 440277
+  },
+  {
+   "text": "on",
+   "start": 440774,
+   "end": 440838
+  },
+  {
+   "text": "my",
+   "start": 440870,
+   "end": 440950
+  },
+  {
+   "text": "own",
+   "start": 441175,
+   "end": 441303
+  },
+  {
+   "text": "server.",
+   "start": 441351,
+   "end": 441752
+  },
+  {
+   "text": "If",
+   "start": 442314,
+   "end": 442378
+  },
+  {
+   "text": "you",
+   "start": 442378,
+   "end": 442442
+  },
+  {
+   "text": "want",
+   "start": 442442,
+   "end": 442538
+  },
+  {
+   "text": "to",
+   "start": 442538,
+   "end": 442570
+  },
+  {
+   "text": "learn",
+   "start": 442570,
+   "end": 442682
+  },
+  {
+   "text": "more",
+   "start": 442730,
+   "end": 442891
+  },
+  {
+   "text": "about",
+   "start": 442891,
+   "end": 443164
+  },
+  {
+   "text": "this",
+   "start": 443260,
+   "end": 443452
+  },
+  {
+   "text": "and",
+   "start": 443452,
+   "end": 443564
+  },
+  {
+   "text": "how",
+   "start": 443580,
+   "end": 443757
+  },
+  {
+   "text": "I",
+   "start": 443757,
+   "end": 443917
+  },
+  {
+   "text": "do",
+   "start": 443917,
+   "end": 444078
+  },
+  {
+   "text": "it,",
+   "start": 444078,
+   "end": 444334
+  },
+  {
+   "text": "Check",
+   "start": 444784,
+   "end": 444880
+  },
+  {
+   "text": "the",
+   "start": 444880,
+   "end": 444960
+  },
+  {
+   "text": "link",
+   "start": 444960,
+   "end": 445024
+  },
+  {
+   "text": "in",
+   "start": 445024,
+   "end": 445089
+  },
+  {
+   "text": "the",
+   "start": 445121,
+   "end": 445233
+  },
+  {
+   "text": "description",
+   "start": 445233,
+   "end": 445683
+  },
+  {
+   "text": "below.",
+   "start": 445683,
+   "end": 445924
+  },
+  {
+   "text": "But",
+   "start": 446004,
+   "end": 446229
+  },
+  {
+   "text": "for",
+   "start": 446229,
+   "end": 446341
+  },
+  {
+   "text": "now,",
+   "start": 446341,
+   "end": 446485
+  },
+  {
+   "text": "it's",
+   "start": 446566,
+   "end": 446790
+  },
+  {
+   "text": "out",
+   "start": 446871,
+   "end": 446967
+  },
+  {
+   "text": "of",
+   "start": 446967,
+   "end": 447031
+  },
+  {
+   "text": "scope.",
+   "start": 447031,
+   "end": 447320
+  },
+  {
+   "text": "Let's",
+   "start": 447834,
+   "end": 447995
+  },
+  {
+   "text": "continue",
+   "start": 447995,
+   "end": 448380
+  },
+  {
+   "text": "our",
+   "start": 448492,
+   "end": 448733
+  },
+  {
+   "text": "work.",
+   "start": 448733,
+   "end": 448845
+  },
+  {
+   "text": "Click",
+   "start": 449375,
+   "end": 449616
+  },
+  {
+   "text": "New",
+   "start": 449632,
+   "end": 449857
+  },
+  {
+   "text": "Project,",
+   "start": 449921,
+   "end": 450644
+  },
+  {
+   "text": "then",
+   "start": 451045,
+   "end": 451270
+  },
+  {
+   "text": "New",
+   "start": 451623,
+   "end": 451864
+  },
+  {
+   "text": "Resource.",
+   "start": 451864,
+   "end": 452361
+  },
+  {
+   "text": "Select",
+   "start": 452923,
+   "end": 453293
+  },
+  {
+   "text": "Public",
+   "start": 453293,
+   "end": 453630
+  },
+  {
+   "text": "Repo,",
+   "start": 453630,
+   "end": 454095
+  },
+  {
+   "text": "paste",
+   "start": 454432,
+   "end": 454673
+  },
+  {
+   "text": "the",
+   "start": 454673,
+   "end": 454754
+  },
+  {
+   "text": "URL,",
+   "start": 454818,
+   "end": 455348
+  },
+  {
+   "text": "and",
+   "start": 455861,
+   "end": 456118
+  },
+  {
+   "text": "set",
+   "start": 456118,
+   "end": 456279
+  },
+  {
+   "text": "the",
+   "start": 456279,
+   "end": 456359
+  },
+  {
+   "text": "buildpack",
+   "start": 456503,
+   "end": 456905
+  },
+  {
+   "text": "to",
+   "start": 456905,
+   "end": 456953
+  },
+  {
+   "text": "Docker",
+   "start": 457001,
+   "end": 457242
+  },
+  {
+   "text": "Compose.",
+   "start": 457242,
+   "end": 457772
+  },
+  {
+   "text": "That's",
+   "start": 458286,
+   "end": 458542
+  },
+  {
+   "text": "it.",
+   "start": 458607,
+   "end": 458912
+  },
+  {
+   "text": "Save.",
+   "start": 459024,
+   "end": 459538
+  },
+  {
+   "text": "Go",
+   "start": 459955,
+   "end": 460068
+  },
+  {
+   "text": "now",
+   "start": 460068,
+   "end": 460212
+  },
+  {
+   "text": "to",
+   "start": 460292,
+   "end": 460373
+  },
+  {
+   "text": "environmental",
+   "start": 460373,
+   "end": 460918
+  },
+  {
+   "text": "variables,",
+   "start": 460918,
+   "end": 461529
+  },
+  {
+   "text": "and",
+   "start": 461882,
+   "end": 462026
+  },
+  {
+   "text": "here",
+   "start": 462042,
+   "end": 462203
+  },
+  {
+   "text": "you",
+   "start": 462203,
+   "end": 462267
+  },
+  {
+   "text": "write",
+   "start": 462363,
+   "end": 462444
+  },
+  {
+   "text": "exactly",
+   "start": 462540,
+   "end": 463311
+  },
+  {
+   "text": "2",
+   "start": 463343,
+   "end": 463519
+  },
+  {
+   "text": "things:",
+   "start": 463519,
+   "end": 463873
+  },
+  {
+   "text": "database",
+   "start": 464370,
+   "end": 464772
+  },
+  {
+   "text": "password",
+   "start": 464788,
+   "end": 465478
+  },
+  {
+   "text": "and",
+   "start": 465735,
+   "end": 465831
+  },
+  {
+   "text": "the",
+   "start": 465831,
+   "end": 465879
+  },
+  {
+   "text": "domain.",
+   "start": 465976,
+   "end": 466345
+  },
+  {
+   "text": "That's",
+   "start": 466794,
+   "end": 466907
+  },
+  {
+   "text": "the",
+   "start": 467035,
+   "end": 467116
+  },
+  {
+   "text": "whole",
+   "start": 467116,
+   "end": 467356
+  },
+  {
+   "text": "thing.",
+   "start": 467356,
+   "end": 467645
+  },
+  {
+   "text": "And",
+   "start": 468063,
+   "end": 468143
+  },
+  {
+   "text": "click",
+   "start": 468143,
+   "end": 468641
+  },
+  {
+   "text": "Deploy.",
+   "start": 468721,
+   "end": 469042
+  },
+  {
+   "text": "Wait",
+   "start": 469524,
+   "end": 469748
+  },
+  {
+   "text": "for",
+   "start": 469748,
+   "end": 469813
+  },
+  {
+   "text": "a",
+   "start": 469829,
+   "end": 469845
+  },
+  {
+   "text": "few",
+   "start": 469845,
+   "end": 470086
+  },
+  {
+   "text": "seconds",
+   "start": 470086,
+   "end": 470664
+  },
+  {
+   "text": "and",
+   "start": 470664,
+   "end": 470856
+  },
+  {
+   "text": "And",
+   "start": 470969,
+   "end": 471049
+  },
+  {
+   "text": "then",
+   "start": 471129,
+   "end": 471338
+  },
+  {
+   "text": "open",
+   "start": 471755,
+   "end": 472109
+  },
+  {
+   "text": "your",
+   "start": 472109,
+   "end": 472333
+  },
+  {
+   "text": "domain",
+   "start": 472333,
+   "end": 472783
+  },
+  {
+   "text": "in",
+   "start": 472976,
+   "end": 473024
+  },
+  {
+   "text": "the",
+   "start": 473200,
+   "end": 473297
+  },
+  {
+   "text": "browser.",
+   "start": 473297,
+   "end": 473795
+  },
+  {
+   "text": "The",
+   "start": 474100,
+   "end": 474180
+  },
+  {
+   "text": "first",
+   "start": 474180,
+   "end": 474565
+  },
+  {
+   "text": "time",
+   "start": 474565,
+   "end": 474951
+  },
+  {
+   "text": "you",
+   "start": 475448,
+   "end": 475529
+  },
+  {
+   "text": "don't",
+   "start": 475529,
+   "end": 475770
+  },
+  {
+   "text": "get",
+   "start": 475770,
+   "end": 475946
+  },
+  {
+   "text": "a",
+   "start": 475946,
+   "end": 475962
+  },
+  {
+   "text": "login",
+   "start": 476026,
+   "end": 476315
+  },
+  {
+   "text": "box,",
+   "start": 476348,
+   "end": 476781
+  },
+  {
+   "text": "you",
+   "start": 476829,
+   "end": 476926
+  },
+  {
+   "text": "get",
+   "start": 477054,
+   "end": 477311
+  },
+  {
+   "text": "a",
+   "start": 477375,
+   "end": 477391
+  },
+  {
+   "text": "wizard.",
+   "start": 477472,
+   "end": 477841
+  },
+  {
+   "text": "I",
+   "start": 478355,
+   "end": 478403
+  },
+  {
+   "text": "tried",
+   "start": 478435,
+   "end": 478692
+  },
+  {
+   "text": "my",
+   "start": 478692,
+   "end": 478901
+  },
+  {
+   "text": "best",
+   "start": 478901,
+   "end": 479077
+  },
+  {
+   "text": "to",
+   "start": 479077,
+   "end": 479174
+  },
+  {
+   "text": "make",
+   "start": 479174,
+   "end": 479398
+  },
+  {
+   "text": "things",
+   "start": 479398,
+   "end": 479687
+  },
+  {
+   "text": "as",
+   "start": 479719,
+   "end": 479848
+  },
+  {
+   "text": "simple",
+   "start": 479880,
+   "end": 480362
+  },
+  {
+   "text": "as",
+   "start": 480442,
+   "end": 480490
+  },
+  {
+   "text": "possible",
+   "start": 480603,
+   "end": 481132
+  },
+  {
+   "text": "so",
+   "start": 481405,
+   "end": 481534
+  },
+  {
+   "text": "anyone",
+   "start": 481710,
+   "end": 482256
+  },
+  {
+   "text": "can",
+   "start": 482449,
+   "end": 482738
+  },
+  {
+   "text": "build",
+   "start": 483011,
+   "end": 483220
+  },
+  {
+   "text": "this",
+   "start": 483316,
+   "end": 483525
+  },
+  {
+   "text": "and",
+   "start": 483974,
+   "end": 484039
+  },
+  {
+   "text": "use",
+   "start": 484199,
+   "end": 484376
+  },
+  {
+   "text": "it.",
+   "start": 484376,
+   "end": 484424
+  },
+  {
+   "text": "So",
+   "start": 485018,
+   "end": 485114
+  },
+  {
+   "text": "number",
+   "start": 485163,
+   "end": 485500
+  },
+  {
+   "text": "1,",
+   "start": 485500,
+   "end": 485709
+  },
+  {
+   "text": "create",
+   "start": 485901,
+   "end": 486142
+  },
+  {
+   "text": "the",
+   "start": 486142,
+   "end": 486206
+  },
+  {
+   "text": "account,",
+   "start": 486222,
+   "end": 487025
+  },
+  {
+   "text": "then",
+   "start": 487427,
+   "end": 487571
+  },
+  {
+   "text": "create",
+   "start": 487732,
+   "end": 488053
+  },
+  {
+   "text": "your",
+   "start": 488053,
+   "end": 488213
+  },
+  {
+   "text": "brain,",
+   "start": 488213,
+   "end": 488679
+  },
+  {
+   "text": "give",
+   "start": 489193,
+   "end": 489289
+  },
+  {
+   "text": "it",
+   "start": 489289,
+   "end": 489498
+  },
+  {
+   "text": "a",
+   "start": 489514,
+   "end": 489530
+  },
+  {
+   "text": "name,",
+   "start": 489530,
+   "end": 490044
+  },
+  {
+   "text": "set",
+   "start": 490076,
+   "end": 490301
+  },
+  {
+   "text": "to",
+   "start": 490301,
+   "end": 490333
+  },
+  {
+   "text": "private,",
+   "start": 490461,
+   "end": 491023
+  },
+  {
+   "text": "create.",
+   "start": 491039,
+   "end": 491730
+  },
+  {
+   "text": "Then",
+   "start": 492324,
+   "end": 492533
+  },
+  {
+   "text": "the",
+   "start": 492565,
+   "end": 492645
+  },
+  {
+   "text": "server",
+   "start": 492645,
+   "end": 493014
+  },
+  {
+   "text": "will",
+   "start": 493046,
+   "end": 493127
+  },
+  {
+   "text": "read",
+   "start": 493127,
+   "end": 493448
+  },
+  {
+   "text": "it,",
+   "start": 493512,
+   "end": 493769
+  },
+  {
+   "text": "paste",
+   "start": 494010,
+   "end": 494315
+  },
+  {
+   "text": "the",
+   "start": 494315,
+   "end": 494395
+  },
+  {
+   "text": "public",
+   "start": 494395,
+   "end": 494668
+  },
+  {
+   "text": "SSH",
+   "start": 494668,
+   "end": 495021
+  },
+  {
+   "text": "key",
+   "start": 495134,
+   "end": 495391
+  },
+  {
+   "text": "into",
+   "start": 495455,
+   "end": 495648
+  },
+  {
+   "text": "GitHub.",
+   "start": 495696,
+   "end": 496194
+  },
+  {
+   "text": "Hit",
+   "start": 496659,
+   "end": 496851
+  },
+  {
+   "text": "verify",
+   "start": 496915,
+   "end": 497300
+  },
+  {
+   "text": "and",
+   "start": 498005,
+   "end": 498230
+  },
+  {
+   "text": "builds",
+   "start": 498262,
+   "end": 498631
+  },
+  {
+   "text": "a",
+   "start": 498807,
+   "end": 498823
+  },
+  {
+   "text": "real",
+   "start": 498823,
+   "end": 499192
+  },
+  {
+   "text": "clone.",
+   "start": 499208,
+   "end": 499496
+  },
+  {
+   "text": "Now",
+   "start": 500025,
+   "end": 500218
+  },
+  {
+   "text": "let",
+   "start": 500731,
+   "end": 500891
+  },
+  {
+   "text": "it",
+   "start": 500891,
+   "end": 501051
+  },
+  {
+   "text": "write",
+   "start": 501051,
+   "end": 501324
+  },
+  {
+   "text": "back.",
+   "start": 501388,
+   "end": 501708
+  },
+  {
+   "text": "The",
+   "start": 502109,
+   "end": 502253
+  },
+  {
+   "text": "key",
+   "start": 502253,
+   "end": 502414
+  },
+  {
+   "text": "you",
+   "start": 502414,
+   "end": 502558
+  },
+  {
+   "text": "just",
+   "start": 502574,
+   "end": 502879
+  },
+  {
+   "text": "added",
+   "start": 503055,
+   "end": 503359
+  },
+  {
+   "text": "is",
+   "start": 503472,
+   "end": 503520
+  },
+  {
+   "text": "read-only,",
+   "start": 503648,
+   "end": 504241
+  },
+  {
+   "text": "but",
+   "start": 504674,
+   "end": 504834
+  },
+  {
+   "text": "what",
+   "start": 504834,
+   "end": 505059
+  },
+  {
+   "text": "we",
+   "start": 505059,
+   "end": 505155
+  },
+  {
+   "text": "need",
+   "start": 505155,
+   "end": 505491
+  },
+  {
+   "text": "is",
+   "start": 505716,
+   "end": 505764
+  },
+  {
+   "text": "to",
+   "start": 505860,
+   "end": 505956
+  },
+  {
+   "text": "approve",
+   "start": 506020,
+   "end": 506405
+  },
+  {
+   "text": "something.",
+   "start": 506437,
+   "end": 506854
+  },
+  {
+   "text": "We",
+   "start": 506918,
+   "end": 506950
+  },
+  {
+   "text": "need",
+   "start": 506950,
+   "end": 507127
+  },
+  {
+   "text": "to",
+   "start": 507159,
+   "end": 507255
+  },
+  {
+   "text": "write",
+   "start": 507255,
+   "end": 507623
+  },
+  {
+   "text": "to",
+   "start": 507623,
+   "end": 507672
+  },
+  {
+   "text": "our",
+   "start": 507704,
+   "end": 507880
+  },
+  {
+   "text": "brain.",
+   "start": 507880,
+   "end": 508152
+  },
+  {
+   "text": "The",
+   "start": 508665,
+   "end": 508730
+  },
+  {
+   "text": "server",
+   "start": 508730,
+   "end": 509275
+  },
+  {
+   "text": "has",
+   "start": 509547,
+   "end": 509691
+  },
+  {
+   "text": "to",
+   "start": 509788,
+   "end": 509836
+  },
+  {
+   "text": "push",
+   "start": 510028,
+   "end": 510220
+  },
+  {
+   "text": "to",
+   "start": 510429,
+   "end": 510525
+  },
+  {
+   "text": "GitHub,",
+   "start": 510525,
+   "end": 510926
+  },
+  {
+   "text": "so",
+   "start": 511342,
+   "end": 511439
+  },
+  {
+   "text": "it",
+   "start": 511471,
+   "end": 511711
+  },
+  {
+   "text": "needs",
+   "start": 511711,
+   "end": 512016
+  },
+  {
+   "text": "permission",
+   "start": 512048,
+   "end": 512593
+  },
+  {
+   "text": "to",
+   "start": 512593,
+   "end": 512673
+  },
+  {
+   "text": "write.",
+   "start": 512673,
+   "end": 512929
+  },
+  {
+   "text": "The",
+   "start": 513474,
+   "end": 513555
+  },
+  {
+   "text": "app",
+   "start": 513715,
+   "end": 513875
+  },
+  {
+   "text": "gives",
+   "start": 513891,
+   "end": 514196
+  },
+  {
+   "text": "you",
+   "start": 514196,
+   "end": 514276
+  },
+  {
+   "text": "a",
+   "start": 514276,
+   "end": 514436
+  },
+  {
+   "text": "link",
+   "start": 514436,
+   "end": 514629
+  },
+  {
+   "text": "straight",
+   "start": 514677,
+   "end": 515318
+  },
+  {
+   "text": "to",
+   "start": 515318,
+   "end": 515382
+  },
+  {
+   "text": "the",
+   "start": 515398,
+   "end": 515510
+  },
+  {
+   "text": "token",
+   "start": 515639,
+   "end": 515975
+  },
+  {
+   "text": "page.",
+   "start": 515975,
+   "end": 516264
+  },
+  {
+   "text": "Just",
+   "start": 516312,
+   "end": 516520
+  },
+  {
+   "text": "click",
+   "start": 516520,
+   "end": 516841
+  },
+  {
+   "text": "it,",
+   "start": 516841,
+   "end": 516985
+  },
+  {
+   "text": "go",
+   "start": 517418,
+   "end": 517578
+  },
+  {
+   "text": "to",
+   "start": 517578,
+   "end": 517658
+  },
+  {
+   "text": "fine",
+   "start": 517658,
+   "end": 518027
+  },
+  {
+   "text": "grained",
+   "start": 518123,
+   "end": 518444
+  },
+  {
+   "text": "tokens,",
+   "start": 518444,
+   "end": 518989
+  },
+  {
+   "text": "generate",
+   "start": 519422,
+   "end": 519919
+  },
+  {
+   "text": "new",
+   "start": 519919,
+   "end": 520143
+  },
+  {
+   "text": "token,",
+   "start": 520143,
+   "end": 520592
+  },
+  {
+   "text": "select",
+   "start": 521041,
+   "end": 521602
+  },
+  {
+   "text": "access",
+   "start": 521650,
+   "end": 521890
+  },
+  {
+   "text": "to",
+   "start": 521890,
+   "end": 521970
+  },
+  {
+   "text": "the",
+   "start": 521970,
+   "end": 522067
+  },
+  {
+   "text": "repositories.",
+   "start": 522067,
+   "end": 522676
+  },
+  {
+   "text": "Which",
+   "start": 523109,
+   "end": 523269
+  },
+  {
+   "text": "is",
+   "start": 523269,
+   "end": 523365
+  },
+  {
+   "text": "your",
+   "start": 523413,
+   "end": 523637
+  },
+  {
+   "text": "brain",
+   "start": 523653,
+   "end": 523910
+  },
+  {
+   "text": "repo,",
+   "start": 523910,
+   "end": 524294
+  },
+  {
+   "text": "then",
+   "start": 524935,
+   "end": 525079
+  },
+  {
+   "text": "permissions,",
+   "start": 525192,
+   "end": 525801
+  },
+  {
+   "text": "contents,",
+   "start": 526217,
+   "end": 526954
+  },
+  {
+   "text": "read",
+   "start": 527355,
+   "end": 527531
+  },
+  {
+   "text": "and",
+   "start": 527531,
+   "end": 527675
+  },
+  {
+   "text": "write.",
+   "start": 527675,
+   "end": 527996
+  },
+  {
+   "text": "That's",
+   "start": 528477,
+   "end": 528797
+  },
+  {
+   "text": "the",
+   "start": 528797,
+   "end": 528941
+  },
+  {
+   "text": "only",
+   "start": 529021,
+   "end": 529406
+  },
+  {
+   "text": "you",
+   "start": 529742,
+   "end": 529887
+  },
+  {
+   "text": "need.",
+   "start": 529887,
+   "end": 530207
+  },
+  {
+   "text": "Generate,",
+   "start": 530544,
+   "end": 531201
+  },
+  {
+   "text": "copy",
+   "start": 531665,
+   "end": 532050
+  },
+  {
+   "text": "it,",
+   "start": 532226,
+   "end": 532563
+  },
+  {
+   "text": "and",
+   "start": 533027,
+   "end": 533107
+  },
+  {
+   "text": "then",
+   "start": 533188,
+   "end": 533316
+  },
+  {
+   "text": "paste",
+   "start": 533684,
+   "end": 533925
+  },
+  {
+   "text": "it",
+   "start": 533925,
+   "end": 534037
+  },
+  {
+   "text": "back",
+   "start": 534085,
+   "end": 534470
+  },
+  {
+   "text": "here,",
+   "start": 534470,
+   "end": 534790
+  },
+  {
+   "text": "and",
+   "start": 534870,
+   "end": 534934
+  },
+  {
+   "text": "you",
+   "start": 535046,
+   "end": 535191
+  },
+  {
+   "text": "are",
+   "start": 535271,
+   "end": 535511
+  },
+  {
+   "text": "done.",
+   "start": 535527,
+   "end": 535655
+  },
+  {
+   "text": "The",
+   "start": 536152,
+   "end": 536216
+  },
+  {
+   "text": "dashboard",
+   "start": 536312,
+   "end": 536809
+  },
+  {
+   "text": "will",
+   "start": 536809,
+   "end": 536937
+  },
+  {
+   "text": "tell",
+   "start": 536969,
+   "end": 537210
+  },
+  {
+   "text": "you",
+   "start": 537210,
+   "end": 537370
+  },
+  {
+   "text": "that",
+   "start": 537370,
+   "end": 537530
+  },
+  {
+   "text": "your",
+   "start": 537530,
+   "end": 537754
+  },
+  {
+   "text": "brain",
+   "start": 537754,
+   "end": 538139
+  },
+  {
+   "text": "is",
+   "start": 538347,
+   "end": 538459
+  },
+  {
+   "text": "ahead",
+   "start": 538572,
+   "end": 538860
+  },
+  {
+   "text": "of",
+   "start": 539036,
+   "end": 539309
+  },
+  {
+   "text": "GitHub.",
+   "start": 539357,
+   "end": 539693
+  },
+  {
+   "text": "Now",
+   "start": 540158,
+   "end": 540366
+  },
+  {
+   "text": "step",
+   "start": 540671,
+   "end": 541039
+  },
+  {
+   "text": "number",
+   "start": 541039,
+   "end": 541280
+  },
+  {
+   "text": "5,",
+   "start": 541280,
+   "end": 541744
+  },
+  {
+   "text": "connect",
+   "start": 541857,
+   "end": 542337
+  },
+  {
+   "text": "Claude,",
+   "start": 542337,
+   "end": 542866
+  },
+  {
+   "text": "add",
+   "start": 543283,
+   "end": 543379
+  },
+  {
+   "text": "your",
+   "start": 543379,
+   "end": 543603
+  },
+  {
+   "text": "key.",
+   "start": 543603,
+   "end": 543860
+  },
+  {
+   "text": "Number",
+   "start": 544340,
+   "end": 544581
+  },
+  {
+   "text": "6,",
+   "start": 544581,
+   "end": 545093
+  },
+  {
+   "text": "build,",
+   "start": 545542,
+   "end": 546039
+  },
+  {
+   "text": "and",
+   "start": 546487,
+   "end": 546584
+  },
+  {
+   "text": "that's",
+   "start": 546584,
+   "end": 546904
+  },
+  {
+   "text": "it.",
+   "start": 546904,
+   "end": 547032
+  },
+  {
+   "text": "Your",
+   "start": 547529,
+   "end": 547657
+  },
+  {
+   "text": "brain",
+   "start": 547769,
+   "end": 548074
+  },
+  {
+   "text": "now",
+   "start": 548106,
+   "end": 548282
+  },
+  {
+   "text": "is",
+   "start": 548651,
+   "end": 548875
+  },
+  {
+   "text": "online.",
+   "start": 549131,
+   "end": 549516
+  },
+  {
+   "text": "I",
+   "start": 549949,
+   "end": 549997
+  },
+  {
+   "text": "know",
+   "start": 550109,
+   "end": 550157
+  },
+  {
+   "text": "I",
+   "start": 550173,
+   "end": 550302
+  },
+  {
+   "text": "went",
+   "start": 550350,
+   "end": 550510
+  },
+  {
+   "text": "quickly",
+   "start": 550574,
+   "end": 550879
+  },
+  {
+   "text": "here",
+   "start": 550911,
+   "end": 551344
+  },
+  {
+   "text": "because",
+   "start": 551793,
+   "end": 552338
+  },
+  {
+   "text": "I",
+   "start": 552338,
+   "end": 552402
+  },
+  {
+   "text": "want",
+   "start": 552402,
+   "end": 552515
+  },
+  {
+   "text": "to",
+   "start": 552515,
+   "end": 552643
+  },
+  {
+   "text": "focus",
+   "start": 552659,
+   "end": 552980
+  },
+  {
+   "text": "on",
+   "start": 553060,
+   "end": 553156
+  },
+  {
+   "text": "what's",
+   "start": 553156,
+   "end": 553461
+  },
+  {
+   "text": "coming",
+   "start": 553461,
+   "end": 553685
+  },
+  {
+   "text": "next,",
+   "start": 553797,
+   "end": 554278
+  },
+  {
+   "text": "the",
+   "start": 554583,
+   "end": 554663
+  },
+  {
+   "text": "shocking",
+   "start": 554663,
+   "end": 555032
+  },
+  {
+   "text": "part.",
+   "start": 555160,
+   "end": 555481
+  },
+  {
+   "text": "But",
+   "start": 555946,
+   "end": 556058
+  },
+  {
+   "text": "don't",
+   "start": 556107,
+   "end": 556363
+  },
+  {
+   "text": "worry,",
+   "start": 556363,
+   "end": 556572
+  },
+  {
+   "text": "I",
+   "start": 557005,
+   "end": 557037
+  },
+  {
+   "text": "created",
+   "start": 557165,
+   "end": 557614
+  },
+  {
+   "text": "a",
+   "start": 557662,
+   "end": 557694
+  },
+  {
+   "text": "full",
+   "start": 557726,
+   "end": 557999
+  },
+  {
+   "text": "guide",
+   "start": 558287,
+   "end": 558817
+  },
+  {
+   "text": "step",
+   "start": 559346,
+   "end": 559779
+  },
+  {
+   "text": "by",
+   "start": 559891,
+   "end": 560003
+  },
+  {
+   "text": "step",
+   "start": 560132,
+   "end": 560549
+  },
+  {
+   "text": "in",
+   "start": 560677,
+   "end": 560741
+  },
+  {
+   "text": "detail",
+   "start": 560837,
+   "end": 561238
+  },
+  {
+   "text": "on",
+   "start": 561318,
+   "end": 561382
+  },
+  {
+   "text": "how",
+   "start": 561398,
+   "end": 561527
+  },
+  {
+   "text": "to",
+   "start": 561671,
+   "end": 561815
+  },
+  {
+   "text": "create",
+   "start": 561815,
+   "end": 562393
+  },
+  {
+   "text": "your",
+   "start": 562601,
+   "end": 562762
+  },
+  {
+   "text": "brain",
+   "start": 562778,
+   "end": 563066
+  },
+  {
+   "text": "online",
+   "start": 563243,
+   "end": 563708
+  },
+  {
+   "text": "and",
+   "start": 563884,
+   "end": 563964
+  },
+  {
+   "text": "locally,",
+   "start": 564044,
+   "end": 564429
+  },
+  {
+   "text": "and",
+   "start": 565007,
+   "end": 565087
+  },
+  {
+   "text": "it's",
+   "start": 565087,
+   "end": 565183
+  },
+  {
+   "text": "free",
+   "start": 565183,
+   "end": 565424
+  },
+  {
+   "text": "guide",
+   "start": 565424,
+   "end": 565905
+  },
+  {
+   "text": "linked",
+   "start": 565905,
+   "end": 566289
+  },
+  {
+   "text": "below.",
+   "start": 566306,
+   "end": 566530
+  },
+  {
+   "text": "So",
+   "start": 566947,
+   "end": 567091
+  },
+  {
+   "text": "don't",
+   "start": 567091,
+   "end": 567252
+  },
+  {
+   "text": "worry",
+   "start": 567252,
+   "end": 567316
+  },
+  {
+   "text": "about",
+   "start": 567348,
+   "end": 567508
+  },
+  {
+   "text": "the",
+   "start": 567508,
+   "end": 567588
+  },
+  {
+   "text": "configuration,",
+   "start": 567588,
+   "end": 568358
+  },
+  {
+   "text": "you",
+   "start": 568615,
+   "end": 568663
+  },
+  {
+   "text": "can",
+   "start": 568711,
+   "end": 568871
+  },
+  {
+   "text": "follow",
+   "start": 568871,
+   "end": 569080
+  },
+  {
+   "text": "up",
+   "start": 569176,
+   "end": 569417
+  },
+  {
+   "text": "in",
+   "start": 569433,
+   "end": 569481
+  },
+  {
+   "text": "the",
+   "start": 569593,
+   "end": 569657
+  },
+  {
+   "text": "guide.",
+   "start": 569673,
+   "end": 569962
+  },
+  {
+   "text": "But",
+   "start": 570555,
+   "end": 570715
+  },
+  {
+   "text": "for",
+   "start": 570715,
+   "end": 570908
+  },
+  {
+   "text": "now,",
+   "start": 570956,
+   "end": 571036
+  },
+  {
+   "text": "stay",
+   "start": 571694,
+   "end": 571918
+  },
+  {
+   "text": "with",
+   "start": 571998,
+   "end": 572207
+  },
+  {
+   "text": "me",
+   "start": 572239,
+   "end": 572431
+  },
+  {
+   "text": "because",
+   "start": 572880,
+   "end": 573297
+  },
+  {
+   "text": "the",
+   "start": 573297,
+   "end": 573377
+  },
+  {
+   "text": "next",
+   "start": 573377,
+   "end": 573907
+  },
+  {
+   "text": "part",
+   "start": 573907,
+   "end": 574452
+  },
+  {
+   "text": "is",
+   "start": 574885,
+   "end": 574933
+  },
+  {
+   "text": "the",
+   "start": 575029,
+   "end": 575061
+  },
+  {
+   "text": "reason",
+   "start": 575061,
+   "end": 575494
+  },
+  {
+   "text": "I",
+   "start": 575911,
+   "end": 576055
+  },
+  {
+   "text": "built",
+   "start": 576071,
+   "end": 576328
+  },
+  {
+   "text": "it.",
+   "start": 576328,
+   "end": 576408
+  },
+  {
+   "text": "Now",
+   "start": 577114,
+   "end": 577242
+  },
+  {
+   "text": "the",
+   "start": 577467,
+   "end": 577676
+  },
+  {
+   "text": "part",
+   "start": 577676,
+   "end": 578077
+  },
+  {
+   "text": "I",
+   "start": 578093,
+   "end": 578125
+  },
+  {
+   "text": "actually",
+   "start": 578317,
+   "end": 578782
+  },
+  {
+   "text": "love.",
+   "start": 578879,
+   "end": 579232
+  },
+  {
+   "text": "Watch",
+   "start": 579761,
+   "end": 580018
+  },
+  {
+   "text": "what",
+   "start": 580018,
+   "end": 580178
+  },
+  {
+   "text": "happens",
+   "start": 580178,
+   "end": 580788
+  },
+  {
+   "text": "when",
+   "start": 580820,
+   "end": 580964
+  },
+  {
+   "text": "I",
+   "start": 580964,
+   "end": 580980
+  },
+  {
+   "text": "add",
+   "start": 581205,
+   "end": 581349
+  },
+  {
+   "text": "something",
+   "start": 581381,
+   "end": 581830
+  },
+  {
+   "text": "from",
+   "start": 582007,
+   "end": 582504
+  },
+  {
+   "text": "my",
+   "start": 582504,
+   "end": 582584
+  },
+  {
+   "text": "computer.",
+   "start": 582825,
+   "end": 583290
+  },
+  {
+   "text": "I",
+   "start": 583852,
+   "end": 583900
+  },
+  {
+   "text": "feed",
+   "start": 583948,
+   "end": 584189
+  },
+  {
+   "text": "a",
+   "start": 584189,
+   "end": 584205
+  },
+  {
+   "text": "note",
+   "start": 584205,
+   "end": 584654
+  },
+  {
+   "text": "locally,",
+   "start": 584654,
+   "end": 585039
+  },
+  {
+   "text": "I",
+   "start": 585536,
+   "end": 585616
+  },
+  {
+   "text": "approve",
+   "start": 585697,
+   "end": 586194
+  },
+  {
+   "text": "it,",
+   "start": 586194,
+   "end": 586515
+  },
+  {
+   "text": "it",
+   "start": 586916,
+   "end": 586996
+  },
+  {
+   "text": "commits,",
+   "start": 587076,
+   "end": 587670
+  },
+  {
+   "text": "and",
+   "start": 588103,
+   "end": 588424
+  },
+  {
+   "text": "I",
+   "start": 588504,
+   "end": 588681
+  },
+  {
+   "text": "push.",
+   "start": 588681,
+   "end": 588857
+  },
+  {
+   "text": "GitHub",
+   "start": 589386,
+   "end": 589964
+  },
+  {
+   "text": "fires",
+   "start": 589980,
+   "end": 590333
+  },
+  {
+   "text": "a",
+   "start": 590509,
+   "end": 590590
+  },
+  {
+   "text": "webhook",
+   "start": 590590,
+   "end": 591327
+  },
+  {
+   "text": "notifying",
+   "start": 591568,
+   "end": 592178
+  },
+  {
+   "text": "the",
+   "start": 592210,
+   "end": 592290
+  },
+  {
+   "text": "server,",
+   "start": 592290,
+   "end": 592787
+  },
+  {
+   "text": "and",
+   "start": 593413,
+   "end": 593477
+  },
+  {
+   "text": "the",
+   "start": 593493,
+   "end": 593589
+  },
+  {
+   "text": "server",
+   "start": 593589,
+   "end": 594055
+  },
+  {
+   "text": "pulls",
+   "start": 594536,
+   "end": 594905
+  },
+  {
+   "text": "the",
+   "start": 595017,
+   "end": 595097
+  },
+  {
+   "text": "updates.",
+   "start": 595178,
+   "end": 595627
+  },
+  {
+   "text": "It",
+   "start": 596060,
+   "end": 596124
+  },
+  {
+   "text": "reindexes.",
+   "start": 596285,
+   "end": 597071
+  },
+  {
+   "text": "The",
+   "start": 597424,
+   "end": 597520
+  },
+  {
+   "text": "note",
+   "start": 597520,
+   "end": 597905
+  },
+  {
+   "text": "now",
+   "start": 597905,
+   "end": 598017
+  },
+  {
+   "text": "is",
+   "start": 598226,
+   "end": 598290
+  },
+  {
+   "text": "live",
+   "start": 598450,
+   "end": 598835
+  },
+  {
+   "text": "on",
+   "start": 599092,
+   "end": 599156
+  },
+  {
+   "text": "the",
+   "start": 599188,
+   "end": 599333
+  },
+  {
+   "text": "online",
+   "start": 599413,
+   "end": 600006
+  },
+  {
+   "text": "brain.",
+   "start": 600071,
+   "end": 600440
+  },
+  {
+   "text": "And",
+   "start": 600792,
+   "end": 600937
+  },
+  {
+   "text": "this",
+   "start": 600937,
+   "end": 601049
+  },
+  {
+   "text": "works",
+   "start": 601177,
+   "end": 601514
+  },
+  {
+   "text": "too",
+   "start": 601514,
+   "end": 601739
+  },
+  {
+   "text": "in",
+   "start": 601835,
+   "end": 601883
+  },
+  {
+   "text": "the",
+   "start": 601996,
+   "end": 602140
+  },
+  {
+   "text": "other",
+   "start": 602220,
+   "end": 602445
+  },
+  {
+   "text": "direction.",
+   "start": 602461,
+   "end": 602926
+  },
+  {
+   "text": "So",
+   "start": 603295,
+   "end": 603456
+  },
+  {
+   "text": "we",
+   "start": 603504,
+   "end": 603584
+  },
+  {
+   "text": "have",
+   "start": 603584,
+   "end": 603745
+  },
+  {
+   "text": "the",
+   "start": 603745,
+   "end": 603841
+  },
+  {
+   "text": "same",
+   "start": 603841,
+   "end": 604211
+  },
+  {
+   "text": "repo",
+   "start": 604259,
+   "end": 604789
+  },
+  {
+   "text": "both",
+   "start": 605126,
+   "end": 605255
+  },
+  {
+   "text": "directions.",
+   "start": 605367,
+   "end": 606026
+  },
+  {
+   "text": "The",
+   "start": 606090,
+   "end": 606219
+  },
+  {
+   "text": "local",
+   "start": 606315,
+   "end": 606781
+  },
+  {
+   "text": "and",
+   "start": 607054,
+   "end": 607215
+  },
+  {
+   "text": "the",
+   "start": 607215,
+   "end": 607359
+  },
+  {
+   "text": "online",
+   "start": 607439,
+   "end": 607745
+  },
+  {
+   "text": "brain",
+   "start": 607841,
+   "end": 608146
+  },
+  {
+   "text": "are",
+   "start": 608644,
+   "end": 608741
+  },
+  {
+   "text": "like",
+   "start": 608741,
+   "end": 609046
+  },
+  {
+   "text": "in",
+   "start": 609126,
+   "end": 609174
+  },
+  {
+   "text": "sync.",
+   "start": 609367,
+   "end": 609945
+  },
+  {
+   "text": "Actually,",
+   "start": 610411,
+   "end": 610797
+  },
+  {
+   "text": "there",
+   "start": 610893,
+   "end": 610989
+  },
+  {
+   "text": "is",
+   "start": 610989,
+   "end": 611118
+  },
+  {
+   "text": "no",
+   "start": 611134,
+   "end": 611230
+  },
+  {
+   "text": "syncing.",
+   "start": 611230,
+   "end": 611680
+  },
+  {
+   "text": "We",
+   "start": 611953,
+   "end": 612098
+  },
+  {
+   "text": "have",
+   "start": 612098,
+   "end": 612290
+  },
+  {
+   "text": "one",
+   "start": 612499,
+   "end": 612724
+  },
+  {
+   "text": "source",
+   "start": 613238,
+   "end": 613688
+  },
+  {
+   "text": "and",
+   "start": 614186,
+   "end": 614330
+  },
+  {
+   "text": "2",
+   "start": 614363,
+   "end": 614539
+  },
+  {
+   "text": "doors.",
+   "start": 614587,
+   "end": 614893
+  },
+  {
+   "text": "Now",
+   "start": 615326,
+   "end": 615407
+  },
+  {
+   "text": "let",
+   "start": 615407,
+   "end": 615631
+  },
+  {
+   "text": "me",
+   "start": 615631,
+   "end": 615712
+  },
+  {
+   "text": "take",
+   "start": 615712,
+   "end": 616049
+  },
+  {
+   "text": "you",
+   "start": 616049,
+   "end": 616210
+  },
+  {
+   "text": "through",
+   "start": 616210,
+   "end": 616354
+  },
+  {
+   "text": "a",
+   "start": 616370,
+   "end": 616531
+  },
+  {
+   "text": "quick",
+   "start": 616531,
+   "end": 616900
+  },
+  {
+   "text": "tour,",
+   "start": 617157,
+   "end": 617575
+  },
+  {
+   "text": "then",
+   "start": 618041,
+   "end": 618218
+  },
+  {
+   "text": "we",
+   "start": 618218,
+   "end": 618298
+  },
+  {
+   "text": "get",
+   "start": 618378,
+   "end": 618716
+  },
+  {
+   "text": "to",
+   "start": 618780,
+   "end": 618828
+  },
+  {
+   "text": "the",
+   "start": 618860,
+   "end": 618908
+  },
+  {
+   "text": "exciting",
+   "start": 618924,
+   "end": 619535
+  },
+  {
+   "text": "part.",
+   "start": 619663,
+   "end": 619984
+  },
+  {
+   "text": "We",
+   "start": 620386,
+   "end": 620466
+  },
+  {
+   "text": "have",
+   "start": 620466,
+   "end": 620611
+  },
+  {
+   "text": "the",
+   "start": 620611,
+   "end": 620643
+  },
+  {
+   "text": "dashboard.",
+   "start": 620772,
+   "end": 621398
+  },
+  {
+   "text": "The",
+   "start": 621896,
+   "end": 621992
+  },
+  {
+   "text": "rings",
+   "start": 621992,
+   "end": 622281
+  },
+  {
+   "text": "are",
+   "start": 622458,
+   "end": 622538
+  },
+  {
+   "text": "your",
+   "start": 622538,
+   "end": 622667
+  },
+  {
+   "text": "brain",
+   "start": 622795,
+   "end": 623245
+  },
+  {
+   "text": "by",
+   "start": 623358,
+   "end": 623550
+  },
+  {
+   "text": "kind:",
+   "start": 623599,
+   "end": 624048
+  },
+  {
+   "text": "identity,",
+   "start": 624064,
+   "end": 624611
+  },
+  {
+   "text": "projects,",
+   "start": 624723,
+   "end": 625301
+  },
+  {
+   "text": "knowledge.",
+   "start": 625430,
+   "end": 625928
+  },
+  {
+   "text": "The",
+   "start": 626169,
+   "end": 626249
+  },
+  {
+   "text": "browser,",
+   "start": 626249,
+   "end": 626972
+  },
+  {
+   "text": "every",
+   "start": 627197,
+   "end": 627389
+  },
+  {
+   "text": "note",
+   "start": 627389,
+   "end": 627855
+  },
+  {
+   "text": "filterable.",
+   "start": 627855,
+   "end": 628369
+  },
+  {
+   "text": "It",
+   "start": 628915,
+   "end": 628980
+  },
+  {
+   "text": "is",
+   "start": 628980,
+   "end": 629060
+  },
+  {
+   "text": "just",
+   "start": 629140,
+   "end": 629445
+  },
+  {
+   "text": "the",
+   "start": 629445,
+   "end": 629622
+  },
+  {
+   "text": "markdown",
+   "start": 629622,
+   "end": 630072
+  },
+  {
+   "text": "files",
+   "start": 630200,
+   "end": 630794
+  },
+  {
+   "text": "but",
+   "start": 631212,
+   "end": 631453
+  },
+  {
+   "text": "rendered.",
+   "start": 631453,
+   "end": 631967
+  },
+  {
+   "text": "We",
+   "start": 632416,
+   "end": 632497
+  },
+  {
+   "text": "have",
+   "start": 632497,
+   "end": 632657
+  },
+  {
+   "text": "the",
+   "start": 632657,
+   "end": 632753
+  },
+  {
+   "text": "graph,",
+   "start": 632753,
+   "end": 633316
+  },
+  {
+   "text": "what",
+   "start": 633556,
+   "end": 633797
+  },
+  {
+   "text": "links",
+   "start": 633797,
+   "end": 634118
+  },
+  {
+   "text": "to",
+   "start": 634118,
+   "end": 634215
+  },
+  {
+   "text": "what.",
+   "start": 634279,
+   "end": 634777
+  },
+  {
+   "text": "My",
+   "start": 635082,
+   "end": 635323
+  },
+  {
+   "text": "cost",
+   "start": 635323,
+   "end": 635676
+  },
+  {
+   "text": "story",
+   "start": 635676,
+   "end": 635965
+  },
+  {
+   "text": "and",
+   "start": 636030,
+   "end": 636126
+  },
+  {
+   "text": "my",
+   "start": 636126,
+   "end": 636206
+  },
+  {
+   "text": "downtime",
+   "start": 636270,
+   "end": 636897
+  },
+  {
+   "text": "take",
+   "start": 636993,
+   "end": 637234
+  },
+  {
+   "text": "both",
+   "start": 637234,
+   "end": 637459
+  },
+  {
+   "text": "point",
+   "start": 637571,
+   "end": 638053
+  },
+  {
+   "text": "at",
+   "start": 638053,
+   "end": 638149
+  },
+  {
+   "text": "self",
+   "start": 638149,
+   "end": 638519
+  },
+  {
+   "text": "hosting.",
+   "start": 638519,
+   "end": 638872
+  },
+  {
+   "text": "So",
+   "start": 639274,
+   "end": 639659
+  },
+  {
+   "text": "when",
+   "start": 639723,
+   "end": 639948
+  },
+  {
+   "text": "I",
+   "start": 639996,
+   "end": 640044
+  },
+  {
+   "text": "ask",
+   "start": 640125,
+   "end": 640285
+  },
+  {
+   "text": "about",
+   "start": 640285,
+   "end": 640526
+  },
+  {
+   "text": "self",
+   "start": 640526,
+   "end": 640767
+  },
+  {
+   "text": "hosting,",
+   "start": 640767,
+   "end": 641217
+  },
+  {
+   "text": "both",
+   "start": 641650,
+   "end": 642036
+  },
+  {
+   "text": "show",
+   "start": 642228,
+   "end": 642534
+  },
+  {
+   "text": "up.",
+   "start": 642630,
+   "end": 642887
+  },
+  {
+   "text": "We",
+   "start": 643337,
+   "end": 643417
+  },
+  {
+   "text": "have",
+   "start": 643417,
+   "end": 643658
+  },
+  {
+   "text": "the",
+   "start": 643658,
+   "end": 643722
+  },
+  {
+   "text": "queue,",
+   "start": 643818,
+   "end": 644043
+  },
+  {
+   "text": "everything",
+   "start": 644300,
+   "end": 644686
+  },
+  {
+   "text": "an",
+   "start": 644782,
+   "end": 644846
+  },
+  {
+   "text": "agent",
+   "start": 645023,
+   "end": 645424
+  },
+  {
+   "text": "wants",
+   "start": 645424,
+   "end": 645681
+  },
+  {
+   "text": "to",
+   "start": 645681,
+   "end": 645762
+  },
+  {
+   "text": "write",
+   "start": 645762,
+   "end": 646259
+  },
+  {
+   "text": "waiting",
+   "start": 646564,
+   "end": 646854
+  },
+  {
+   "text": "on",
+   "start": 647030,
+   "end": 647094
+  },
+  {
+   "text": "me.",
+   "start": 647127,
+   "end": 647384
+  },
+  {
+   "text": "Nothing",
+   "start": 647849,
+   "end": 648122
+  },
+  {
+   "text": "gets",
+   "start": 648170,
+   "end": 648476
+  },
+  {
+   "text": "in",
+   "start": 648556,
+   "end": 648620
+  },
+  {
+   "text": "behind",
+   "start": 648797,
+   "end": 649134
+  },
+  {
+   "text": "my",
+   "start": 649134,
+   "end": 649295
+  },
+  {
+   "text": "back.",
+   "start": 649295,
+   "end": 649616
+  },
+  {
+   "text": "And",
+   "start": 650017,
+   "end": 650081
+  },
+  {
+   "text": "then",
+   "start": 650098,
+   "end": 650226
+  },
+  {
+   "text": "we",
+   "start": 650242,
+   "end": 650322
+  },
+  {
+   "text": "have",
+   "start": 650338,
+   "end": 650515
+  },
+  {
+   "text": "the",
+   "start": 650515,
+   "end": 650660
+  },
+  {
+   "text": "consumers",
+   "start": 650660,
+   "end": 651350
+  },
+  {
+   "text": "who",
+   "start": 651784,
+   "end": 651896
+  },
+  {
+   "text": "is",
+   "start": 651960,
+   "end": 652073
+  },
+  {
+   "text": "reading",
+   "start": 652121,
+   "end": 652314
+  },
+  {
+   "text": "my",
+   "start": 652346,
+   "end": 652539
+  },
+  {
+   "text": "brain,",
+   "start": 652587,
+   "end": 653036
+  },
+  {
+   "text": "creating",
+   "start": 653454,
+   "end": 653663
+  },
+  {
+   "text": "the",
+   "start": 653695,
+   "end": 653791
+  },
+  {
+   "text": "MCP",
+   "start": 653791,
+   "end": 654193
+  },
+  {
+   "text": "API",
+   "start": 654257,
+   "end": 654626
+  },
+  {
+   "text": "keys",
+   "start": 654674,
+   "end": 654964
+  },
+  {
+   "text": "and",
+   "start": 654996,
+   "end": 655076
+  },
+  {
+   "text": "so",
+   "start": 655076,
+   "end": 655285
+  },
+  {
+   "text": "on.",
+   "start": 655381,
+   "end": 655526
+  },
+  {
+   "text": "And",
+   "start": 655943,
+   "end": 656039
+  },
+  {
+   "text": "we",
+   "start": 656039,
+   "end": 656200
+  },
+  {
+   "text": "have",
+   "start": 656200,
+   "end": 656489
+  },
+  {
+   "text": "the",
+   "start": 656906,
+   "end": 656955
+  },
+  {
+   "text": "chat.",
+   "start": 657067,
+   "end": 657501
+  },
+  {
+   "text": "This",
+   "start": 657806,
+   "end": 657950
+  },
+  {
+   "text": "is",
+   "start": 657950,
+   "end": 658014
+  },
+  {
+   "text": "me",
+   "start": 658191,
+   "end": 658400
+  },
+  {
+   "text": "talking",
+   "start": 658833,
+   "end": 659219
+  },
+  {
+   "text": "to",
+   "start": 659315,
+   "end": 659411
+  },
+  {
+   "text": "me.",
+   "start": 659411,
+   "end": 659652
+  },
+  {
+   "text": "And",
+   "start": 660134,
+   "end": 660198
+  },
+  {
+   "text": "here",
+   "start": 660278,
+   "end": 660503
+  },
+  {
+   "text": "things",
+   "start": 660519,
+   "end": 660824
+  },
+  {
+   "text": "become",
+   "start": 660937,
+   "end": 661338
+  },
+  {
+   "text": "really",
+   "start": 661338,
+   "end": 661595
+  },
+  {
+   "text": "strange.",
+   "start": 661595,
+   "end": 662189
+  },
+  {
+   "text": "You",
+   "start": 662687,
+   "end": 662751
+  },
+  {
+   "text": "heard",
+   "start": 662783,
+   "end": 662960
+  },
+  {
+   "text": "me",
+   "start": 663008,
+   "end": 663120
+  },
+  {
+   "text": "saying",
+   "start": 663120,
+   "end": 663473
+  },
+  {
+   "text": "MCP",
+   "start": 663650,
+   "end": 664308
+  },
+  {
+   "text": "and",
+   "start": 664710,
+   "end": 664774
+  },
+  {
+   "text": "API,",
+   "start": 664935,
+   "end": 665352
+  },
+  {
+   "text": "and",
+   "start": 665978,
+   "end": 666283
+  },
+  {
+   "text": "it's",
+   "start": 666315,
+   "end": 666572
+  },
+  {
+   "text": "one",
+   "start": 666620,
+   "end": 666765
+  },
+  {
+   "text": "of",
+   "start": 666797,
+   "end": 666925
+  },
+  {
+   "text": "the",
+   "start": 666974,
+   "end": 667102
+  },
+  {
+   "text": "main",
+   "start": 667102,
+   "end": 667407
+  },
+  {
+   "text": "reasons",
+   "start": 667503,
+   "end": 668049
+  },
+  {
+   "text": "behind",
+   "start": 668162,
+   "end": 668643
+  },
+  {
+   "text": "me",
+   "start": 668643,
+   "end": 668868
+  },
+  {
+   "text": "building",
+   "start": 668884,
+   "end": 669173
+  },
+  {
+   "text": "this",
+   "start": 669286,
+   "end": 669527
+  },
+  {
+   "text": "project.",
+   "start": 669527,
+   "end": 670008
+  },
+  {
+   "text": "I",
+   "start": 670410,
+   "end": 670506
+  },
+  {
+   "text": "simply",
+   "start": 670506,
+   "end": 670939
+  },
+  {
+   "text": "connect",
+   "start": 670972,
+   "end": 671694
+  },
+  {
+   "text": "Claude",
+   "start": 671694,
+   "end": 672192
+  },
+  {
+   "text": "once",
+   "start": 672641,
+   "end": 673091
+  },
+  {
+   "text": "to",
+   "start": 673380,
+   "end": 673428
+  },
+  {
+   "text": "the",
+   "start": 673460,
+   "end": 673525
+  },
+  {
+   "text": "MCP",
+   "start": 673605,
+   "end": 674022
+  },
+  {
+   "text": "server",
+   "start": 674022,
+   "end": 674424
+  },
+  {
+   "text": "running",
+   "start": 674440,
+   "end": 675275
+  },
+  {
+   "text": "inside",
+   "start": 675387,
+   "end": 675788
+  },
+  {
+   "text": "my",
+   "start": 675788,
+   "end": 676013
+  },
+  {
+   "text": "brain,",
+   "start": 676013,
+   "end": 676302
+  },
+  {
+   "text": "and",
+   "start": 676752,
+   "end": 676816
+  },
+  {
+   "text": "that's",
+   "start": 676896,
+   "end": 677217
+  },
+  {
+   "text": "it.",
+   "start": 677217,
+   "end": 677330
+  },
+  {
+   "text": "Claude",
+   "start": 677699,
+   "end": 678052
+  },
+  {
+   "text": "can",
+   "start": 678052,
+   "end": 678213
+  },
+  {
+   "text": "now",
+   "start": 678277,
+   "end": 678470
+  },
+  {
+   "text": "read",
+   "start": 678695,
+   "end": 679064
+  },
+  {
+   "text": "my",
+   "start": 679064,
+   "end": 679160
+  },
+  {
+   "text": "brain.",
+   "start": 679465,
+   "end": 679626
+  },
+  {
+   "text": "Literally,",
+   "start": 680188,
+   "end": 680589
+  },
+  {
+   "text": "that's",
+   "start": 680605,
+   "end": 680910
+  },
+  {
+   "text": "the",
+   "start": 680910,
+   "end": 680991
+  },
+  {
+   "text": "feature.",
+   "start": 680991,
+   "end": 681408
+  },
+  {
+   "text": "Watch",
+   "start": 681729,
+   "end": 681970
+  },
+  {
+   "text": "this.",
+   "start": 682050,
+   "end": 682178
+  },
+  {
+   "text": "get-index.",
+   "start": 682612,
+   "end": 683478
+  },
+  {
+   "text": "That's",
+   "start": 683896,
+   "end": 684200
+  },
+  {
+   "text": "everything",
+   "start": 684216,
+   "end": 684666
+  },
+  {
+   "text": "my",
+   "start": 684778,
+   "end": 684890
+  },
+  {
+   "text": "brain",
+   "start": 685003,
+   "end": 685292
+  },
+  {
+   "text": "holds.",
+   "start": 685340,
+   "end": 685709
+  },
+  {
+   "text": "One",
+   "start": 686142,
+   "end": 686351
+  },
+  {
+   "text": "line",
+   "start": 686447,
+   "end": 686688
+  },
+  {
+   "text": "each.",
+   "start": 686848,
+   "end": 687073
+  },
+  {
+   "text": "assemble-context.",
+   "start": 687522,
+   "end": 688710
+  },
+  {
+   "text": "This",
+   "start": 689111,
+   "end": 689287
+  },
+  {
+   "text": "is",
+   "start": 689287,
+   "end": 689320
+  },
+  {
+   "text": "the",
+   "start": 689352,
+   "end": 689432
+  },
+  {
+   "text": "good",
+   "start": 689576,
+   "end": 689705
+  },
+  {
+   "text": "one.",
+   "start": 689897,
+   "end": 690122
+  },
+  {
+   "text": "I",
+   "start": 690539,
+   "end": 690587
+  },
+  {
+   "text": "hand",
+   "start": 690636,
+   "end": 690892
+  },
+  {
+   "text": "it",
+   "start": 690892,
+   "end": 691021
+  },
+  {
+   "text": "a",
+   "start": 691021,
+   "end": 691037
+  },
+  {
+   "text": "task",
+   "start": 691037,
+   "end": 691775
+  },
+  {
+   "text": "and",
+   "start": 691903,
+   "end": 691967
+  },
+  {
+   "text": "it",
+   "start": 691967,
+   "end": 692048
+  },
+  {
+   "text": "goes",
+   "start": 692080,
+   "end": 692369
+  },
+  {
+   "text": "and",
+   "start": 692401,
+   "end": 692561
+  },
+  {
+   "text": "builds",
+   "start": 692625,
+   "end": 692930
+  },
+  {
+   "text": "a",
+   "start": 693043,
+   "end": 693123
+  },
+  {
+   "text": "pack",
+   "start": 693123,
+   "end": 693524
+  },
+  {
+   "text": "for",
+   "start": 693524,
+   "end": 693652
+  },
+  {
+   "text": "that",
+   "start": 693765,
+   "end": 694134
+  },
+  {
+   "text": "exact",
+   "start": 694246,
+   "end": 694872
+  },
+  {
+   "text": "task.",
+   "start": 694872,
+   "end": 695305
+  },
+  {
+   "text": "The",
+   "start": 695594,
+   "end": 695674
+  },
+  {
+   "text": "right",
+   "start": 695674,
+   "end": 695979
+  },
+  {
+   "text": "notes,",
+   "start": 695995,
+   "end": 696573
+  },
+  {
+   "text": "the",
+   "start": 696894,
+   "end": 696974
+  },
+  {
+   "text": "real",
+   "start": 696974,
+   "end": 697263
+  },
+  {
+   "text": "quotes,",
+   "start": 697279,
+   "end": 697761
+  },
+  {
+   "text": "and",
+   "start": 697857,
+   "end": 697921
+  },
+  {
+   "text": "the",
+   "start": 697937,
+   "end": 698082
+  },
+  {
+   "text": "gaps.",
+   "start": 698082,
+   "end": 698403
+  },
+  {
+   "text": "Remember",
+   "start": 699044,
+   "end": 699430
+  },
+  {
+   "text": "the",
+   "start": 699446,
+   "end": 699542
+  },
+  {
+   "text": "reply",
+   "start": 699542,
+   "end": 699927
+  },
+  {
+   "text": "from",
+   "start": 699927,
+   "end": 700023
+  },
+  {
+   "text": "the",
+   "start": 700023,
+   "end": 700104
+  },
+  {
+   "text": "beginning",
+   "start": 700104,
+   "end": 700392
+  },
+  {
+   "text": "of",
+   "start": 700425,
+   "end": 700505
+  },
+  {
+   "text": "the",
+   "start": 700505,
+   "end": 700585
+  },
+  {
+   "text": "video?",
+   "start": 700585,
+   "end": 701002
+  },
+  {
+   "text": "That's",
+   "start": 701387,
+   "end": 701580
+  },
+  {
+   "text": "the",
+   "start": 701692,
+   "end": 701853
+  },
+  {
+   "text": "call",
+   "start": 701853,
+   "end": 701981
+  },
+  {
+   "text": "that",
+   "start": 702190,
+   "end": 702414
+  },
+  {
+   "text": "made",
+   "start": 702414,
+   "end": 702655
+  },
+  {
+   "text": "it.",
+   "start": 702655,
+   "end": 702751
+  },
+  {
+   "text": "Okay,",
+   "start": 703297,
+   "end": 703570
+  },
+  {
+   "text": "back",
+   "start": 704035,
+   "end": 704436
+  },
+  {
+   "text": "to",
+   "start": 704436,
+   "end": 704581
+  },
+  {
+   "text": "where",
+   "start": 704597,
+   "end": 704918
+  },
+  {
+   "text": "we",
+   "start": 704918,
+   "end": 705094
+  },
+  {
+   "text": "started.",
+   "start": 705094,
+   "end": 705688
+  },
+  {
+   "text": "On",
+   "start": 706121,
+   "end": 706170
+  },
+  {
+   "text": "a",
+   "start": 706202,
+   "end": 706218
+  },
+  {
+   "text": "daily",
+   "start": 706218,
+   "end": 706523
+  },
+  {
+   "text": "basis,",
+   "start": 706523,
+   "end": 706908
+  },
+  {
+   "text": "I",
+   "start": 706988,
+   "end": 707004
+  },
+  {
+   "text": "use",
+   "start": 707068,
+   "end": 707213
+  },
+  {
+   "text": "this",
+   "start": 707245,
+   "end": 707485
+  },
+  {
+   "text": "brain",
+   "start": 707485,
+   "end": 707774
+  },
+  {
+   "text": "actually",
+   "start": 707871,
+   "end": 708336
+  },
+  {
+   "text": "for",
+   "start": 708368,
+   "end": 708721
+  },
+  {
+   "text": "replying,",
+   "start": 708994,
+   "end": 709861
+  },
+  {
+   "text": "for",
+   "start": 710053,
+   "end": 710182
+  },
+  {
+   "text": "emails,",
+   "start": 710438,
+   "end": 710823
+  },
+  {
+   "text": "newsletter.",
+   "start": 711000,
+   "end": 711594
+  },
+  {
+   "text": "A",
+   "start": 711995,
+   "end": 712027
+  },
+  {
+   "text": "video",
+   "start": 712059,
+   "end": 712252
+  },
+  {
+   "text": "description,",
+   "start": 712252,
+   "end": 712990
+  },
+  {
+   "text": "anything",
+   "start": 713263,
+   "end": 713632
+  },
+  {
+   "text": "I",
+   "start": 713744,
+   "end": 713808
+  },
+  {
+   "text": "have",
+   "start": 713808,
+   "end": 713953
+  },
+  {
+   "text": "to",
+   "start": 713969,
+   "end": 714017
+  },
+  {
+   "text": "write",
+   "start": 714065,
+   "end": 714563
+  },
+  {
+   "text": "as",
+   "start": 714852,
+   "end": 715156
+  },
+  {
+   "text": "me.",
+   "start": 715269,
+   "end": 715429
+  },
+  {
+   "text": "And",
+   "start": 715975,
+   "end": 716376
+  },
+  {
+   "text": "when",
+   "start": 716376,
+   "end": 716440
+  },
+  {
+   "text": "it",
+   "start": 716440,
+   "end": 716537
+  },
+  {
+   "text": "doesn't",
+   "start": 716537,
+   "end": 716777
+  },
+  {
+   "text": "know",
+   "start": 716777,
+   "end": 716874
+  },
+  {
+   "text": "something,",
+   "start": 716890,
+   "end": 717387
+  },
+  {
+   "text": "it",
+   "start": 717853,
+   "end": 717933
+  },
+  {
+   "text": "says",
+   "start": 717933,
+   "end": 718206
+  },
+  {
+   "text": "so",
+   "start": 718318,
+   "end": 718639
+  },
+  {
+   "text": "instead",
+   "start": 718896,
+   "end": 719120
+  },
+  {
+   "text": "of",
+   "start": 719120,
+   "end": 719249
+  },
+  {
+   "text": "hallucinating",
+   "start": 719265,
+   "end": 720051
+  },
+  {
+   "text": "and",
+   "start": 720244,
+   "end": 720308
+  },
+  {
+   "text": "filling",
+   "start": 720388,
+   "end": 720533
+  },
+  {
+   "text": "the",
+   "start": 720565,
+   "end": 720645
+  },
+  {
+   "text": "gaps.",
+   "start": 720645,
+   "end": 721014
+  },
+  {
+   "text": "Of",
+   "start": 721448,
+   "end": 721576
+  },
+  {
+   "text": "course,",
+   "start": 721608,
+   "end": 721833
+  },
+  {
+   "text": "I",
+   "start": 721865,
+   "end": 721945
+  },
+  {
+   "text": "still",
+   "start": 721945,
+   "end": 722298
+  },
+  {
+   "text": "edit",
+   "start": 722394,
+   "end": 722555
+  },
+  {
+   "text": "and",
+   "start": 722651,
+   "end": 722715
+  },
+  {
+   "text": "review.",
+   "start": 722812,
+   "end": 723149
+  },
+  {
+   "text": "Think",
+   "start": 723598,
+   "end": 723710
+  },
+  {
+   "text": "about",
+   "start": 723710,
+   "end": 723935
+  },
+  {
+   "text": "like",
+   "start": 723935,
+   "end": 724096
+  },
+  {
+   "text": "a",
+   "start": 724160,
+   "end": 724176
+  },
+  {
+   "text": "drafter,",
+   "start": 724176,
+   "end": 724914
+  },
+  {
+   "text": "not",
+   "start": 725203,
+   "end": 725379
+  },
+  {
+   "text": "a",
+   "start": 725379,
+   "end": 725395
+  },
+  {
+   "text": "ghostwriter.",
+   "start": 725460,
+   "end": 726182
+  },
+  {
+   "text": "But",
+   "start": 726663,
+   "end": 726808
+  },
+  {
+   "text": "the",
+   "start": 726808,
+   "end": 726968
+  },
+  {
+   "text": "idea,",
+   "start": 727049,
+   "end": 727530
+  },
+  {
+   "text": "it",
+   "start": 727546,
+   "end": 727642
+  },
+  {
+   "text": "starts",
+   "start": 727642,
+   "end": 728060
+  },
+  {
+   "text": "from",
+   "start": 728172,
+   "end": 728397
+  },
+  {
+   "text": "me",
+   "start": 728429,
+   "end": 728669
+  },
+  {
+   "text": "instead",
+   "start": 729071,
+   "end": 729440
+  },
+  {
+   "text": "from",
+   "start": 729472,
+   "end": 729841
+  },
+  {
+   "text": "nothing.",
+   "start": 729953,
+   "end": 730242
+  },
+  {
+   "text": "But",
+   "start": 730595,
+   "end": 730836
+  },
+  {
+   "text": "wait,",
+   "start": 730836,
+   "end": 731173
+  },
+  {
+   "text": "it's",
+   "start": 731414,
+   "end": 731622
+  },
+  {
+   "text": "not",
+   "start": 731622,
+   "end": 731783
+  },
+  {
+   "text": "only",
+   "start": 731863,
+   "end": 732088
+  },
+  {
+   "text": "for",
+   "start": 732120,
+   "end": 732537
+  },
+  {
+   "text": "content.",
+   "start": 732906,
+   "end": 733548
+  },
+  {
+   "text": "If",
+   "start": 734030,
+   "end": 734190
+  },
+  {
+   "text": "you",
+   "start": 734190,
+   "end": 734254
+  },
+  {
+   "text": "are",
+   "start": 734270,
+   "end": 734351
+  },
+  {
+   "text": "writing",
+   "start": 734351,
+   "end": 734800
+  },
+  {
+   "text": "a",
+   "start": 734993,
+   "end": 735073
+  },
+  {
+   "text": "book,",
+   "start": 735073,
+   "end": 735506
+  },
+  {
+   "text": "a",
+   "start": 735972,
+   "end": 735988
+  },
+  {
+   "text": "novel,",
+   "start": 735988,
+   "end": 736581
+  },
+  {
+   "text": "doing",
+   "start": 736934,
+   "end": 737191
+  },
+  {
+   "text": "research,",
+   "start": 737336,
+   "end": 737946
+  },
+  {
+   "text": "you",
+   "start": 738138,
+   "end": 738202
+  },
+  {
+   "text": "Your",
+   "start": 738267,
+   "end": 738523
+  },
+  {
+   "text": "brain",
+   "start": 738523,
+   "end": 738908
+  },
+  {
+   "text": "holds",
+   "start": 739342,
+   "end": 739968
+  },
+  {
+   "text": "your",
+   "start": 739968,
+   "end": 740128
+  },
+  {
+   "text": "position,",
+   "start": 740144,
+   "end": 740578
+  },
+  {
+   "text": "your",
+   "start": 741091,
+   "end": 741268
+  },
+  {
+   "text": "beliefs,",
+   "start": 741268,
+   "end": 741813
+  },
+  {
+   "text": "and",
+   "start": 741829,
+   "end": 741926
+  },
+  {
+   "text": "your",
+   "start": 741926,
+   "end": 742070
+  },
+  {
+   "text": "examples",
+   "start": 742070,
+   "end": 742840
+  },
+  {
+   "text": "across",
+   "start": 743274,
+   "end": 743643
+  },
+  {
+   "text": "whole",
+   "start": 744156,
+   "end": 744365
+  },
+  {
+   "text": "pages.",
+   "start": 744638,
+   "end": 745087
+  },
+  {
+   "text": "So",
+   "start": 745520,
+   "end": 745729
+  },
+  {
+   "text": "chapter",
+   "start": 745745,
+   "end": 746162
+  },
+  {
+   "text": "9",
+   "start": 746162,
+   "end": 746612
+  },
+  {
+   "text": "doesn't",
+   "start": 746965,
+   "end": 747286
+  },
+  {
+   "text": "contradict",
+   "start": 747286,
+   "end": 747880
+  },
+  {
+   "text": "with",
+   "start": 747992,
+   "end": 748120
+  },
+  {
+   "text": "chapter",
+   "start": 748233,
+   "end": 748714
+  },
+  {
+   "text": "1.",
+   "start": 748714,
+   "end": 748843
+  },
+  {
+   "text": "If",
+   "start": 749276,
+   "end": 749324
+  },
+  {
+   "text": "you",
+   "start": 749372,
+   "end": 749533
+  },
+  {
+   "text": "are",
+   "start": 749533,
+   "end": 749661
+  },
+  {
+   "text": "building",
+   "start": 749677,
+   "end": 749982
+  },
+  {
+   "text": "a",
+   "start": 749998,
+   "end": 750094
+  },
+  {
+   "text": "course,",
+   "start": 750094,
+   "end": 750576
+  },
+  {
+   "text": "it",
+   "start": 751041,
+   "end": 751202
+  },
+  {
+   "text": "holds",
+   "start": 751202,
+   "end": 751539
+  },
+  {
+   "text": "how",
+   "start": 751539,
+   "end": 751635
+  },
+  {
+   "text": "you",
+   "start": 751699,
+   "end": 751779
+  },
+  {
+   "text": "explain",
+   "start": 751779,
+   "end": 752229
+  },
+  {
+   "text": "things.",
+   "start": 752405,
+   "end": 752710
+  },
+  {
+   "text": "If",
+   "start": 753128,
+   "end": 753208
+  },
+  {
+   "text": "you",
+   "start": 753208,
+   "end": 753256
+  },
+  {
+   "text": "are",
+   "start": 753288,
+   "end": 753384
+  },
+  {
+   "text": "just",
+   "start": 753384,
+   "end": 753689
+  },
+  {
+   "text": "building",
+   "start": 753689,
+   "end": 753914
+  },
+  {
+   "text": "anything",
+   "start": 754090,
+   "end": 754460
+  },
+  {
+   "text": "with",
+   "start": 754572,
+   "end": 754732
+  },
+  {
+   "text": "AI,",
+   "start": 754732,
+   "end": 755021
+  },
+  {
+   "text": "it",
+   "start": 755615,
+   "end": 755776
+  },
+  {
+   "text": "holds",
+   "start": 755776,
+   "end": 756241
+  },
+  {
+   "text": "your",
+   "start": 756738,
+   "end": 756835
+  },
+  {
+   "text": "decisions",
+   "start": 756835,
+   "end": 757445
+  },
+  {
+   "text": "that",
+   "start": 757798,
+   "end": 757942
+  },
+  {
+   "text": "you",
+   "start": 757942,
+   "end": 758022
+  },
+  {
+   "text": "already",
+   "start": 758022,
+   "end": 758295
+  },
+  {
+   "text": "made,",
+   "start": 758295,
+   "end": 758761
+  },
+  {
+   "text": "so",
+   "start": 759017,
+   "end": 759130
+  },
+  {
+   "text": "you",
+   "start": 759130,
+   "end": 759178
+  },
+  {
+   "text": "stop",
+   "start": 759178,
+   "end": 759740
+  },
+  {
+   "text": "re-explaining",
+   "start": 759948,
+   "end": 760719
+  },
+  {
+   "text": "everything",
+   "start": 760831,
+   "end": 761200
+  },
+  {
+   "text": "again",
+   "start": 761312,
+   "end": 761521
+  },
+  {
+   "text": "and",
+   "start": 761633,
+   "end": 761730
+  },
+  {
+   "text": "again",
+   "start": 761730,
+   "end": 762002
+  },
+  {
+   "text": "with",
+   "start": 762596,
+   "end": 762757
+  },
+  {
+   "text": "every",
+   "start": 762837,
+   "end": 763142
+  },
+  {
+   "text": "new",
+   "start": 763174,
+   "end": 763431
+  },
+  {
+   "text": "session",
+   "start": 763431,
+   "end": 763784
+  },
+  {
+   "text": "or",
+   "start": 763960,
+   "end": 764009
+  },
+  {
+   "text": "project.",
+   "start": 764137,
+   "end": 764538
+  },
+  {
+   "text": "So",
+   "start": 765036,
+   "end": 765292
+  },
+  {
+   "text": "here's",
+   "start": 765421,
+   "end": 765741
+  },
+  {
+   "text": "the",
+   "start": 765741,
+   "end": 765822
+  },
+  {
+   "text": "rule,",
+   "start": 765822,
+   "end": 766319
+  },
+  {
+   "text": "and",
+   "start": 766768,
+   "end": 766848
+  },
+  {
+   "text": "that's",
+   "start": 766865,
+   "end": 767105
+  },
+  {
+   "text": "the",
+   "start": 767169,
+   "end": 767217
+  },
+  {
+   "text": "whole",
+   "start": 767250,
+   "end": 767554
+  },
+  {
+   "text": "point",
+   "start": 767651,
+   "end": 767988
+  },
+  {
+   "text": "of",
+   "start": 768052,
+   "end": 768196
+  },
+  {
+   "text": "the",
+   "start": 768228,
+   "end": 768308
+  },
+  {
+   "text": "video.",
+   "start": 768308,
+   "end": 768710
+  },
+  {
+   "text": "Attach",
+   "start": 768966,
+   "end": 769319
+  },
+  {
+   "text": "your",
+   "start": 769351,
+   "end": 769592
+  },
+  {
+   "text": "brain",
+   "start": 769592,
+   "end": 769961
+  },
+  {
+   "text": "to",
+   "start": 770218,
+   "end": 770314
+  },
+  {
+   "text": "simply",
+   "start": 770314,
+   "end": 770763
+  },
+  {
+   "text": "everything.",
+   "start": 770940,
+   "end": 771405
+  },
+  {
+   "text": "Every",
+   "start": 771822,
+   "end": 772047
+  },
+  {
+   "text": "agent,",
+   "start": 772143,
+   "end": 772801
+  },
+  {
+   "text": "every",
+   "start": 772881,
+   "end": 773057
+  },
+  {
+   "text": "session,",
+   "start": 773057,
+   "end": 773651
+  },
+  {
+   "text": "every",
+   "start": 774164,
+   "end": 774373
+  },
+  {
+   "text": "tool",
+   "start": 774421,
+   "end": 774630
+  },
+  {
+   "text": "you",
+   "start": 774630,
+   "end": 774694
+  },
+  {
+   "text": "work",
+   "start": 774806,
+   "end": 775191
+  },
+  {
+   "text": "in.",
+   "start": 775272,
+   "end": 775416
+  },
+  {
+   "text": "Read",
+   "start": 775913,
+   "end": 776154
+  },
+  {
+   "text": "always",
+   "start": 776234,
+   "end": 776699
+  },
+  {
+   "text": "and",
+   "start": 776796,
+   "end": 777020
+  },
+  {
+   "text": "feed",
+   "start": 777052,
+   "end": 777357
+  },
+  {
+   "text": "always.",
+   "start": 777437,
+   "end": 777822
+  },
+  {
+   "text": "Read",
+   "start": 778336,
+   "end": 778625
+  },
+  {
+   "text": "before",
+   "start": 778657,
+   "end": 779042
+  },
+  {
+   "text": "it",
+   "start": 779042,
+   "end": 779202
+  },
+  {
+   "text": "writes",
+   "start": 779202,
+   "end": 779796
+  },
+  {
+   "text": "so",
+   "start": 780197,
+   "end": 780406
+  },
+  {
+   "text": "it",
+   "start": 780406,
+   "end": 780502
+  },
+  {
+   "text": "has",
+   "start": 780502,
+   "end": 780791
+  },
+  {
+   "text": "you,",
+   "start": 780823,
+   "end": 780999
+  },
+  {
+   "text": "and",
+   "start": 781368,
+   "end": 781545
+  },
+  {
+   "text": "feed",
+   "start": 781545,
+   "end": 781866
+  },
+  {
+   "text": "it",
+   "start": 781866,
+   "end": 781994
+  },
+  {
+   "text": "after",
+   "start": 782170,
+   "end": 782347
+  },
+  {
+   "text": "you",
+   "start": 782347,
+   "end": 782475
+  },
+  {
+   "text": "learn",
+   "start": 782491,
+   "end": 782684
+  },
+  {
+   "text": "something",
+   "start": 782684,
+   "end": 783197
+  },
+  {
+   "text": "so",
+   "start": 783646,
+   "end": 783791
+  },
+  {
+   "text": "it",
+   "start": 783855,
+   "end": 783951
+  },
+  {
+   "text": "keeps",
+   "start": 783951,
+   "end": 784224
+  },
+  {
+   "text": "you.",
+   "start": 784336,
+   "end": 784449
+  },
+  {
+   "text": "That's",
+   "start": 784898,
+   "end": 785139
+  },
+  {
+   "text": "the",
+   "start": 785139,
+   "end": 785235
+  },
+  {
+   "text": "loop.",
+   "start": 785299,
+   "end": 785572
+  },
+  {
+   "text": "Run",
+   "start": 786085,
+   "end": 786294
+  },
+  {
+   "text": "it",
+   "start": 786294,
+   "end": 786342
+  },
+  {
+   "text": "for",
+   "start": 786342,
+   "end": 786518
+  },
+  {
+   "text": "like",
+   "start": 786518,
+   "end": 786839
+  },
+  {
+   "text": "1",
+   "start": 786839,
+   "end": 787048
+  },
+  {
+   "text": "month",
+   "start": 787080,
+   "end": 787449
+  },
+  {
+   "text": "or",
+   "start": 787898,
+   "end": 788026
+  },
+  {
+   "text": "maybe",
+   "start": 788026,
+   "end": 788267
+  },
+  {
+   "text": "less,",
+   "start": 788267,
+   "end": 788620
+  },
+  {
+   "text": "and",
+   "start": 788989,
+   "end": 789085
+  },
+  {
+   "text": "you",
+   "start": 789085,
+   "end": 789230
+  },
+  {
+   "text": "have",
+   "start": 789230,
+   "end": 789294
+  },
+  {
+   "text": "something",
+   "start": 789326,
+   "end": 789920
+  },
+  {
+   "text": "Nobody",
+   "start": 790289,
+   "end": 790851
+  },
+  {
+   "text": "can",
+   "start": 790851,
+   "end": 791059
+  },
+  {
+   "text": "copy",
+   "start": 791091,
+   "end": 791413
+  },
+  {
+   "text": "because",
+   "start": 791814,
+   "end": 792103
+  },
+  {
+   "text": "nobody",
+   "start": 792119,
+   "end": 792424
+  },
+  {
+   "text": "else",
+   "start": 792520,
+   "end": 792890
+  },
+  {
+   "text": "has",
+   "start": 793259,
+   "end": 793468
+  },
+  {
+   "text": "your",
+   "start": 793500,
+   "end": 793661
+  },
+  {
+   "text": "last",
+   "start": 793661,
+   "end": 793998
+  },
+  {
+   "text": "month.",
+   "start": 794046,
+   "end": 794351
+  },
+  {
+   "text": "Now",
+   "start": 794784,
+   "end": 794881
+  },
+  {
+   "text": "take",
+   "start": 795427,
+   "end": 795732
+  },
+  {
+   "text": "a",
+   "start": 795732,
+   "end": 795812
+  },
+  {
+   "text": "breath",
+   "start": 795812,
+   "end": 796037
+  },
+  {
+   "text": "or",
+   "start": 796390,
+   "end": 796438
+  },
+  {
+   "text": "drink",
+   "start": 796535,
+   "end": 796727
+  },
+  {
+   "text": "some",
+   "start": 796727,
+   "end": 796968
+  },
+  {
+   "text": "water",
+   "start": 797016,
+   "end": 797514
+  },
+  {
+   "text": "because",
+   "start": 797835,
+   "end": 798124
+  },
+  {
+   "text": "what",
+   "start": 798140,
+   "end": 798237
+  },
+  {
+   "text": "you'll",
+   "start": 798237,
+   "end": 798397
+  },
+  {
+   "text": "see",
+   "start": 798397,
+   "end": 798574
+  },
+  {
+   "text": "now",
+   "start": 798574,
+   "end": 798718
+  },
+  {
+   "text": "is",
+   "start": 799280,
+   "end": 799328
+  },
+  {
+   "text": "really",
+   "start": 799505,
+   "end": 799810
+  },
+  {
+   "text": "shocking",
+   "start": 800083,
+   "end": 800533
+  },
+  {
+   "text": "and",
+   "start": 800886,
+   "end": 800950
+  },
+  {
+   "text": "somehow",
+   "start": 801030,
+   "end": 801368
+  },
+  {
+   "text": "scary.",
+   "start": 801464,
+   "end": 801898
+  },
+  {
+   "text": "Today,",
+   "start": 802267,
+   "end": 802492
+  },
+  {
+   "text": "this",
+   "start": 802797,
+   "end": 803038
+  },
+  {
+   "text": "project,",
+   "start": 803038,
+   "end": 803696
+  },
+  {
+   "text": "the",
+   "start": 803776,
+   "end": 803840
+  },
+  {
+   "text": "brain,",
+   "start": 803937,
+   "end": 804306
+  },
+  {
+   "text": "is",
+   "start": 804820,
+   "end": 804868
+  },
+  {
+   "text": "some",
+   "start": 804900,
+   "end": 805189
+  },
+  {
+   "text": "text",
+   "start": 805205,
+   "end": 805542
+  },
+  {
+   "text": "files.",
+   "start": 805542,
+   "end": 805912
+  },
+  {
+   "text": "It",
+   "start": 806345,
+   "end": 806490
+  },
+  {
+   "text": "can",
+   "start": 806490,
+   "end": 806650
+  },
+  {
+   "text": "write",
+   "start": 806666,
+   "end": 806971
+  },
+  {
+   "text": "like",
+   "start": 806971,
+   "end": 807212
+  },
+  {
+   "text": "you,",
+   "start": 807212,
+   "end": 807341
+  },
+  {
+   "text": "but",
+   "start": 807855,
+   "end": 808384
+  },
+  {
+   "text": "what",
+   "start": 808818,
+   "end": 809059
+  },
+  {
+   "text": "if",
+   "start": 809059,
+   "end": 809155
+  },
+  {
+   "text": "you",
+   "start": 809155,
+   "end": 809284
+  },
+  {
+   "text": "add",
+   "start": 809460,
+   "end": 809685
+  },
+  {
+   "text": "a",
+   "start": 809958,
+   "end": 809974
+  },
+  {
+   "text": "voice?",
+   "start": 809974,
+   "end": 810520
+  },
+  {
+   "text": "Any",
+   "start": 810921,
+   "end": 811050
+  },
+  {
+   "text": "voice.",
+   "start": 811082,
+   "end": 811371
+  },
+  {
+   "text": "Your",
+   "start": 811804,
+   "end": 811981
+  },
+  {
+   "text": "brain",
+   "start": 812045,
+   "end": 812415
+  },
+  {
+   "text": "can",
+   "start": 812607,
+   "end": 812784
+  },
+  {
+   "text": "talk.",
+   "start": 812864,
+   "end": 813025
+  },
+  {
+   "text": "Now",
+   "start": 813715,
+   "end": 813908
+  },
+  {
+   "text": "let's",
+   "start": 814438,
+   "end": 814759
+  },
+  {
+   "text": "make",
+   "start": 814759,
+   "end": 814871
+  },
+  {
+   "text": "the",
+   "start": 814936,
+   "end": 815080
+  },
+  {
+   "text": "voice",
+   "start": 815080,
+   "end": 815514
+  },
+  {
+   "text": "a",
+   "start": 815883,
+   "end": 815899
+  },
+  {
+   "text": "voice",
+   "start": 815899,
+   "end": 816364
+  },
+  {
+   "text": "clone",
+   "start": 816364,
+   "end": 816749
+  },
+  {
+   "text": "of",
+   "start": 816862,
+   "end": 816990
+  },
+  {
+   "text": "me,",
+   "start": 817102,
+   "end": 817343
+  },
+  {
+   "text": "or",
+   "start": 817744,
+   "end": 817905
+  },
+  {
+   "text": "your",
+   "start": 817905,
+   "end": 818065
+  },
+  {
+   "text": "brain,",
+   "start": 818065,
+   "end": 818306
+  },
+  {
+   "text": "or",
+   "start": 819012,
+   "end": 819189
+  },
+  {
+   "text": "you.",
+   "start": 819189,
+   "end": 819285
+  },
+  {
+   "text": "And",
+   "start": 819895,
+   "end": 819991
+  },
+  {
+   "text": "now",
+   "start": 820055,
+   "end": 820183
+  },
+  {
+   "text": "you",
+   "start": 820376,
+   "end": 820472
+  },
+  {
+   "text": "can",
+   "start": 820472,
+   "end": 820601
+  },
+  {
+   "text": "call",
+   "start": 820793,
+   "end": 821018
+  },
+  {
+   "text": "your",
+   "start": 821018,
+   "end": 821243
+  },
+  {
+   "text": "brain",
+   "start": 821259,
+   "end": 821644
+  },
+  {
+   "text": "or",
+   "start": 822061,
+   "end": 822093
+  },
+  {
+   "text": "have",
+   "start": 822093,
+   "end": 822205
+  },
+  {
+   "text": "a",
+   "start": 822238,
+   "end": 822318
+  },
+  {
+   "text": "voice",
+   "start": 822318,
+   "end": 822719
+  },
+  {
+   "text": "chat",
+   "start": 822719,
+   "end": 823377
+  },
+  {
+   "text": "with",
+   "start": 824003,
+   "end": 824195
+  },
+  {
+   "text": "yourself,",
+   "start": 824227,
+   "end": 824773
+  },
+  {
+   "text": "with",
+   "start": 825287,
+   "end": 825399
+  },
+  {
+   "text": "your",
+   "start": 825431,
+   "end": 825591
+  },
+  {
+   "text": "own",
+   "start": 825672,
+   "end": 825736
+  },
+  {
+   "text": "voice.",
+   "start": 825832,
+   "end": 826153
+  },
+  {
+   "text": "Think",
+   "start": 826634,
+   "end": 826811
+  },
+  {
+   "text": "about",
+   "start": 826811,
+   "end": 827132
+  },
+  {
+   "text": "it.",
+   "start": 827132,
+   "end": 827212
+  },
+  {
+   "text": "Level",
+   "start": 827678,
+   "end": 827999
+  },
+  {
+   "text": "up,",
+   "start": 828079,
+   "end": 828352
+  },
+  {
+   "text": "add",
+   "start": 828881,
+   "end": 828961
+  },
+  {
+   "text": "a",
+   "start": 828977,
+   "end": 829058
+  },
+  {
+   "text": "photo",
+   "start": 829058,
+   "end": 829716
+  },
+  {
+   "text": "with",
+   "start": 829940,
+   "end": 830101
+  },
+  {
+   "text": "some",
+   "start": 830101,
+   "end": 830293
+  },
+  {
+   "text": "audio",
+   "start": 830486,
+   "end": 830759
+  },
+  {
+   "text": "waves,",
+   "start": 830807,
+   "end": 831272
+  },
+  {
+   "text": "and",
+   "start": 831689,
+   "end": 831786
+  },
+  {
+   "text": "things",
+   "start": 831850,
+   "end": 832171
+  },
+  {
+   "text": "become",
+   "start": 832171,
+   "end": 832492
+  },
+  {
+   "text": "really",
+   "start": 832508,
+   "end": 832716
+  },
+  {
+   "text": "interesting.",
+   "start": 832749,
+   "end": 833246
+  },
+  {
+   "text": "Now",
+   "start": 833727,
+   "end": 833888
+  },
+  {
+   "text": "my",
+   "start": 834498,
+   "end": 834626
+  },
+  {
+   "text": "face",
+   "start": 834754,
+   "end": 835493
+  },
+  {
+   "text": "moving",
+   "start": 835862,
+   "end": 836407
+  },
+  {
+   "text": "with",
+   "start": 836504,
+   "end": 836680
+  },
+  {
+   "text": "lipsync,",
+   "start": 836744,
+   "end": 837482
+  },
+  {
+   "text": "that's",
+   "start": 837948,
+   "end": 838156
+  },
+  {
+   "text": "me",
+   "start": 838285,
+   "end": 838526
+  },
+  {
+   "text": "talking,",
+   "start": 838927,
+   "end": 839280
+  },
+  {
+   "text": "my",
+   "start": 839729,
+   "end": 839922
+  },
+  {
+   "text": "clone",
+   "start": 839970,
+   "end": 840419
+  },
+  {
+   "text": "saying",
+   "start": 840852,
+   "end": 841141
+  },
+  {
+   "text": "things",
+   "start": 841270,
+   "end": 841783
+  },
+  {
+   "text": "I",
+   "start": 842040,
+   "end": 842088
+  },
+  {
+   "text": "never",
+   "start": 842136,
+   "end": 842457
+  },
+  {
+   "text": "said.",
+   "start": 842457,
+   "end": 842746
+  },
+  {
+   "text": "That",
+   "start": 843404,
+   "end": 843517
+  },
+  {
+   "text": "I",
+   "start": 843517,
+   "end": 843613
+  },
+  {
+   "text": "would",
+   "start": 843645,
+   "end": 843742
+  },
+  {
+   "text": "have",
+   "start": 843742,
+   "end": 843919
+  },
+  {
+   "text": "said.",
+   "start": 843919,
+   "end": 844192
+  },
+  {
+   "text": "And",
+   "start": 844609,
+   "end": 844834
+  },
+  {
+   "text": "then",
+   "start": 844931,
+   "end": 845236
+  },
+  {
+   "text": "eventually",
+   "start": 845589,
+   "end": 846200
+  },
+  {
+   "text": "this—",
+   "start": 846633,
+   "end": 846826
+  },
+  {
+   "text": "same",
+   "start": 847437,
+   "end": 847806
+  },
+  {
+   "text": "voice,",
+   "start": 847838,
+   "end": 848352
+  },
+  {
+   "text": "same",
+   "start": 848818,
+   "end": 849268
+  },
+  {
+   "text": "takes,",
+   "start": 849348,
+   "end": 849862
+  },
+  {
+   "text": "same",
+   "start": 850183,
+   "end": 850569
+  },
+  {
+   "text": "opinions,",
+   "start": 850569,
+   "end": 851260
+  },
+  {
+   "text": "same",
+   "start": 851710,
+   "end": 852079
+  },
+  {
+   "text": "beliefs.",
+   "start": 852095,
+   "end": 852561
+  },
+  {
+   "text": "That's",
+   "start": 853139,
+   "end": 853589
+  },
+  {
+   "text": "me,",
+   "start": 853605,
+   "end": 853718
+  },
+  {
+   "text": "the",
+   "start": 854248,
+   "end": 854328
+  },
+  {
+   "text": "iRobot",
+   "start": 854665,
+   "end": 854922
+  },
+  {
+   "text": "version,",
+   "start": 854987,
+   "end": 855436
+  },
+  {
+   "text": "maybe",
+   "start": 855870,
+   "end": 856336
+  },
+  {
+   "text": "without",
+   "start": 856336,
+   "end": 856850
+  },
+  {
+   "text": "the",
+   "start": 856850,
+   "end": 856930
+  },
+  {
+   "text": "spiritual.",
+   "start": 856930,
+   "end": 857605
+  },
+  {
+   "text": "Looks",
+   "start": 858199,
+   "end": 858392
+  },
+  {
+   "text": "scary,",
+   "start": 858440,
+   "end": 858810
+  },
+  {
+   "text": "huh?",
+   "start": 858906,
+   "end": 859099
+  },
+  {
+   "text": "Okay,",
+   "start": 859629,
+   "end": 859918
+  },
+  {
+   "text": "none",
+   "start": 860031,
+   "end": 860191
+  },
+  {
+   "text": "of",
+   "start": 860191,
+   "end": 860304
+  },
+  {
+   "text": "that",
+   "start": 860352,
+   "end": 860625
+  },
+  {
+   "text": "is",
+   "start": 860625,
+   "end": 860737
+  },
+  {
+   "text": "built",
+   "start": 860930,
+   "end": 861316
+  },
+  {
+   "text": "right",
+   "start": 861316,
+   "end": 861573
+  },
+  {
+   "text": "now.",
+   "start": 861573,
+   "end": 861653
+  },
+  {
+   "text": "Everything",
+   "start": 862280,
+   "end": 862569
+  },
+  {
+   "text": "I",
+   "start": 862617,
+   "end": 862697
+  },
+  {
+   "text": "showed",
+   "start": 862697,
+   "end": 863179
+  },
+  {
+   "text": "you",
+   "start": 863179,
+   "end": 863308
+  },
+  {
+   "text": "at",
+   "start": 863677,
+   "end": 863790
+  },
+  {
+   "text": "the",
+   "start": 863822,
+   "end": 863886
+  },
+  {
+   "text": "end",
+   "start": 863966,
+   "end": 864111
+  },
+  {
+   "text": "was",
+   "start": 864207,
+   "end": 864336
+  },
+  {
+   "text": "simulated,",
+   "start": 864384,
+   "end": 865316
+  },
+  {
+   "text": "but",
+   "start": 865669,
+   "end": 865894
+  },
+  {
+   "text": "the",
+   "start": 865894,
+   "end": 866071
+  },
+  {
+   "text": "brain",
+   "start": 866071,
+   "end": 866472
+  },
+  {
+   "text": "underneath,",
+   "start": 866617,
+   "end": 867163
+  },
+  {
+   "text": "the",
+   "start": 867597,
+   "end": 867693
+  },
+  {
+   "text": "folder",
+   "start": 867693,
+   "end": 868159
+  },
+  {
+   "text": "underneath,",
+   "start": 868223,
+   "end": 868978
+  },
+  {
+   "text": "the",
+   "start": 869043,
+   "end": 869203
+  },
+  {
+   "text": "project",
+   "start": 869284,
+   "end": 869830
+  },
+  {
+   "text": "underneath",
+   "start": 869830,
+   "end": 870376
+  },
+  {
+   "text": "is",
+   "start": 870569,
+   "end": 870745
+  },
+  {
+   "text": "real,",
+   "start": 870745,
+   "end": 871050
+  },
+  {
+   "text": "and",
+   "start": 871515,
+   "end": 871627
+  },
+  {
+   "text": "it's",
+   "start": 871627,
+   "end": 871756
+  },
+  {
+   "text": "the",
+   "start": 871756,
+   "end": 871836
+  },
+  {
+   "text": "same",
+   "start": 871836,
+   "end": 872462
+  },
+  {
+   "text": "project",
+   "start": 872815,
+   "end": 873376
+  },
+  {
+   "text": "in",
+   "start": 873376,
+   "end": 873472
+  },
+  {
+   "text": "the",
+   "start": 873472,
+   "end": 873553
+  },
+  {
+   "text": "same",
+   "start": 873553,
+   "end": 874066
+  },
+  {
+   "text": "folder",
+   "start": 874098,
+   "end": 874740
+  },
+  {
+   "text": "powering",
+   "start": 875141,
+   "end": 875670
+  },
+  {
+   "text": "all",
+   "start": 875927,
+   "end": 875975
+  },
+  {
+   "text": "the",
+   "start": 876649,
+   "end": 876729
+  },
+  {
+   "text": "simulated",
+   "start": 876729,
+   "end": 877226
+  },
+  {
+   "text": "versions",
+   "start": 877243,
+   "end": 877756
+  },
+  {
+   "text": "that",
+   "start": 878109,
+   "end": 878414
+  },
+  {
+   "text": "could",
+   "start": 878414,
+   "end": 878526
+  },
+  {
+   "text": "be",
+   "start": 878654,
+   "end": 878831
+  },
+  {
+   "text": "real",
+   "start": 878831,
+   "end": 879360
+  },
+  {
+   "text": "one",
+   "start": 879697,
+   "end": 879841
+  },
+  {
+   "text": "day.",
+   "start": 879954,
+   "end": 880178
+  },
+  {
+   "text": "Okay,",
+   "start": 880740,
+   "end": 881093
+  },
+  {
+   "text": "the",
+   "start": 881478,
+   "end": 881638
+  },
+  {
+   "text": "project",
+   "start": 881638,
+   "end": 881975
+  },
+  {
+   "text": "is",
+   "start": 881975,
+   "end": 882088
+  },
+  {
+   "text": "free,",
+   "start": 882200,
+   "end": 882537
+  },
+  {
+   "text": "it's",
+   "start": 883018,
+   "end": 883227
+  },
+  {
+   "text": "open",
+   "start": 883307,
+   "end": 883515
+  },
+  {
+   "text": "source,",
+   "start": 883547,
+   "end": 883932
+  },
+  {
+   "text": "it's",
+   "start": 884366,
+   "end": 884462
+  },
+  {
+   "text": "linked",
+   "start": 884590,
+   "end": 884847
+  },
+  {
+   "text": "below",
+   "start": 884847,
+   "end": 885248
+  },
+  {
+   "text": "with",
+   "start": 885569,
+   "end": 885665
+  },
+  {
+   "text": "the",
+   "start": 885729,
+   "end": 885810
+  },
+  {
+   "text": "full",
+   "start": 885810,
+   "end": 886339
+  },
+  {
+   "text": "guide,",
+   "start": 886371,
+   "end": 886596
+  },
+  {
+   "text": "and",
+   "start": 886788,
+   "end": 886900
+  },
+  {
+   "text": "I",
+   "start": 887478,
+   "end": 887638
+  },
+  {
+   "text": "think",
+   "start": 887638,
+   "end": 887911
+  },
+  {
+   "text": "everyone",
+   "start": 888200,
+   "end": 888826
+  },
+  {
+   "text": "should",
+   "start": 889243,
+   "end": 889515
+  },
+  {
+   "text": "go",
+   "start": 889580,
+   "end": 889804
+  },
+  {
+   "text": "now",
+   "start": 889820,
+   "end": 889917
+  },
+  {
+   "text": "and",
+   "start": 890286,
+   "end": 890366
+  },
+  {
+   "text": "set",
+   "start": 890398,
+   "end": 890671
+  },
+  {
+   "text": "up",
+   "start": 890847,
+   "end": 891040
+  },
+  {
+   "text": "his",
+   "start": 891649,
+   "end": 891874
+  },
+  {
+   "text": "clone,",
+   "start": 892371,
+   "end": 892756
+  },
+  {
+   "text": "his",
+   "start": 893093,
+   "end": 893237
+  },
+  {
+   "text": "brain,",
+   "start": 893334,
+   "end": 893574
+  },
+  {
+   "text": "not",
+   "start": 894056,
+   "end": 894152
+  },
+  {
+   "text": "because",
+   "start": 894152,
+   "end": 894473
+  },
+  {
+   "text": "it's",
+   "start": 894473,
+   "end": 894697
+  },
+  {
+   "text": "something",
+   "start": 894697,
+   "end": 895018
+  },
+  {
+   "text": "really",
+   "start": 895034,
+   "end": 895195
+  },
+  {
+   "text": "special",
+   "start": 895195,
+   "end": 895820
+  },
+  {
+   "text": "about",
+   "start": 895820,
+   "end": 896238
+  },
+  {
+   "text": "it",
+   "start": 896238,
+   "end": 896494
+  },
+  {
+   "text": "Because",
+   "start": 896863,
+   "end": 897168
+  },
+  {
+   "text": "the",
+   "start": 897185,
+   "end": 897297
+  },
+  {
+   "text": "AI",
+   "start": 897297,
+   "end": 897554
+  },
+  {
+   "text": "models",
+   "start": 897602,
+   "end": 897971
+  },
+  {
+   "text": "are",
+   "start": 898068,
+   "end": 898100
+  },
+  {
+   "text": "the",
+   "start": 898100,
+   "end": 898180
+  },
+  {
+   "text": "same.",
+   "start": 898180,
+   "end": 898485
+  },
+  {
+   "text": "Everyone",
+   "start": 899031,
+   "end": 899336
+  },
+  {
+   "text": "has",
+   "start": 899352,
+   "end": 899497
+  },
+  {
+   "text": "access",
+   "start": 899593,
+   "end": 899834
+  },
+  {
+   "text": "to",
+   "start": 899834,
+   "end": 899882
+  },
+  {
+   "text": "Claude",
+   "start": 899994,
+   "end": 900460
+  },
+  {
+   "text": "or",
+   "start": 900717,
+   "end": 900765
+  },
+  {
+   "text": "Gemini",
+   "start": 900813,
+   "end": 901295
+  },
+  {
+   "text": "or",
+   "start": 901295,
+   "end": 901375
+  },
+  {
+   "text": "whatever.",
+   "start": 901375,
+   "end": 901873
+  },
+  {
+   "text": "The",
+   "start": 902242,
+   "end": 902307
+  },
+  {
+   "text": "tools",
+   "start": 902339,
+   "end": 902628
+  },
+  {
+   "text": "are",
+   "start": 902644,
+   "end": 902756
+  },
+  {
+   "text": "free,",
+   "start": 902804,
+   "end": 903158
+  },
+  {
+   "text": "the",
+   "start": 903463,
+   "end": 903559
+  },
+  {
+   "text": "models",
+   "start": 903559,
+   "end": 903832
+  },
+  {
+   "text": "are",
+   "start": 903928,
+   "end": 904025
+  },
+  {
+   "text": "cheap.",
+   "start": 904105,
+   "end": 904667
+  },
+  {
+   "text": "The",
+   "start": 904827,
+   "end": 904972
+  },
+  {
+   "text": "only",
+   "start": 905133,
+   "end": 905518
+  },
+  {
+   "text": "unique",
+   "start": 905695,
+   "end": 906257
+  },
+  {
+   "text": "thing",
+   "start": 906369,
+   "end": 906642
+  },
+  {
+   "text": "left",
+   "start": 906899,
+   "end": 907493
+  },
+  {
+   "text": "is",
+   "start": 908023,
+   "end": 908087
+  },
+  {
+   "text": "you,",
+   "start": 908264,
+   "end": 908376
+  },
+  {
+   "text": "and",
+   "start": 908761,
+   "end": 908826
+  },
+  {
+   "text": "right",
+   "start": 908922,
+   "end": 909243
+  },
+  {
+   "text": "now",
+   "start": 909243,
+   "end": 909339
+  },
+  {
+   "text": "that's",
+   "start": 909950,
+   "end": 910223
+  },
+  {
+   "text": "sitting",
+   "start": 910223,
+   "end": 910640
+  },
+  {
+   "text": "in",
+   "start": 910993,
+   "end": 911138
+  },
+  {
+   "text": "your",
+   "start": 911154,
+   "end": 911330
+  },
+  {
+   "text": "head",
+   "start": 911395,
+   "end": 911619
+  },
+  {
+   "text": "where",
+   "start": 912053,
+   "end": 912197
+  },
+  {
+   "text": "nothing",
+   "start": 912214,
+   "end": 912583
+  },
+  {
+   "text": "can",
+   "start": 912695,
+   "end": 912808
+  },
+  {
+   "text": "read",
+   "start": 912936,
+   "end": 913113
+  },
+  {
+   "text": "it.",
+   "start": 913113,
+   "end": 913257
+  },
+  {
+   "text": "Put",
+   "start": 913659,
+   "end": 913819
+  },
+  {
+   "text": "it",
+   "start": 913819,
+   "end": 913980
+  },
+  {
+   "text": "outside",
+   "start": 914044,
+   "end": 914831
+  },
+  {
+   "text": "and",
+   "start": 915184,
+   "end": 915248
+  },
+  {
+   "text": "maybe",
+   "start": 915345,
+   "end": 915858
+  },
+  {
+   "text": "in",
+   "start": 916308,
+   "end": 916372
+  },
+  {
+   "text": "the",
+   "start": 916372,
+   "end": 916452
+  },
+  {
+   "text": "near",
+   "start": 916452,
+   "end": 916629
+  },
+  {
+   "text": "future",
+   "start": 916629,
+   "end": 917271
+  },
+  {
+   "text": "you",
+   "start": 917576,
+   "end": 917641
+  },
+  {
+   "text": "will",
+   "start": 917657,
+   "end": 917753
+  },
+  {
+   "text": "have",
+   "start": 917753,
+   "end": 918122
+  },
+  {
+   "text": "your",
+   "start": 918540,
+   "end": 918700
+  },
+  {
+   "text": "humanoid",
+   "start": 918700,
+   "end": 919327
+  },
+  {
+   "text": "clone.",
+   "start": 919359,
+   "end": 919712
+  },
+  {
+   "text": "Hit",
+   "start": 920322,
+   "end": 920547
+  },
+  {
+   "text": "like",
+   "start": 920547,
+   "end": 920900
+  },
+  {
+   "text": "if",
+   "start": 920900,
+   "end": 920980
+  },
+  {
+   "text": "this",
+   "start": 920980,
+   "end": 921093
+  },
+  {
+   "text": "was",
+   "start": 921125,
+   "end": 921334
+  },
+  {
+   "text": "useful.",
+   "start": 921366,
+   "end": 921799
+  },
+  {
+   "text": "And",
+   "start": 922249,
+   "end": 922314
+  },
+  {
+   "text": "don't",
+   "start": 922314,
+   "end": 922475
+  },
+  {
+   "text": "forget",
+   "start": 922475,
+   "end": 923024
+  },
+  {
+   "text": "to",
+   "start": 923395,
+   "end": 923492
+  },
+  {
+   "text": "start",
+   "start": 923525,
+   "end": 923783
+  },
+  {
+   "text": "a",
+   "start": 923783,
+   "end": 923863
+  },
+  {
+   "text": "project",
+   "start": 923863,
+   "end": 924251
+  },
+  {
+   "text": "on",
+   "start": 924251,
+   "end": 924315
+  },
+  {
+   "text": "GitHub.",
+   "start": 924428,
+   "end": 924929
+  },
+  {
+   "text": "And",
+   "start": 925477,
+   "end": 925574
+  },
+  {
+   "text": "if",
+   "start": 925574,
+   "end": 925655
+  },
+  {
+   "text": "you",
+   "start": 925655,
+   "end": 925703
+  },
+  {
+   "text": "have",
+   "start": 925703,
+   "end": 925849
+  },
+  {
+   "text": "any",
+   "start": 925962,
+   "end": 926058
+  },
+  {
+   "text": "suggestions,",
+   "start": 926058,
+   "end": 926898
+  },
+  {
+   "text": "any",
+   "start": 927237,
+   "end": 927350
+  },
+  {
+   "text": "ideas,",
+   "start": 927495,
+   "end": 927947
+  },
+  {
+   "text": "I",
+   "start": 928366,
+   "end": 928415
+  },
+  {
+   "text": "read",
+   "start": 928528,
+   "end": 928915
+  },
+  {
+   "text": "every",
+   "start": 929093,
+   "end": 929399
+  },
+  {
+   "text": "comment.",
+   "start": 929577,
+   "end": 929916
+  },
+  {
+   "text": "See",
+   "start": 930239,
+   "end": 930384
+  },
+  {
+   "text": "you",
+   "start": 930400,
+   "end": 930545
+  },
+  {
+   "text": "in",
+   "start": 930545,
+   "end": 930610
+  },
+  {
+   "text": "the",
+   "start": 930642,
+   "end": 930707
+  },
+  {
+   "text": "upcoming",
+   "start": 930804,
+   "end": 931255
+  },
+  {
+   "text": "videos.",
+   "start": 931594,
+   "end": 931901
+  }
+ ]
+}

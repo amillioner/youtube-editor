@@ -1,0 +1,133 @@
+{
+  "_note": "video-1 music bed plan (v4 pass). Library-first: no music generated. Assembled by tools/make_stems.py --music into a STANDALONE stem (no ducking, no voice) that starts at master 0.000 and runs the full preview length, so it drops onto the editor timeline at zero against output/preview-full.mp4.",
+  "_why_body_match": "Every library bed fades in AND out at its own edges (tails fall to -45..-77 dBFS), so a naive butt-loop dips audibly every 63s. Each bed is therefore crossfade-looped across its BODY window only. The bodies also differ in level by up to 8.4 dB even though all four catalog at -20 LUFS (the catalog figure integrates their own quiet heads/tails), so each bed is matched to a common body reference before the per-section artistic gain.",
+  "catalog": "media/library/music/catalog.json",
+  "out": "videos/video-1/output/music-track.wav",
+  "duration_s": 931.9,
+  "sample_rate": 48000,
+  "channels": 2,
+  "duck": false,
+  "reference_rms_db": -24.0,
+  "crossfade_s": 2.5,
+  "loop_crossfade_s": 4.0,
+  "fade_in_s": 1.5,
+  "fade_out_s": 3.0,
+  "_body_detection": "body_in/body_out come from a SUSTAINED-level test: the 3s rolling median of the clip's 0.5s-bin RMS must sit within 3 dB of the clip's body median. A single-bin threshold is not enough - one transient inside cinematic-min's quiet intro passes it, which put body_in at 0.0 and opened every cinematic-min section on 13s of near-silence.",
+  "beds": {
+    "tech-pulse": {
+      "body_in": 0.0,
+      "body_out": 57.0,
+      "body_rms_db": -21.2
+    },
+    "ambient-pad": {
+      "body_in": 12.5,
+      "body_out": 56.5,
+      "body_rms_db": -24.7
+    },
+    "cinematic-min": {
+      "body_in": 13.0,
+      "body_out": 56.5,
+      "body_rms_db": -18.7,
+      "compress": "acompressor=threshold=-28dB:ratio=3:attack=60:release=900:makeup=4",
+      "_body_rms_note": "POST-compression. Raw body is -23.9 dB; the compressor + makeup=4 lifts it to -18.7, so the match gain must be computed against the compressed level or sections 3/8/10 land ~5 dB hot."
+    },
+    "docu-pluck": {
+      "body_in": 3.0,
+      "body_out": 58.0,
+      "body_rms_db": -23.3
+    }
+  },
+  "sections": [
+    {
+      "n": 1,
+      "name": "Cold open / the problem",
+      "start": 0.0,
+      "end": 91.0,
+      "bed": "tech-pulse",
+      "gain_db": 0,
+      "why": "forward motion under the hook"
+    },
+    {
+      "n": 2,
+      "name": "The warning (proof)",
+      "start": 91.0,
+      "end": 132.3,
+      "bed": "ambient-pad",
+      "gain_db": -3,
+      "why": "energy drops, the scene turns serious"
+    },
+    {
+      "n": 3,
+      "name": "What it is / the naming",
+      "start": 132.3,
+      "end": 197.6,
+      "bed": "cinematic-min",
+      "gain_db": -3,
+      "why": "reflective, the concept lands"
+    },
+    {
+      "n": 4,
+      "name": "The repo, two heads",
+      "start": 197.6,
+      "end": 278.9,
+      "bed": "docu-pluck",
+      "gain_db": -1,
+      "why": "explainer energy under the diagrams"
+    },
+    {
+      "n": 5,
+      "name": "The local build",
+      "start": 278.9,
+      "end": 404.0,
+      "bed": "tech-pulse",
+      "gain_db": -1,
+      "why": "hands on the keyboard"
+    },
+    {
+      "n": 6,
+      "name": "The B7 setup run",
+      "start": 404.0,
+      "end": 577.0,
+      "bed": "docu-pluck",
+      "gain_db": 0,
+      "why": "keeps 173s of procedure moving without fatigue"
+    },
+    {
+      "n": 7,
+      "name": "The payoff tour (B8/B9/B10)",
+      "start": 577.0,
+      "end": 703.2,
+      "bed": "tech-pulse",
+      "gain_db": 0,
+      "why": "confidence, the thing works"
+    },
+    {
+      "n": 8,
+      "name": "Use cases + THE LOOP",
+      "start": 703.2,
+      "end": 794.7,
+      "bed": "cinematic-min",
+      "gain_db": -2,
+      "why": "reflective again, the thesis is being built"
+    },
+    {
+      "n": 9,
+      "name": "The B14 ladder",
+      "start": 794.7,
+      "end": 880.6,
+      "bed": "ambient-pad",
+      "gain_db": -2,
+      "why": "spacious and faintly uneasy under the escalation"
+    },
+    {
+      "n": 10,
+      "name": "The close / thesis",
+      "start": 880.6,
+      "end": 931.9,
+      "bed": "cinematic-min",
+      "gain_db": 1,
+      "why": "felt piano, the emotional close"
+    }
+  ],
+  "_compress": "Per-bed bed-taming. cinematic-min swings 17 dB peak-to-trough over 1s windows (felt piano with space between phrases) versus 2.6-7.4 dB for the other beds, so as a continuous bed it reads as dropping out. A gentle compressor brings it in line with the others; character kept, only the troughs lifted. Measured after build, not assumed."
+}

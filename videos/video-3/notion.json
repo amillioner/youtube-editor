@@ -1,0 +1,17 @@
+{
+  "title": "Visual Animated X Posts at Scale",
+  "stage": "Scripting",
+  "pillar": "AI Agents",
+  "script": "script/script.md",
+  "hook_angle": "The bottleneck moved. Writing was never the hard part and the visual was, so TSX killed the visual cost. Then the constraint moved upstream to idea supply, and that is what a content pattern solves: a source that refills itself, a fixed unit, a locked shape. Two worked patterns (a 373-block book, and git commits from building ToolerBox in public), then the machine at scale: sketch-verify-then-TSX, a batch of 7 built in parallel with reserved design axes, and a free Playwright scheduler driving X's own native scheduler on two cookies.",
+  "notes": "Planned 2026-08-10. Subject repo is D:\\repos\\my-x-growth-agent (private). Target 14-16 min, pattern-heavy split: Act 1 bottleneck ~3:30, Act 2 the pattern ~6:00, Act 3 the machine ~5:30. Act 2 is deliberately longest because the pattern is the transferable lesson and needs none of Hasan's code. B8 (source + unit + shape) is the hero shot. B11 demo is HYBRID: simulated Claude Code session in TSX, real 7-post output from blocks 21-27. Two lead magnets: the 373-block book (pitched inside B6, load-bearing) and a generic repo that DOES NOT EXIST YET. Full prep list in script/prep.md.",
+  "checklist": [
+    "B3 + B11 - time a real run, or cut the before/after comparison entirely. No timing on file and the voice rules ban estimating. Both beats are written to work with no number.",
+    "B7 - re-run `PYTHONIOENCODING=utf-8 python manage.py build_in_public --json > out.json` in toolerbox-mcp-new. The 188 tool count is from 2026-07-27 and is stale.",
+    "B11 - confirm the 7 batch artifacts (blocks 21-27): post.txt + .mp4 + preview HTML each. Swap any that look weak on camera and update the axis table in the shot to match.",
+    "B12 - capture 5 clean X screenshots for /fake-screencast: home, composer empty, composer filled with video attached, schedule picker open, parked on Schedule unclicked. Blur DMs and other handles.",
+    "B14 - the promised generic repo does not exist. Either cut it from my-x-growth-agent (engine + skills + vidtsx + schedule/, template profile) or rewrite B14 to point at claude-x-content-creator and say plainly that the scheduler is not included. Link must be live before publish.",
+    "B6 + B14 - the blocks book download page has to be live. It is pitched twice.",
+    "B9 - video-1 (BrainOutside) must be published and linked, since B9 references it as the optional upgrade."
+  ]
+}

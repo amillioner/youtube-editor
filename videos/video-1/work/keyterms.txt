@@ -1,0 +1,69 @@
+# video-1 — BrainOutside launch. Terms the recognizer must not mangle.
+
+# the product + its skills
+BrainOutside
+mind-feeder
+mind-reader
+get-index
+assemble-context
+context pack
+
+# AI tools / models
+Claude
+Claude Code
+MCP
+MCP server
+API key
+TTS
+voice clone
+lipsync
+humanoid
+
+# infra / hosting
+Coolify
+Contabo
+VPS
+SSH
+Postgres
+Docker Compose
+Docker
+GHCR
+Django
+webhook
+reindex
+self hosting
+REST API
+subdomain
+
+# dev / repo
+GitHub
+git repo
+VS Code
+markdown
+repository
+Use this template
+fine grained tokens
+personal access token
+read and write
+commit
+push
+pull
+clone
+
+# app surfaces named on screen
+dashboard
+the queue
+the graph
+the browser
+consumers
+
+# phrases the first pass mis-heard — bias them back
+cost story
+the real quotes
+every note
+downtime number
+downtime take
+voice rules
+the shock
+second brain
+AI slop

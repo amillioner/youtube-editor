@@ -1,0 +1,27 @@
+{
+  "note": "Render + post. Creator-requested variation of the D bet: yellow headline instead of green, and the laptop screen becomes an icon comparison — competitor AI apps crossed out, BrainOutside glowing with a check.",
+  "plate": {
+    "image": "D5-plate.png",
+    "prompt_file": "D5.txt",
+    "model": "gemini-3-pro-image",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "seed": 99,
+    "refs": ["media\\library\\faces\\hasan-ref-01.jpg"]
+  },
+  "post": {
+    "tool": "tools/thumb_scrim.py",
+    "command": "venv/Scripts/python tools/thumb_scrim.py --in videos/video-1/packaging/thumbs/D5-plate.png --out videos/video-1/packaging/thumbs/D5.png --strength 0.78 --fade-y 660 --x-hold 1500 --x-fade 1800 --hue 55 --jpg",
+    "hue_note": "--hue 55 protects the yellow lettering from the darkening; the D4 run used the default 120 for green"
+  },
+  "measured": {
+    "headline_contrast": "4.29:1 (yellow 226.6 on a 43.3 ground). Yellow reads at 226 luminance against green's 179 — a brighter hook for free.",
+    "screen": "luminance 75.9, saturation 35% -- versus 208.9 / 8% for D4's light-mode UI. The dark screen makes his face (124) brighter than the screen, fixing the hierarchy inversion that D3 and D4 both had.",
+    "skin": "124.4 (D4 was 138.1) -- this plate came out slightly darker than D4's; the scrim did not cause it (plate and final both measure 124.4)"
+  },
+  "known_gaps": {
+    "logo_fidelity": "ChatGPT (white knot on black) and Gemini (four-point sparkle) render correctly. The middle Perplexity tile is still an invented geometric mark, not the real logo -- the model redraws logos rather than reproducing them. Fix = composite real icon PNGs, same technique as tools/composite_logo.py; the repo has no ChatGPT/Perplexity/Gemini assets yet.",
+    "message_conflict": "The red X over ChatGPT/Perplexity/Gemini reads as 'this replaces them', which contradicts the video's own ANY AI claim and the checkstrip used on A2/C/D. The Claude-is-absent-because-it-powers-this nuance is not legible to a viewer. An honest alternative with the same visual density: checkmarks on every AI icon around a glowing BrainOutside centre -- 'one brain, every AI'."
+  },
+  "created": "2026-08-08"
+}

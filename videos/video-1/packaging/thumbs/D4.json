@@ -1,0 +1,36 @@
+{
+  "note": "Render + post. The plate is the D4-v2 render; the dark scrim behind the headline was then deepened deterministically with tools/thumb_scrim.py, because the model plateaued at ~50/255 for the scrim no matter how the prompt was worded.",
+  "plate": {
+    "image": "D4-v2.png",
+    "prompt_file": "D4.txt",
+    "model": "gemini-3-pro-image",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "seed": 99,
+    "refs": [
+      "media\\library\\faces\\hasan-ref-01.jpg",
+      "media\\projects\\video-1\\graph-ref.jpg"
+    ]
+  },
+  "post": {
+    "tool": "tools/thumb_scrim.py",
+    "command": "venv/Scripts/python tools/thumb_scrim.py --in videos/video-1/packaging/thumbs/D4-v2.png --out videos/video-1/packaging/thumbs/D4.png --strength 0.6 --fade-y 640 --x-hold 1450 --x-fade 1750 --jpg",
+    "why_x_fade": "the scrim is held off the right side so it darkens the headline's ground without touching his lit face"
+  },
+  "screen_ref": {
+    "file": "media/projects/video-1/graph-ref.jpg",
+    "source": "frame at 637.2s of videos/video-1/output/video-4k-final.mp4 (the B9 screencast graph page, timeline note says graph 635.76)",
+    "prep": "cropped past the sidebar to the graph canvas (700,330,3700,2070), then x0.93 levels + 1.35 contrast + 1.30 colour, with a 1.06 blue lift to undo the olive cast the saturation boost introduced"
+  },
+  "measured": {
+    "headline_contrast": "4.13:1 against its ground (D3 was 1.15:1; the un-scrimmed plate was 3.09:1)",
+    "skin": "luminance 138.1, saturation 37% (D3 was 113.6 / 41%)",
+    "known_gap": "the laptop screen still sits at ~209 luminance, brighter than his face at 138 -- the model normalises the screen back to bright however the ref is graded. Fix would be a perspective-warp composite of the real capture."
+  },
+  "fixed_from_D3": [
+    "hardware rule added -- D3 rendered a bezel reading 'MacBook Pro'",
+    "screen shows the knowledge graph instead of the pastel ring dashboard",
+    "relit so he is the bright subject against a darker room"
+  ],
+  "created": "2026-08-08"
+}

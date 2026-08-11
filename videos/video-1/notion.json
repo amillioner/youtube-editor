@@ -1,0 +1,16 @@
+{
+  "title": "BrainOutSide",
+  "stage": "Recording",
+  "pillar": "AI Agents",
+  "script": "script/script.md",
+  "hook_angle": "One repo, two heads. Your brain is a folder of markdown in a git repo, reachable two ways: locally through Claude Code (mind-feeder / mind-reader) and online through a self-hosted server behind MCP + REST. Cold open is a real A/B, same model and same prompt, one side connected to the brain, plus the gaps field telling the AI what it is not allowed to invent.",
+  "notes": "Script drafted (full script on this page, synced from the repo). Title and thumbnail NOT locked yet, /packaging has not run. Fill BEFORE recording: (1) B7, time a real fresh install and quote the measured number, 'under 10 minutes' is a design target in SETUP-DESIGN.md, not a measurement; (2) generate the B14 ladder assets and the B1 shock clip. Product launches Sat 2026-08-08, so every CTA link must be live by then. Open call: ship the GHCR prebuilt image before recording? If it lands, the B7 Coolify beat shortens from clone-and-build to paste-compose-and-deploy. Structure note: script.md jumps B3 to B5 (no B4) and leaves a 3:15-3:35 gap.",
+  "checklist": [
+    "B7 — time a real fresh install and say the measured number. 'Under 10 minutes' is a design target in `SETUP-DESIGN.md`, not a measurement. Placeholder line in the script: 'Start to finish, that was [N] minutes.'",
+    "B14 + B1 — generate the ladder assets (generic TTS, cloned voice, still avatar, lipsync, humanoid) and the cable-shock clip. Same pipeline, generate together. The shock clip gets cut twice: 2s, then 0.5s.",
+    "B7 — decide the deploy path before recording. Today it is public repository + Docker Compose, because `docker-compose.yml:22` is `build: .` and Coolify has to clone and build on the VPS. If the GHCR image ships first, the beat becomes New resource → Docker Compose → paste → Deploy.",
+    "B8 — record the 5s phone clip: talking to Claude on the phone, feeding a thought to the online brain over MCP.",
+    "B7 + B15 — publish the full written install guide on learnwithhasan.com. It is the CTA in both beats, and it is what buys the right to go fast in Act 2.",
+    "Sat 2026-08-08 — confirm both repos and the site are public before this goes out. Every link in B15 assumes it."
+  ]
+}

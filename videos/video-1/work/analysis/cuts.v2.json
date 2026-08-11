@@ -1,0 +1,3061 @@
+{
+ "project": "video-1",
+ "clip_order": [
+  "0258",
+  "0259",
+  "0260",
+  "0261",
+  "0262",
+  "0263",
+  "0264"
+ ],
+ "clips": [
+  {
+   "id": "0258",
+   "file": "raw/DJI_20260805145734_0258_D.MP4",
+   "duration": 280.32,
+   "keeps": [
+    {
+     "s": 1.79,
+     "e": 5.58,
+     "text": "I'm super excited to show you what I built this week."
+    },
+    {
+     "s": 10.85,
+     "e": 11.56,
+     "text": "Look at this."
+    },
+    {
+     "s": 21.43,
+     "e": 27.66,
+     "text": "Let's say I want to build an AI agent that can reply to my X posts or maybe my emails."
+    },
+    {
+     "s": 38.98,
+     "e": 42.46,
+     "text": "look at this, look at this example. We have the same post"
+    },
+    {
+     "s": 47.28,
+     "e": 49.79,
+     "text": "and I'm using the same AI model,"
+    },
+    {
+     "s": 61.72,
+     "e": 63.86,
+     "text": "Claude, in my case, and replying"
+    },
+    {
+     "s": 65.97,
+     "e": 72.4,
+     "text": "to the same post"
+    },
+    {
+     "s": 76.98,
+     "e": 78.79,
+     "text": "and writing both of them."
+    },
+    {
+     "s": 84.13,
+     "e": 84.99,
+     "text": "Read the first one."
+    },
+    {
+     "s": 86.25,
+     "e": 89.24,
+     "text": "It is generic, and this is what makes AI slop."
+    },
+    {
+     "s": 91.17,
+     "e": 92.06,
+     "text": "Now the second one:"
+    },
+    {
+     "s": 93.46,
+     "e": 100.53,
+     "text": "16 seconds of downtime twice a year, $700 a month. That's my voice,"
+    },
+    {
+     "s": 102.24,
+     "e": 104.46,
+     "text": "my data, my numbers."
+    },
+    {
+     "s": 107.02,
+     "e": 109.48,
+     "text": "From my own servers, my own experience."
+    },
+    {
+     "s": 115.99,
+     "e": 117.24,
+     "text": "So we have the same model,"
+    },
+    {
+     "s": 118.17,
+     "e": 120.91,
+     "text": "same prompt, same post,"
+    },
+    {
+     "s": 125.91,
+     "e": 128.49,
+     "text": "but we have one big difference and it changed everything. And it changes everything."
+    },
+    {
+     "s": 134.4,
+     "e": 138.57,
+     "text": "And this difference changes the whole game when you work with AI."
+    },
+    {
+     "s": 145.31,
+     "e": 146.07,
+     "text": "It is simply"
+    },
+    {
+     "s": 147.15,
+     "e": 148.41,
+     "text": "that the second one"
+    },
+    {
+     "s": 149.25,
+     "e": 151.68,
+     "text": "is connected to my"
+    },
+    {
+     "s": 152.74,
+     "e": 152.95,
+     "text": "brain."
+    },
+    {
+     "s": 157.4,
+     "e": 158.76,
+     "text": "Yes, my brain."
+    },
+    {
+     "s": 169.61,
+     "e": 170.42,
+     "text": "No, not this way."
+    },
+    {
+     "s": 175.95,
+     "e": 176.78,
+     "text": "Let me show you how"
+    },
+    {
+     "s": 179.44,
+     "e": 183.67,
+     "text": "so you can connect your own brain to AI to any AI model."
+    },
+    {
+     "s": 191.36,
+     "e": 194.54,
+     "text": "And this will completely change how"
+    },
+    {
+     "s": 195.83,
+     "e": 196.59,
+     "text": "you work with AI."
+    },
+    {
+     "s": 222.44,
+     "e": 226.56,
+     "text": "and what you just saw is a very basic example on using the brain."
+    },
+    {
+     "s": 231.07,
+     "e": 234.12,
+     "text": "What you will see in this video is going to shock you."
+    },
+    {
+     "s": 242.83,
+     "e": 243.88,
+     "text": "No, not this way also."
+    },
+    {
+     "s": 272.01,
+     "e": 276.24,
+     "text": "So if you are ready to get shocked— <<uh, 274.15-274.20>> sorry, if you are ready, let's"
+    },
+    {
+     "s": 276.8,
+     "e": 277.85,
+     "text": "get started."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 5.58,
+     "e": 6.96,
+     "cat": "false_start",
+     "text": "Look at",
+     "note": "dangling 'Look at' — the line completes in the next take at 10.85"
+    },
+    {
+     "s": 10.52,
+     "e": 10.69,
+     "cat": "false_start",
+     "text": "this.",
+     "note": "orphan 'this.' from the abandoned 'Look at' above. NOTE: the ASR timing for this token is a phantom — the envelope is silent until 10.68 and the burst from 10.70 is the kept 'Look'. Cut must end at 10.69 or the clamp clips the L."
+    },
+    {
+     "s": 35.16,
+     "e": 35.95,
+     "cat": "false_start",
+     "text": "Here we have—",
+     "note": "abandoned; the line restarts at #05"
+    },
+    {
+     "s": 38.07,
+     "e": 38.75,
+     "cat": "false_start",
+     "text": "look at this,",
+     "note": "user 00:12 — 'look at this' doubled; drop the first, land on 'look at this example'"
+    },
+    {
+     "s": 52.05,
+     "e": 52.15,
+     "cat": "retake",
+     "text": "Claude.",
+     "note": "0.1s truncated fragment; superseded by #08 'Claude, in my case, and replying'"
+    },
+    {
+     "s": 73.4,
+     "e": 75.06,
+     "cat": "retake",
+     "text": "and writing both of them",
+     "note": "superseded by #11, the same line delivered complete"
+    },
+    {
+     "s": 128.8,
+     "e": 132.01,
+     "cat": "retake",
+     "text": "and it changed everything. And it changes everything.",
+     "note": "user 00:55 — 'changes everything' twice; cut both and land on 'And this difference...' which keeps the 'one big difference' antecedent intact"
+    },
+    {
+     "s": 200.52,
+     "e": 202.82,
+     "cat": "retake",
+     "text": "And this will completely change",
+     "note": "second run at the #30-#31 line; it never lands cleanly (see #33/#34), so #30-#31 wins"
+    },
+    {
+     "s": 203.81,
+     "e": 208.09,
+     "cat": "retake",
+     "text": "how you work with AI and the results you get from",
+     "note": "trails off on 'from'; only completed by #34's first word, which is glued to a false start"
+    },
+    {
+     "s": 212.81,
+     "e": 216.5,
+     "cat": "false_start",
+     "text": "AI. And what you just— and what you just saw is sim—",
+     "note": "opens with the orphaned 'AI.' that closes #33, then breaks twice; restarts at #36"
+    },
+    {
+     "s": 217.98,
+     "e": 219.7,
+     "cat": "false_start",
+     "text": "other take. And what you just saw—",
+     "note": "verbal slate plus another abandoned start; the run that lands is #36"
+    },
+    {
+     "s": 250.68,
+     "e": 252.8,
+     "cat": "retake",
+     "text": "So if you are to get shocked,",
+     "note": "misspoken ('if you are to' not 'if you are ready to'); superseded by #44-#45"
+    },
+    {
+     "s": 256.28,
+     "e": 257.32,
+     "cat": "filler",
+     "text": "<<uh, 256.28-256.31>> sorry, I mean,",
+     "note": "standalone stumble between takes, not part of a kept sentence"
+    },
+    {
+     "s": 258.63,
+     "e": 259.07,
+     "cat": "filler",
+     "text": "<<uh, 258.63-258.68>> sorry.",
+     "note": "standalone stumble between takes"
+    },
+    {
+     "s": 260.61,
+     "e": 265.69,
+     "cat": "retake",
+     "text": "Other take. So if you are ready to get shocked— <<uh, 263.68-263.70>> sorry, I mean if you are ready to get started.",
+     "note": "opens with a slate and he slates again at #43; superseded by #44-#45"
+    },
+    {
+     "s": 270.7,
+     "e": 271.2,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "verbal slate for the take that lands at #44-#45"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 1.79,
+     "e": 5.57,
+     "crit": "preamble",
+     "text": "I'm super excited to show you what I built this week.",
+     "note": "ad-libbed warm-up in front of the scripted cold open; dropping it opens the video on 'Look at this.' exactly as written",
+     "status": "suggested"
+    },
+    {
+     "s": 191.36,
+     "e": 194.54,
+     "text": "And this will completely change how",
+     "crit": "restated-idea",
+     "note": "pairs with the next keep; 'let me show you how so you can connect your own brain to any AI model' already carries the promise. Cutting both tightens the run into the shock gag. Must be applied together with 195.83-196.59.",
+     "status": "suggested"
+    },
+    {
+     "s": 195.83,
+     "e": 196.59,
+     "text": "you work with AI.",
+     "crit": "restated-idea",
+     "note": "second half of the same sentence as 191.36-194.54; only apply the pair together, never alone.",
+     "status": "suggested"
+    }
+   ]
+  },
+  {
+   "id": "0259",
+   "file": "raw/DJI_20260805150440_0259_D.MP4",
+   "duration": 212.864,
+   "keeps": [
+    {
+     "s": 2.29,
+     "e": 5.79,
+     "text": "Okay, let me start with other small example."
+    },
+    {
+     "s": 8.24,
+     "e": 11.24,
+     "text": "While I was testing this project, while I'm building it,"
+    },
+    {
+     "s": 15.06,
+     "e": 16.33,
+     "text": "I asked for a reply."
+    },
+    {
+     "s": 19.0,
+     "e": 22.99,
+     "text": "My brain, my AI brain, sent me a warning."
+    },
+    {
+     "s": 25.9,
+     "e": 26.47,
+     "text": "It said,"
+    },
+    {
+     "s": 28.22,
+     "e": 29.69,
+     "text": "do not invent this number,"
+    },
+    {
+     "s": 36.0,
+     "e": 39.19,
+     "text": "which is how much time maintenance takes,"
+    },
+    {
+     "s": 40.64,
+     "e": 42.16,
+     "text": "something in one of my projects."
+    },
+    {
+     "s": 44.17,
+     "e": 49.48,
+     "text": "That number was not there, was not in my brain, and was not accurate."
+    },
+    {
+     "s": 52.68,
+     "e": 53.37,
+     "text": "Read that again."
+    },
+    {
+     "s": 72.34,
+     "e": 76.4,
+     "text": "My brain told the AI model what is not allowed."
+    },
+    {
+     "s": 78.68,
+     "e": 79.28,
+     "text": "To make up."
+    },
+    {
+     "s": 96.47,
+     "e": 100.72,
+     "text": "everyone is worried about AI hallucinating when writing in your voice."
+    },
+    {
+     "s": 104.74,
+     "e": 106.7,
+     "text": "this project does the"
+    },
+    {
+     "s": 114.08,
+     "e": 115.87,
+     "text": "opposite. Okay, enough talking."
+    },
+    {
+     "s": 118.02,
+     "e": 119.48,
+     "text": "So what did I build?"
+    },
+    {
+     "s": 120.97,
+     "e": 123.37,
+     "text": "I think you know now, it's like an AI brain,"
+    },
+    {
+     "s": 124.3,
+     "e": 124.88,
+     "text": "but"
+    },
+    {
+     "s": 125.83,
+     "e": 126.59,
+     "text": "let's explain it."
+    },
+    {
+     "s": 131.47,
+     "e": 132.74,
+     "text": "In simple terms,"
+    },
+    {
+     "s": 133.56,
+     "e": 136.66,
+     "text": "it is a copy of my brain."
+    },
+    {
+     "s": 138.24,
+     "e": 139.96,
+     "text": "I called it BrainOutside."
+    },
+    {
+     "s": 140.94,
+     "e": 143.89,
+     "text": "As the name means, it's my brain outside."
+    },
+    {
+     "s": 152.46,
+     "e": 153.75,
+     "text": "It knows how I write."
+    },
+    {
+     "s": 155.7,
+     "e": 157.11,
+     "text": "It knows what I believe."
+    },
+    {
+     "s": 166.06,
+     "e": 166.71,
+     "text": "my philosophy,"
+    },
+    {
+     "s": 167.64,
+     "e": 168.58,
+     "text": "my projects,"
+    },
+    {
+     "s": 169.98,
+     "e": 170.66,
+     "text": "what I do."
+    },
+    {
+     "s": 191.39,
+     "e": 194.07,
+     "text": "Just everything about me. It's my clone."
+    },
+    {
+     "s": 197.05,
+     "e": 199.52,
+     "text": "And some people call it second brain."
+    },
+    {
+     "s": 204.32,
+     "e": 209.83,
+     "text": "maybe you heard about it, maybe you use one. But what you will see today is something really different."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 26.7,
+     "e": 28.06,
+     "cat": "false_start",
+     "text": "do not invent,",
+     "note": "user 01:52 — cut the first 'do not invent'"
+    },
+    {
+     "s": 57.43,
+     "e": 60.33,
+     "cat": "retake",
+     "text": "My brain told the AI model",
+     "note": "slated over at #13; superseded by #14 + #15"
+    },
+    {
+     "s": 62.45,
+     "e": 62.86,
+     "cat": "false_start",
+     "text": "what,",
+     "note": "stumble inside the superseded run; superseded by #14"
+    },
+    {
+     "s": 64.37,
+     "e": 65.53,
+     "cat": "retake",
+     "text": "what it's not allowed.",
+     "note": "superseded by #14 + #15, which deliver the whole line in one breath"
+    },
+    {
+     "s": 68.0,
+     "e": 68.56,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "verbal retake slate"
+    },
+    {
+     "s": 84.77,
+     "e": 87.24,
+     "cat": "retake",
+     "text": "Everyone is worried about AI hallucinations.",
+     "note": "slated over at #17; superseded by #18, which adds 'when writing in your voice' and matches the script"
+    },
+    {
+     "s": 93.43,
+     "e": 94.98,
+     "cat": "false_start",
+     "text": "Other take. Everyone,",
+     "note": "verbal retake slate plus an abandoned first word; the real take is #18"
+    },
+    {
+     "s": 103.13,
+     "e": 103.67,
+     "cat": "false_start",
+     "text": "This one,",
+     "note": "abandoned, restarts as 'this project' at #20"
+    },
+    {
+     "s": 158.18,
+     "e": 163.81,
+     "cat": "false_start",
+     "text": "It knows— other take. It knows what I write. It knows my beliefs,",
+     "note": "audible 'other take' slate mid-segment, so it cannot be used whole; its content duplicates #30 + #31, which are kept instead. See flag."
+    },
+    {
+     "s": 202.13,
+     "e": 202.6,
+     "cat": "filler",
+     "text": "I know,",
+     "note": "user 02:51 — cut the first 'I know', keep 'maybe you know'"
+    },
+    {
+     "s": 202.73,
+     "e": 203.13,
+     "cat": "retake",
+     "text": "I know, maybe you know,",
+     "note": "user 02:51 — no clean splice inside 'I know, maybe you know'; cut the phrase whole, #39 carries the beat"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 120.97,
+     "e": 126.59,
+     "text": "I think you know now, it's like an AI brain, / but / let's explain it.",
+     "crit": "preamble",
+     "note": "covers #23 + #24 + #25. Delays the actual definition by ~6s; dropping it gives 'So what did I build? In simple terms, it is a copy of my brain.'",
+     "status": "suggested"
+    },
+    {
+     "s": 140.94,
+     "e": 143.89,
+     "text": "As the name means, it's my brain outside.",
+     "crit": "over-explained",
+     "note": "covers #29. Unpacks the name 'BrainOutside' one beat after saying it; the name explains itself, especially with the wordmark on screen.",
+     "status": "suggested"
+    }
+   ]
+  },
+  {
+   "id": "0260",
+   "file": "raw/DJI_20260805150823_0260_D.MP4",
+   "duration": 261.595,
+   "keeps": [
+    {
+     "s": 2.58,
+     "e": 6.52,
+     "text": "So think about it like my mirror outside. I can ask it,"
+    },
+    {
+     "s": 9.49,
+     "e": 11.4,
+     "text": "it simply answers like me."
+    },
+    {
+     "s": 30.54,
+     "e": 34.78,
+     "text": "Which is useful most of the days and sometimes becomes strange"
+    },
+    {
+     "s": 35.68,
+     "e": 36.71,
+     "text": "and somehow shocking,"
+    },
+    {
+     "s": 37.62,
+     "e": 39.9,
+     "text": "as you will see in the video in a few minutes."
+    },
+    {
+     "s": 50.12,
+     "e": 54.62,
+     "text": "Like, sometimes I disagree with its answers Which is myself."
+    },
+    {
+     "s": 58.36,
+     "e": 59.12,
+     "text": "That's really weird."
+    },
+    {
+     "s": 79.69,
+     "e": 83.0,
+     "text": "I believe that every human being working with AI should have this,"
+    },
+    {
+     "s": 86.11,
+     "e": 87.89,
+     "text": "should have this brain configured."
+    },
+    {
+     "s": 104.9,
+     "e": 106.44,
+     "text": "And the idea is really simple."
+    },
+    {
+     "s": 107.31,
+     "e": 108.67,
+     "text": "The brain is simply"
+    },
+    {
+     "s": 111.61,
+     "e": 112.19,
+     "text": "a folder"
+    },
+    {
+     "s": 116.6,
+     "e": 119.14,
+     "text": "with markdown files, text files"
+    },
+    {
+     "s": 121.19,
+     "e": 123.06,
+     "text": "inside a Git repo."
+    },
+    {
+     "s": 123.92,
+     "e": 128.21,
+     "text": "So your brain is actually, in our case, a GitHub repo."
+    },
+    {
+     "s": 130.83,
+     "e": 132.54,
+     "text": "And simply some text files."
+    },
+    {
+     "s": 139.89,
+     "e": 141.94,
+     "text": "Who you are, how you write,"
+    },
+    {
+     "s": 144.03,
+     "e": 145.83,
+     "text": "your projects, your takes,"
+    },
+    {
+     "s": 147.51,
+     "e": 155.14,
+     "text": "your stories, the lessons, your education, everything about you inside this private GitHub repo."
+    },
+    {
+     "s": 170.32,
+     "e": 171.82,
+     "text": "And that folder,"
+    },
+    {
+     "s": 172.63,
+     "e": 175.51,
+     "text": "that GitHub repo, your external brain"
+    },
+    {
+     "s": 177.56,
+     "e": 178.02,
+     "text": "has 2"
+    },
+    {
+     "s": 178.87,
+     "e": 179.1,
+     "text": "heads."
+    },
+    {
+     "s": 182.37,
+     "e": 189.62,
+     "text": "The first head is local, so you can deploy and run locally, privately on your own computer."
+    },
+    {
+     "s": 193.81,
+     "e": 195.8,
+     "text": "The second head is online."
+    },
+    {
+     "s": 198.58,
+     "e": 200.89,
+     "text": "So what I did is I built also"
+    },
+    {
+     "s": 202.26,
+     "e": 206.28,
+     "text": "a layer that you can publish your brain online, as you will see in a few seconds."
+    },
+    {
+     "s": 207.23,
+     "e": 211.81,
+     "text": "And it's free and open source and self hosted, so it's fully private too."
+    },
+    {
+     "s": 220.46,
+     "e": 222.03,
+     "text": "and what makes it so powerful?"
+    },
+    {
+     "s": 223.36,
+     "e": 225.21,
+     "text": "This online brain"
+    },
+    {
+     "s": 227.42,
+     "e": 236.32,
+     "text": "can be accessed with both MCP and API endpoints. So you can connect with any AI agent you want."
+    },
+    {
+     "s": 244.15,
+     "e": 247.1,
+     "text": "So we have the same repo, same files,"
+    },
+    {
+     "s": 249.62,
+     "e": 250.49,
+     "text": "the same brain."
+    },
+    {
+     "s": 253.35,
+     "e": 254.71,
+     "text": "You can access locally"
+    },
+    {
+     "s": 255.62,
+     "e": 258.31,
+     "text": "or online from anywhere."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 63.6,
+     "e": 71.45,
+     "cat": "retake",
+     "text": "After you, after you deploy this, and you should, I believe every human should be, every human should have this",
+     "note": "stumbling first pass at the 'every human should have this brain' ad-lib (doubles 'After you' and 'every human should'); superseded by #10-#11"
+    },
+    {
+     "s": 73.18,
+     "e": 73.97,
+     "cat": "retake",
+     "text": "AI brain.",
+     "note": "tail of the superseded #08 run; superseded by #10-#11"
+    },
+    {
+     "s": 83.3,
+     "e": 84.64,
+     "cat": "false_start",
+     "text": "should have this,",
+     "note": "user 03:24 — stutter; the clause completes in the next keep as 'should have this brain configured'"
+    },
+    {
+     "s": 162.65,
+     "e": 163.61,
+     "cat": "false_start",
+     "text": "And here it comes,",
+     "note": "user 03:56 — cut 'and here...'; the beat starts on 'that folder'"
+    },
+    {
+     "s": 164.79,
+     "e": 165.85,
+     "cat": "false_start",
+     "text": "and here with the magic.",
+     "note": "user 03:56 — second 'and here' variant, same cut"
+    },
+    {
+     "s": 219.98,
+     "e": 220.35,
+     "cat": "false_start",
+     "text": "And what",
+     "note": "self-review — doubled 'And what'; this was FLAG 14, left in originally because policy said not to excise mid-sentence stutters. The user's 17 notes all say otherwise."
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 79.69,
+     "e": 87.89,
+     "text": "I believe that every human being working with AI should have this, should have this brain configured.",
+     "crit": "aside",
+     "note": "ad-libbed conviction beat that is not in the script at B2/B3; it pre-empts the B15 close ('I think everyone should have one of these'). Dropping it takes you straight from 'that was weird' into 'And the idea is really simple' and saves ~8s. If dropped, the whole 'every human should have this' beat is gone from this clip since #08-#09 is already cut as a retake.",
+     "status": "suggested"
+    },
+    {
+     "s": 130.83,
+     "e": 132.54,
+     "text": "And simply some text files.",
+     "crit": "restated-idea",
+     "note": "third pass at the same fact: #15 'with markdown files, text files', #17 'a GitHub repo', then this. The folder/markdown/repo TSX shot will already be on screen.",
+     "status": "suggested"
+    }
+   ]
+  },
+  {
+   "id": "0261",
+   "file": "raw/DJI_20260805151305_0261_D.MP4",
+   "duration": 208.192,
+   "keeps": [
+    {
+     "s": 2.05,
+     "e": 7.64,
+     "text": "Okay, enough theory. Let's get into work and build our first brain locally."
+    },
+    {
+     "s": 10.58,
+     "e": 12.52,
+     "text": "And it's way easier than you think."
+    },
+    {
+     "s": 16.08,
+     "e": 19.07,
+     "text": "You just open the template repo I built for you,"
+    },
+    {
+     "s": 21.82,
+     "e": 25.0,
+     "text": "click Use this template, and make it private."
+    },
+    {
+     "s": 25.81,
+     "e": 26.69,
+     "text": "That's your brain."
+    },
+    {
+     "s": 30.01,
+     "e": 32.23,
+     "text": "Now open it in VS Code."
+    },
+    {
+     "s": 33.82,
+     "e": 34.93,
+     "text": "That's the interface."
+    },
+    {
+     "s": 57.31,
+     "e": 59.47,
+     "text": "Inside there are 2 skills,"
+    },
+    {
+     "s": 61.21,
+     "e": 67.8,
+     "text": "and that's the whole thing. The mind-feeder writes and the mind-reader reads. It's that simple."
+    },
+    {
+     "s": 71.75,
+     "e": 73.45,
+     "text": "Watch what feeding looks like."
+    },
+    {
+     "s": 78.03,
+     "e": 85.53,
+     "text": "I'll paste in something, let's say a video transcript I created, a post, a doc, or just a thought I had in the car."
+    },
+    {
+     "s": 90.83,
+     "e": 92.59,
+     "text": "here's the part that really matters."
+    },
+    {
+     "s": 93.45,
+     "e": 94.72,
+     "text": "It doesn't just save it."
+    },
+    {
+     "s": 97.21,
+     "e": 98.01,
+     "text": "It reads it."
+    },
+    {
+     "s": 98.93,
+     "e": 103.72,
+     "text": "It decides what's worth keeping. Then it shows me a proposal."
+    },
+    {
+     "s": 106.12,
+     "e": 110.39,
+     "text": "With the exact code it wants to preserve in my words."
+    },
+    {
+     "s": 112.61,
+     "e": 114.96,
+     "text": "Then it stops and waits for my approval."
+    },
+    {
+     "s": 118.78,
+     "e": 121.9,
+     "text": "When I approve, it writes its one"
+    },
+    {
+     "s": 122.72,
+     "e": 123.63,
+     "text": "Git commit."
+    },
+    {
+     "s": 125.72,
+     "e": 127.32,
+     "text": "This is how it works locally."
+    },
+    {
+     "s": 137.71,
+     "e": 138.61,
+     "text": "why so strict?"
+    },
+    {
+     "s": 141.43,
+     "e": 145.01,
+     "text": "Because in simple words, a brain you don't trust"
+    },
+    {
+     "s": 147.43,
+     "e": 149.19,
+     "text": "is a brain you will not use."
+    },
+    {
+     "s": 169.38,
+     "e": 170.53,
+     "text": "Now let's move into reading."
+    },
+    {
+     "s": 173.43,
+     "e": 177.95,
+     "text": "Mind-reader pulls what's relevant to the task, not everything it has.",
+     "note": "onset fix (-0.40s): Mind-reader — token 0.40s late, cut-in landed mid-'M'"
+    },
+    {
+     "s": 179.18,
+     "e": 186.46,
+     "text": "Ask it for a reply about self-hosting. It brings the code story the downtime number and my voice."
+    },
+    {
+     "s": 189.46,
+     "e": 191.67,
+     "text": "It leaves like the other notes alone."
+    },
+    {
+     "s": 193.32,
+     "e": 197.53,
+     "text": "And this is very important for context limit and context window"
+    },
+    {
+     "s": 198.48,
+     "e": 203.04,
+     "text": "and hallucinations. And of course for accurate results."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 39.46,
+     "e": 41.0,
+     "cat": "retake",
+     "text": "There is no app or UI.",
+     "note": "first of three deliveries; superseded by #09, and the whole sentence is then killed by his own instruction at #11"
+    },
+    {
+     "s": 42.37,
+     "e": 44.25,
+     "cat": "retake",
+     "text": "There is no app or UI for now.",
+     "note": "best of the three (only one with 'for now', matches script B5) — but he immediately says 'Remove this sentence. Not needed.' at #11, so the sentence is cut. Restore THIS take if you want the line back. See flags."
+    },
+    {
+     "s": 45.37,
+     "e": 46.77,
+     "cat": "retake",
+     "text": "There is no app or UI.",
+     "note": "third delivery, drops 'for now'; superseded by #09 and killed by his instruction at #11"
+    },
+    {
+     "s": 53.83,
+     "e": 56.04,
+     "cat": "false_start",
+     "text": "Remove this sentence. Not needed. It's not needed.",
+     "note": "spoken editor directive, not narration — he is telling the editor to drop the 'There is no app or UI' sentence (#08-#10)"
+    },
+    {
+     "s": 75.05,
+     "e": 75.5,
+     "cat": "false_start",
+     "text": "Let's say",
+     "note": "abandoned, restarts at #16 which absorbs 'let's say'"
+    },
+    {
+     "s": 89.96,
+     "e": 90.8,
+     "cat": "false_start",
+     "text": "And here's",
+     "note": "user 05:22 — doubled 'and here's'; ASR merged them, cut lands in the 0.1s gap at 90.71-90.80"
+    },
+    {
+     "s": 133.18,
+     "e": 135.8,
+     "cat": "false_start",
+     "text": "Why I did this approval gate? Why I—",
+     "note": "fumbles and abandons mid-question; clean script line 'why so strict?' lands at #27"
+    },
+    {
+     "s": 153.48,
+     "e": 154.6,
+     "cat": "false_start",
+     "text": "If you keep a—",
+     "note": "user 05:55 — abandoned first attempt"
+    },
+    {
+     "s": 154.73,
+     "e": 156.16,
+     "cat": "user_cut",
+     "text": "if you fill it with junk",
+     "note": "round-1 R7 (user, 05:51): trailing clause cut. The line now ends on '...a brain you will not use.' and goes straight into 'Now let's move into reading.' Removes master 352.085-353.920 (delta 1.835167s)."
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 125.72,
+     "e": 127.32,
+     "text": "This is how it works locally.",
+     "crit": "restated-idea",
+     "note": "1.6s speed bump between the commit payoff and the 'why so strict?' turn; B6 already opens with 'That's the local version' a beat later",
+     "status": "suggested"
+    },
+    {
+     "s": 193.32,
+     "e": 203.04,
+     "text": "And this is very important for context limit and context window / and hallucinations. And of course for accurate results.",
+     "crit": "aside",
+     "note": "ad-libbed justification not in the script, 9.7s. Genuinely good 'why you should care' content — the weaker of the two suggestions, lean keep. Must be dropped as a pair: cutting only #36 leaves #35 dangling on 'and'.",
+     "status": "suggested"
+    }
+   ]
+  },
+  {
+   "id": "0262",
+   "file": "raw/DJI_20260805151703_0262_D.MP4",
+   "duration": 461.483,
+   "keeps": [
+    {
+     "s": 2.82,
+     "e": 5.65,
+     "text": "Okay, that's the local version. It's finished."
+    },
+    {
+     "s": 7.65,
+     "e": 9.68,
+     "text": "And honestly, you can stop right here"
+    },
+    {
+     "s": 11.65,
+     "e": 16.28,
+     "text": "if you want the brain to be inside VS Code running locally on your machine."
+    },
+    {
+     "s": 17.1,
+     "e": 17.64,
+     "text": "That's fine."
+    },
+    {
+     "s": 26.42,
+     "e": 27.52,
+     "text": "It's only on your machine."
+    },
+    {
+     "s": 33.17,
+     "e": 34.91,
+     "text": "Let's now give it a door"
+    },
+    {
+     "s": 38.43,
+     "e": 40.26,
+     "text": "and allow it to connect"
+    },
+    {
+     "s": 41.77,
+     "e": 43.44,
+     "text": "with any app you want."
+    },
+    {
+     "s": 47.91,
+     "e": 48.59,
+     "text": "and here"
+    },
+    {
+     "s": 50.26,
+     "e": 51.84,
+     "text": "where the real magic begins."
+    },
+    {
+     "s": 57.12,
+     "e": 59.64,
+     "text": "Remember the shark? It starts here."
+    },
+    {
+     "s": 89.88,
+     "e": 96.0,
+     "text": "Okay, since this project is open source, free, and self-hosted, you will need to host it somewhere."
+    },
+    {
+     "s": 97.28,
+     "e": 97.95,
+     "text": "In my case now,"
+    },
+    {
+     "s": 99.35,
+     "e": 100.23,
+     "text": "for the quick demo,"
+    },
+    {
+     "s": 101.28,
+     "e": 102.36,
+     "text": "I will pick a VPS."
+    },
+    {
+     "s": 106.45,
+     "e": 108.48,
+     "text": "Any provider you want. I'll go with Contabo."
+    },
+    {
+     "s": 111.61,
+     "e": 114.11,
+     "text": "I'll pick the cheapest VPS, it's more than enough."
+    },
+    {
+     "s": 117.77,
+     "e": 120.11,
+     "text": "And now simply I'll install Coolify."
+    },
+    {
+     "s": 122.79,
+     "e": 123.98,
+     "text": "It's one command."
+    },
+    {
+     "s": 128.75,
+     "e": 131.01,
+     "text": "Just connect to the server with SSH client,"
+    },
+    {
+     "s": 132.63,
+     "e": 135.19,
+     "text": "paste it, and let it run for a few minutes."
+    },
+    {
+     "s": 141.38,
+     "e": 143.45,
+     "text": "You can see now Coolify running on my server."
+    },
+    {
+     "s": 146.29,
+     "e": 148.61,
+     "text": "Now you can self-host anything you want."
+    },
+    {
+     "s": 152.0,
+     "e": 154.53,
+     "text": "And this is exactly, by the way, how I save more than $700"
+    },
+    {
+     "s": 156.62,
+     "e": 161.42,
+     "text": "per month hosting all my projects and services on my own server."
+    },
+    {
+     "s": 165.95,
+     "e": 168.01,
+     "text": "If you want to learn more about this and how I do it,"
+    },
+    {
+     "s": 173.79,
+     "e": 176.46,
+     "text": "check the link in the description below. But for now, it's out of scope."
+    },
+    {
+     "s": 178.14,
+     "e": 179.21,
+     "text": "Let's continue our work."
+    },
+    {
+     "s": 182.86,
+     "e": 186.22,
+     "text": "Click New Project, then New Resource."
+    },
+    {
+     "s": 188.7,
+     "e": 189.81,
+     "text": "Select Public Repo,"
+    },
+    {
+     "s": 191.66,
+     "e": 192.54,
+     "text": "paste the URL,"
+    },
+    {
+     "s": 197.03,
+     "e": 199.0,
+     "text": "and set the buildpack to Docker Compose."
+    },
+    {
+     "s": 202.97,
+     "e": 204.21,
+     "text": "That's it. Save."
+    },
+    {
+     "s": 206.04,
+     "e": 207.48,
+     "text": "Go now to environmental variables."
+    },
+    {
+     "s": 208.49,
+     "e": 210.6,
+     "text": "And here you write exactly 2 things,"
+    },
+    {
+     "s": 213.52,
+     "e": 215.48,
+     "text": "database password and the domain."
+    },
+    {
+     "s": 217.66,
+     "e": 220.07,
+     "text": "That's the whole thing. And click deploy."
+    },
+    {
+     "s": 229.86,
+     "e": 234.16,
+     "text": "Wait for a few seconds and then open your domain in the browser."
+    },
+    {
+     "s": 239.04,
+     "e": 243.01,
+     "text": "the first time you don't get a login box, you get a wizard."
+    },
+    {
+     "s": 244.18,
+     "e": 250.46,
+     "text": "I tried my best to make things as simple as possible so anyone can build this and use it."
+    },
+    {
+     "s": 253.38,
+     "e": 255.37,
+     "text": "So number 1, create the account,"
+    },
+    {
+     "s": 256.29,
+     "e": 257.56,
+     "text": "then create your brain."
+    },
+    {
+     "s": 261.18,
+     "e": 263.74,
+     "text": "Give it a name, set to private, create."
+    },
+    {
+     "s": 267.81,
+     "e": 269.24,
+     "text": "Then the server will read it."
+    },
+    {
+     "s": 278.81,
+     "e": 281.01,
+     "text": "Paste the public SSH key into GitHub."
+    },
+    {
+     "s": 281.95,
+     "e": 282.62,
+     "text": "Hit verify"
+    },
+    {
+     "s": 286.73,
+     "e": 288.29,
+     "text": "And builds a real clone."
+    },
+    {
+     "s": 293.68,
+     "e": 295.62,
+     "text": "Now let it write back."
+    },
+    {
+     "s": 296.5,
+     "e": 298.67,
+     "text": "The key you just added is read-only,"
+    },
+    {
+     "s": 300.71,
+     "e": 304.16,
+     "text": "but what we need is to approve something. We need to write to our brain."
+    },
+    {
+     "s": 307.98,
+     "e": 312.39,
+     "text": "the server has to push to GitHub, so it needs permission to write."
+    },
+    {
+     "s": 315.3,
+     "e": 318.9,
+     "text": "The app gives you a link straight to the token page. Just click it,"
+    },
+    {
+     "s": 319.73,
+     "e": 323.25,
+     "text": "go to fine-grained tokens, generate new token."
+    },
+    {
+     "s": 335.24,
+     "e": 336.9,
+     "text": "select access the repositories."
+    },
+    {
+     "s": 338.67,
+     "e": 339.9,
+     "text": "Which is your Brain repo,"
+    },
+    {
+     "s": 343.61,
+     "e": 344.57,
+     "text": "then permissions,",
+     "note": "onset fix (-0.32s): 'then permissions,' — token 0.32s late"
+    },
+    {
+     "s": 345.48,
+     "e": 349.76,
+     "text": "contents, read and write. That's the only you need."
+    },
+    {
+     "s": 352.57,
+     "e": 354.76,
+     "text": "Generate, copy it,"
+    },
+    {
+     "s": 359.04,
+     "e": 361.82,
+     "text": "and then paste it back here, and you are done."
+    },
+    {
+     "s": 368.9,
+     "e": 372.49,
+     "text": "The dashboard will tell you that your brain is ahead of GitHub."
+    },
+    {
+     "s": 374.92,
+     "e": 377.68,
+     "text": "now. Step number 5, connect Claude,"
+    },
+    {
+     "s": 380.02,
+     "e": 380.6,
+     "text": "add your key,"
+    },
+    {
+     "s": 386.89,
+     "e": 389.73,
+     "text": "Number 6, build, and that's it."
+    },
+    {
+     "s": 394.77,
+     "e": 396.87,
+     "text": "Your brain now is online."
+    },
+    {
+     "s": 403.31,
+     "e": 404.69,
+     "text": "I know I went quickly here"
+    },
+    {
+     "s": 406.68,
+     "e": 409.07,
+     "text": "because I want to focus on what is coming next,"
+    },
+    {
+     "s": 412.51,
+     "e": 413.36,
+     "text": "the shocking part."
+    },
+    {
+     "s": 416.58,
+     "e": 417.44,
+     "text": "But don't worry,"
+    },
+    {
+     "s": 418.6,
+     "e": 426.48,
+     "text": "I created a full guide step by step in detail on how to create your Brain online and locally,"
+    },
+    {
+     "s": 428.66,
+     "e": 430.21,
+     "text": "and it's free guide linked below."
+    },
+    {
+     "s": 431.98,
+     "e": 435.09,
+     "text": "So don't worry about the configuration, you can follow up in the guide."
+    },
+    {
+     "s": 442.38,
+     "e": 442.89,
+     "text": "But for now,"
+    },
+    {
+     "s": 443.93,
+     "e": 444.72,
+     "text": "stay with me"
+    },
+    {
+     "s": 448.5,
+     "e": 450.0,
+     "text": "because the next part"
+    },
+    {
+     "s": 451.51,
+     "e": 453.26,
+     "text": "is the reason I built it,"
+    }
+   ],
+   "cuts": [
+    {
+     "s": 21.44,
+     "e": 25.05,
+     "cat": "false_start",
+     "text": "But",
+     "note": "abandoned pivot — a single word held for 3.6s, then he stops and restarts the thought at #06 'It's only on your machine.'"
+    },
+    {
+     "s": 45.7,
+     "e": 47.85,
+     "cat": "false_start",
+     "text": "And here where the real—",
+     "note": "user 06:50 — first 'and here' run"
+    },
+    {
+     "s": 83.87,
+     "e": 89.4,
+     "cat": "false_start",
+     "text": "Okay, since this is a self-hosted open source pro— another take.",
+     "note": "aborted attempt + spoken slate; the good take starts at 89.88"
+    },
+    {
+     "s": 98.05,
+     "e": 99.32,
+     "cat": "false_start",
+     "text": "for quick demo—",
+     "note": "user 07:05 — cut the first 'for quick demo'"
+    },
+    {
+     "s": 190.62,
+     "e": 191.55,
+     "cat": "false_start",
+     "text": "paste the repo URL,",
+     "note": "user 07:49 — cut the first; NOTE this drops the word 'repo', the surviving take is just 'paste the URL'"
+    },
+    {
+     "s": 237.09,
+     "e": 238.75,
+     "cat": "false_start",
+     "text": "The first time you not get a—",
+     "note": "user 08:10 — abandoned first attempt"
+    },
+    {
+     "s": 275.25,
+     "e": 277.69,
+     "cat": "retake",
+     "text": "Paste the public SSH key from GitHub.",
+     "note": "wrong preposition ('from' GitHub); superseded by #46 which corrects it to 'into GitHub'"
+    },
+    {
+     "s": 285.13,
+     "e": 286.5,
+     "cat": "false_start",
+     "text": "and does a real",
+     "note": "user 08:37 — abandoned first attempt"
+    },
+    {
+     "s": 299.2,
+     "e": 300.35,
+     "cat": "false_start",
+     "text": "but we need—",
+     "note": "user 08:43 — cut the first 'but we need'"
+    },
+    {
+     "s": 304.4,
+     "e": 307.8,
+     "cat": "false_start",
+     "text": "The server has to put— the server has to push—",
+     "note": "user 08:49 — two bad takes; the third delivery survives"
+    },
+    {
+     "s": 324.58,
+     "e": 325.52,
+     "cat": "false_start",
+     "text": "Go to tokens—",
+     "note": "abandoned fragment; he slates a retake immediately after in #54"
+    },
+    {
+     "s": 326.35,
+     "e": 329.72,
+     "cat": "false_start",
+     "text": "other take— go to tokens, generate new token,",
+     "note": "slate 'other take' plus a redundant, less complete repeat of #52 — #52 says 'fine-grained tokens' and matches the script, so the earlier take wins here"
+    },
+    {
+     "s": 373.96,
+     "e": 374.8,
+     "cat": "false_start",
+     "text": "Connect",
+     "note": "user 09:23 — cut the stray leading 'Connect'"
+    },
+    {
+     "s": 382.14,
+     "e": 384.21,
+     "cat": "retake",
+     "text": "and that's it. Click build,",
+     "note": "wrong order and no step number; he slates the retake in #65, which supersedes this"
+    },
+    {
+     "s": 385.68,
+     "e": 386.5,
+     "cat": "false_start",
+     "text": "other take.",
+     "note": "spoken slate riding on the head of the good take"
+    },
+    {
+     "s": 401.95,
+     "e": 402.9,
+     "cat": "false_start",
+     "text": "I know I went—",
+     "note": "user 09:35 — duplicate take"
+    },
+    {
+     "s": 411.24,
+     "e": 412.4,
+     "cat": "retake",
+     "text": "the shocking part,",
+     "note": "user 09:40 — said twice, keep the second"
+    },
+    {
+     "s": 417.5,
+     "e": 418.45,
+     "cat": "false_start",
+     "text": "I published—",
+     "note": "user 09:43 — abandoned verb, 'I created' supersedes"
+    },
+    {
+     "s": 455.59,
+     "e": 457.83,
+     "cat": "retake",
+     "text": "is the reason behind building this project.",
+     "note": "alternate ending to the same sentence started in #75; kept #76 'is the reason I built it' — tighter and it matches the script line"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 165.95,
+     "e": 176.46,
+     "text": "If you want to learn more about this and how I do it, / check the link in the description below. But for now, it's out of scope.",
+     "crit": "tangent",
+     "note": "the 'learn more, link in description' plug lands mid-install, right between Coolify booting and New Project. #24–#25 already banks the $700 credibility, and #28 'Let's continue our work' still gets you back cleanly without it.",
+     "status": "suggested"
+    },
+    {
+     "s": 244.18,
+     "e": 250.46,
+     "text": "I tried my best to make things as simple as possible so anyone can build this and use it.",
+     "crit": "aside",
+     "note": "ad-lib, not in the script — an evaluative aside that delays the six wizard steps by 6s right at the payoff",
+     "status": "suggested"
+    },
+    {
+     "s": 431.98,
+     "e": 435.09,
+     "text": "So don't worry about the configuration, you can follow up in the guide.",
+     "crit": "restated-idea",
+     "note": "third pass at the same idea — #70 already says 'don't worry, I created a full guide step by step' and #71 says it's free and linked below",
+     "status": "suggested"
+    }
+   ]
+  },
+  {
+   "id": "0263",
+   "file": "raw/DJI_20260805152502_0263_D.MP4",
+   "duration": 265.482,
+   "keeps": [
+    {
+     "s": 2.48,
+     "e": 4.7,
+     "text": "Now the part I actually love."
+    },
+    {
+     "s": 8.79,
+     "e": 12.37,
+     "text": "Watch what happens when I add something from my computer."
+    },
+    {
+     "s": 15.5,
+     "e": 18.5,
+     "text": "I feed a note locally, I approve it,"
+    },
+    {
+     "s": 19.39,
+     "e": 21.36,
+     "text": "it commits, and I push."
+    },
+    {
+     "s": 24.33,
+     "e": 26.11,
+     "text": "GitHub fires a webhook."
+    },
+    {
+     "s": 27.38,
+     "e": 28.76,
+     "text": "Notifying the server,"
+    },
+    {
+     "s": 29.57,
+     "e": 31.86,
+     "text": "and the server pulls the updates."
+    },
+    {
+     "s": 32.69,
+     "e": 33.63,
+     "text": "It reindexes."
+    },
+    {
+     "s": 34.53,
+     "e": 37.45,
+     "text": "The note now is live on the online brain."
+    },
+    {
+     "s": 46.08,
+     "e": 48.21,
+     "text": "And this works too in the other direction."
+    },
+    {
+     "s": 52.01,
+     "e": 58.76,
+     "text": "So we have the same repo Both directions, the local and the online brain, are like in sync."
+    },
+    {
+     "s": 72.09,
+     "e": 76.78,
+     "text": "Actually, there is no syncing. We have one source and 2 doors."
+    },
+    {
+     "s": 86.23,
+     "e": 88.47,
+     "text": "Now let me take you through a quick tour,"
+    },
+    {
+     "s": 91.81,
+     "e": 93.75,
+     "text": "then we get to the exciting part."
+    },
+    {
+     "s": 95.78,
+     "e": 104.22,
+     "text": "We have the dashboard. The rings are your brain by kind: identity, projects, knowledge. The browser, Evernote, filterable."
+    },
+    {
+     "s": 107.08,
+     "e": 108.96,
+     "text": "It is just the markdown files"
+    },
+    {
+     "s": 109.88,
+     "e": 110.62,
+     "text": "but rendered."
+    },
+    {
+     "s": 112.38,
+     "e": 123.19,
+     "text": "We have the graph, what links to what. My code story and my downtime take both point at self-hosting. So when I ask about self-hosting, both show up."
+    },
+    {
+     "s": 124.15,
+     "e": 128.21,
+     "text": "We have the queue, everything an agent wants to write waiting on me."
+    },
+    {
+     "s": 130.65,
+     "e": 132.5,
+     "text": "Nothing gets in behind my back."
+    },
+    {
+     "s": 134.61,
+     "e": 137.55,
+     "text": "And then we have the consumers, who is reading my brain,"
+    },
+    {
+     "s": 140.32,
+     "e": 144.43,
+     "text": "creating the MCP API keys, and so on. And we have the chat."
+    },
+    {
+     "s": 146.05,
+     "e": 148.28,
+     "text": "This is me talking to me."
+    },
+    {
+     "s": 151.16,
+     "e": 153.23,
+     "text": "And here things become really strange."
+    },
+    {
+     "s": 163.81,
+     "e": 165.46,
+     "text": "You heard me saying MCP"
+    },
+    {
+     "s": 166.97,
+     "e": 167.56,
+     "text": "and API,"
+    },
+    {
+     "s": 170.19,
+     "e": 174.2,
+     "text": "and it's one of the main reasons behind me building this project."
+    },
+    {
+     "s": 201.21,
+     "e": 203.02,
+     "text": "I simply connect Claude"
+    },
+    {
+     "s": 204.19,
+     "e": 207.78,
+     "text": "once to the MCP server running inside my brain."
+    },
+    {
+     "s": 209.94,
+     "e": 212.94,
+     "text": "And that's it. Claude can now read my brain."
+    },
+    {
+     "s": 216.06,
+     "e": 217.24,
+     "text": "Literally, that's the feature."
+    },
+    {
+     "s": 222.37,
+     "e": 222.82,
+     "text": "Watch this."
+    },
+    {
+     "s": 223.66,
+     "e": 228.47,
+     "text": "get-index. That's everything my brain holds. One line each."
+    },
+    {
+     "s": 229.33,
+     "e": 230.52,
+     "text": "assemble-context."
+    },
+    {
+     "s": 231.48,
+     "e": 241.24,
+     "text": "This is the good one. I hand it a task and it goes and builds a pack for that exact task. The right notes, the real codes, and the gaps."
+    },
+    {
+     "s": 243.09,
+     "e": 245.09,
+     "text": "Remember the reply from the beginning of the video?"
+    },
+    {
+     "s": 250.25,
+     "e": 251.58,
+     "text": "That's the call that made it."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 22.92,
+     "e": 24.0,
+     "cat": "false_start",
+     "text": "What happens—",
+     "note": "abandoned question head"
+    },
+    {
+     "s": 129.26,
+     "e": 130.55,
+     "cat": "false_start",
+     "text": "Nothing gets in behind",
+     "note": "stumble; he restarts the clause cleanly at 130.65"
+    },
+    {
+     "s": 138.55,
+     "e": 140.1,
+     "cat": "false_start",
+     "text": "creating the MCP token,",
+     "note": "self-review — restart; he settles on 'MCP API keys'. LOWEST confidence in this batch: could be read as two list items rather than a stutter."
+    },
+    {
+     "s": 181.94,
+     "e": 185.23,
+     "cat": "retake",
+     "text": "My brain is online. I can connect Claude,",
+     "note": "superseded by #31-#33 (he slates 'Other take.' at #30); the retake adds the MCP-server detail and matches the script"
+    },
+    {
+     "s": 192.42,
+     "e": 194.29,
+     "cat": "retake",
+     "text": "and it can now read my brain.",
+     "note": "superseded by #33 'And that's it. Claude can now read my brain.'"
+    },
+    {
+     "s": 198.48,
+     "e": 198.83,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "verbal slate marker"
+    },
+    {
+     "s": 247.62,
+     "e": 248.98,
+     "cat": "retake",
+     "text": "That's the call I made.",
+     "note": "superseded by #41 'That's the call that made it.', which is the exact script line; see flag, the pair also reads as a deliberate parallel"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 163.81,
+     "e": 167.56,
+     "text": "You heard me saying MCP / and API,",
+     "crit": "preamble",
+     "note": "ad-libbed wind-up into B10; the script goes straight to 'Now the main reason behind building this project.' Dropping these two lands on #27 cleanly and gets to the MCP payoff ~4s sooner. MCP and API were already named earlier in the video.",
+     "status": "suggested"
+    }
+   ]
+  },
+  {
+   "id": "0264",
+   "file": "raw/DJI_20260805152937_0264_D.MP4",
+   "duration": 712.853,
+   "keeps": [
+    {
+     "s": 102.56,
+     "e": 105.11,
+     "text": "Okay, back to where we started."
+    },
+    {
+     "s": 112.0,
+     "e": 117.51,
+     "text": "on a daily basis, I use this brain actually for replying for emails, newsletter,"
+    },
+    {
+     "s": 119.61,
+     "e": 120.19,
+     "text": "a video description,"
+    },
+    {
+     "s": 122.33,
+     "e": 124.48,
+     "text": "anything I have to write as me."
+    },
+    {
+     "s": 127.35,
+     "e": 128.79,
+     "text": "And when it doesn't know something,"
+    },
+    {
+     "s": 131.76,
+     "e": 134.96,
+     "text": "It says so instead of hallucinating and filling the gaps."
+    },
+    {
+     "s": 142.2,
+     "e": 143.91,
+     "text": "Of course, I still edit and review."
+    },
+    {
+     "s": 148.29,
+     "e": 150.92,
+     "text": "think about like a drafter, not a ghostwriter."
+    },
+    {
+     "s": 154.3,
+     "e": 156.21,
+     "text": "But the idea, it starts from me."
+    },
+    {
+     "s": 157.78,
+     "e": 158.95,
+     "text": "Instead from nothing."
+    },
+    {
+     "s": 163.64,
+     "e": 166.62,
+     "text": "But wait, it's not only for content."
+    },
+    {
+     "s": 168.96,
+     "e": 171.53,
+     "text": "If you are writing a book, a novel,"
+    },
+    {
+     "s": 174.25,
+     "e": 175.27,
+     "text": "doing research,"
+    },
+    {
+     "s": 178.34,
+     "e": 180.9,
+     "text": "your brain holds your position."
+    },
+    {
+     "s": 182.97,
+     "e": 184.79,
+     "text": "Your beliefs and your examples"
+    },
+    {
+     "s": 187.71,
+     "e": 188.15,
+     "text": "across"
+    },
+    {
+     "s": 189.24,
+     "e": 190.03,
+     "text": "whole pages."
+    },
+    {
+     "s": 191.85,
+     "e": 192.91,
+     "text": "So chapter 9"
+    },
+    {
+     "s": 197.95,
+     "e": 199.77,
+     "text": "doesn't contradict with chapter 1."
+    },
+    {
+     "s": 203.97,
+     "e": 205.27,
+     "text": "If you are building a course,"
+    },
+    {
+     "s": 206.63,
+     "e": 208.29,
+     "text": "it holds how you explain things."
+    },
+    {
+     "s": 213.87,
+     "e": 215.78,
+     "text": "If you are just building anything with AI,"
+    },
+    {
+     "s": 220.84,
+     "e": 222.75,
+     "text": "it holds your decisions"
+    },
+    {
+     "s": 225.92,
+     "e": 226.55,
+     "text": "that you already made,"
+    },
+    {
+     "s": 228.94,
+     "e": 232.03,
+     "text": "so you stop re-explaining everything again and again."
+    },
+    {
+     "s": 234.59,
+     "e": 236.78,
+     "text": "With every new session or project."
+    },
+    {
+     "s": 251.7,
+     "e": 253.02,
+     "text": "So here's the rule,"
+    },
+    {
+     "s": 254.89,
+     "e": 256.81,
+     "text": "and that's the whole point of the video:"
+    },
+    {
+     "s": 259.06,
+     "e": 261.31,
+     "text": "attach your brain to simply everything.",
+     "note": "onset fix (-0.10s): 'attach your brain...' — token 0.10s late, marginal under tight's head"
+    },
+    {
+     "s": 267.69,
+     "e": 269.53,
+     "text": "every agent, every session,"
+    },
+    {
+     "s": 271.38,
+     "e": 272.65,
+     "text": "every tool you work in."
+    },
+    {
+     "s": 277.51,
+     "e": 279.46,
+     "text": "Read always and feed always."
+    },
+    {
+     "s": 288.54,
+     "e": 290.01,
+     "text": "Read before it writes"
+    },
+    {
+     "s": 293.37,
+     "e": 294.11,
+     "text": "so it has you,"
+    },
+    {
+     "s": 296.4,
+     "e": 298.16,
+     "text": "and feed it after you learn something"
+    },
+    {
+     "s": 299.66,
+     "e": 300.47,
+     "text": "so it keeps you."
+    },
+    {
+     "s": 303.88,
+     "e": 304.66,
+     "text": "That's the loop."
+    },
+    {
+     "s": 310.27,
+     "e": 312.88,
+     "text": "run it for like 1 month, or maybe less."
+    },
+    {
+     "s": 316.4,
+     "e": 318.98,
+     "text": "And you have something nobody can copy"
+    },
+    {
+     "s": 322.65,
+     "e": 323.66,
+     "text": "because nobody else"
+    },
+    {
+     "s": 325.22,
+     "e": 326.25,
+     "text": "has your last month."
+    },
+    {
+     "s": 332.94,
+     "e": 333.12,
+     "text": "Now"
+    },
+    {
+     "s": 334.29,
+     "e": 334.84,
+     "text": "take a breath"
+    },
+    {
+     "s": 337.13,
+     "e": 338.04,
+     "text": "or drink some water."
+    },
+    {
+     "s": 340.82,
+     "e": 343.55,
+     "text": "Because what you'll see now is really shocking"
+    },
+    {
+     "s": 348.74,
+     "e": 349.61,
+     "text": "and somehow scary."
+    },
+    {
+     "s": 352.73,
+     "e": 354.81,
+     "text": "Today, this project, the brain,"
+    },
+    {
+     "s": 359.44,
+     "e": 362.28,
+     "text": "is some text files. It can write like you."
+    },
+    {
+     "s": 366.73,
+     "e": 369.65,
+     "text": "But what if you add a voice?"
+    },
+    {
+     "s": 371.15,
+     "e": 371.6,
+     "text": "Any voice."
+    },
+    {
+     "s": 377.39,
+     "e": 378.75,
+     "text": "Your brain can talk."
+    },
+    {
+     "s": 381.82,
+     "e": 382.01,
+     "text": "Now"
+    },
+    {
+     "s": 383.5,
+     "e": 384.59,
+     "text": "let's make the voice"
+    },
+    {
+     "s": 385.63,
+     "e": 388.19,
+     "text": "a voice clone of me, or your brain,"
+    },
+    {
+     "s": 388.84,
+     "e": 389.38,
+     "text": "or you."
+    },
+    {
+     "s": 403.35,
+     "e": 405.14,
+     "text": "And now you can call your brain"
+    },
+    {
+     "s": 406.8,
+     "e": 409.83,
+     "text": "or have a voice chat with yourself,"
+    },
+    {
+     "s": 412.88,
+     "e": 413.72,
+     "text": "with your own voice."
+    },
+    {
+     "s": 415.08,
+     "e": 415.71,
+     "text": "Think about it."
+    },
+    {
+     "s": 419.21,
+     "e": 419.95,
+     "text": "Level up,"
+    },
+    {
+     "s": 421.22,
+     "e": 423.63,
+     "text": "add a photo with some audio waves,"
+    },
+    {
+     "s": 424.69,
+     "e": 426.26,
+     "text": "and things become really interesting."
+    },
+    {
+     "s": 430.54,
+     "e": 430.72,
+     "text": "Now"
+    },
+    {
+     "s": 431.81,
+     "e": 434.95,
+     "text": "my face moving with lipsync."
+    },
+    {
+     "s": 446.36,
+     "e": 449.24,
+     "text": "That's me talking. My clone"
+    },
+    {
+     "s": 461.58,
+     "e": 463.79,
+     "text": "saying things I never said"
+    },
+    {
+     "s": 468.49,
+     "e": 469.31,
+     "text": "That I would have said."
+    },
+    {
+     "s": 515.65,
+     "e": 516.2,
+     "text": "And then"
+    },
+    {
+     "s": 517.35,
+     "e": 517.98,
+     "text": "eventually"
+    },
+    {
+     "s": 518.8,
+     "e": 519.0,
+     "text": "this."
+    },
+    {
+     "s": 521.6,
+     "e": 526.18,
+     "text": "Same voice, same takes, same opinions,"
+    },
+    {
+     "s": 527.12,
+     "e": 528.01,
+     "text": "same beliefs."
+    },
+    {
+     "s": 530.24,
+     "e": 530.83,
+     "text": "That's me,"
+    },
+    {
+     "s": 532.82,
+     "e": 536.42,
+     "text": "the iRobot version, maybe without the spiritual side."
+    },
+    {
+     "s": 539.98,
+     "e": 540.91,
+     "text": "Looks scary, huh?"
+    },
+    {
+     "s": 546.84,
+     "e": 548.92,
+     "text": "Okay, none of that is built right now."
+    },
+    {
+     "s": 552.5,
+     "e": 555.46,
+     "text": "Everything I showed you at the end was simulated,"
+    },
+    {
+     "s": 563.65,
+     "e": 569.36,
+     "text": "but the brain underneath, the folder underneath, the project underneath is real."
+    },
+    {
+     "s": 572.92,
+     "e": 582.39,
+     "text": "And it's the same project and the same folder powering all the simulated versions that could be real one day."
+    },
+    {
+     "s": 594.5,
+     "e": 596.41,
+     "text": "Okay, the project is free."
+    },
+    {
+     "s": 597.52,
+     "e": 599.9,
+     "text": "It's open source, it's linked below"
+    },
+    {
+     "s": 601.85,
+     "e": 607.06,
+     "text": "with the full guide, and I think everyone"
+    },
+    {
+     "s": 611.13,
+     "e": 616.06,
+     "text": "should go now and set up his clone, his brain."
+    },
+    {
+     "s": 622.46,
+     "e": 624.9,
+     "text": "Not because it's something really special about it,"
+    },
+    {
+     "s": 629.31,
+     "e": 630.95,
+     "text": "because the AI models are the same."
+    },
+    {
+     "s": 640.67,
+     "e": 643.51,
+     "text": "Everyone has access to Claude or Gemini or whatever."
+    },
+    {
+     "s": 647.24,
+     "e": 649.37,
+     "text": "The tools are free, the models are cheap."
+    },
+    {
+     "s": 656.08,
+     "e": 659.78,
+     "text": "the only unique thing left is you."
+    },
+    {
+     "s": 664.11,
+     "e": 664.69,
+     "text": "And right now,"
+    },
+    {
+     "s": 667.89,
+     "e": 669.57,
+     "text": "that's sitting in your head"
+    },
+    {
+     "s": 671.78,
+     "e": 673.0,
+     "text": "where nothing can read it."
+    },
+    {
+     "s": 675.31,
+     "e": 676.32,
+     "text": "Put it outside"
+    },
+    {
+     "s": 679.64,
+     "e": 684.56,
+     "text": "And maybe in the near future you will have your humanoid clone."
+    },
+    {
+     "s": 688.48,
+     "e": 690.02,
+     "text": "Hit like if this was useful,"
+    },
+    {
+     "s": 693.29,
+     "e": 694.05,
+     "text": "and don't forget"
+    },
+    {
+     "s": 696.72,
+     "e": 698.27,
+     "text": "to star the project on GitHub."
+    },
+    {
+     "s": 700.58,
+     "e": 701.63,
+     "text": "And if you have any suggestions,"
+    },
+    {
+     "s": 704.06,
+     "e": 706.73,
+     "text": "Any ideas? I read every comment."
+    },
+    {
+     "s": 709.22,
+     "e": 710.15,
+     "text": "See you in the upcoming videos."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 2.63,
+     "e": 4.6,
+     "cat": "retake",
+     "text": "Okay, now back to where we started.",
+     "note": "first pass at B11; slated dead by #16 'I will repeat this section'. Superseded by #17"
+    },
+    {
+     "s": 7.83,
+     "e": 9.5,
+     "cat": "retake",
+     "text": "This is what I actually use it for:",
+     "note": "superseded by #19"
+    },
+    {
+     "s": 15.79,
+     "e": 22.65,
+     "cat": "retake",
+     "text": "replying my emails, posting content creation, writing books, creating courses,",
+     "note": "superseded by #19 + #20"
+    },
+    {
+     "s": 25.57,
+     "e": 27.71,
+     "cat": "retake",
+     "text": "anything I have to write as me.",
+     "note": "superseded by #21"
+    },
+    {
+     "s": 33.5,
+     "e": 37.68,
+     "cat": "retake",
+     "text": "And of course, it's a game changer when doing research.",
+     "note": "inside the section he re-records at #16; the retake drops this line but 'doing research' survives at #31. See flags"
+    },
+    {
+     "s": 40.6,
+     "e": 41.45,
+     "cat": "retake",
+     "text": "When you try it,",
+     "note": "split delivery, immediately re-said complete at #08; whole section then re-recorded"
+    },
+    {
+     "s": 42.74,
+     "e": 43.54,
+     "cat": "retake",
+     "text": "you will feel the difference.",
+     "note": "split delivery, superseded by #08; whole section then re-recorded"
+    },
+    {
+     "s": 44.62,
+     "e": 46.69,
+     "cat": "retake",
+     "text": "When you try it, you will feel the difference.",
+     "note": "clean ad-lib, but inside the section slated dead by #16 and never re-said. See flags"
+    },
+    {
+     "s": 50.0,
+     "e": 51.62,
+     "cat": "retake",
+     "text": "And simply, when doesn't know something",
+     "note": "superseded by #22"
+    },
+    {
+     "s": 54.76,
+     "e": 56.43,
+     "cat": "retake",
+     "text": "It says so instead of",
+     "note": "superseded by #23"
+    },
+    {
+     "s": 58.56,
+     "e": 59.93,
+     "cat": "retake",
+     "text": "hallucinating and filling the",
+     "note": "superseded by #23"
+    },
+    {
+     "s": 66.5,
+     "e": 70.82,
+     "cat": "retake",
+     "text": "gap.",
+     "note": "tail of the superseded 'filling the gap' line; superseded by #23"
+    },
+    {
+     "s": 71.92,
+     "e": 72.77,
+     "cat": "false_start",
+     "text": "But",
+     "note": "abandoned"
+    },
+    {
+     "s": 74.02,
+     "e": 74.64,
+     "cat": "false_start",
+     "text": "that's—",
+     "note": "abandoned"
+    },
+    {
+     "s": 77.26,
+     "e": 81.6,
+     "cat": "retake",
+     "text": "but This project is not only for content.",
+     "note": "superseded by #29"
+    },
+    {
+     "s": 95.71,
+     "e": 97.31,
+     "cat": "false_start",
+     "text": "I will repeat this section.",
+     "note": "verbal slate; kills #01-#15 and hands B11 to #17 onward"
+    },
+    {
+     "s": 109.68,
+     "e": 110.52,
+     "cat": "false_start",
+     "text": "I actually— this",
+     "note": "abandoned, restarts at #19"
+    },
+    {
+     "s": 129.1,
+     "e": 130.6,
+     "cat": "false_start",
+     "text": "it simply says",
+     "note": "self-review — trails off, then restarts cleanly as 'It says so instead of...'"
+    },
+    {
+     "s": 146.91,
+     "e": 147.24,
+     "cat": "false_start",
+     "text": "It's a dra—",
+     "note": "abandoned, restarts at #26"
+    },
+    {
+     "s": 194.73,
+     "e": 197.6,
+     "cat": "false_start",
+     "text": "doesn't reflect, doesn't contradict,",
+     "note": "self-review — wrong word ('reflect') then a doubled 'doesn't contradict'; third try lands"
+    },
+    {
+     "s": 219.53,
+     "e": 220.6,
+     "cat": "false_start",
+     "text": "it holds—",
+     "note": "self-review — also the source of the 'this is' ghost verify_cut flagged at render 12:47"
+    },
+    {
+     "s": 263.88,
+     "e": 265.81,
+     "cat": "retake",
+     "text": "Every agent, every session,",
+     "note": "identical line re-said; superseded by #49"
+    },
+    {
+     "s": 308.57,
+     "e": 310.0,
+     "cat": "retake",
+     "text": "Run it for a year,",
+     "note": "self-review — superseded by 'like 1 month', which is also what the payoff line 'nobody else has your last MONTH' refers back to"
+    },
+    {
+     "s": 372.94,
+     "e": 373.04,
+     "cat": "retake",
+     "text": "Now",
+     "note": "0.10s clipped lead-in to the superseded 'the brain can talk'; superseded by #72"
+    },
+    {
+     "s": 374.31,
+     "e": 376.28,
+     "cat": "retake",
+     "text": "the brain can talk.",
+     "note": "corrected to second person; superseded by #72"
+    },
+    {
+     "s": 393.02,
+     "e": 396.92,
+     "cat": "retake",
+     "text": "Now you can call your brain and talk to yourself with voice.",
+     "note": "superseded by the fuller #78-#80, which adds 'with your own voice'"
+    },
+    {
+     "s": 441.4,
+     "e": 442.15,
+     "cat": "retake",
+     "text": "That's me.",
+     "note": "superseded by #88, which contains the corrected 'That's me talking'. See flags"
+    },
+    {
+     "s": 445.04,
+     "e": 446.2,
+     "cat": "false_start",
+     "text": "Talking.",
+     "note": "false start before 'That's me talking'"
+    },
+    {
+     "s": 465.35,
+     "e": 466.14,
+     "cat": "retake",
+     "text": "that I would have said.",
+     "note": "identical line re-said; superseded by #91"
+    },
+    {
+     "s": 472.2,
+     "e": 473.88,
+     "cat": "retake",
+     "text": "And then eventually this",
+     "note": "first humanoid take; slated dead by #99. Superseded by #100-#102"
+    },
+    {
+     "s": 474.99,
+     "e": 479.94,
+     "cat": "retake",
+     "text": "same voice, same takes, same opinions, same beliefs.",
+     "note": "superseded by #103 + #104"
+    },
+    {
+     "s": 482.14,
+     "e": 483.39,
+     "cat": "retake",
+     "text": "That's me with no soul.",
+     "note": "slated dead by #99; the retake replaces this with 'the iRobot version'. See flags"
+    },
+    {
+     "s": 484.65,
+     "e": 486.62,
+     "cat": "retake",
+     "text": "Weird. That's me with no soul.",
+     "note": "slated dead by #99. See flags"
+    },
+    {
+     "s": 489.14,
+     "e": 489.69,
+     "cat": "retake",
+     "text": "That's me,",
+     "note": "superseded by #105"
+    },
+    {
+     "s": 490.55,
+     "e": 492.6,
+     "cat": "retake",
+     "text": "but maybe without the spiritual side.",
+     "note": "superseded by #106"
+    },
+    {
+     "s": 494.51,
+     "e": 495.42,
+     "cat": "retake",
+     "text": "Looks scary, huh?",
+     "note": "superseded by #107"
+    },
+    {
+     "s": 510.39,
+     "e": 513.68,
+     "cat": "false_start",
+     "text": "Other take for the human— for the humanoid section.",
+     "note": "verbal slate; kills #92-#98 and hands the humanoid beat to #100 onward"
+    },
+    {
+     "s": 626.74,
+     "e": 627.75,
+     "cat": "false_start",
+     "text": "because the models—",
+     "note": "abandoned, restarts at #118"
+    },
+    {
+     "s": 634.66,
+     "e": 639.02,
+     "cat": "retake",
+     "text": "Because the models— because the AI models are the same for all of us now.",
+     "note": "later but stumbles on the same phrase we already cut at #117; kept the clean earlier #118 instead. See flags"
+    },
+    {
+     "s": 654.87,
+     "e": 655.95,
+     "cat": "false_start",
+     "text": "The only thing,",
+     "note": "self-review — restart; 'the only unique thing left is you' is the complete line"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 234.59,
+     "e": 236.78,
+     "text": "With every new session or project.",
+     "crit": "restated-idea",
+     "note": "#43 already lands it with 'again and again'; this adds specificity but is droppable if B12 needs to be tighter",
+     "status": "suggested"
+    },
+    {
+     "s": 332.94,
+     "e": 338.04,
+     "text": "Now / take a breath / or drink some water.",
+     "crit": "preamble",
+     "note": "covers keeps #61-#63; charming and in the script, but it delays the ladder payoff and #64-#65 ('really shocking and somehow scary') already do the hook work",
+     "status": "suggested"
+    },
+    {
+     "s": 415.08,
+     "e": 415.71,
+     "text": "Think about it.",
+     "crit": "aside",
+     "note": "evaluative aside; the voice-clone beat lands without being told to think about it",
+     "status": "suggested"
+    }
+   ]
+  }
+ ],
+ "styles": {
+  "tight": {
+   "internal_gap": 0.4,
+   "min_tail": 0.14,
+   "max_tail": 0.4,
+   "head": 0.15,
+   "margin": 5.0,
+   "soft_gap": 1.2,
+   "soft_max_tail": 0.95,
+   "soft_margin": 3.0
+  },
+  "natural": {
+   "internal_gap": 0.4,
+   "min_tail": 0.26,
+   "max_tail": 0.45,
+   "head": 0.17,
+   "margin": 5.0,
+   "soft_gap": 1.2,
+   "soft_max_tail": 0.95,
+   "soft_margin": 3.0
+  }
+ },
+ "flags": [
+  {
+   "clip": "0258",
+   "at": "00:01",
+   "issue": "#01 opens with an ad-lib preamble ('I'm super excited to show you what I built this week') before the scripted cold open 'Look at this.' Script B1 starts cold on 'Look at this.' I could not offer it as fluff because #01 ends mid-phrase on 'Look at' and #02 begins with 'this.' — dropping #01 alone orphans that word. To get the script's cold open you need a sub-segment cut inside #01 at roughly 6.4s, keeping only 'Look at' + #02.",
+   "default": "keep #01 as delivered",
+   "id": 1
+  },
+  {
+   "clip": "0258",
+   "at": "02:05",
+   "issue": "two usable deliveries of the 'one big difference' beat, #20 and #21. Kept #20 because it supplies the 'but we have one big difference' setup that #21's 'this difference' has no antecedent for — but #20 contains an internal tense self-correction ('it changed everything. And it changes everything.') that cannot be excised without a sub-segment cut at ~129.5s. #21 is the more fluent single sentence. Suggested #21 as fluff rather than cutting it, so the call is yours.",
+   "default": "keep #20, apply the fluff on #21",
+   "id": 2
+  },
+  {
+   "clip": "0258",
+   "at": "03:11",
+   "issue": "two runs at 'this will completely change how you work with AI'. The LATER run (#32-#33) is richer — it adds 'and the results you get from AI' — but it trails off on the preposition 'from' and is only completed by the first word of #34, which is fused to a double false start ('And what you just— and what you just saw is sim—'). Applied the brief's exception and kept the earlier clean take #30-#31. If you want the richer line, keep #32-#33 and add a sub-segment keep of roughly 212.81-213.40 for the word 'AI.'",
+   "default": "keep #30-#31, cut #32-#34",
+   "id": 3
+  },
+  {
+   "clip": "0258",
+   "at": "04:32",
+   "issue": "the 'sorry' inside kept segment #44 is SCRIPTED, not a stumble — script B1 line reads 'So if you're ready to get shocked. emmm. sorry, I mean, if you're ready, let's get started.' It is the payoff of the shock gag. Do not let a later filler pass or a tagged-filler sweep strip the 'uh' at 274.15-274.20 or the word 'sorry'.",
+   "default": "keep #44 intact including the uh and the sorry",
+   "id": 4
+  },
+  {
+   "clip": "0258",
+   "at": "01:05",
+   "issue": "segment #09 'to the same post' spans 6.43s for four words. Either the delivery is very drawn out or there is a long internal hold the >0.8s splitter did not catch. Check this one on the preview render; it may need a sub-segment trim that only a look at the waveform can place.",
+   "default": "keep as-is, verify on preview",
+   "id": 5
+  },
+  {
+   "clip": "0258",
+   "at": "00:10",
+   "issue": "'look at this' lands four times in the first 45 seconds (#02 twice, #05 twice). Script B1 has it once. It reads as a deliberate device on paper but may be one beat too many on screen; #05 cannot be trimmed without losing 'We have the same post', which is load-bearing.",
+   "default": "keep, watch it on the bake",
+   "id": 6
+  },
+  {
+   "clip": "0259",
+   "at": "02:38",
+   "issue": "#32 [158.18-163.81] has the retake slate INSIDE it ('It knows— other take. It knows what I write. It knows my beliefs,'), so it cannot be kept whole. Its post-slate content is a tighter re-do of #30 + #31. I kept the earlier clean pair #30 'It knows how I write.' + #31 'It knows what I believe.' (which is also the script wording) and cut #32 entirely; the list then continues into #33 'my philosophy,'. If the merge step can split a segment, the alternative is to trim #32 to start at ~160.5s (post-slate) and cut #30 + #31 instead.",
+   "default": "keep #30 + #31, cut #32 whole",
+   "id": 7
+  },
+  {
+   "clip": "0259",
+   "at": "01:44",
+   "issue": "#20 'this project does the' and #21 'opposite.' are one sentence split by a 7.4s recording stop. After pause compression it becomes 'this project does the [0.45s] opposite.' — reads as deliberate emphasis, but it is a mid-word-group gap, so check it in the preview.",
+   "default": "keep both, let the engine compress",
+   "id": 8
+  },
+  {
+   "clip": "0259",
+   "at": "02:04",
+   "issue": "#24 is the single word 'but' between two keeps. Kept so #23-#25 stays a real sentence; it disappears anyway if the #23-#25 preamble fluff suggestion is applied. Not worth keeping on its own if #23 or #25 gets dropped.",
+   "default": "keep #24",
+   "id": 9
+  },
+  {
+   "clip": "0259",
+   "at": "00:25",
+   "issue": "#05 has an in-take stutter-repeat, 'do not invent, do not invent this number'. Left in per policy (mid-sentence, otherwise good take) and it reads as emphasis, but it is the one place in this clip a surgical trim would help.",
+   "default": "leave as-is",
+   "id": 10
+  },
+  {
+   "clip": "0259",
+   "at": "00:02",
+   "issue": "#01 'Okay, let me start with other small example.' is slightly off-grammar ('other' for 'another'). It is his natural voice and it is the bridge out of the cold open, so I kept it — but if he re-records the B1.5 opener in another clip, prefer that one.",
+   "default": "keep #01",
+   "id": 11
+  },
+  {
+   "clip": "0260",
+   "at": "01:03",
+   "issue": "two takes of the ad-libbed 'every human should have this AI brain' line: #08-#09 and #10-#11. Kept #10-#11 (cleaner, no doubling), but #08 carries framing that is lost with it: 'After you deploy this, and you should'. If you want that framing back, #08 needs a word-level fix for the two stutters.",
+   "default": "keep #10-#11, cut #08-#09",
+   "id": 12
+  },
+  {
+   "clip": "0260",
+   "at": "02:42",
+   "issue": "#22 'And here it comes,' + #23 'and here with the magic.' both start with 'and here' and #23 reads as broken grammar in the transcript. It may actually be 'and here's the magic' mis-transcribed, in which case the pair works as an excited build. Kept both.",
+   "default": "keep both #22 and #23; if #23 really says 'and here with the magic', cut #22 as a false start",
+   "id": 13
+  },
+  {
+   "clip": "0260",
+   "at": "03:39",
+   "issue": "#33 'And what and what makes it so powerful?' has a word-level stutter inside an otherwise good single segment. Policy says do not surgically excise, so it is kept whole, but it is the only audible stumble left in the clip.",
+   "default": "keep as is",
+   "id": 14
+  },
+  {
+   "clip": "0260",
+   "at": "02:57",
+   "issue": "the money line 'And that folder, that GitHub repo, your external brain has 2 heads' is delivered in five chunks (#24-#27) with sub-1s gaps mid-phrase ('has 2' / 'heads.'). The engine's ~0.45s pause floor may read as a deliberate drumbeat or as a gap; worth a listen on the master, and it is the exact spot the two-heads diagram lands.",
+   "default": "keep all five chunks",
+   "id": 15
+  },
+  {
+   "clip": "0261",
+   "at": "00:39",
+   "issue": "he delivers 'There is no app or UI' three times (#08, #09, #10) and then says 'Remove this sentence. Not needed. It's not needed.' (#11). I read #11 as an on-camera instruction to the editor and cut all three, so the run goes 'That's the interface.' -> 'Inside there are 2 skills'. #09 is the best take (only one with 'for now', which also protects you from contradicting the online dashboard/wizard in B7).",
+   "default": "cut #08-#10 per his instruction; restore #09 (42.37-44.25) if you disagree",
+   "id": 16
+  },
+  {
+   "clip": "0261",
+   "at": "01:46",
+   "issue": "#21 transcribes as 'the exact code it wants to preserve in my words' — script B5 says 'the exact QUOTE it wants to preserve'. Almost certainly a transcription miss, but if he actually said 'code' the line is wrong (it preserves his words, not code). Needs an ear on it.",
+   "default": "keep #21; verify the word",
+   "id": 17
+  },
+  {
+   "clip": "0261",
+   "at": "02:59",
+   "issue": "#33 transcribes as 'It brings the code story the downtime number and my voice' — script says 'the COST story'. This one matters: it is the callback to the $700/month + 16 seconds of downtime from the cold open. Same suspected mishearing as #21.",
+   "default": "keep #33; verify the word",
+   "id": 18
+  },
+  {
+   "clip": "0261",
+   "at": "02:33",
+   "issue": "#30 opens with an audible stumble, 'If you keep a— if you fill it with junk'. It is one segment and the rest of it is the payoff of the trust beat, so it cannot be excised without losing the line. No alternate take exists in this clip.",
+   "default": "keep #30 with the stumble",
+   "id": 19
+  },
+  {
+   "clip": "0261",
+   "at": "02:13",
+   "issue": "close call on #26 vs #27. #26 ('Why I did this approval gate? Why I—') names the concept explicitly but dies mid-sentence; #27 ('why so strict?') is the clean script line but is a bare rhetorical question. It reads fine after #22-#25 (stops, waits for approval, commits).",
+   "default": "cut #26, keep #27",
+   "id": 20
+  },
+  {
+   "clip": "0261",
+   "at": "01:58",
+   "issue": "#23 + #24 are ONE sentence split by a 0.8s pause: 'When I approve, it writes. It's one / Git commit.' The merge must keep them adjacent and let the engine compress the gap — do not reorder or drop one.",
+   "default": "keep both, adjacent",
+   "id": 21
+  },
+  {
+   "clip": "0262",
+   "at": "01:23",
+   "issue": "#13 has the slate INSIDE the segment: 'Okay, since this is a self-hosted open source pro— another take. Okay, since this project is open source, free, and self-hosted, you will need to host it somewhere.' Kept whole because I can't split it on take-view bounds, but the words 'another take' will be audible in the master. Needs a word-level head trim — the good delivery starts at roughly 88.3s.",
+   "default": "keep 83.87–96.00, then trim the head to ~88.3 with word timings",
+   "id": 22
+  },
+  {
+   "clip": "0262",
+   "at": "03:49",
+   "issue": "#38 'Wait for a few seconds and then open your domain in the browser.' — this is exactly the inaccuracy the script's ⚠️ in B7 warns about. This wait is the Django image BUILDING on the cheapest Contabo box (docker-compose.yml:22 is `build: .`), which is minutes, not seconds. Note he got the earlier Coolify wait right in #21 ('let it run for a few minutes'), so only this one line is wrong.",
+   "default": "keep for now, but this line likely needs a re-record or an on-screen correction",
+   "id": 23
+  },
+  {
+   "clip": "0262",
+   "at": "06:25",
+   "issue": "#65 starts with the slate: 'other take. Number 6, build, and that's it.' I cut the superseded #64 and kept #65 because it has the step number and the right order, but 'other take' is audible at the head. Good delivery starts at roughly 386.8s.",
+   "default": "keep 385.68–389.73, then trim the head to ~386.8",
+   "id": 24
+  },
+  {
+   "clip": "0262",
+   "at": "00:45",
+   "issue": "#10 'And here where the real— and here' stumbles into #11 'where the real magic begins.' Kept both, because cutting #10 leaves #11 as a grammatical orphan after 'with any app you want.' A word-level trim of just 'And here where the real—' (~45.96 to ~47.5) would give the clean version.",
+   "default": "keep both #10 and #11",
+   "id": 25
+  },
+  {
+   "clip": "0262",
+   "at": "04:45",
+   "issue": "#48 'and does a real And builds a real clone.' is the roughest recoverable stumble in the clip and it lands on the Verify payoff. Kept because 'builds a real clone' is the point and #47 'Hit verify' hangs without it. Head trim at ~286.5 would clean it.",
+   "default": "keep, optionally head-trim",
+   "id": 26
+  },
+  {
+   "clip": "0262",
+   "at": "06:08",
+   "issue": "#61 'The dashboard will tell you that your brain is ahead of GitHub.' is orphaned — in the script this is the TAIL of 'you can skip this if you want, approvals still work, they just stay on the server and…'. He never delivered the setup sentence in this clip. As cut it lands as a non-sequitur right after 'and you are done.' Check whether the setup line was recorded in another clip.",
+   "default": "keep, but merging agent should look for the missing 'you can skip this' setup",
+   "id": 27
+  },
+  {
+   "clip": "0262",
+   "at": "00:57",
+   "issue": "#12 transcribed as 'Remember the shark?' — he actually says 'shock'. This is the B6 callback cue for the generated shock clip (script: 'remember the shock [quick fun video again], here it starts!'). Do not fix the audio; the transcript just needs the correction so /make-tsx places the recut shock clip here.",
+   "default": "keep; transcript typo only",
+   "id": 28
+  },
+  {
+   "clip": "0262",
+   "at": "00:21",
+   "issue": "#05 is a lone 'But' spanning 3.61s — a single word with ~3s of hang. Cut it as an abandoned start rather than carry 3s of dead air inside a keep (the render engine only compresses pauses BETWEEN keeps). Downside: the concession-then-pivot loses its pivot word, going 'That's fine.' straight to 'It's only on your machine.'",
+   "default": "cut #05",
+   "id": 29
+  },
+  {
+   "clip": "0262",
+   "at": "04:56",
+   "issue": "#50 (15.9s) is the write-token explanation and it is the stumbliest continuous run in the clip: 'but we need— but what we need is…' and 'the server has to put— the server has to push— the server has to push to GitHub'. It does land the point and there is no alternate take here, so I kept it whole, but if he re-recorded this beat in another clip that version almost certainly wins.",
+   "default": "keep unless a cleaner take exists elsewhere",
+   "id": 30
+  },
+  {
+   "clip": "0263",
+   "at": "00:22",
+   "issue": "#05 [22.92-26.11] opens with an abandoned fragment, 'What happens— GitHub fires a webhook.' The webhook line is essential and never re-delivered, so it has to stay whole at segment granularity. A sub-segment trim of the in-point (~23.6s) would give a clean 'GitHub fires a webhook.'",
+   "default": "keep #05 whole",
+   "id": 31
+  },
+  {
+   "clip": "0263",
+   "at": "00:46",
+   "issue": "#10 promises 'And this works too in the other direction' but the reverse-direction narration from script B8 (feed from Claude web via MCP, it lands in the queue, approve in the browser, the server commits, then pull locally) is NOT in this clip and does not appear in any other takes file (0258-0264). Either the visual has to carry it silently or a pickup is needed.",
+   "default": "keep #10, but expect a missing beat after it",
+   "id": 32
+  },
+  {
+   "clip": "0263",
+   "at": "02:09",
+   "issue": "#20 [129.26-132.50] stutters the punchline, 'Nothing gets in behind Nothing gets in behind my back.' It is a good scripted line and the second delivery inside the segment is clean, but they are <0.8s apart so they did not split. A sub-segment trim of the in-point (~130.6s) fixes it.",
+   "default": "keep #20 whole",
+   "id": 33
+  },
+  {
+   "clip": "0263",
+   "at": "03:01",
+   "issue": "Cutting #28-#29 per the slate loses the bridge line 'My brain is online.' — which is also the closing line of script B7. If the B7 clip does not end on it, consider keeping just #28 as a transition into the retake.",
+   "default": "cut #28 and #29 per the slate",
+   "id": 34
+  },
+  {
+   "clip": "0263",
+   "at": "04:07",
+   "issue": "#40 'That's the call I made.' vs #41 'That's the call that made it.' — near 50/50. #41 is the exact script line, so I treated #40 as a flubbed first pass. But said back to back they form a deliberate-sounding parallel (the call I made / the call that made it) and the 1.3s gap is short for a retake in this recording.",
+   "default": "cut #40, keep #41",
+   "id": 35
+  },
+  {
+   "clip": "0263",
+   "at": "01:35",
+   "issue": "Three likely ASR artifacts inside keeps, verify by ear before building overlays: #15 'Evernote' is almost certainly 'every note' (script B9), #18 'My code story' should be 'my cost story' (the $700/month story from B1/B5 — if he really said 'code story' on camera it breaks that callback), #38 'the real codes' should be 'the real quotes' (script B10). Any on-screen text must use the corrected words.",
+   "default": "treat all three as transcription errors, but listen to #18",
+   "id": 36
+  },
+  {
+   "clip": "0263",
+   "at": "04:11",
+   "issue": "This clip ends at the end of the get-index / assemble-context demo. The rest of script B10 (the privacy split: 'Same question. Different tier. My voice file is marked agents only... filtered on the server, before the text exists') was never recorded — no takes file in 0258-0264 mentions tier. Merging agent should treat that sub-beat as missing, not misplaced.",
+   "default": "flag for pickup",
+   "id": 37
+  },
+  {
+   "clip": "0264",
+   "at": "01:35",
+   "issue": "#16 'I will repeat this section' is a hard slate — the ENTIRE first pass at B11 (#01-#15, 0:02 to 1:21) is cut. Nothing before 102.56s survives. Two lines exist ONLY in that dead take and never reappear anywhere in the clip: #05 'And of course, it's a game changer when doing research' (33.50-37.68) and #08 'When you try it, you will feel the difference' (44.62-46.69), both clean deliveries.",
+   "default": "keep them cut — but they would need a deliberate splice if the user wants them, and #08 in particular is a good line",
+   "id": 38
+  },
+  {
+   "clip": "0264",
+   "at": "02:07",
+   "issue": "#22 'And when it doesn't know something, it simply says' runs straight into #23 'It says so instead of hallucinating and filling the gaps' — an audible 'says / it says so' stutter. There is no clean alternative: #22 carries the setup clause and #23 carries the payoff, and neither can be trimmed without splitting a segment.",
+   "default": "keep both; the compressed pause between them reads as a natural restart",
+   "id": 39
+  },
+  {
+   "clip": "0264",
+   "at": "03:14",
+   "issue": "#37 'doesn't reflect, doesn't contradict, doesn't contradict with chapter 1' has a triple stumble inside one segment, and #41 'it holds— it holds your decisions' has a doubled phrase. Both are the only delivery of their line, so they cannot be fixed by choosing another take.",
+   "default": "keep as-is; flag for a possible pickup if he re-records B12",
+   "id": 40
+  },
+  {
+   "clip": "0264",
+   "at": "05:08",
+   "issue": "#57 'Run it for a year, run it for like 1 month, or maybe less' walks back the script's 'run it for a year' mid-sentence, and he then lands on #60 'has your last month'. Internally consistent, but weaker than the scripted 'nobody else has your last year'.",
+   "default": "keep the spoken version (script is a reference, not a target)",
+   "id": 41
+  },
+  {
+   "clip": "0264",
+   "at": "05:32",
+   "issue": "Four kept segments are sub-0.2s single-word lead-ins: #61 'Now' (0.18s), #73 'Now' (0.19s), #85 'Now' (0.18s), #102 'this.' (0.20s). I kept them because each opens a sentence, but they may sound clipped once the pauses around them are compressed. (#70 'Now' at 0.10s was cut with its superseded run.)",
+   "default": "keep them; drop any that sound clipped in the preview",
+   "id": 42
+  },
+  {
+   "clip": "0264",
+   "at": "07:21",
+   "issue": "Ladder L4: #87 'That's me.' vs #88 'Talking. That's me talking. My clone'. #88 contains its own self-correction, so keeping both gives 'That's me. Talking. That's me talking.' I cut #87. The cost is that the kept run now opens on the fragment 'Talking.'",
+   "default": "keep #88 only — it reads as a staccato beat, which matches the script's 'Now my face. Moving.'",
+   "id": 43
+  },
+  {
+   "clip": "0264",
+   "at": "08:02",
+   "issue": "#99 'Other take for the humanoid section' slates #92-#98 dead. That loses the script's actual punchline, 'That's me with no soul' (#94/#95), which the retake replaces with 'the iRobot version, maybe without the spiritual side' (#106). The slate says the retake wins, but the scripted line is arguably the harder landing.",
+   "default": "honor the slate — keep #100-#107, cut #92-#98",
+   "id": 44
+  },
+  {
+   "clip": "0264",
+   "at": "10:29",
+   "issue": "Genuine 50/50: #118 'because the AI models are the same' (clean but stops short) vs #119 'Because the models— because the AI models are the same for all of us now' (complete, matches the script, but repeats the exact stumble we already cut at #117). I kept the earlier, cleaner #118 and cut #119; the missing 'for all of us now' is carried by #120 'Everyone has access to Claude or Gemini or whatever.'",
+   "default": "keep #118",
+   "id": 45
+  },
+  {
+   "clip": "0263",
+   "at": "00:48",
+   "issue": "SCRIPT BEAT NEVER RECORDED — B8 reverse direction. He says 'and this works too in the other direction' then jumps straight to the summary. The scripted detail (feed from Claude web via MCP -> lands in the queue -> approve in the browser -> server commits -> pull locally) is in no clip. Grep for 'in the queue'/'approve it in the browser' across all 7 take views returns nothing.",
+   "default": "cover with the B8 diagram, or record a pickup",
+   "id": 46
+  },
+  {
+   "clip": "0263",
+   "at": "04:11",
+   "issue": "SCRIPT BEAT NEVER RECORDED — B10 privacy/tier split ('Same question. Different tier. A public chatbot gets this much. My voice file is marked agents only.'). Grep for 'tier'/'public chatbot'/'agents only'/'filtered' across all 7 take views returns nothing. This is the beat that answers 'is it safe to put online', so it is load-bearing.",
+   "default": "record a pickup — hard to cover with visuals alone",
+   "id": 47
+  },
+  {
+   "clip": "0262",
+   "at": "03:49",
+   "issue": "ACCURACY — '#38 Wait for a few seconds and then open your domain' comes right after Deploy, but that wait is a Django image BUILD on the cheapest Contabo box, i.e. minutes. This is exactly the ⚠️ the script flags at B7. He got the earlier Coolify wait right ('a few minutes'); only this line is wrong.",
+   "default": "cut the 'few seconds' clause or overlay the real number",
+   "id": 48
+  },
+  {
+   "clip": "0262",
+   "at": "06:08",
+   "issue": "ORPHANED LINE — '#61 The dashboard will tell you that your brain is ahead of GitHub' has no setup. The scripted lead-in ('you can skip the token if you want, approvals still work, they just stay on the server') was never delivered in any clip.",
+   "default": "keep — it still reads as a standalone dashboard fact",
+   "id": 49
+  },
+  {
+   "clip": "0264",
+   "at": "01:35",
+   "issue": "TWO GOOD LINES LOST TO HIS OWN RETAKE — '#16 I will repeat this section' kills the whole first pass at B11, and 'it's a game changer when doing research' (#05) and 'When you try it, you will feel the difference' (#08) exist ONLY in that dead take.",
+   "default": "honor the retake; rescue the two lines only if you want them",
+   "id": 50
+  },
+  {
+   "clip": "0264",
+   "at": "14:20",
+   "issue": "USER REQUEST, NOT FIXABLE IN THE CUT — the kept take ends '...maybe without the spiritual' and trails off. He never says 'side' in this take: the envelope decays +27->+4 dB straight to silence at 536.38, and the ASR token 'side.' at 536.28-536.42 is the release tail of 'spiritual', hallucinated because the EARLIER take does say it. The only real 'side.' in the whole recording is 490.55-492.60 (the take his 'other take for the humanoid section' slate discarded). It cannot be moved here: the renderer emits raw ranges in ascending time per clip, and the two takes do not match on camera anyway (different pose, gaze and hand). TO HONOR THIS: graft the 0.40s audio 492.20-492.60 onto the tail at the MIX step. This is the B14 L5 humanoid beat, which the script covers with generated visuals + a persistent SIMULATED tag, so an audio-only graft should be invisible.",
+   "default": "cut ships with the trail-off; audio graft owed at the mix step",
+   "id": 51
+  },
+  {
+   "clip": "ALL",
+   "at": "-",
+   "issue": "ASR ARTIFACTS inside kept speech — the audio is correct, the transcript is not: 'code story' = COST story, 'the real codes' = the real QUOTES, 'Evernote, filterable' = EVERY NOTE filterable, 'Remember the shark' = the SHOCK. Corrected terms are now in work/keyterms.txt so the edited-transcript handoff re-transcribes them right; use the corrected wording for any on-screen text in /make-tsx.",
+   "default": "no cut change — affects on-screen text only",
+   "id": 52
+  }
+ ]
+}

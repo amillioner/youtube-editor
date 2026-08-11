@@ -49,6 +49,20 @@ def render_segment(src: Path, seg: tuple[float, float], out: Path, enc: list[str
     subprocess.run(cmd, check=True)
 
 
+def is_finalized(path: Path) -> bool:
+    """True if the mp4 exists AND has a readable moov atom (i.e. muxing completed).
+    A 4K60 10-bit final is ~1h of encoding; without this a failure in any later stage
+    (TS/concat/mux) means redoing all of it. Also guards the reverse case seen on
+    2026-08-06: a segment probed before its moov was flushed read as corrupt and the TS
+    stage died with AVERROR_INVALIDDATA even though every encode had exited 0."""
+    if not path.exists() or path.stat().st_size < 1024:
+        return False
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                        "-show_entries", "stream=nb_frames", "-of", "csv=p=0", str(path)],
+                       capture_output=True, text=True)
+    return r.returncode == 0 and r.stdout.strip() not in ("", "N/A")
+
+
 def video_duration(path: Path) -> float:
     """Actual encoded duration from frame count (exact), falling back to container."""
     r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
@@ -90,7 +104,7 @@ def main() -> None:
     for cid in data["clip_order"]:
         clip = by_id[cid]
         words = load_words(project, cid)
-        for seg in plan_clip(cid, active_keeps(clip), words, style, probe):
+        for seg in plan_clip(cid, active_keeps(clip), words, style, probe, clip.get("cuts")):
             jobs.append((project / clip["file"], seg))
 
     total = sum(e - s for _, (s, e) in jobs)
@@ -100,13 +114,19 @@ def main() -> None:
     seg_dir.mkdir(parents=True, exist_ok=True)
     outs = [seg_dir / f"seg_{i:03d}.mp4" for i in range(len(jobs))]
 
+    todo = [(src, seg, out) for (src, seg), out in zip(jobs, outs) if not is_finalized(out)]
+    if len(todo) < len(jobs):
+        print(f"  resuming: {len(jobs) - len(todo)} segments already encoded, {len(todo)} to go")
     with ThreadPoolExecutor(max_workers=3) as pool:
-        futs = [pool.submit(render_segment, src, seg, out, ENC[args.mode])
-                for (src, seg), out in zip(jobs, outs)]
+        futs = [pool.submit(render_segment, src, seg, out, ENC[args.mode]) for src, seg, out in todo]
         for i, f in enumerate(futs):
             f.result()
             if (i + 1) % 20 == 0:
-                print(f"  {i + 1}/{len(jobs)} segments encoded")
+                print(f"  {i + 1}/{len(todo)} segments encoded")
+
+    stale = [o for o in outs if not is_finalized(o)]
+    if stale:
+        raise SystemExit(f"{len(stale)} segments did not finalize, first: {stale[0]}")
 
     # concat the video-only segments via an MPEG-TS intermediate. An mp4 segment's
     # container tacks an extra frame-duration of padding onto its last sample when the
@@ -154,6 +174,7 @@ def main() -> None:
     # single mux: copied video + one continuous AAC encode
     out_name = f"{'preview' if args.mode == 'preview' else 'master'}-{args.style}.mp4"
     out_path = project / "output" / out_name
+    out_path.parent.mkdir(parents=True, exist_ok=True)  # first render of a fresh project
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error",
                     "-i", str(video_concat), "-i", str(audio_concat),
                     "-map", "0:v", "-map", "1:a", "-c:v", "copy",

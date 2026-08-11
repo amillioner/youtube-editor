@@ -1,0 +1,13 @@
+{
+ "request_id": "019fdae2-e75a-71c0-8094-b70af57fe836",
+ "endpoint": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+ "prompt": "The same bearded man in the olive-green sweatshirt keeps talking straight into the camera in the same bright bedroom. His lips move continuously and precisely in sync with speech, natural jaw and mouth articulation, he blinks, small natural head tilts, eyebrows move, one hand gestures gently near his chest. Locked-off static camera, no zoom, no cut, natural daylight, realistic talking-head video.",
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aa558fd/FZLs8GWLJrQlh5m7hITKe_output.mp4",
+   "content_type": "video/mp4",
+   "file_name": "output.mp4",
+   "file_size": 12131041
+  }
+ }
+}

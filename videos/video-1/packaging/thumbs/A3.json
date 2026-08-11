@@ -1,0 +1,27 @@
+{
+  "note": "COMPOSITE, not a pure render. The plate is the A3-v3 render; the Claude mark on it is the real logo file layered in afterwards, because the model redraws a reference logo differently on every roll (wrong petal count, drifting colour, unpredictable brightness).",
+  "plate": {
+    "image": "A3-v3.png",
+    "prompt_file": "A3.txt",
+    "model": "gemini-3-pro-image",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "seed": 111,
+    "refs": [
+      "media\\library\\faces\\hasan-ref-01.jpg",
+      "media\\library\\logos\\claude-1024.png"
+    ]
+  },
+  "composite": {
+    "tool": "tools/composite_logo.py",
+    "command": "venv/Scripts/python tools/composite_logo.py --base videos/video-1/packaging/thumbs/A3-v3.png --logo media/library/logos/claude-1024.png --out videos/video-1/packaging/thumbs/A3.png --clear-box 170,455,1105,1465 --center 679,965 --size 940 --jpg",
+    "logo": "media/library/logos/claude-1024.png",
+    "clear_box": [170, 455, 1105, 1465],
+    "center": [679, 965],
+    "size": 940,
+    "core_rgb": [247, 130, 74],
+    "glow_rgb": [255, 120, 60],
+    "verified": "no seam: luminance steps across all four patch boundaries measured 2-4/255"
+  },
+  "created": "2026-08-08"
+}

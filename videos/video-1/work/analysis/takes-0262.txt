@@ -1,0 +1,154 @@
+# clip 0262 — 632 words, ends 07:37
+#01 [2.82 - 5.65] (00:02) Okay, that's the local version. It's finished.
+     -- pause 2.0s --
+#02 [7.65 - 9.68] (00:07) And honestly, you can stop right here
+     -- pause 2.0s --
+#03 [11.65 - 16.28] (00:11) if you want the brain to be inside VS Code running locally on your machine.
+     -- pause 0.8s --
+#04 [17.10 - 17.64] (00:17) That's fine.
+     -- pause 3.8s --
+#05 [21.44 - 25.05] (00:21) But
+     -- pause 1.4s --
+#06 [26.42 - 27.52] (00:26) It's only on your machine.
+     -- pause 5.7s --
+#07 [33.17 - 34.91] (00:33) Let's now give it a door
+     -- pause 3.5s --
+#08 [38.43 - 40.26] (00:38) and allow it to connect
+     -- pause 1.5s --
+#09 [41.77 - 43.44] (00:41) with any app you want.
+     -- pause 2.5s --
+#10 [45.96 - 48.59] (00:45) And here where the real— and here
+     -- pause 1.7s --
+#11 [50.26 - 51.84] (00:50) where the real magic begins.
+     -- pause 5.3s --
+#12 [57.12 - 59.64] (00:57) Remember the shark? It starts here.
+     -- pause 24.2s --
+#13 [83.87 - 96.00] (01:23) Okay, since this is a self-hosted open source pro— another take. Okay, since this project is open source, free, and self-hosted, you will need to host it somewhere.
+     -- pause 1.3s --
+#14 [97.28 - 100.23] (01:37) In my case now, for quick demo— for the quick demo,
+     -- pause 1.0s --
+#15 [101.28 - 102.36] (01:41) I will pick a VPS.
+     -- pause 4.1s --
+#16 [106.45 - 108.48] (01:46) Any provider you want. I'll go with Contabo.
+     -- pause 3.1s --
+#17 [111.61 - 114.11] (01:51) I'll pick the cheapest VPS, it's more than enough.
+     -- pause 3.7s --
+#18 [117.77 - 120.11] (01:57) And now simply I'll install Coolify.
+     -- pause 2.7s --
+#19 [122.79 - 123.98] (02:02) It's one command.
+     -- pause 4.8s --
+#20 [128.75 - 131.01] (02:08) Just connect to the server with SSH client,
+     -- pause 1.6s --
+#21 [132.63 - 135.19] (02:12) paste it, and let it run for a few minutes.
+     -- pause 6.2s --
+#22 [141.38 - 143.45] (02:21) You can see now Coolify running on my server.
+     -- pause 2.8s --
+#23 [146.29 - 148.61] (02:26) Now you can self-host anything you want.
+     -- pause 3.4s --
+#24 [152.00 - 154.53] (02:31) And this is exactly, by the way, how I save more than $700
+     -- pause 2.1s --
+#25 [156.62 - 161.42] (02:36) per month hosting all my projects and services on my own server.
+     -- pause 4.5s --
+#26 [165.95 - 168.01] (02:45) If you want to learn more about this and how I do it,
+     -- pause 5.8s --
+#27 [173.79 - 176.46] (02:53) check the link in the description below. But for now, it's out of scope.
+     -- pause 1.7s --
+#28 [178.14 - 179.21] (02:58) Let's continue our work.
+     -- pause 3.7s --
+#29 [182.86 - 186.22] (03:02) Click New Project, then New Resource.
+     -- pause 2.5s --
+#30 [188.70 - 189.81] (03:08) Select Public Repo,
+     -- pause 0.8s --
+#31 [190.62 - 192.54] (03:10) paste the repo URL, paste the URL,
+     -- pause 4.5s --
+#32 [197.03 - 199.00] (03:17) and set the buildpack to Docker Compose.
+     -- pause 4.0s --
+#33 [202.97 - 204.21] (03:22) That's it. Save.
+     -- pause 1.8s --
+#34 [206.04 - 207.48] (03:26) Go now to environmental variables.
+     -- pause 1.0s --
+#35 [208.49 - 210.60] (03:28) And here you write exactly 2 things,
+     -- pause 2.9s --
+#36 [213.52 - 215.48] (03:33) database password and the domain.
+     -- pause 2.2s --
+#37 [217.66 - 220.07] (03:37) That's the whole thing. And click deploy.
+     -- pause 9.8s --
+#38 [229.86 - 234.16] (03:49) Wait for a few seconds and then open your domain in the browser.
+     -- pause 2.9s --
+#39 [237.09 - 243.01] (03:57) The first time you not get a— the first time you don't get a login box, you get a wizard.
+     -- pause 1.2s --
+#40 [244.18 - 250.46] (04:04) I tried my best to make things as simple as possible so anyone can build this and use it.
+     -- pause 2.9s --
+#41 [253.38 - 255.37] (04:13) So number 1, create the account,
+     -- pause 0.9s --
+#42 [256.29 - 257.56] (04:16) then create your brain.
+     -- pause 3.6s --
+#43 [261.18 - 263.74] (04:21) Give it a name, set to private, create.
+     -- pause 4.3s --
+#44 [268.05 - 269.24] (04:28) Then the server will read it.
+     -- pause 6.0s --
+#45 [275.25 - 277.69] (04:35) Paste the public SSH key from GitHub.
+     -- pause 1.1s --
+#46 [278.81 - 281.01] (04:38) Paste the public SSH key into GitHub.
+     -- pause 0.9s --
+#47 [281.95 - 282.62] (04:41) Hit verify
+     -- pause 2.5s --
+#48 [285.13 - 288.29] (04:45) and does a real And builds a real clone.
+     -- pause 5.4s --
+#49 [293.68 - 295.62] (04:53) Now let it write back.
+     -- pause 0.9s --
+#50 [296.50 - 312.39] (04:56) The key you just added is read-only, but we need— but what we need is to approve something. We need to write to our brain. The server has to put— the server has to push— the server has to push to GitHub, so it needs permission to write.
+     -- pause 2.9s --
+#51 [315.30 - 318.90] (05:15) The app gives you a link straight to the token page. Just click it,
+     -- pause 0.8s --
+#52 [319.73 - 323.25] (05:19) go to fine-grained tokens, generate new token.
+     -- pause 1.3s --
+#53 [324.58 - 325.52] (05:24) Go to tokens—
+     -- pause 0.8s --
+#54 [326.35 - 329.72] (05:26) other take— go to tokens, generate new token,
+     -- pause 5.5s --
+#55 [335.24 - 336.90] (05:35) select access the repositories.
+     -- pause 1.8s --
+#56 [338.67 - 339.90] (05:38) Which is your Brain repo,
+     -- pause 4.0s --
+#57 [343.93 - 344.57] (05:43) then permissions,
+     -- pause 0.9s --
+#58 [345.48 - 349.76] (05:45) contents, read and write. That's the only you need.
+     -- pause 2.8s --
+#59 [352.57 - 354.76] (05:52) Generate, copy it,
+     -- pause 4.3s --
+#60 [359.04 - 361.82] (05:59) and then paste it back here, and you are done.
+     -- pause 7.1s --
+#61 [368.90 - 372.49] (06:08) The dashboard will tell you that your brain is ahead of GitHub.
+     -- pause 1.9s --
+#62 [374.40 - 377.68] (06:14) Connect now. Step number 5, connect Claude,
+     -- pause 2.3s --
+#63 [380.02 - 380.60] (06:20) add your key,
+     -- pause 1.5s --
+#64 [382.14 - 384.21] (06:22) and that's it. Click build,
+     -- pause 1.5s --
+#65 [385.68 - 389.73] (06:25) other take. Number 6, build, and that's it.
+     -- pause 5.0s --
+#66 [394.77 - 396.87] (06:34) Your brain now is online.
+     -- pause 5.1s --
+#67 [401.95 - 405.25] (06:41) I know I went— I know I went quickly here
+     -- pause 1.4s --
+#68 [406.68 - 409.07] (06:46) because I want to focus on what is coming next,
+     -- pause 2.2s --
+#69 [411.24 - 413.36] (06:51) the shocking part, the shocking part.
+     -- pause 3.2s --
+#70 [416.58 - 426.48] (06:56) But don't worry, I published— I created a full guide step by step in detail on how to create your Brain online and locally,
+     -- pause 2.2s --
+#71 [428.66 - 430.21] (07:08) and it's free guide linked below.
+     -- pause 1.8s --
+#72 [431.98 - 435.09] (07:11) So don't worry about the configuration, you can follow up in the guide.
+     -- pause 7.3s --
+#73 [442.38 - 442.89] (07:22) But for now,
+     -- pause 1.0s --
+#74 [443.93 - 444.72] (07:23) stay with me
+     -- pause 3.8s --
+#75 [448.50 - 450.00] (07:28) because the next part
+     -- pause 1.5s --
+#76 [451.51 - 453.26] (07:31) is the reason I built it,
+     -- pause 2.3s --
+#77 [455.59 - 457.83] (07:35) is the reason behind building this project.

@@ -1,0 +1,1252 @@
+{
+  "_note": "video-1 SFX plan (v4 pass, 2026-08-07). Times are the CURRENT master clock (post-R7 and post-V2 splices), re-derived from work/edited-transcript.json and work/timeline.json. WARNING: the cue seconds inside timeline.json notes and inside the shot headers are the v1 clock - subtract 1.167833 before master 352.085 and 3.003000 after. Every at_s below was verified to land within +/-0.01s of its narration word or its converted visual frame.",
+  "master": "videos/video-1/output/master-natural-h264.mp4",
+  "master_fps": 60,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "videos/video-1/output/preview-full.mp4",
+    "out": "videos/video-1/output/scratch-audition-sfx.mp4",
+    "end_s": 931.9,
+    "duck": false
+  },
+  "stem": {
+    "out": "videos/video-1/output/sfx-track.wav",
+    "duration_s": 931.9,
+    "sample_rate": 48000,
+    "channels": 2,
+    "duck": false,
+    "_note": "Deliverable stem: cues at master time, silence between, NO voice ducking (the editor's call)."
+  },
+  "events": [
+    {
+      "at_s": 3.841,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B1ColdOpenReal",
+      "cue": "cut into the X screencast on 'Let's say' 3.917",
+      "beat_s": 3.931,
+      "align": "peak",
+      "id": 1
+    },
+    {
+      "at_s": 8.218,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B1ColdOpenReal",
+      "cue": "X reply box opens on 'posts'",
+      "beat_s": 8.233,
+      "align": "onset",
+      "id": 2
+    },
+    {
+      "at_s": 9.902,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B1ColdOpenReal",
+      "cue": "Gmail compose opens on 'emails.'",
+      "beat_s": 9.917,
+      "align": "onset",
+      "id": 3
+    },
+    {
+      "at_s": 11.942,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B1ReplyCompare",
+      "cue": "cut to the A/B reply compare ('We have the same post' 12.099)",
+      "beat_s": 12.032,
+      "align": "peak",
+      "id": 4
+    },
+    {
+      "at_s": 27.645,
+      "sfx_id": "stamp-hit",
+      "gain_db": -5.9,
+      "shot": "B1ReplyCompare",
+      "cue": "verdict lands on 'AI slop.'",
+      "note": "transient clip: +0 reads as ~-5",
+      "beat_s": 27.645,
+      "align": "onset",
+      "id": 5
+    },
+    {
+      "at_s": 29.747,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B1ReplyCompare",
+      "cue": "figure 1 on '16 seconds'",
+      "beat_s": 29.762,
+      "align": "onset",
+      "id": 6
+    },
+    {
+      "at_s": 31.977,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B1ReplyCompare",
+      "cue": "figure 2 on 'twice a year'",
+      "beat_s": 31.992,
+      "align": "onset",
+      "id": 7
+    },
+    {
+      "at_s": 33.357,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B1ReplyCompare",
+      "cue": "figure 3 on '$700 a month'",
+      "beat_s": 33.372,
+      "align": "onset",
+      "id": 8
+    },
+    {
+      "at_s": 57.965,
+      "sfx_id": "riser-soft",
+      "gain_db": -6.4,
+      "shot": "B1BrainReveal",
+      "cue": "HERO A build: link draws / brain node / stamp",
+      "beat_s": 59.19,
+      "align": "peak",
+      "id": 9
+    },
+    {
+      "at_s": 60.546,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -4.9,
+      "shot": "B1BrainReveal",
+      "cue": "HERO A drop: stamp on 'brain.' 60.546",
+      "beat_s": 60.546,
+      "align": "onset",
+      "id": 10
+    },
+    {
+      "at_s": 100.142,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B15ContextPackGaps",
+      "cue": "cut into the real context pack",
+      "beat_s": 100.232,
+      "align": "peak",
+      "id": 13
+    },
+    {
+      "at_s": 105.694,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B15ContextPackGaps",
+      "cue": "warn sweep on 'Do not invent this number.'",
+      "beat_s": 105.709,
+      "align": "onset",
+      "id": 14
+    },
+    {
+      "at_s": 118.164,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B15ReadThatAgain",
+      "cue": "'Read that again.' full-screen lands on the word",
+      "beat_s": 118.179,
+      "align": "onset",
+      "id": 15
+    },
+    {
+      "at_s": 146.635,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B2NameLockup",
+      "cue": "the product name rises on 'BrainOutside.'",
+      "beat_s": 146.635,
+      "align": "onset",
+      "id": 17
+    },
+    {
+      "at_s": 151.676,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B2KnowsList",
+      "cue": "pill 1 'how I write'",
+      "beat_s": 151.691,
+      "align": "onset",
+      "id": 18
+    },
+    {
+      "at_s": 153.441,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B2KnowsList",
+      "cue": "pill 2 'what I believe'",
+      "beat_s": 153.456,
+      "align": "onset",
+      "id": 19
+    },
+    {
+      "at_s": 154.806,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B2KnowsList",
+      "cue": "pill 3 'my philosophy'",
+      "beat_s": 154.821,
+      "align": "onset",
+      "id": 20
+    },
+    {
+      "at_s": 156.009,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B2KnowsList",
+      "cue": "pill 4 'my projects'",
+      "beat_s": 156.024,
+      "align": "onset",
+      "id": 21
+    },
+    {
+      "at_s": 169.822,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -6.2,
+      "shot": "B2bMirrorOutside",
+      "cue": "glide into the mirror-outside diagram",
+      "beat_s": 170.032,
+      "align": "peak",
+      "id": 22
+    },
+    {
+      "at_s": 191.102,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B2bDisagreeMyself",
+      "cue": "payoff on 'weird.'",
+      "beat_s": 191.117,
+      "align": "onset",
+      "id": 23
+    },
+    {
+      "at_s": 197.542,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B3RepoEscalation",
+      "cue": "cut in: 'And the idea is really simple.'",
+      "beat_s": 197.632,
+      "align": "peak",
+      "id": 24
+    },
+    {
+      "at_s": 211.164,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B3RepoEscalation",
+      "cue": "escalation lands on 'GitHub repo'",
+      "beat_s": 211.164,
+      "align": "onset",
+      "id": 25
+    },
+    {
+      "at_s": 227.222,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -6.2,
+      "shot": "B3TwoHeads",
+      "cue": "glide into THE two-heads diagram",
+      "beat_s": 227.432,
+      "align": "peak",
+      "id": 26
+    },
+    {
+      "at_s": 232.7,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B3TwoHeads",
+      "cue": "reveal on '2 heads'",
+      "beat_s": 232.715,
+      "align": "onset",
+      "id": 27
+    },
+    {
+      "at_s": 235.408,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B3TwoHeads",
+      "cue": "head 1 on 'local,'",
+      "beat_s": 235.423,
+      "align": "onset",
+      "id": 28
+    },
+    {
+      "at_s": 242.863,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B3TwoHeads",
+      "cue": "head 2 on 'online.'",
+      "beat_s": 242.878,
+      "align": "onset",
+      "id": 29
+    },
+    {
+      "at_s": 262.436,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B3OnlineAccess",
+      "cue": "'MCP' attaches to the online head",
+      "beat_s": 262.451,
+      "align": "onset",
+      "id": 30
+    },
+    {
+      "at_s": 263.719,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B3OnlineAccess",
+      "cue": "'API' attaches to the online head",
+      "beat_s": 263.734,
+      "align": "onset",
+      "id": 31
+    },
+    {
+      "at_s": 277.366,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B3SameBrain",
+      "cue": "section resolves on 'anywhere.'",
+      "beat_s": 277.381,
+      "align": "onset",
+      "id": 32
+    },
+    {
+      "at_s": 286.942,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B5TemplateRepo",
+      "cue": "cut in: 'You just open the template repo'",
+      "beat_s": 287.032,
+      "align": "peak",
+      "id": 33
+    },
+    {
+      "at_s": 291.175,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B5TemplateRepo",
+      "cue": "click 'Use this template'",
+      "beat_s": 291.19,
+      "align": "onset",
+      "id": 34
+    },
+    {
+      "at_s": 304.678,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B5TwoSkills",
+      "cue": "mind-feeder on 'writes'",
+      "beat_s": 304.693,
+      "align": "onset",
+      "id": 35
+    },
+    {
+      "at_s": 307.022,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B5TwoSkills",
+      "cue": "mind-reader on 'reads.'",
+      "beat_s": 307.037,
+      "align": "onset",
+      "id": 36
+    },
+    {
+      "at_s": 308.742,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B5bFeedPaste",
+      "cue": "cut in: 'Watch what feeding looks like.'",
+      "beat_s": 308.832,
+      "align": "peak",
+      "id": 37
+    },
+    {
+      "at_s": 318.895,
+      "sfx_id": "ui-send",
+      "gain_db": -4.9,
+      "shot": "B5cFeedRun",
+      "cue": "SEND - the paste goes to mind-feeder",
+      "beat_s": 319.06,
+      "align": "onset",
+      "id": 38
+    },
+    {
+      "at_s": 328.201,
+      "sfx_id": "stamp-hit",
+      "gain_db": -5.9,
+      "shot": "B5bProposal",
+      "cue": "PROPOSAL stamp on 'proposal'",
+      "note": "transient clip",
+      "beat_s": 328.201,
+      "align": "onset",
+      "id": 39
+    },
+    {
+      "at_s": 334.038,
+      "sfx_id": "trap-snap",
+      "gain_db": -7.5,
+      "shot": "B5bProposal",
+      "cue": "MOTIF 1/3 - the GATE shuts on 'stops'",
+      "beat_s": 334.038,
+      "align": "onset",
+      "id": 40
+    },
+    {
+      "at_s": 336.755,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -2.5,
+      "shot": "B5bProposal",
+      "cue": "SIGNATURE MOTIF - flips teal on 'approve,'",
+      "note": "clip catalogs at -27.9 LUFS; +2 reads as ~-6",
+      "beat_s": 336.86,
+      "align": "onset",
+      "id": 41
+    },
+    {
+      "at_s": 352.207,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B5bReadingPull",
+      "cue": "cut in: 'Let's move into reading.'",
+      "beat_s": 352.297,
+      "align": "peak",
+      "id": 42
+    },
+    {
+      "at_s": 360.78,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B5bReadingPull",
+      "cue": "real note 1 'cost story,'",
+      "beat_s": 360.795,
+      "align": "onset",
+      "id": 43
+    },
+    {
+      "at_s": 362.225,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B5bReadingPull",
+      "cue": "real note 2 'downtime number,'",
+      "beat_s": 362.24,
+      "align": "onset",
+      "id": 44
+    },
+    {
+      "at_s": 364.136,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B5bReadingPull",
+      "cue": "real note 3 'my voice.'",
+      "beat_s": 364.151,
+      "align": "onset",
+      "id": 45
+    },
+    {
+      "at_s": 376.351,
+      "sfx_id": "stamp-hit",
+      "gain_db": -5.9,
+      "shot": "B5bWhyItMatters",
+      "cue": "stamp on 'results.'",
+      "note": "transient clip",
+      "beat_s": 376.351,
+      "align": "onset",
+      "id": 46
+    },
+    {
+      "at_s": 379.658,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B6LocalDone",
+      "cue": "teal check on 'It's finished.'",
+      "beat_s": 379.658,
+      "align": "onset",
+      "id": 47
+    },
+    {
+      "at_s": 391.967,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -6.2,
+      "shot": "B6GiveItADoor",
+      "cue": "the wall opens into a door on 'door'",
+      "beat_s": 392.177,
+      "align": "peak",
+      "id": 48
+    },
+    {
+      "at_s": 409.507,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B7VpsPick",
+      "cue": "cut in: the setup run begins",
+      "beat_s": 409.597,
+      "align": "peak",
+      "id": 50
+    },
+    {
+      "at_s": 416.3,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7VpsPick",
+      "cue": "cheapest plan clicked on 'cheapest'",
+      "beat_s": 416.315,
+      "align": "onset",
+      "id": 51
+    },
+    {
+      "at_s": 429.82,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B7CoolifyUp",
+      "cue": "green status on 'running'",
+      "beat_s": 429.82,
+      "align": "onset",
+      "id": 52
+    },
+    {
+      "at_s": 435.964,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B7SevenHundred",
+      "cue": "the one number he quotes: '$700' wipe",
+      "beat_s": 435.979,
+      "align": "onset",
+      "id": 53
+    },
+    {
+      "at_s": 449.906,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7CoolifyDeploy",
+      "cue": "New Project",
+      "beat_s": 449.921,
+      "align": "onset",
+      "id": 54
+    },
+    {
+      "at_s": 451.849,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7CoolifyDeploy",
+      "cue": "New Resource",
+      "beat_s": 451.864,
+      "align": "onset",
+      "id": 55
+    },
+    {
+      "at_s": 459.009,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7CoolifyDeploy",
+      "cue": "Save",
+      "beat_s": 459.024,
+      "align": "onset",
+      "id": 56
+    },
+    {
+      "at_s": 468.706,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7EnvDeploy",
+      "cue": "Deploy",
+      "beat_s": 468.721,
+      "align": "onset",
+      "id": 57
+    },
+    {
+      "at_s": 477.472,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B7BuildOpen",
+      "cue": "the wizard paints on 'wizard.'",
+      "beat_s": 477.472,
+      "align": "onset",
+      "id": 58
+    },
+    {
+      "at_s": 491.024,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7Wizard12",
+      "cue": "Create (the repo) on 'create.'",
+      "beat_s": 491.039,
+      "align": "onset",
+      "id": 59
+    },
+    {
+      "at_s": 496.9,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7Wizard3",
+      "cue": "Verify on 'verify'",
+      "beat_s": 496.915,
+      "align": "onset",
+      "id": 60
+    },
+    {
+      "at_s": 499.208,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B7Wizard3",
+      "cue": "real clone lands on 'clone.'",
+      "beat_s": 499.208,
+      "align": "onset",
+      "id": 61
+    },
+    {
+      "at_s": 510.525,
+      "sfx_id": "trap-snap",
+      "gain_db": -7.5,
+      "shot": "B7ReadOnlyWrite",
+      "cue": "MOTIF 2/3 - the write lock refuses the approved note",
+      "beat_s": 510.525,
+      "align": "onset",
+      "id": 62
+    },
+    {
+      "at_s": 516.505,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7TokenNav",
+      "cue": "click the token deep link on 'click'",
+      "beat_s": 516.52,
+      "align": "onset",
+      "id": 63
+    },
+    {
+      "at_s": 527.66,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7TokenPerms",
+      "cue": "permission set on 'read and write.'",
+      "beat_s": 527.675,
+      "align": "onset",
+      "id": 64
+    },
+    {
+      "at_s": 530.529,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B7TokenPaste",
+      "cue": "'Generate,' the token",
+      "beat_s": 530.544,
+      "align": "onset",
+      "id": 65
+    },
+    {
+      "at_s": 534.47,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B7TokenPaste",
+      "cue": "token pastes and turns green on 'here,'",
+      "beat_s": 534.47,
+      "align": "onset",
+      "id": 66
+    },
+    {
+      "at_s": 546.544,
+      "sfx_id": "riser-soft",
+      "gain_db": -6.4,
+      "shot": "B7Steps56",
+      "cue": "HERO C build: the build ramp + push into the live dashboard",
+      "beat_s": 547.769,
+      "align": "peak",
+      "id": 67
+    },
+    {
+      "at_s": 549.131,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -4.9,
+      "shot": "B7Steps56",
+      "cue": "HERO C drop: status flips on 'online.' - payoff of the whole 165s run",
+      "beat_s": 549.131,
+      "align": "onset",
+      "id": 68
+    },
+    {
+      "at_s": 565.183,
+      "sfx_id": "chime-reward",
+      "gain_db": -2.5,
+      "shot": "B7GuideCta",
+      "cue": "MOTIF - the free guide, teal FREE on 'free'",
+      "beat_s": 565.183,
+      "align": "onset",
+      "id": 69
+    },
+    {
+      "at_s": 579.387,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -6.2,
+      "shot": "B8Compose",
+      "cue": "cut in: 'Now the part I actually love.'",
+      "beat_s": 579.597,
+      "align": "peak",
+      "id": 70
+    },
+    {
+      "at_s": 585.592,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -2.5,
+      "shot": "B8Compose",
+      "cue": "SIGNATURE MOTIF callback - 'approve'",
+      "beat_s": 585.697,
+      "align": "onset",
+      "id": 71
+    },
+    {
+      "at_s": 588.516,
+      "sfx_id": "ui-send",
+      "gain_db": -4.9,
+      "shot": "B8Compose",
+      "cue": "teal packet flies UP the local branch on 'push.'",
+      "beat_s": 588.681,
+      "align": "onset",
+      "id": 72
+    },
+    {
+      "at_s": 598.45,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B8Compose",
+      "cue": "the note is 'live' on the online brain",
+      "beat_s": 598.45,
+      "align": "onset",
+      "id": 73
+    },
+    {
+      "at_s": 612.484,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B8Compose",
+      "cue": "payoff headline 'One source, two doors.'",
+      "beat_s": 612.499,
+      "align": "onset",
+      "id": 74
+    },
+    {
+      "at_s": 619.807,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B9DashboardTour",
+      "cue": "cut in: the app tour",
+      "beat_s": 619.897,
+      "align": "peak",
+      "id": 75
+    },
+    {
+      "at_s": 626.234,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B9DashboardTour",
+      "cue": "page 2 'browser,'",
+      "beat_s": 626.249,
+      "align": "onset",
+      "id": 76
+    },
+    {
+      "at_s": 632.738,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B9DashboardTour",
+      "cue": "page 3 'graph,'",
+      "beat_s": 632.753,
+      "align": "onset",
+      "id": 77
+    },
+    {
+      "at_s": 637.234,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B9DashboardTour",
+      "cue": "both notes light into the self-hosting lens",
+      "beat_s": 637.234,
+      "align": "onset",
+      "id": 78
+    },
+    {
+      "at_s": 643.803,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B9DashboardTour",
+      "cue": "page 4 'queue,'",
+      "beat_s": 643.818,
+      "align": "onset",
+      "id": 79
+    },
+    {
+      "at_s": 650.645,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B9DashboardTour",
+      "cue": "page 5 'consumers'",
+      "beat_s": 650.66,
+      "align": "onset",
+      "id": 80
+    },
+    {
+      "at_s": 657.052,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B9DashboardTour",
+      "cue": "page 6 'chat.'",
+      "beat_s": 657.067,
+      "align": "onset",
+      "id": 81
+    },
+    {
+      "at_s": 670.107,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B10ConnectMCP",
+      "cue": "cut in: connecting Claude to the brain",
+      "beat_s": 670.197,
+      "align": "peak",
+      "id": 82
+    },
+    {
+      "at_s": 676.013,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B10ConnectMCP",
+      "cue": "status flips connected, the 9 real tools stream in",
+      "beat_s": 676.013,
+      "align": "onset",
+      "id": 83
+    },
+    {
+      "at_s": 693.123,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B10AssembleContext",
+      "cue": "the context pack panel opens on 'pack'",
+      "beat_s": 693.123,
+      "align": "onset",
+      "id": 84
+    },
+    {
+      "at_s": 698.067,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B10AssembleContext",
+      "cue": "callback to 105.709 - warn rail on 'gaps.'",
+      "beat_s": 698.082,
+      "align": "onset",
+      "id": 85
+    },
+    {
+      "at_s": 698.727,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -4.4,
+      "shot": "B10ThatsTheCall",
+      "cue": "the cold-open callback: B1's reply card returns",
+      "beat_s": 699.542,
+      "align": "peak",
+      "id": 86
+    },
+    {
+      "at_s": 708.507,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B11WriteAsMe",
+      "cue": "cut in: 'back to where we started'",
+      "beat_s": 708.597,
+      "align": "peak",
+      "id": 87
+    },
+    {
+      "at_s": 714.837,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B11WriteAsMe",
+      "cue": "indigo wipe on 'as me'",
+      "beat_s": 714.852,
+      "align": "onset",
+      "id": 88
+    },
+    {
+      "at_s": 724.176,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B11DrafterNotGhostwriter",
+      "cue": "'A drafter.' + indigo wipe",
+      "beat_s": 724.176,
+      "align": "onset",
+      "id": 89
+    },
+    {
+      "at_s": 725.46,
+      "sfx_id": "stamp-hit",
+      "gain_db": -5.9,
+      "shot": "B11DrafterNotGhostwriter",
+      "cue": "'A ghostwriter.' struck through",
+      "note": "transient clip",
+      "beat_s": 725.46,
+      "align": "onset",
+      "id": 90
+    },
+    {
+      "at_s": 733.907,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B12WritingABook",
+      "cue": "cut in: 'it's not only for content'",
+      "beat_s": 733.997,
+      "align": "peak",
+      "id": 91
+    },
+    {
+      "at_s": 747.196,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B12WritingABook",
+      "cue": "the arc travels chapter 9 to 1 on 'contradict'",
+      "beat_s": 747.286,
+      "align": "peak",
+      "id": 92
+    },
+    {
+      "at_s": 764.137,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B12EverySession",
+      "cue": "'your brain already has it' lands on 'or project.'",
+      "beat_s": 764.137,
+      "align": "onset",
+      "id": 93
+    },
+    {
+      "at_s": 768.807,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B13AttachEverything",
+      "cue": "cut in: THE RULE",
+      "beat_s": 768.897,
+      "align": "peak",
+      "id": 94
+    },
+    {
+      "at_s": 770.925,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B13AttachEverything",
+      "cue": "wipe on 'everything.'",
+      "beat_s": 770.94,
+      "align": "onset",
+      "id": 95
+    },
+    {
+      "at_s": 775.898,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B13TheLoop",
+      "cue": "node 1 'Read'",
+      "beat_s": 775.913,
+      "align": "onset",
+      "id": 96
+    },
+    {
+      "at_s": 777.037,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B13TheLoop",
+      "cue": "node 2 'feed'",
+      "beat_s": 777.052,
+      "align": "onset",
+      "id": 97
+    },
+    {
+      "at_s": 785.284,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B13TheLoop",
+      "cue": "the circuit CLOSES and runs on 'loop.'",
+      "beat_s": 785.299,
+      "align": "onset",
+      "id": 98
+    },
+    {
+      "at_s": 801.464,
+      "sfx_id": "sting-scare-comic",
+      "gain_db": 3.2,
+      "shot": "B14ScaryFace",
+      "cue": "GAG 4 - the comic mock-scare peaks on 'scary.' 801.464",
+      "beat_s": 801.464,
+      "align": "onset",
+      "id": 99
+    },
+    {
+      "at_s": 802.107,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B14TodayItsText",
+      "cue": "cut in: the base of the ladder",
+      "beat_s": 802.197,
+      "align": "peak",
+      "id": 100
+    },
+    {
+      "at_s": 809.959,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B14L1AnyVoice",
+      "cue": "rail slot 1 fills on 'voice?'",
+      "beat_s": 809.974,
+      "align": "onset",
+      "id": 101
+    },
+    {
+      "at_s": 816.349,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B14L2VoiceClone",
+      "cue": "rail slot 2 fills on 'clone'",
+      "beat_s": 816.364,
+      "align": "onset",
+      "id": 102
+    },
+    {
+      "at_s": 830.471,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B14L3PhotoWaves",
+      "cue": "rail slot 3 fills on 'audio' waves",
+      "beat_s": 830.486,
+      "align": "onset",
+      "id": 103
+    },
+    {
+      "at_s": 836.729,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B14L4Lipsync",
+      "cue": "rail slot 4 fills on 'lipsync,'",
+      "beat_s": 836.744,
+      "align": "onset",
+      "id": 104
+    },
+    {
+      "at_s": 844.695,
+      "sfx_id": "riser-soft",
+      "gain_db": -6.4,
+      "shot": "B14L5Humanoid",
+      "cue": "HERO B build: under 'And then eventually this-'",
+      "beat_s": 845.92,
+      "align": "peak",
+      "id": 105
+    },
+    {
+      "at_s": 847.28,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -4.9,
+      "shot": "B14L5Humanoid",
+      "cue": "HERO B drop: THE MORPH at local f80, 0.16s before 'same voice'",
+      "beat_s": 847.28,
+      "align": "onset",
+      "id": 106
+    },
+    {
+      "at_s": 859.629,
+      "sfx_id": "stamp-hit",
+      "gain_db": -5.9,
+      "shot": "B14TagHold",
+      "cue": "the SIMULATED tag drops into the band on 'Okay,'",
+      "note": "transient clip",
+      "beat_s": 859.629,
+      "align": "onset",
+      "id": 107
+    },
+    {
+      "at_s": 875.927,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -4.9,
+      "shot": "B14SameFolder",
+      "cue": "THE PAYOFF - power pulses root to levels, wipe on 'all'",
+      "beat_s": 875.927,
+      "align": "onset",
+      "id": 108
+    },
+    {
+      "at_s": 880.607,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8.6,
+      "shot": "B15CloseFree",
+      "cue": "cut in: the close",
+      "beat_s": 880.697,
+      "align": "peak",
+      "id": 109
+    },
+    {
+      "at_s": 882.2,
+      "sfx_id": "chime-reward",
+      "gain_db": -2.5,
+      "shot": "B15CloseFree",
+      "cue": "MOTIF - teal 'free,'",
+      "beat_s": 882.2,
+      "align": "onset",
+      "id": 110
+    },
+    {
+      "at_s": 899.979,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B15CloseCommodity",
+      "cue": "Claude chip",
+      "beat_s": 899.994,
+      "align": "onset",
+      "id": 111
+    },
+    {
+      "at_s": 900.798,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B15CloseCommodity",
+      "cue": "Gemini chip",
+      "beat_s": 900.813,
+      "align": "onset",
+      "id": 112
+    },
+    {
+      "at_s": 901.36,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -2.9,
+      "shot": "B15CloseCommodity",
+      "cue": "dashed 'whatever' chip",
+      "beat_s": 901.375,
+      "align": "onset",
+      "id": 113
+    },
+    {
+      "at_s": 905.675,
+      "sfx_id": "riser-soft",
+      "gain_db": -6.4,
+      "shot": "B15CloseOnlyYou",
+      "cue": "HERO D build: 'The only unique thing left...'",
+      "beat_s": 906.9,
+      "align": "peak",
+      "id": 114
+    },
+    {
+      "at_s": 908.264,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -4.9,
+      "shot": "B15CloseOnlyYou",
+      "cue": "HERO D drop: 'is you.' at 156px + underline wipe",
+      "beat_s": 908.264,
+      "align": "onset",
+      "id": 115
+    },
+    {
+      "at_s": 910.993,
+      "sfx_id": "trap-snap",
+      "gain_db": -7.5,
+      "shot": "B15CloseOnlyYou",
+      "cue": "MOTIF 3/3 - the locked, redacted you.md card",
+      "beat_s": 910.993,
+      "align": "onset",
+      "id": 116
+    },
+    {
+      "at_s": 914.044,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B15ClosePutItOutside",
+      "cue": "THE NAME PAYS OFF - the card UNLOCKS on 'outside'",
+      "beat_s": 914.044,
+      "align": "onset",
+      "id": 117
+    },
+    {
+      "at_s": 920.547,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B15CloseOutro",
+      "cue": "'Hit like' badge",
+      "beat_s": 920.547,
+      "align": "onset",
+      "id": 118
+    },
+    {
+      "at_s": 924.428,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8.0,
+      "shot": "B15CloseOutro",
+      "cue": "star-the-repo badge on 'GitHub.'",
+      "beat_s": 924.428,
+      "align": "onset",
+      "id": 119
+    },
+    {
+      "at_s": 930.224,
+      "sfx_id": "impact-soft",
+      "gain_db": -5.6,
+      "shot": "B15CloseOutro",
+      "cue": "the BrainOutside lockup, held to the final frame",
+      "beat_s": 930.239,
+      "align": "onset",
+      "id": 120
+    }
+  ],
+  "_levels": {
+    "note": "gain_db is a per-CLIP constant, not per-cue: a cue tuned against a loud passage would spike in the next pause. Each clip's window-RMS at unity was measured, then gain set so every cue of a function class lands at the same absolute level, capped so no clip peaks above the class ceiling.",
+    "targets_window_rms_dbfs": {
+      "gag": -20.0,
+      "hero": -22.0,
+      "payoff": -24.0,
+      "transition": -27.0,
+      "snap": -30.0
+    },
+    "peak_ceiling_dbfs": {
+      "gag": -4.0,
+      "hero": -6.0,
+      "payoff": -6.0,
+      "transition": -6.0,
+      "snap": -4.0
+    },
+    "class_of": {
+      "zap-electric": "gag",
+      "sting-scare-comic": "gag",
+      "impact-deep-soft": "hero",
+      "impact-soft": "payoff",
+      "stamp-hit": "payoff",
+      "chime-reward": "payoff",
+      "whoosh-soft": "transition",
+      "whoosh-wind": "transition",
+      "whoosh-reverse": "transition",
+      "riser-soft": "transition",
+      "pop-reveal": "snap",
+      "ui-click-soft": "snap",
+      "ui-toggle-on": "snap",
+      "ui-send": "snap",
+      "trap-snap": "snap"
+    }
+  },
+  "_align": "at_s is the PLAYBACK start; beat_s is the visual/word moment. Builds (riser-soft, whoosh-reverse) and whooshes are PEAK-aligned - their energy is not at the file start - everything else is ONSET-aligned. at_s = beat_s - offset.",
+  "_removed_v4_1": {
+    "note": "Removed on Hasan's review of the audition (ids are the review-sheet numbers; surviving cues keep their original ids so the sheet stays valid).",
+    "cues": [
+      {
+        "id": 11,
+        "at_s": 62.78,
+        "sfx_id": "zap-electric",
+        "cue": "GAG 1/3 - the zap fires 0.30s into the clip, before 'No,' 62.952"
+      },
+      {
+        "id": 12,
+        "at_s": 82.99,
+        "sfx_id": "zap-electric",
+        "cue": "GAG 2/3 - clip snaps in already zapping (jumper clamps)"
+      },
+      {
+        "id": 16,
+        "at_s": 128.486,
+        "sfx_id": "whoosh-reverse",
+        "cue": "the flip on 'This project does the opposite.'"
+      },
+      {
+        "id": 49,
+        "at_s": 400.843,
+        "sfx_id": "zap-electric",
+        "cue": "GAG 3/3 - the hair pops on 'shock?'"
+      }
+    ]
+  }
+}

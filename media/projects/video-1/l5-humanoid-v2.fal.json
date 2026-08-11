@@ -1,0 +1,17 @@
+{
+ "request_id": "019fdc7c-bb3b-7ac3-8569-a84c6573594c",
+ "endpoint": "fal-ai/veo3.1/image-to-video",
+ "duration": "8s",
+ "resolution": "1080p",
+ "image": "media/projects/video-1/l5-ref-845.165.jpg",
+ "prompt": "The exact same man stays in frame and never changes identity: same face geometry, same thick dark full beard and moustache in the same shape, same heavy brow, same nose, same hairline, same skin tone. He looks completely normal and human for the first two and a half seconds. Then over about one second his skin turns into a matte synthetic android surface, with fine seam lines along the jaw, temple and cheek and a thin metal ring at the base of the neck. He KEEPS the beard and the same face. He is the same man rendered as an android, not a different person. His own dark brown eyes with a faint ring of light around the iris. He keeps talking calmly to camera. In the final second he settles, turns to face the camera directly and holds a still, calm, open-eyed look straight down the lens. Locked-off static camera, same bright bedroom, natural daylight, photoreal.",
+ "negative_prompt": "clean shaven, no beard, different person, face swap, younger face, pale white skin, narrow jaw, changed hairstyle, eyes closed at the end, looking away at the end, cut, camera movement, text, watermark",
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aa56381/-BQJEp4__6exVVj9Whk5-_c916f6e03a684a81a7b425602eba4eac.mp4",
+   "content_type": "video/mp4",
+   "file_name": "c916f6e03a684a81a7b425602eba4eac.mp4",
+   "file_size": 6042667
+  }
+ }
+}

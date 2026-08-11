@@ -13,7 +13,9 @@ your cut. No screen recording, no video editor. The right skill is picked from t
 | remove background noise / isolate voice | `/clean-audio` | a cleaned master (levels preserved) |
 | add SFX / sound-design a beat | `/suggest-sfx` | `videos/<project>/work/sfx-plan.json` + an audition mix |
 | package a video / titles + thumbnails | `/packaging` | `videos/<project>/packaging/` (1 title × 3 thumbnail bets + rendered thumbs) |
+| make / iterate thumbnails only | `/thumbnail` | rendered + verified frames in `videos/<project>/packaging/thumbs/` (asks which style elements you want) |
 | upload it | `tools/yt_upload.py` | a private draft on YouTube |
+| track it / put it in Notion | `tools/notion_sync.py` | the video's row in the Notion content tracker |
 
 The pipeline order is: **cut → visuals → voice → SFX → packaging → upload.**
 
@@ -62,9 +64,17 @@ current brand (wordmark, palette, type) so you can see it. `/brand-setup` uses i
 
 - **API keys** live in `.env` at the repo root (copy `.env.example`). Never commit `.env`.
   `ASSEMBLYAI_API_KEY` = transcription · `ELEVENLABS_API_KEY` = voice-isolate + SFX + music ·
-  `GEMINI_API_KEY` = thumbnails. **YouTube uses OAuth, not a key**: `tools/yt_upload.py` (upload) and
+  `GEMINI_API_KEY` = thumbnails · `NOTION_TOKEN` + `NOTION_LONGS_PAGE_ID` = the content tracker.
+  **YouTube uses OAuth, not a key**: `tools/yt_upload.py` (upload) and
   `tools/yt_stats.py` (stats) authorize via a browser and cache tokens under `.youtube/`
   (git-ignored). One-time setup: see `tools/yt_upload_SETUP.md`, then `python tools/yt_upload.py auth`.
+
+- **Notion is the tracker, the repo is the source of truth.** `python tools/notion_sync.py
+  videos/<project> --apply` pushes a project's row: properties from `videos/<project>/notion.json`
+  (committed) and the page body from its `script/script.md`. It is a **dry run without `--apply`**,
+  and it **matches an existing row before creating one** — ideas get parked in that database months
+  early under a rough working name, so a blind create makes a duplicate. Never hand-edit the script
+  in Notion; edit the repo and re-run with `--resync`. `--list` shows every row and its stage.
 
 - **The Remotion registry is generated:** after adding/renaming a shot, `cd remotion && npm run gen`
   (the render/frames scripts do NOT run it themselves). `npm run gen` discovers `src/shots/**` and

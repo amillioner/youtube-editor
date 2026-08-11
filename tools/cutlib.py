@@ -131,17 +131,32 @@ def tail_for(probe: AudioProbe, clip: str, word_end: float, gap, style: dict) ->
 
 
 def plan_clip(clip: str, keeps: list[dict], words: list[dict], style: dict,
-              probe: AudioProbe) -> list[tuple[float, float]]:
+              probe: AudioProbe, cuts: list[dict] | None = None) -> list[tuple[float, float]]:
     """Render ranges (raw seconds): speech-run atoms with snapped tails and
-    compressed pauses. Section ends land soft, mid-flow pauses land punchy."""
+    compressed pauses. Section ends land soft, mid-flow pauses land punchy.
+
+    `cuts` (optional) are the clip's cut spans. Pass them whenever they exist: a
+    tail or head must never run INTO a span the editor explicitly cut. snap_tail
+    walks forward until the audio decays, so when the material right after an atom
+    is cut SPEECH rather than silence it walks straight through it and the cut
+    words ride into the render (measured: 0.70s of a cut 'for quick demo—' survived
+    this way). The gap clamp in tail_for does not catch it — it only stops the tail
+    reaching the next KEPT atom, and a cut span sits in between."""
     atoms = split_atoms(keeps, words, style["internal_gap"])
     head = style["head"]
+    spans = sorted((c["s"], c["e"]) for c in (cuts or []))
     segs: list[tuple[float, float]] = []
     for i, (s, e) in enumerate(atoms):
         gap = atoms[i + 1][0] - e if i + 1 < len(atoms) else None
         tail, _ = tail_for(probe, clip, e, gap, style)
         open_head = head if i > 0 else min(0.25, head * 2)
-        segs.append((max(s - open_head, 0.0), e + tail))
+        seg_s, seg_e = max(s - open_head, 0.0), e + tail
+        for cs, ce in spans:
+            if e <= cs < seg_e:        # a cut starts inside our tail
+                seg_e = cs
+            if seg_s < ce <= s:        # a cut ends inside our lead-in
+                seg_s = ce
+        segs.append((seg_s, max(seg_e, e)))
     return segs
 
 

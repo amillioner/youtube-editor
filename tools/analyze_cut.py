@@ -83,7 +83,7 @@ def main() -> None:
         cid = c["id"]
         words = load_words(project, cid)
         keeps = active_keeps(c)
-        segs = plan_clip(cid, keeps, words, style, probe)
+        segs = plan_clip(cid, keeps, words, style, probe, c.get("cuts"))
         est += sum(e - s for s, e in segs)
 
         pauses = internal_pauses(keeps, words, style["internal_gap"])

@@ -1,0 +1,90 @@
+# clip 0258 — 324 words, ends 04:37
+#01 [1.79 - 6.96] (00:01) I'm super excited to show you what I built this week. Look at
+     -- pause 3.6s --
+#02 [10.52 - 11.56] (00:10) this. Look at this.
+     -- pause 9.9s --
+#03 [21.43 - 27.66] (00:21) Let's say I want to build an AI agent that can reply to my X posts or maybe my emails.
+     -- pause 7.5s --
+#04 [35.16 - 35.95] (00:35) Here we have—
+     -- pause 2.1s --
+#05 [38.07 - 42.46] (00:38) look at this, look at this example. We have the same post
+     -- pause 4.8s --
+#06 [47.28 - 49.79] (00:47) and I'm using the same AI model,
+     -- pause 2.3s --
+#07 [52.05 - 52.15] (00:52) Claude.
+     -- pause 9.6s --
+#08 [61.72 - 63.86] (01:01) Claude, in my case, and replying
+     -- pause 2.1s --
+#09 [65.97 - 72.40] (01:05) to the same post
+     -- pause 1.0s --
+#10 [73.40 - 75.06] (01:13) and writing both of them
+     -- pause 1.9s --
+#11 [76.98 - 78.79] (01:16) and writing both of them.
+     -- pause 5.3s --
+#12 [84.13 - 84.99] (01:24) Read the first one.
+     -- pause 1.3s --
+#13 [86.25 - 89.24] (01:26) It is generic, and this is what makes AI slop.
+     -- pause 1.9s --
+#14 [91.17 - 92.06] (01:31) Now the second one:
+     -- pause 1.4s --
+#15 [93.46 - 100.53] (01:33) 16 seconds of downtime twice a year, $700 a month. That's my voice,
+     -- pause 2.0s --
+#16 [102.50 - 104.46] (01:42) my data, my numbers.
+     -- pause 2.6s --
+#17 [107.02 - 109.48] (01:47) From my own servers, my own experience.
+     -- pause 6.5s --
+#18 [115.99 - 117.24] (01:55) So we have the same model,
+     -- pause 0.9s --
+#19 [118.17 - 120.91] (01:58) same prompt, same post,
+     -- pause 5.0s --
+#20 [125.91 - 132.01] (02:05) but we have one big difference and it changed everything. And it changes everything.
+     -- pause 2.4s --
+#21 [134.40 - 138.57] (02:14) And this difference changes the whole game when you work with AI.
+     -- pause 6.7s --
+#22 [145.31 - 146.07] (02:25) It is simply
+     -- pause 1.1s --
+#23 [147.15 - 148.41] (02:27) that the second one
+     -- pause 1.1s --
+#24 [149.47 - 151.68] (02:29) is connected to my
+     -- pause 1.1s --
+#25 [152.74 - 152.95] (02:32) brain.
+     -- pause 4.4s --
+#26 [157.40 - 158.76] (02:37) Yes, my brain.
+     -- pause 10.9s --
+#27 [169.61 - 170.42] (02:49) No, not this way.
+     -- pause 5.5s --
+#28 [175.95 - 176.78] (02:55) Let me show you how
+     -- pause 2.7s --
+#29 [179.44 - 183.67] (02:59) so you can connect your own brain to AI to any AI model.
+     -- pause 7.7s --
+#30 [191.36 - 194.54] (03:11) And this will completely change how
+     -- pause 1.3s --
+#31 [195.83 - 196.59] (03:15) you work with AI.
+     -- pause 3.9s --
+#32 [200.52 - 202.82] (03:20) And this will completely change
+     -- pause 1.0s --
+#33 [203.81 - 208.09] (03:23) how you work with AI and the results you get from
+     -- pause 4.7s --
+#34 [212.81 - 216.50] (03:32) AI. And what you just— and what you just saw is sim—
+     -- pause 1.5s --
+#35 [217.98 - 219.70] (03:37) other take. And what you just saw—
+     -- pause 2.7s --
+#36 [222.44 - 226.56] (03:42) and what you just saw is a very basic example on using the brain.
+     -- pause 4.5s --
+#37 [231.07 - 234.12] (03:51) What you will see in this video is going to shock you.
+     -- pause 8.7s --
+#38 [242.83 - 243.88] (04:02) No, not this way also.
+     -- pause 6.8s --
+#39 [250.68 - 252.80] (04:10) So if you are to get shocked,
+     -- pause 3.5s --
+#40 [256.28 - 257.32] (04:16) <<uh, 256.28-256.31>> sorry, I mean,
+     -- pause 1.3s --
+#41 [258.63 - 259.07] (04:18) <<uh, 258.63-258.68>> sorry.
+     -- pause 1.5s --
+#42 [260.61 - 265.69] (04:20) Other take. So if you are ready to get shocked— <<uh, 263.68-263.70>> sorry, I mean if you are ready to get started.
+     -- pause 5.0s --
+#43 [270.70 - 271.20] (04:30) Other take.
+     -- pause 0.8s --
+#44 [272.01 - 276.24] (04:32) So if you are ready to get shocked— <<uh, 274.15-274.20>> sorry, if you are ready, let's
+     -- pause 0.8s --
+#45 [277.06 - 277.85] (04:37) get started.

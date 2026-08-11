@@ -27,7 +27,7 @@ def main() -> None:
     for name, style in data["styles"].items():
         est = 0.0
         for clip in data["clips"]:
-            est += sum(e - s for s, e in plan_clip(clip["id"], active_keeps(clip), load_words(project, clip["id"]), style, probe))
+            est += sum(e - s for s, e in plan_clip(clip["id"], active_keeps(clip), load_words(project, clip["id"]), style, probe, clip.get("cuts")))
         lines.append(f"- Estimated length, **{name}** style: **{clock(est)}** ({est:.0f}s)")
 
     fluff = [(c["id"], f) for c in data["clips"] for f in c.get("fluff_suggestions", [])]

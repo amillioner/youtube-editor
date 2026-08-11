@@ -81,7 +81,17 @@ Do steps 1–4 and 7 once; loop 5→6→8→9 until the cut is approved; then 10
 
 Calibrated against a hand-made reference cut (the creator's own CapCut edit). **The target pacing = content-aggressive + pause-natural.** The big retention lever is cutting fluff and redundancy, NOT crushing silence — keep ~0.45–0.5s of natural breathing between runs. So:
 
+- **Look for spoken editing instructions first — they outrank your judgment.** Creators talk to the
+  editor on camera. Grep every clip's transcript for `other take` / `another take` / `repeat this
+  section` / `remove this` / `not needed` before you decide anything. On video-1 these resolved most
+  of the hard calls: `"Other take."` means the run that FOLLOWS supersedes the ones before;
+  `"I will repeat this section"` killed an entire first pass at a beat; `"There is no app or UI"`
+  ×3 followed by `"Remove this sentence. Not needed."` meant all four go. **Slates hide mid-segment**
+  — the take view splits on 0.8s gaps, so a slate spoken without a pause around it sits inside a
+  segment (`"...open source pro— another take. Okay, since this project is..."`) and needs a
+  word-level split. After authoring, assert no kept text still contains a slate phrase.
 - **Always cut:** retakes/false starts (keep the winning take, cut the rest — note which supersedes which), stumbles, dead air, and clear fillers.
+- **Doubled phrases: cut the FIRST one.** When a phrase is delivered twice back to back — `"And what and what makes it so powerful?"`, `"it holds— it holds your decisions"`, `"doesn't reflect, doesn't contradict, doesn't contradict with chapter 1"` — the creator wants the earlier one gone, *including when it sits mid-sentence inside an otherwise good take*. On video-1 the user gave 17 audit notes and every single one was "cut the first". Do this pass yourself before showing a preview: n-gram-scan the kept words for adjacent repeated runs and for tokens ending in an em-dash, then cut the first run at the quiet point between them. The only exception is scripted comedy (video-1's `"ready to get shocked— uh, sorry, I mean..."`), so check the script before cutting a stumble that the script also contains.
 - **Suggest, don't auto-remove (usually):** fluff — preamble that delays the payoff, evaluative asides, restated ideas. Categorize each (`crit`) and let the user decide in review.
 - **Pauses:** compress but don't flatten. The two styles both target natural breathing; `tight` lands mid-flow pauses punchy, `natural` gives more room. Section ends / spots after a removed retake get a **soft landing** (more tail) so they breathe.
 - Default to rendering **both** `tight` and `natural` and letting the user pick.
@@ -92,9 +102,45 @@ This is the ground truth for the channel's pacing — content-aggressive on fluf
 `internal_gap` (split keeps into speech-run atoms at pauses ≥ this) · `min_tail`/`max_tail` (snap-to-audio tail range after a word) · `head` (lead-in before an atom) · `margin` (dB over noise floor that counts as "decayed") · `soft_gap` (a following gap ≥ this = section end → soft landing) · `soft_max_tail`/`soft_margin` (the softer landing).
 Reference values that matched the reference cut: tight `{internal_gap:0.4, min_tail:0.14, max_tail:0.4, head:0.11, soft_gap:1.2, soft_max_tail:0.6, soft_margin:3.0}`; natural bumps `min_tail:0.26, max_tail:0.45, head:0.19`.
 
+**Tune `head` to the SPEAKER, don't take the reference on faith.** `head` must exceed the speaker's
+onset ramp — the lag between a word's first audible energy and the ASR token start — or every cut-in
+clips a word attack. Measure it: for each atom start at a real cut join, walk the RMS envelope back
+to the last point at/below floor+6 dB. On video-1 the ramp clustered at **0.18s**, so tight's 0.11
+clipped onsets (14 hard entries) while 0.15/0.17 gave **0**. Sweep `head` against
+`analyze_cut`'s hard-entry count and pick the smallest value that reaches zero — going further costs
+real runtime (0.19 → 0.42 bought 3 fewer entries for +1:39 of lead-in).
+
+**`soft_max_tail` is a ceiling, not a fixed value** — `snap_tail` returns early on clean endings, so
+raising it only affects words that genuinely need a long release. Raise it if the video's last word
+clips: video-1's `"...upcoming videos."` needed 0.90s to decay and 0.60 cut it off.
+
+## The transcript lies about TIME — cross-check every suspicious span against the envelope
+
+Word *text* is usually right; word *times* are not, and the cut engine trusts them completely
+(`split_atoms` takes each atom's bounds from word times, so **no amount of keep-edge editing in
+cuts.json can fix a mistimed token** — you must correct the token). Four failure modes, all seen on
+video-1, all found with an RMS walk over `work/audio/<id>.wav`:
+
+| Symptom | What it does to the cut | How it shows up |
+|---|---|---|
+| **Late start** (token begins after the word) | cut-in slices into the word | `analyze_cut` hard entry |
+| **Inflated span** (word timestamped across seconds of silence) | dead air kept *inside* a keep | `verify_cut` big interior pause |
+| **Merged repeat** (two utterances in one token) | a doubling you cannot see in the transcript | user says "it's twice", transcript says once |
+| **Phantom** (token with no audio at all) | you cut a boundary into real speech | hard entry after a clamp |
+
+Worst cases measured: `"post"` timestamped 66.60→72.40 hiding **5.24s** of dead air mid-sentence;
+`"Connect"` 0.44s late; a doubled `"here's"` merged into one 1.03s token; a `"this."` with no audio.
+Record every correction in `work/analysis/token-time-fixes.json` — `transcribe.py --force` wipes them.
+
+Detector worth running before every preview: flag kept words whose duration exceeds ~1.0s, or whose
+leading/trailing silence exceeds 0.35s. Discriminate real from false by asking whether the surviving
+hot span could plausibly hold the word — 4 syllables in 0.17s means the detector tripped on a soft
+onset, not a real inflation.
+
 ## Notes
 
 - The cut engine (`tools/cutlib.py`) does word-aware segmentation, per-clip 10th-percentile noise floor, and snap-to-audio tails so word releases aren't clipped — you don't hand-tune tail padding, you tune the style knobs.
+- **`plan_clip` takes the clip's `cuts` and will not let a segment extend into one.** Pass them. `snap_tail` walks forward until the audio decays, so when the material after an atom is cut SPEECH rather than silence it walks straight through and the cut words ride into the render (measured: 0.70s of a cut `"for quick demo—"` survived). This only bites on *intra-phrase* splices — the kind the user asks for during audit — because between original takes there is always silence. Corollary: with the clamp active, a cut boundary placed inside speech now hard-clips instead of silently over-including, so **place cut ends in the quiet between words** and re-check hard entries after every audit round.
 - `render_cuts.py` re-encodes (stream copy is only keyframe-accurate); previews are 720p, final is 4K60 10-bit. It cuts segments VIDEO-ONLY and builds the audio separately as one sample-exact stream matched to each segment's actual frame count (lesson learned: per-segment AAC + `concat -c copy` accumulates ~15-20ms of lip-sync drift PER CUT ≈ 1s over 34 segments). `verify_cut.py --style <s>` checks A/V drift automatically — run it on every render.
 - **A/V drift, part 2 — the audio fix was not enough.** Even with sample-exact audio, the VIDEO side drifts on 59.94fps footage: an mp4 segment's container tacks ~one extra frame (~16ms) of padding onto its last sample when `-t` cuts mid-frame, and `concat -c copy` of mp4s ACCUMULATES it (~0.8s over ~98 cuts) while the audio has none. FIXED in render_cuts.py: the video segments are concatenated through an **MPEG-TS intermediate** (no per-file trailing gap → frame-exact, non-accumulating). A **residual** remains — the HEVC final stamps PTS ~0.1% fast (~0.3s short; `r_frame_rate` stays right but the PTS span runs short), an hevc/TS quirk a stream copy can't fix — corrected at delivery by the re-timing H.264 transcode in step 10. **The trap:** verify_cut's growing A/V budget hides both; ALWAYS gate on `v:0 duration == a:0 duration`.
 - Footage handed to Remotion (`media/projects/footage/ch-N.mp4`) must be transcoded comp-native (1080×1920@30, 8-bit H.264, `-c:a copy`): 10-bit 4K60 HEVC starves OffthreadVideo's decoder during render → duplicated frames → visible stutter + perceived desync.

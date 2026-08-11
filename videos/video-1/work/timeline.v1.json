@@ -1,0 +1,585 @@
+{
+ "_comment": "video-1 (BrainOutside launch) - step 2 visual beats, FULL video (0 -> 934.9s). Part 1 (0-310s, 18 shots) was built first; part 2 (310-934.9s, 53 shots) was built by six parallel agents, one per beat range, then merged and validated here.",
+ "_master_note": "Points at the RE-TIMED h264 comp source, not the raw HEVC master. hevc_nvenc stamps frame PTS ~0.1% fast (see tools/render_cuts.py:145-152), leaving master-natural.mp4 with v:0=934.249s vs a:0=935.134s. bake.py seeks the master by time, so that clock error would misalign cutaway boundaries by ~265ms at 310s. master-natural-h264.mp4 is the same 56052 frames re-stamped to true CFR 60000/1001 (no frame loss) with the audio stream copied.",
+ "_spine": "All master_in_s / master_out_s are keyed to word times in work/edited-transcript.json (2329 words, ms, master timeline, last word ends 934.90s). NOT to the planned 15:31 runtime — the rendered timeline is 15:35.13 because audio is built to each segment's actual encoded frame count.",
+ "_generated": "The cable gag is REAL now, not a placeholder. media/projects/video-1/shock-clip-v1.mp4 was generated with tools/gen_video.py (fal, kling 2.5 turbo pro image-to-video) from a reference frame pulled out of the master AT the cut point (63.64s), so wardrobe/room/light/framing continue the real take. One clip, cut twice, per script B1. The retired B1ShockSlate1/B1ShockSlate2 shots still exist in remotion/src/shots/video-1/ and can be deleted once this is signed off. A THIRD use is owed at B6 (~6:52, 'remember the shock'), outside this 5-minute chunk.",
+ "master": "videos/video-1/output/master-natural-h264.mp4",
+ "remotion_out": "remotion/out",
+ "preview": {
+  "end_s": 934.9,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "out": "videos/video-1/output/preview-full.mp4"
+ },
+ "shots": [
+  {
+   "id": "B1ReplyCompare",
+   "type": "cutaway",
+   "master_in_s": 13.2,
+   "master_out_s": 43.4,
+   "beat": "B1",
+   "note": "A/B reply comparison. Post docks 19.99; replies fill 22.88; focus 01 24.93; 'generic' 26.41 + 'AI slop' 28.81; focus 02 29.61; figures 30.93 / 33.16 / 34.54; provenance list from 36.29."
+  },
+  {
+   "id": "B1SameDifferent",
+   "type": "cutaway",
+   "master_in_s": 43.4,
+   "master_out_s": 51.4,
+   "beat": "B1",
+   "note": "same model / same prompt / same post tick 44.70 / 45.99 / 47.52; recede on 'but' 48.56; 'one big difference' builds 49.36-50.55."
+  },
+  {
+   "id": "B1BrainReveal",
+   "type": "cutaway",
+   "master_in_s": 55.9,
+   "master_out_s": 62.3,
+   "beat": "B1",
+   "note": "Link draws on 'connected' 59.77, brain node 61.01, stamp on 'brain' 61.71. Ends BEFORE 'Yes, my brain.' (62.42) so the punchline is his face."
+  },
+  {
+   "id": "B1ShockClip1",
+   "type": "cutaway",
+   "master_in_s": 63.65,
+   "master_out_s": 65.15,
+   "beat": "B1",
+   "note": "The cable gag. Cable already at his temple on the cut; zap fires ~63.95, just BEFORE 'No,' at 64.12, so it reads anticipation -> zap -> his reaction. Generated (fal/kling i2v) from a master frame at 63.64."
+  },
+  {
+   "id": "B1ShockClip2",
+   "type": "cutaway",
+   "master_in_s": 84.15,
+   "master_out_s": 84.65,
+   "beat": "B1",
+   "note": "Same clip, hard recut per script B1 ('faster'): peak zap only, 0.50s, no anticipation. Snaps in on 'going to shock you' and is GONE before 'No, not this way also.' (84.29-85.63) so his real reaction plays on camera. Shortened from the 1.60s placeholder span."
+  },
+  {
+   "id": "B15ContextPackGaps",
+   "type": "cutaway",
+   "master_in_s": 101.4,
+   "master_out_s": 111.9,
+   "beat": "B1.5",
+   "note": "Real context pack (live BrainOutside MCP). gaps isolated on 'sent me a warning' 104.79; warn sweep on 'Do not invent this number.' 106.88; underline 110.65."
+  },
+  {
+   "id": "B15ReadThatAgain",
+   "type": "cutaway",
+   "master_in_s": 119.0,
+   "master_out_s": 125.6,
+   "beat": "B1.5",
+   "note": "'Read that again.' full-screen, then held as eyebrow; highlight on 'what is not allowed' 123.10; underline + 1.03 pop on 'to make up.' 124.77."
+  },
+  {
+   "id": "B15Opposite",
+   "type": "cutaway",
+   "master_in_s": 125.6,
+   "master_out_s": 133.0,
+   "beat": "B1.5",
+   "note": "Hallucination worry (pink) -> flip at 130.47 'This project does the opposite.'; invented line struck and re-tagged 'blocked by gaps'; wipe on 'opposite.' 132.01."
+  },
+  {
+   "id": "B2NameLockup",
+   "type": "overlay",
+   "master_in_s": 147.2,
+   "master_out_s": 152.5,
+   "beat": "B2",
+   "note": "BrainOutside product lockup, bottom band. Rises on the word 'BrainOutside' 147.80. Overlay not cutaway: HE does the naming, so the mark sits beside him."
+  },
+  {
+   "id": "B2KnowsList",
+   "type": "overlay",
+   "master_in_s": 152.7,
+   "master_out_s": 159.1,
+   "beat": "B2",
+   "note": "IT KNOWS + 4 pills: how I write 152.86, what I believe 154.62, my philosophy 155.99, my projects 157.19. First pill moved off 152.41 ('It') so it does not pre-empt its phrase."
+  },
+  {
+   "id": "B3RepoEscalation",
+   "type": "cutaway",
+   "master_in_s": 198.8,
+   "master_out_s": 215.6,
+   "beat": "B3",
+   "note": "folder 202.78 -> markdown 204.46 -> git repo 207.76 -> GitHub repo 212.33. One object gaining a layer per word. Real brain-template file tree."
+  },
+  {
+   "id": "B3WhatGoesIn",
+   "type": "cutaway",
+   "master_in_s": 215.6,
+   "master_out_s": 228.6,
+   "beat": "B3",
+   "note": "7 enumerated items on their own words across the full 12s span, then wrapped by the private GitHub repo frame."
+  },
+  {
+   "id": "B3TwoHeads",
+   "type": "cutaway",
+   "master_in_s": 228.6,
+   "master_out_s": 257.1,
+   "beat": "B3",
+   "note": "★ THE two-heads diagram. Reveal on '2 heads' 233.88; local 236.59; online 244.05. Reusable via _shared/TwoHeads.tsx — B8 calls back to this."
+  },
+  {
+   "id": "B3OnlineAccess",
+   "type": "cutaway",
+   "master_in_s": 257.1,
+   "master_out_s": 270.3,
+   "beat": "B3",
+   "note": "SAME diagram continued — MUST stay adjacent to B3TwoHeads, no shot between. MCP 263.62 + API 264.90 attach to the online head."
+  },
+  {
+   "id": "B3SameBrain",
+   "type": "cutaway",
+   "master_in_s": 270.3,
+   "master_out_s": 280.0,
+   "beat": "B3",
+   "note": "Resolution: same repo, same files, same brain, locally or online from anywhere."
+  },
+  {
+   "id": "B5TemplateRepo",
+   "type": "cutaway",
+   "master_in_s": 288.2,
+   "master_out_s": 297.8,
+   "beat": "B5",
+   "note": "GitHub template repo -> click result on 'Use' 292.36 -> Private resolves 294.28 -> 'your brain' chip 295.18. Holds through 'Now open it in...' so the next cut lands on 'VS Code'."
+  },
+  {
+   "id": "B5OpenInVSCode",
+   "type": "cutaway",
+   "master_in_s": 297.8,
+   "master_out_s": 304.6,
+   "beat": "B5",
+   "note": "Hard cut on 'VS Code' 297.83. Real brain-template tree; CLAUDE.md opens 299.12; exactly two skills splice in on '2 skills' 302.26/302.49."
+  },
+  {
+   "id": "B5TwoSkills",
+   "type": "cutaway",
+   "master_in_s": 304.6,
+   "master_out_s": 310.0,
+   "beat": "B5",
+   "note": "mind-feeder writes INTO the brain 305.86 / mind-reader reads OUT of it 308.20. Closes on 'It's that simple.' 308.77."
+  },
+  {
+   "id": "B5bFeedPaste",
+   "type": "cutaway",
+   "master_in_s": 310.0,
+   "master_out_s": 320.1,
+   "beat": "B5b",
+   "note": "The paste, in the SAME VS Code window as B5OpenInVSCode (real my-brain tree, mind-feeder selected). Butts onto B5TwoSkills at 310.00. Pasted-text pill on 'paste' 312.76; source pills 'video transcript' 314.45 / 'post,' 316.46 / 'doc,' 317.50 / 'thought' 318.38; sub-line 'in the car' 319.35. Nothing is sent."
+  },
+  {
+   "id": "B5bProposal",
+   "type": "cutaway",
+   "master_in_s": 328.4,
+   "master_out_s": 342.4,
+   "beat": "B5b",
+   "note": "* the proposal, not the write. Real mind-feeder artifact (take-2026-07-maintenance-burden-in-seconds). PROPOSAL stamp 329.37; verbatim box 330.64, real quote + warn sweep 331.20; 'in your words' chip 333.76; GATE bar 'STOPPED, nothing has been written' 335.21; 'waiting for you' 336.81; flips teal on 'approve,' 338.03; 2 files written 339.31; commit block 340.18; '1 commit' badge 341.88."
+  },
+  {
+   "id": "B5bProposeApprove",
+   "type": "cutaway",
+   "master_in_s": 342.4,
+   "master_out_s": 346.0,
+   "beat": "B5b",
+   "note": "The scripted callout card: agents propose (indigo) | lock gate | you approve (teal). Rule 342.58; 'all of this runs locally' 343.80; 'Why so strict?' 344.67, which he answers on camera."
+  },
+  {
+   "id": "B5bReadingPull",
+   "type": "cutaway",
+   "master_in_s": 355.3,
+   "master_out_s": 370.7,
+   "beat": "B5b",
+   "note": "The reading half. 36-note grid + context pack. Eyebrow 'mind-reader' 355.83; empty TASK slot 358.40; pink 'not everything' 359.38; task fills 361.16/361.87; pack opens 363.24; three REAL notes on 'cost story,' 363.80 / 'downtime number,' 365.24 / 'my voice.' 367.15; rest dim 368.52. No note count on screen (he never says thirty)."
+  },
+  {
+   "id": "B5bWhyItMatters",
+   "type": "cutaway",
+   "master_in_s": 370.7,
+   "master_out_s": 380.2,
+   "beat": "B5b",
+   "note": "One gauge, three states, same 36 blocks. 'context limit' 372.61/373.34 at the limit tick; 'context window' 374.31/374.86 as it fills; pink 'hallucinations' 375.82; collapses to 3 teal blocks on 'accurate' 378.31; stamp on 'results.' 379.35."
+  },
+  {
+   "id": "B6LocalDone",
+   "type": "cutaway",
+   "master_in_s": 380.2,
+   "master_out_s": 386.6,
+   "beat": "B6",
+   "note": "Checkpoint. my-brain card (the object B5TwoSkills ended on) rises at f4 so the cut never opens blank. 'that's the' 381.12, indigo wipe on 'local' 381.52, 'version.' 381.92; teal check + 'Finished.' 382.66/382.88; 'You can stop right here.' 384.49, underline on 'here' 385.45."
+  },
+  {
+   "id": "B6GiveItADoor",
+   "type": "cutaway",
+   "master_in_s": 391.85,
+   "master_out_s": 403.35,
+   "beat": "B6",
+   "note": "The rehook. Machine card + walled boundary; 'this machine only' 392.51; wall opens into a door on 'door' 395.18; door labelled MCP + REST API (callback to B3OnlineAccess) on 'connect' 396.94; five consumer chips fan in 398.45-399.27; 'real' 401.52 / wipe on 'magic' 401.86 / 'begins.' 402.56. Flush against the shock clip."
+  },
+  {
+   "id": "B6ShockClip3",
+   "type": "cutaway",
+   "master_in_s": 403.35,
+   "master_out_s": 404.75,
+   "beat": "B6",
+   "note": "Cable gag, 3rd use. shock-slot3.mp4 = clip 2.875-4.275s (42f @30). NEW footage: slots 1+2 both ended by clip 3.00s, so this carries the unseen punchline, the hair popping into spikes at clip 3.375s, landing at master 403.85 exactly on 'shock?'. Gone before 'It starts here.' 404.81."
+  },
+  {
+   "id": "B7VpsPick",
+   "type": "cutaway",
+   "master_in_s": 412.6,
+   "master_out_s": 421.7,
+   "beat": "B7",
+   "note": "Contabo Cloud VPS pricing page (Contabo navy/orange, not brand). Provider strip on 'Any provider you want' 416.38, narrows to Contabo 418.03; cheapest plan clicked 419.32, ring settles on 'VPS.' 419.96; 'more than enough' 420.55. Plan names/prices are plausible reconstructions, not scraped."
+  },
+  {
+   "id": "B7InstallCoolify",
+   "type": "cutaway",
+   "master_in_s": 421.7,
+   "master_out_s": 431.6,
+   "beat": "B7",
+   "note": "Terminal, one command over SSH. Coolify lockup 423.59; '1 command' 425.17; ssh line finishes typing on 'SSH' 427.36; install command pastes whole on 'paste it,' 428.88; output ramps from 429.90 with the `sped up` tag. Ends mid-ramp. NO duration on screen (he never quotes one)."
+  },
+  {
+   "id": "B7CoolifyUp",
+   "type": "cutaway",
+   "master_in_s": 431.6,
+   "master_out_s": 437.2,
+   "beat": "B7",
+   "note": "Coolify dashboard. Ring on the server card 432.47, green status on 'running' 432.82, 'running on my own server' 433.37; one-click service tiles from 'self host' 434.96, '+ 200 more' 435.53."
+  },
+  {
+   "id": "B7SevenHundred",
+   "type": "cutaway",
+   "master_in_s": 437.2,
+   "master_out_s": 445.2,
+   "beat": "B7",
+   "note": "The one number he quotes on camera. '$700+' with indigo wipe 438.98, 'per month' 440.57, 'hosting' 441.21, projects chip 442.27, services chip 442.75, 'on my own server' 444.35."
+  },
+  {
+   "id": "B7CoolifyDeploy",
+   "type": "cutaway",
+   "master_in_s": 452.2,
+   "master_out_s": 462.9,
+   "beat": "B7",
+   "note": "Coolify walkthrough, 4 pages, 3 hard-cut navigations. New Project 452.92; New Resource 454.87; Public Repository 456.63; repo URL (hassancs91/brainoutside, the APP repo) pastes 457.82; Build Pack opens 459.51, resolves in-page on 'Docker Compose.' 460.25; chip 461.29; Save 462.03."
+  },
+  {
+   "id": "B7EnvDeploy",
+   "type": "cutaway",
+   "master_in_s": 462.9,
+   "master_out_s": 472.4,
+   "beat": "B7",
+   "note": "Env vars. Nav click on 'variables,' 463.92; two empty rows on '2 things:' 466.52; POSTGRES_PASSWORD 467.37/467.79; APP_DOMAIN=brain.learnwithhasan.com 468.98; '2 variables and nothing else' 469.80; Deploy click 471.72. Chrome continues from B7CoolifyDeploy."
+  },
+  {
+   "id": "B7BuildOpen",
+   "type": "cutaway",
+   "master_in_s": 472.4,
+   "master_out_s": 481.3,
+   "beat": "B7",
+   "note": "Build log ramps with the `sped up` tag, done ~474.3; URL bar retypes from 'open' 474.76, hard-cuts to the domain 475.34; first-run screen 477.10; expected sign-in card ghosts in 478.53 and is struck on 'login box,' 479.03; wizard paints 479.83; ring on the 6-step rail on 'wizard.' 480.48."
+  },
+  {
+   "id": "B7Wizard12",
+   "type": "cutaway",
+   "master_in_s": 487.9,
+   "master_out_s": 495.3,
+   "beat": "B7",
+   "note": "Wizard steps 1-2. Pip 1 ring 488.50; account created 489.23; step 2 card 490.74; template button clicked 491.22 -> GitHub new-repo page; name types 492.29; Private 493.46; Create 494.04, back to the wizard with the my-brain chip. Callback to B5TemplateRepo."
+  },
+  {
+   "id": "B7Wizard3",
+   "type": "cutaway",
+   "master_in_s": 495.3,
+   "master_out_s": 505.0,
+   "beat": "B7",
+   "note": "Step 3, read access. Copy 497.01; hard cut to deploy-keys, key pastes/added ~498.70; Verify 499.92; clone result on 'clone.' 502.21; pip 4 + title wipe 504.39. GitHub's 'Allow write access' box is left UNCHECKED on screen, setting up the next 11 seconds."
+  },
+  {
+   "id": "B7ReadOnlyWrite",
+   "type": "cutaway",
+   "master_in_s": 505.0,
+   "master_out_s": 516.4,
+   "beat": "B7",
+   "note": "Concept diagram, server vs GitHub. Read lane + deploy key 505.11/506.06, 'read only' badge 506.65; approve row 509.02; write lane dashed and locked 510.26; approved note travels and hits the lock 513.03/513.53; warn badge 515.05; payoff wipe 515.68. Lock stays SHUT on purpose."
+  },
+  {
+   "id": "B7TokenNav",
+   "type": "cutaway",
+   "master_in_s": 516.4,
+   "master_out_s": 526.1,
+   "beat": "B7",
+   "note": "The wizard's deep link, then GitHub. Ring on the link row 517.44; click 519.52 -> /settings/tokens; 'Fine-grained tokens' 521.45; 'Generate new token' 523.15; 'Only select repositories' 525.07. Three navigations, three URL paths."
+  },
+  {
+   "id": "B7TokenPerms",
+   "type": "cutaway",
+   "master_in_s": 526.1,
+   "master_out_s": 533.5,
+   "beat": "B7",
+   "note": "Same page, scrolled and filled (NOT a navigation). Repo picker resolves to hassancs91/my-brain 526.66; smooth scroll to Permissions 528.20; ring on Contents 529.22; Read and write 530.68; other rows dim + caption on 'only' 532.02."
+  },
+  {
+   "id": "B7TokenPaste",
+   "type": "cutaway",
+   "master_in_s": 533.5,
+   "master_out_s": 539.1,
+   "beat": "B7",
+   "note": "Generate click 533.55; token-shown-once banner; copy 534.67; hard cut back to the wizard, token pastes 537.09, turns green 537.47; step 4 teal + 'your brain can be written to' on 'done.' 538.53."
+  },
+  {
+   "id": "B7AheadOfGitHub",
+   "type": "cutaway",
+   "master_in_s": 539.1,
+   "master_out_s": 543.1,
+   "beat": "B7",
+   "note": "Hard cut to the dashboard 539.32; Brain sync card 539.97; server row 49 notes 540.76; '2 commits ahead' 541.58; GitHub row 47 notes 542.36. 49 matches the real get-index total used in B9/B10."
+  },
+  {
+   "id": "B7Steps56",
+   "type": "cutaway",
+   "master_in_s": 543.1,
+   "master_out_s": 552.9,
+   "beat": "B7",
+   "note": "Pip 5 ring 544.28; Claude lockup 545.34; API key 546.61; pip 6 + Build card 547.58; build ramps with the `sped up` tag 548.54, complete 549.59; hard cut to the live dashboard 550.53 with a slow push; status flips to 'online' + caption wipe 552.13."
+  },
+  {
+   "id": "B7GuideCta",
+   "type": "overlay",
+   "master_in_s": 560.5,
+   "master_out_s": 570.2,
+   "beat": "B7",
+   "note": "Bottom-band CTA over talking head. Band rises 560.73, title 561.29, 'step by step' 563.13, chips online 566.25 / locally 567.05, teal FREE 568.19, 'link in the description' 569.31. Centre frame never covered."
+  },
+  {
+   "id": "B8Compose",
+   "type": "cutaway",
+   "master_in_s": 582.6,
+   "master_out_s": 618.2,
+   "beat": "B8",
+   "note": "* CALLBACK to B3TwoHeads: same _shared/TwoHeads at top=250, all cues <= -90 so it cuts in already drawn and reads continuous with B3. Diagram becomes the pipe: feed 586.95, approve 588.70, commit 590.08, push 591.68 (teal packet UP the local branch), GitHub + *webhook 593.59 (broadcast rings), pull 597.54 (indigo packet DOWN the online branch), reindex 599.29, live 601.45. Reverse direction 603.79 gets ONE quick violet traversal, nothing more. 'in sync' struck on 'no syncing' 614.23. Payoff headline 'One source, two doors.' 615.50-617.59."
+  },
+  {
+   "id": "B9DashboardTour",
+   "type": "cutaway",
+   "master_in_s": 622.9,
+   "master_out_s": 665.6,
+   "beat": "B9",
+   "note": "6-page fake screencast of the BrainOutside app. Real brain data from the live MCP index: rings 3 identity / 10 projects / 32 knowledge, total 49 entities (3+10+32+4 catalogs and lenses, summed on screen). dashboard f0 (rings 627.07/627.73/628.43); browser 629.25, filter crossfade on 'filterable.' 630.86; graph 635.76, cost story 638.33, downtime take 639.27, both light into the self-hosting lens 640.24; queue 646.82; consumers 653.66 (tier column present but never highlighted, he says 'MCP API keys'); chat 660.07, zoom on 663.28. Consumer/queue rows are plausible fabrications."
+  },
+  {
+   "id": "B10ConnectMCP",
+   "type": "cutaway",
+   "master_in_s": 673.2,
+   "master_out_s": 684.6,
+   "beat": "B10",
+   "note": "Claude Code + /mcp clone. .mcp.json rises 673.41 (url https://brain.learnwithhasan.com/mcp); server row connecting 673.98; 'one time' pill 675.64; coral rail on type+url 676.61; status flips connected and the 9 REAL BrainOutside tools stream in 679.02; 'Claude can now read my brain.' 680.70 with indigo wipe 681.70; kicker 683.19."
+  },
+  {
+   "id": "B10GetIndex",
+   "type": "cutaway",
+   "master_in_s": 684.6,
+   "master_out_s": 690.3,
+   "beat": "B10",
+   "note": "Real get-index output. MCP tool-call line 685.62; the real index streams in 686.90; '49 entities' chip 688.01; yellow bracket + 'one line each' 689.14. Raw ' - ' separator rendered as ' / ' (no em-dashes on screen)."
+  },
+  {
+   "id": "B10AssembleContext",
+   "type": "cutaway",
+   "master_in_s": 690.3,
+   "master_out_s": 702.0,
+   "beat": "B10",
+   "note": "The hero call, all real output. Tool line 690.52; coral wipe 692.11; real task param 693.54; assembling 695.08; pack panel 696.13; rail 696.77; real entity_ids_used fill 698.68; the real verbatim 16-second quote 699.98; gaps + warn rail + warning chip 701.09. Reuses B15ContextPackGaps' treatment so 702.05 lands as a visual callback."
+  },
+  {
+   "id": "B10ThatsTheCall",
+   "type": "cutaway",
+   "master_in_s": 702.0,
+   "master_out_s": 705.9,
+   "beat": "B10",
+   "note": "The cold-open callback. Eyebrow 702.05; B1's reply 02 card returns 702.54; assemble-context call card rises beneath 704.39; arrow draws up into the reply 704.86; reply border turns indigo 705.42. NOTE: the scripted tier-split that followed was never recorded, so it is not built."
+  },
+  {
+   "id": "B11WriteAsMe",
+   "type": "cutaway",
+   "master_in_s": 711.6,
+   "master_out_s": 718.7,
+   "beat": "B11",
+   "note": "Four surfaces on his exact words, row re-centres as each lands: Replying 712.00, Emails 713.44, Newsletter 714.00, Video description 715.06; 'Anything I have to write as me.' 716.27 with indigo wipe on 'as me' 717.86."
+  },
+  {
+   "id": "B11DrafterNotGhostwriter",
+   "type": "cutaway",
+   "master_in_s": 726.3,
+   "master_out_s": 733.4,
+   "beat": "B11",
+   "note": "Full-screen statement. Eyebrow 726.60; 'A drafter.' + indigo wipe 727.18; 'A ghostwriter.' + pink strike 728.46; 'It starts from me.' 730.64; 'Not from nothing.' 732.07."
+  },
+  {
+   "id": "B12WritingABook",
+   "type": "cutaway",
+   "master_in_s": 737.0,
+   "master_out_s": 752.6,
+   "beat": "B12",
+   "note": "The book case. Pills a book 738.08 / a novel 738.99 / research 740.34; 'Your brain holds' 741.53; your position 743.15 / beliefs 744.27 / examples 745.07; 'across whole pages' 746.28 (he does NOT say four hundred pages). Chapter spine 1..9 from 748.75; chapter 9 lights 749.16; arc 9->1 on 'doesn't contradict' 750.29; chapter 1 lights 751.24. He says chapter 1, NOT chapter 2."
+  },
+  {
+   "id": "B12ThreeCases",
+   "type": "cutaway",
+   "master_in_s": 752.6,
+   "master_out_s": 762.0,
+   "beat": "B12",
+   "note": "The three-up. Book column carries in resolved and dimmed; 'A course' 753.10 and its payoff on 'explain' 754.78 (he never says 'the analogies that work', so it is not on screen); 'Anything you build with AI' 757.09, payoff 759.84; indigo underline wipe 761.30."
+  },
+  {
+   "id": "B12EverySession",
+   "type": "overlay",
+   "master_in_s": 762.6,
+   "master_out_s": 767.9,
+   "beat": "B12",
+   "note": "Bottom-band overlay, face keeps the frame. Repeated ask pill on 're-explaining' 762.95, again 764.32, again 764.73; trailing dots 766.43; on 'or project.' 767.14 the repeats dim and 'your brain already has it' lands. QA'd composited over the real master."
+  },
+  {
+   "id": "B13AttachEverything",
+   "type": "cutaway",
+   "master_in_s": 771.9,
+   "master_out_s": 778.8,
+   "beat": "B13",
+   "note": "THE RULE stated. 'Attach your brain' 771.97, hub node on 'brain' 772.60, 'to everything' 773.32 with wipe 773.94; spokes on 'agent,' 775.15, 'session,' 776.06, 'tool' 777.42."
+  },
+  {
+   "id": "B13TheLoop",
+   "type": "cutaway",
+   "master_in_s": 778.8,
+   "master_out_s": 797.8,
+   "beat": "B13",
+   "note": "* The thesis card. READ and FEED as the two nodes of a cycle: 'Read' 778.92 + wipe 779.24; 'feed' 780.05 + wipe 780.44; 'before it writes' 781.66; 'so it has you' 783.41; 'after you learn something' 785.17; 'so it keeps you' 786.65. Arc READ->FEED on 'That's' 787.90, FEED->READ on 'loop.' 788.30, circuit CLOSES and runs. Accumulation 30 cells from 790.08. ONE MONTH on the take, not a year: he says 'run it for like 1 month or maybe less' and 'nobody else has your last month'."
+  },
+  {
+   "id": "B14TodayItsText",
+   "type": "cutaway",
+   "master_in_s": 805.2,
+   "master_out_s": 809.3,
+   "beat": "B14",
+   "note": "Base of the ladder. Eyebrow TODAY 805.27; brain repo card 805.80; name lights 806.94; five .md files fill on 'is some text files.' 808.21. Shared BRAIN_CARD geometry every level shot reuses."
+  },
+  {
+   "id": "B14L1AnyVoice",
+   "type": "cutaway",
+   "master_in_s": 809.3,
+   "master_out_s": 816.6,
+   "beat": "B14",
+   "note": "LEVEL 1. * SIMULATED tag rises 809.35 and never leaves until 883.7. 'writes like you' 809.35; empty module slot 810.86; fills 812.46; becomes the voice module 812.98 (+rail slot 1); name cycles on 'Any voice.' 813.92; waveform live + headline on 'Your brain can talk.' 814.81. TSX only, nothing generated."
+  },
+  {
+   "id": "B14L2VoiceClone",
+   "type": "cutaway",
+   "master_in_s": 816.6,
+   "master_out_s": 822.8,
+   "beat": "B14",
+   "note": "LEVEL 2a. Generic voice name struck 817.44; module retitles 818.90; CLONED chip + rail slot 2 819.37; owner chips me 819.87 / your brain 820.91 / you 822.19. Same module geometry as L1: a change of state, not of scene. TSX only."
+  },
+  {
+   "id": "B14L2CallBrain",
+   "type": "cutaway",
+   "master_in_s": 822.8,
+   "master_out_s": 830.6,
+   "beat": "B14",
+   "note": "LEVEL 2b. The L2 module WIDENS into a call card 822.90 (no scene cut); connects 824.02; callee=repo 824.26; two-way audio 825.32; callee relabels to 'you' 827.01; both sides turn cloned-voice hue 828.43; holds on 'Think about it.' 829.64."
+  },
+  {
+   "id": "B14L3PhotoWaves",
+   "type": "cutaway",
+   "master_in_s": 830.6,
+   "master_out_s": 836.6,
+   "beat": "B14",
+   "note": "LEVEL 3. Card clears 830.68; a REAL still of him (ffmpeg from master 862.30 -> l3-photo.jpg) drops in 831.88/832.06; waveform 833.49 (+rail 3); headline + wipe 834.85/835.51. Nothing generated: his actual face is the honest version."
+  },
+  {
+   "id": "B14L4Lipsync",
+   "type": "cutaway",
+   "master_in_s": 836.6,
+   "master_out_s": 842.6,
+   "beat": "B14",
+   "note": "LEVEL 4, GENERATED (kling 2.5 turbo pro i2v, 10s, ref = master 837.50; l4-lipsync-slot.mp4, 180f @30). Full-bleed clip + SIMULATED tag from frame 0 + GENERATED RENDER chip + corner brackets; rail slot 4 on 'with lipsync,' 839.75."
+  },
+  {
+   "id": "B14L4NeverSaid",
+   "type": "cutaway",
+   "master_in_s": 842.6,
+   "master_out_s": 847.6,
+   "beat": "B14",
+   "note": "The sting. 'My clone' 842.97; 'saying' 843.86; 'things I never said.' 844.27 with pink wipe on 'never' 845.14; the turn 'That I would have said.' 846.41 in indigo with a 1.03 pop. Background tints pink -> indigo on the turn (same grammar as B15Opposite)."
+  },
+  {
+   "id": "B14L5Humanoid",
+   "type": "cutaway",
+   "master_in_s": 847.6,
+   "master_out_s": 855.6,
+   "beat": "B14",
+   "note": "LEVEL 5, GENERATED (veo 3.1 i2v, 8s, ref = master 847.00; l5-humanoid-slot.mp4, 240f @30, 720p upscaled). * He TRANSFORMS into the robot on camera at ~850.3, in the pause right after 'eventually this.' 849.64 and just before 'Same voice' 850.44. Rail slot 5 deliberately UNNAMED (he does not name it until 857.67). Chips: same voice 850.44 / takes 851.82 / opinions 853.19 / beliefs 854.71. SIMULATED tag on every frame."
+  },
+  {
+   "id": "B14TagHold",
+   "type": "overlay",
+   "master_in_s": 855.6,
+   "master_out_s": 865.2,
+   "beat": "B14",
+   "note": "TRANSPARENT. Talking head for the punchline ('the iRobot version' 856.14, 'Looks scary, huh?' 861.20) with the SIMULATED tag riding in the corner so the commitment never blinks. * The tag ENLARGES and drops into the bottom band on 'none of that is built right now.' 862.63; '0 of 5 built' on 864.32. Never covers the centre-framed face."
+  },
+  {
+   "id": "B14Simulated",
+   "type": "cutaway",
+   "master_in_s": 865.2,
+   "master_out_s": 869.6,
+   "beat": "B14",
+   "note": "The tag ENTERS at exactly the size/position B14TagHold left it and walks back to the corner over f0-f20 (verified pixel-identical across the cut). Five level cards line up 865.28; go warn 866.68; SIMULATED band 867.39; row walks UP on 'but the brain' 868.90. Level 5 labelled 'iRobot version' (his words, 857.67)."
+  },
+  {
+   "id": "B14SameFolder",
+   "type": "cutaway",
+   "master_in_s": 869.6,
+   "master_out_s": 883.7,
+   "beat": "B14",
+   "note": "* THE PAYOFF. Cards start exactly where B14Simulated parked them (verified). The B3 _shared/TwoHeads diagram returns UNDERNEATH all five: root rises 870.70; five wires converge 872.29; simulated/real divider + two heads 873.75; caption 'The same folder in all five.' 876.48, wipe on 'all' 878.93; power pulses root->levels 878.14; soft glow 881.42 (warn borders and the tag do NOT soften)."
+  },
+  {
+   "id": "B15CloseFree",
+   "type": "cutaway",
+   "master_in_s": 883.7,
+   "master_out_s": 890.4,
+   "beat": "B15",
+   "note": "Both REAL repos (brainoutside-template + brainoutside, as shown in B5/B7) on 'Okay,' 883.74; teal 'free' 885.20; 'open source' 886.31; link bar with bobbing down-arrow 887.59; 'with the full written guide' 888.81."
+  },
+  {
+   "id": "B15CloseCommodity",
+   "type": "cutaway",
+   "master_in_s": 899.8,
+   "master_out_s": 907.7,
+   "beat": "B15",
+   "note": "'The models are the same.' 900.30 / wipe 901.07; 'everyone has access' 902.03; Claude chip 903.00, Gemini chip 903.82, dashed 'whatever' chip 904.38; 'the tools free' 905.25 (wipe 905.81), 'the models cheap' 906.56 (wipe 907.11). Claude coral + Gemini blue are the real product colours."
+  },
+  {
+   "id": "B15CloseOnlyYou",
+   "type": "cutaway",
+   "master_in_s": 907.7,
+   "master_out_s": 916.6,
+   "beat": "B15",
+   "note": "* The thesis, full-screen statement. 'The only' 907.83; indigo highlight on 'unique' 908.70; 'thing left' 909.90; 'is you.' 911.03 at 156px with underline wipe, HELD at full size to f148. Retreats to a header and the locked, fully redacted you.md card appears on 'sitting in your head' 914.00, 'nothing can read it' tag 915.06."
+  },
+  {
+   "id": "B15ClosePutItOutside",
+   "type": "cutaway",
+   "master_in_s": 916.6,
+   "master_out_s": 923.2,
+   "beat": "B15",
+   "note": "** The name pays off. The SAME you.md card lifts out of a dashed 'your head' frame on 'Put it' 916.66 and lands inside a frame carrying the BrainOutside lockup (B2NameLockup callback) on 'outside' 917.05, UNLOCKING and becoming readable. Dashed ONE DAY row 918.19 fills with 'your humanoid clone' 921.70; SIMULATED tag returns 921.53 because he has re-invoked level 5."
+  },
+  {
+   "id": "B15CloseOutro",
+   "type": "overlay",
+   "master_in_s": 923.2,
+   "master_out_s": 934.9,
+   "beat": "B15",
+   "note": "TRANSPARENT, bottom band only, one badge at a time, face never covered. 'Hit like' 923.55 -> GitHub/star badge 927.43 -> 'I read every comment' 931.53 -> the BrainOutside lockup on 'See you in the upcoming videos.' 933.24, holding to the final frame. Ends exactly on the last word. NOTE: transcript reads 'start a project on GitHub' but script/script.md:448 says 'star on Github'; built as 'Star the repo' per script intent. One string in B15CloseOutro.tsx if the audio disagrees."
+  }
+ ]
+}

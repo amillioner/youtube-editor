@@ -1,0 +1,78 @@
+# clip 0260 — 286 words, ends 04:18
+#01 [2.58 - 6.52] (00:02) So think about it like my mirror outside. I can ask it,
+     -- pause 3.0s --
+#02 [9.49 - 11.40] (00:09) it simply answers like me.
+     -- pause 19.1s --
+#03 [30.54 - 34.78] (00:30) Which is useful most of the days and sometimes becomes strange
+     -- pause 0.9s --
+#04 [35.68 - 36.71] (00:35) and somehow shocking,
+     -- pause 0.9s --
+#05 [37.62 - 39.90] (00:37) as you will see in the video in a few minutes.
+     -- pause 10.2s --
+#06 [50.12 - 54.62] (00:50) Like, sometimes I disagree with its answers Which is myself.
+     -- pause 3.7s --
+#07 [58.36 - 59.12] (00:58) That's really weird.
+     -- pause 4.5s --
+#08 [63.60 - 71.45] (01:03) After you, after you deploy this, and you should, I believe every human should be, every human should have this
+     -- pause 1.7s --
+#09 [73.18 - 73.97] (01:13) AI brain.
+     -- pause 5.7s --
+#10 [79.69 - 84.64] (01:19) I believe that every human being working with AI should have this,
+     -- pause 1.5s --
+#11 [86.11 - 87.89] (01:26) should have this brain configured.
+     -- pause 17.0s --
+#12 [104.90 - 106.44] (01:44) And the idea is really simple.
+     -- pause 0.9s --
+#13 [107.31 - 108.67] (01:47) The brain is simply
+     -- pause 2.9s --
+#14 [111.61 - 112.19] (01:51) a folder
+     -- pause 4.4s --
+#15 [116.60 - 119.14] (01:56) with markdown files, text files
+     -- pause 2.0s --
+#16 [121.19 - 123.06] (02:01) inside a Git repo.
+     -- pause 0.9s --
+#17 [123.92 - 128.21] (02:03) So your brain is actually, in our case, a GitHub repo.
+     -- pause 2.6s --
+#18 [130.83 - 132.54] (02:10) And simply some text files.
+     -- pause 7.3s --
+#19 [139.89 - 141.94] (02:19) Who you are, how you write,
+     -- pause 2.1s --
+#20 [144.03 - 145.83] (02:24) your projects, your takes,
+     -- pause 1.7s --
+#21 [147.51 - 155.14] (02:27) your stories, the lessons, your education, everything about you inside this private GitHub repo.
+     -- pause 7.5s --
+#22 [162.65 - 163.61] (02:42) And here it comes,
+     -- pause 1.2s --
+#23 [164.79 - 165.85] (02:44) and here with the magic.
+     -- pause 4.5s --
+#24 [170.32 - 171.82] (02:50) And that folder,
+     -- pause 0.8s --
+#25 [172.63 - 175.51] (02:52) that GitHub repo, your external brain
+     -- pause 2.0s --
+#26 [177.56 - 178.02] (02:57) has 2
+     -- pause 0.8s --
+#27 [178.87 - 179.10] (02:58) heads.
+     -- pause 3.3s --
+#28 [182.37 - 189.62] (03:02) The first head is local, so you can deploy and run locally, privately on your own computer.
+     -- pause 4.2s --
+#29 [193.81 - 195.80] (03:13) The second head is online.
+     -- pause 2.8s --
+#30 [198.58 - 200.89] (03:18) So what I did is I built also
+     -- pause 1.4s --
+#31 [202.26 - 206.28] (03:22) a layer that you can publish your brain online, as you will see in a few seconds.
+     -- pause 1.0s --
+#32 [207.23 - 211.81] (03:27) And it's free and open source and self hosted, so it's fully private too.
+     -- pause 8.2s --
+#33 [219.98 - 222.03] (03:39) And what and what makes it so powerful?
+     -- pause 1.3s --
+#34 [223.36 - 225.21] (03:43) This online brain
+     -- pause 2.2s --
+#35 [227.42 - 236.32] (03:47) can be accessed with both MCP and API endpoints. So you can connect with any AI agent you want.
+     -- pause 7.8s --
+#36 [244.15 - 247.10] (04:04) So we have the same repo, same files,
+     -- pause 2.5s --
+#37 [249.62 - 250.49] (04:09) the same brain.
+     -- pause 2.9s --
+#38 [253.35 - 254.71] (04:13) You can access locally
+     -- pause 0.9s --
+#39 [255.62 - 258.31] (04:15) or online from anywhere.

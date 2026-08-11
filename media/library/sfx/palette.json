@@ -424,6 +424,38 @@
         "physics"
       ],
       "prompt": "A deep muffled launch thump, like a distant mortar or a rocket igniting far away: a soft round low-frequency push with a short body and a gentle tail. Warm and restrained, no sharp crack, no explosion debris, no reverb tail of a war film. Dry, clean, close to a felt mallet on a large drum."
+    },
+    {
+      "id": "zap-electric",
+      "category": "foley",
+      "duration_s": 0.7,
+      "tags": [
+        "zap",
+        "electric",
+        "arc",
+        "spark",
+        "shock",
+        "electrocution",
+        "gag",
+        "foley"
+      ],
+      "prompt": "A single short high-voltage electrical arc: a bright snapping spark discharge with a brief crackling buzz tail, like jumper cables arcing across a gap. Real and physical, punchy, close-miked, dry, about half a second, decays cleanly. No sci-fi laser, no digital glitch stutter, no music, no voices."
+    },
+    {
+      "id": "sting-scare-comic",
+      "category": "emphasis",
+      "duration_s": 1.0,
+      "tags": [
+        "sting",
+        "scare",
+        "jump-scare",
+        "stab",
+        "horror",
+        "comic",
+        "gag",
+        "emphasis"
+      ],
+      "prompt": "A short comedic jump-scare sting: one sharp dissonant string stab with a quick shivering tremolo tail, deliberately cheesy old B-movie horror. Dry and close, about one second, ends cleanly. Obviously a joke rather than genuinely frightening, no long reverb tail, no drums, no music bed."
     }
   ]
 }

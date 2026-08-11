@@ -1,20 +1,10 @@
-# Brand — the house style this repo ships with
+# Brand — the house style the example video ships with
 
 > Style contract for every long-form video this repo produces. Every step-2+ skill (TSX overlays,
 > full-screen animations, diagrams, SFX) reads this file so all videos feel like one channel.
+> **This is the look the `video-1` example was built in — keep it, tweak it, or replace it wholesale
+> with your own brand.** If you change it, also update `remotion/src/brand.ts` (the same tokens, as code).
 > A calm, premium, modern **AI-studio** aesthetic (reference polish: Linear / Vercel / Anthropic).
->
-> ### 👉 Make it yours: run **`/brand-setup`**
->
-> This is the look the shipped example shots were built in. It's a real brand, not a placeholder —
-> keep it if you like it. But **if you change nothing, your videos will look like someone else's
-> channel.** `/brand-setup` interviews you and rewrites this file, `remotion/src/brand.ts` and
-> `remotion/src/fonts.ts` **together**, then renders a proof card so you can see it. At minimum, set
-> your own wordmark (§2).
->
-> Editing by hand? Then you own the sync: this file, `brand.ts` (the same tokens as code) and
-> `fonts.ts` (the families) must agree. Nothing errors when they drift — the docs just quietly stop
-> describing the videos.
 
 ## 1. Identity & voice
 
@@ -27,10 +17,8 @@
 
 ## 2. Logo / wordmark
 
-- **Wordmark:** your channel wordmark — set it once and reuse it as the brand lockup. It renders in
-  three parts with the **middle part in the accent color**, in the display font, tight. Set it in
-  `BRAND.wordmark` in `remotion/src/brand.ts` (`['Acme','Labs','']` for a two-part mark); `EndCard`
-  and `BrandProof` read it from there, so one edit re-brands every card.
+- **Wordmark:** your channel wordmark — set it once and reuse it as the brand lockup (the example
+  renders a two-tone wordmark with the middle word in the indigo accent, in Space Grotesk, tight).
 - No standalone logo mark is required (a favicon is enough). Use the wordmark as the lockup.
 - Drop any portrait / brand-bumper assets you want to reuse under `media/library/` (e.g. a `logos/`
   or `faces/` entry) and reference them from shots via `staticFile('library/...')`.
@@ -63,9 +51,12 @@ full-screen animated backgrounds.
 | **Display / headlines** | **Space Grotesk** | 500 / 600 / 700 | titles, big statements, section cards, the wordmark |
 | **Body / UI** | **Inter** | 400 / 500 / 600 | subtitles, labels, body text, lower-third detail |
 | **Code / mono** | **JetBrains Mono** | 400 / 500 / 700 | terminal mockups, code, prompts, file paths, tech labels |
+| **Claude wordmark serif** | **Source Serif 4** (`FONT_EDITORIAL`) | 600 | "Claude …" wordmark clones (Claude Editor, Claude Code) — the Copernicus stand-in |
 
-All three load from `@remotion/google-fonts` (see `remotion/src/fonts.ts`) — nothing to install.
+All load from `@remotion/google-fonts` (see `remotion/src/fonts.ts`) — nothing to install.
 Headlines tight tracking; body normal; mono for anything literally code/terminal/paths.
+**Wordmark rule (video-5 creator feedback):** Claude wordmarks use Source Serif 4 at 600 — Spectral
+(`FONT_SERIF`) reads too thin/bookish next to the real Copernicus and is retired for wordmarks.
 
 ## 5. Shape & depth
 
@@ -87,6 +78,21 @@ Translated to video (Remotion, 60fps):
 - **Backgrounds:** slow drifting indigo/violet/teal gradient blobs + a faint dotted grid, 8–20s loops.
 - **Feel:** premium, restrained, "Linear/Anthropic." No spins, no elastic, no hard snaps.
 
+**Hook-beat exception (first ~10s + intro cutaways — video-5 creator feedback).** The opening
+sequence runs HOTTER than the body: branded app-UI spectacle (e.g. the Claude Editor shell) with
+the creator's REAL footage inside, editing visibly happening ON the footage (auto-captions,
+punch-in + flash, color-grade wipe, lower-third, SFX chip, ripple-deletes on a timeline), overshoot
+pops allowed, and a climax stamp. The discipline that keeps it premium instead of chaotic:
+**one readable editing event at a time**, each synced to its narration word — never two headline
+events at once. Escalate: scan → cut → punch-in → grade → fly-in → stamp.
+
+**Step markers & punchlines (video-5 creator feedback).** Every "step N" narration line gets the
+full-screen StepTitle card (`remotion/src/lib/step-title.tsx`), label block-wiping on its word. When
+a line turns personal or lands a punchline ("the only thing I record is my face", "sorry video
+editors"), cut back to the creator FULL SCREEN with a slow punch-in — graphics never cover a
+punchline. Face gags match the line's tone: playful joke = mime-bump squash; dry line = dry zoom,
+no gag.
+
 ## 7. Video delivery specs
 
 - **Canvas:** 3840×2160 (4K), **60 fps** — match the master cut's frame rate (the `video-1` example
@@ -105,14 +111,12 @@ Translated to video (Remotion, 60fps):
 
 ## 8. Asset & source locations
 
-- Master: `videos/<project>/reference/<cut>.mp4` · edited transcript:
-  `videos/<project>/work/edited-transcript.json` (word times in the master timeline).
+- Master (example): `videos/video-1/reference/<cut>.mp4` · edited transcript:
+  `videos/video-1/work/edited-transcript.json` (word times in the master timeline).
 - Reusable brand assets: `media/library/` (typed folders — `logos/ sfx/ music/ faces/` each with an
   index/catalog). Per-video generated assets: `media/projects/<video>/`, referenced from shots as
   `staticFile('projects/<video>/x')`.
-- Brand tokens as code: `remotion/src/brand.ts` · font families: `remotion/src/fonts.ts`. **These two
-  and this file are one contract in three places — keep them in sync** (`/brand-setup` writes all
-  three at once). Proof card: `npx remotion still src/index.ts BrandProof out/brand-proof.png --frame=95`.
+- Brand tokens as code: `remotion/src/brand.ts` (keep it in sync with this file).
 
 ## 9. Locked decisions & still-open
 
@@ -146,9 +150,20 @@ Plus two brand-specific extras: `page-flip` (storybook) and `chime-reward` (the 
   scripted reveal (e.g. "wait a few minutes … *boom*"), **whoosh → pop/impact** so a cut stands out.
   In the plan a layer is just two events at the same/adjacent `at_s` that sum. Reserve layering for the
   2–3 biggest moments; keep everything else single and sparse.
-- **Density — key transitions, reveals, and tasteful click-sequences.** Score the signature moment of a
-  beat, not every sub-frame. A click-sequence (3–4 related shots each on a click) counts as ONE gesture.
-  Everything genuinely deniable is `"optional": true`.
+- **Density — propose only what really matters.** Score the signature moment of a beat, not every
+  sub-frame. A click-sequence (3–4 related shots each on a click) counts as ONE gesture. **There is no
+  optional tier**: video-5 shipped 131 cues with 31 flagged `optional`, and the creator cut the whole
+  tier wholesale at first listen. A cue you would flag as deniable is a cue you don't propose.
+- **What does NOT earn a cue** (each of these was proposed on video-5 and cut):
+  · **clicks on decorative animation** — card cascades, chip runs, hover pops. A click-sequence earns
+  its clicks only when the narration ENUMERATES the items and each click lands on the word (the kept
+  tile/row runs); a purely visual run gets silence.
+  · **whooshes on secondary cutaways** — whoosh the cuts that change the argument (step titles, a
+  scene the narration pivots into), never every mid-beat panel, scrub, or B-roll arrival.
+  · **ambient texture under speech** — soft typing, pencil scribbles, shimmers, draw-along winds. The
+  static/glitch rule generalizes: ALL decorative texture, not just noisy texture.
+  · **a second sound inside one gesture** — the extra pop after a whoosh, a riser on a minor reveal.
+  Layering stays reserved for the 2–3 hero moments.
 - **Sync — to the VISUAL beat, and often the exact word.** A click on the toggle flip; a pop on the
   reveal; a whoosh on the cutaway; the impact on the drop word. Time off the shot's animation frames
   AND `edited-transcript.json` word times.
@@ -159,6 +174,13 @@ Plus two brand-specific extras: `page-flip` (storybook) and `chime-reward` (the 
   polish/ducking/loudness is the final-mix step's job.
 - **Signature motif.** Pick a recurring UI sound (the example uses a "Free Image Generator" toggle click
   — intro enable → later callback), the same `ui-toggle-on`, as a small sonic through-line.
+- **Meme gags — the sanctioned exception.** A deliberate, self-aware meme effect (fisheye snap +
+  `meme-boom`, mime bump, crash zoom — the library is `remotion/src/lib/effects.tsx` + SFX category
+  `meme`) is allowed **at most 1–2 times per video**, only on a playful punchline line, never on a dry
+  or informational one. Its sound is the one cue allowed to be deliberately LOUD (positive `gain_db`) —
+  the loudness IS the joke — and it must land as a hard snap on the punchline word, paired with its
+  visual. Grammar: snap, not morph. More than two per video and the premium feel of everything else
+  erodes; at that point cut the weakest.
 - **What we deliberately do NOT do** (take the pro's *structure*, not the drama): cymbal-urgency risers,
   trailer-slam impacts, a whoosh on every movement, "funny" click+whoosh gags. **No static/glitch
   textures under narration** — glitch reads as NOISE over the voice at any gain; error/delete moments

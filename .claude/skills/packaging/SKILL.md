@@ -160,8 +160,12 @@ goal is **3 you're willing to ship**, not one.
 
 ### Stage 5 — Render the thumbnails (Nano Banana Pro)
 
-Turn the 3 locked concepts into actual images. Mechanics, prompt template, and model details live in
-**`references/thumbnail-generation.md`** — load it before generating. The flow:
+Turn the 3 locked concepts into actual images. **The dedicated `/thumbnail` skill is the
+interactive render engine for this stage** — it interviews for style elements (environment,
+text budget, extras) with the creator's calibrated defaults (minimal text) and owns the
+verify/iterate loop; use it whenever the creator is in the loop. Mechanics, prompt template,
+and model details live in **`references/thumbnail-generation.md`** — load it before
+generating. The flow:
 
 1. **Build a prompt per concept** from its Stage 3 fields using the template in the reference doc.
    Nano Banana Pro **renders the hook word itself** (deliberate), so state the exact word, spell it

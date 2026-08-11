@@ -1,0 +1,17 @@
+{
+ "request_id": "019fdc79-388e-7180-94e8-35f4e0f0b2bf",
+ "endpoint": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+ "duration": "5",
+ "resolution": null,
+ "image": "media/projects/video-1/shock2-ref-84.15.jpg",
+ "prompt": "The seated bearded man in the olive t-shirt raises both hands holding two big car jumper cable clamps, one red and one black, and clips them onto his own ears. Instantly bright blue electric sparks crackle between the clamps across his head, his whole body jolts and vibrates stiffly, his eyes bulge wide, his hair frizzes and stands straight up, smoke puffs from his ears. Exaggerated comedic slapstick electrocution. Same bedroom, camera stays locked off, same lighting.",
+ "negative_prompt": "blur, distort, low quality, text, watermark, deformed face, extra limbs, extra fingers",
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aa56367/ZtMYcH11ce5IUG8TGZ9Gj_output.mp4",
+   "content_type": "video/mp4",
+   "file_name": "output.mp4",
+   "file_size": 15891483
+  }
+ }
+}
