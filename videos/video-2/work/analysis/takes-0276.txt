@@ -1,0 +1,26 @@
+# clip 0276 — 110 words, ends 01:18
+#01 [3.50 - 6.46] (00:03) Now of course a guide like this requires screenshots,
+     -- pause 2.7s --
+#02 [9.13 - 11.45] (00:09) and this is the most boring part for writers,
+     -- pause 2.6s --
+#03 [14.01 - 16.57] (00:14) especially technical guides where we need a lot of screenshots.
+     -- pause 4.0s --
+#04 [20.58 - 22.96] (00:20) The system I built takes them by itself.
+     -- pause 2.3s --
+#05 [25.22 - 26.69] (00:25) It drives a real browser
+     -- pause 1.3s --
+#06 [28.00 - 30.21] (00:27) Using Playwright— we talked about this before—
+     -- pause 3.4s --
+#07 [33.58 - 35.59] (00:33) it logs into the app we deployed
+     -- pause 2.1s --
+#08 [37.71 - 40.21] (00:37) and shoots every screenshot the guide needs.
+     -- pause 5.6s --
+#09 [45.84 - 48.18] (00:45) Think about how much time this is saving you.
+     -- pause 12.2s --
+#10 [60.39 - 63.37] (01:00) And it really has, and it really has one rule I love.
+     -- pause 3.0s --
+#11 [66.36 - 70.53] (01:06) It never blurs a secret on— it never blurs a secret.
+     -- pause 1.9s --
+#12 [72.42 - 74.24] (01:12) If a real key appears on the screen,
+     -- pause 2.0s --
+#13 [76.22 - 78.51] (01:16) it replaces it automatically with a fake one.

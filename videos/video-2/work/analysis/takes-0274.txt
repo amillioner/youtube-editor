@@ -1,0 +1,64 @@
+# clip 0274 — 242 words, ends 02:53
+#01 [1.96 - 5.24] (00:01) Okay, so here's the input. One simple prompt
+     -- pause 0.8s --
+#02 [6.08 - 7.10] (00:06) about self-hosting—
+     -- pause 1.6s --
+#03 [8.68 - 15.20] (00:08) self-host Supabase, focus on the hard parts nobody documents, and run it on a real server.
+     -- pause 1.3s --
+#04 [16.46 - 18.46] (00:16) That's it. No prompt engineering,
+     -- pause 2.5s --
+#05 [20.91 - 22.33] (00:20) no outline, nothing.
+     -- pause 2.5s --
+#06 [24.79 - 28.45] (00:24) The contract, which is the first building block in the factory system
+     -- pause 2.8s --
+#07 [31.20 - 32.31] (00:31) In the content factory
+     -- pause 2.4s --
+#08 [34.74 - 37.06] (00:34) already knows all the stages.
+     -- pause 8.1s --
+#09 [45.16 - 45.74] (00:45) Other take.
+     -- pause 0.8s --
+#10 [46.57 - 49.97] (00:46) The contract, which is the first step in the content factory system,
+     -- pause 3.3s --
+#11 [53.28 - 54.70] (00:53) already knows all the stages.
+     -- pause 5.4s --
+#12 [60.06 - 61.32] (01:00) So the first thing it does,
+     -- pause 1.3s --
+#13 [62.58 - 63.45] (01:02) it doesn't write,
+     -- pause 3.2s --
+#14 [66.68 - 67.21] (01:06) it reads.
+     -- pause 1.6s --
+#15 [68.85 - 76.05] (01:08) It pulls real search data, fetches the top-ranking results on Google, and reads every single one.
+     -- pause 2.1s --
+#16 [78.12 - 82.77] (01:18) What they cover, what they miss, And look at this, super interesting.
+     -- pause 2.2s --
+#17 [84.94 - 88.59] (01:24) Other take. And look at, and look at this, really super interesting.
+     -- pause 2.5s --
+#18 [91.04 - 93.43] (01:31) I told it to target self-host Supabase,
+     -- pause 0.9s --
+#19 [94.34 - 94.73] (01:34) and
+     -- pause 0.8s --
+#20 [95.55 - 97.72] (01:35) it has around 740 searches per month.
+     -- pause 1.2s --
+#21 [98.97 - 99.90] (01:38) It came back and said
+     -- pause 1.4s --
+#22 [101.28 - 103.95] (01:41) people actually search Supabase self-host,
+     -- pause 1.9s --
+#23 [105.86 - 110.54] (01:45) and the full cluster is around 1,100 searches a month. 3 times bigger
+     -- pause 2.3s --
+#24 [112.88 - 113.58] (01:52) than what I thought.
+     -- pause 5.9s --
+#25 [119.49 - 124.02] (01:59) This is the importance of relying on real data when writing.
+     -- pause 16.7s --
+#26 [140.70 - 143.39] (02:20) And the system is really honest. I built it in a way
+     -- pause 2.8s --
+#27 [146.19 - 150.07] (02:26) if it can't really find a real gap that we can fill online,
+     -- pause 2.1s --
+#28 [152.20 - 154.02] (02:32) it just tell me the topic is weak
+     -- pause 1.9s --
+#29 [155.89 - 159.29] (02:35) before anything written, so we don't waste time on a topic
+     -- pause 2.7s --
+#30 [161.94 - 164.94] (02:41) That's not useful and nobody will benefit from.
+     -- pause 2.6s --
+#31 [167.53 - 170.22] (02:47) So some ideas just die at step 1,
+     -- pause 2.7s --
+#32 [172.96 - 173.80] (02:52) and that's a feature.

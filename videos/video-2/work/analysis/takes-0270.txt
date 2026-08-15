@@ -1,0 +1,50 @@
+# clip 0270 — 194 words, ends 02:11
+#01 [2.26 - 8.53] (00:02) Watch this. A simple 2-line prompt to create a full technical guide with my,
+     -- pause 1.0s --
+#02 [9.51 - 12.38] (00:09) with my AI-powered content factory system.
+     -- pause 1.0s --
+#03 [13.34 - 13.89] (00:13) Let's run.
+     -- pause 1.2s --
+#04 [15.12 - 16.73] (00:15) First, it pulls the,
+     -- pause 0.9s --
+#05 [17.60 - 23.38] (00:17) it pulls real search data and reads the top articles on Google related to the topic.
+     -- pause 1.3s --
+#06 [24.66 - 24.89] (00:24) Then,
+     -- pause 2.1s --
+#07 [26.96 - 27.25] (00:26) And now
+     -- pause 0.9s --
+#08 [28.10 - 29.87] (00:28) it rents a real server
+     -- pause 1.3s --
+#09 [31.16 - 40.17] (00:31) in Frankfurt. It is deploying the actual app the guide talks about, testing it, breaking it, measuring everything.
+     -- pause 3.6s --
+#10 [43.76 - 44.85] (00:43) Then it's taking—
+     -- pause 1.0s --
+#11 [45.84 - 47.91] (00:45) then it's taking its own screenshots.
+     -- pause 2.5s --
+#12 [50.44 - 52.32] (00:50) And finally, It writes.
+     -- pause 5.6s --
+#13 [57.94 - 65.03] (00:57) And here is the output, a full technical guide published on my website with numbers it tested itself.
+     -- pause 11.0s --
+#14 [76.07 - 83.20] (01:16) And what's special and super impor— And what's really special and important about this system? It's connected to my
+     -- pause 0.9s --
+#15 [84.09 - 84.28] (01:24) brain.
+     -- pause 2.5s --
+#16 [86.82 - 87.46] (01:26) Yes, my brain.
+     -- pause 2.8s --
+#17 [90.26 - 91.56] (01:30) It knows my voice,
+     -- pause 1.9s --
+#18 [93.50 - 95.40] (01:33) my style, my opinions,
+     -- pause 2.9s --
+#19 [98.25 - 100.44] (01:38) my thoughts, everything about me.
+     -- pause 2.9s --
+#20 [103.38 - 104.28] (01:43) Look at this line.
+     -- pause 1.6s --
+#21 [105.93 - 106.72] (01:45) Look at this line
+     -- pause 0.8s --
+#22 [107.56 - 108.18] (01:47) and this one.
+     -- pause 1.0s --
+#23 [109.18 - 113.70] (01:49) This is me talking, my real stories, my real numbers, the way I write.
+     -- pause 4.5s --
+#24 [118.18 - 123.82] (01:58) In this video, I'll show you the 5 building blocks of this content factory system.
+     -- pause 1.2s --
+#25 [125.03 - 131.33] (02:05) Another take. In this video, I'll show you the 5 building blocks of this content factory system I built.

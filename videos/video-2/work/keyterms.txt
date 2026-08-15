@@ -1,0 +1,73 @@
+# video-2 — The Content Factory
+# tools, brands, tech and jargon named in this video
+
+# the subject
+Claude Code
+Anthropic
+content factory
+skill
+subagent
+
+# the demo piece — self-hosting Supabase
+Supabase
+self-host
+self-hosting
+Supabase Pro
+Postgres
+PostgreSQL
+pgvector
+Docker
+Docker Compose
+Kong
+GoTrue
+Realtime
+Supabase Studio
+
+# the lab
+DigitalOcean
+droplet
+VPS
+SSH
+teardown
+provision
+
+# the senses / SEO
+SERP
+keyword volume
+answer engine
+SEO
+search intent
+
+# the hands
+Playwright
+headless
+screenshot
+
+# the leash / vocabulary
+recon
+evidence manifest
+claims map
+claims table
+checkpoint
+verification loop
+ledger
+orphan claim
+
+# the flywheel + callbacks
+brainoutside.com
+BrainOutside
+second brain
+LearnWithHasan
+learnwithhasan.com
+
+# alternates possibly mentioned
+Langfuse
+Open WebUI
+n8n
+
+# pipeline / repo
+Remotion
+AssemblyAI
+ElevenLabs
+markdown
+frontmatter

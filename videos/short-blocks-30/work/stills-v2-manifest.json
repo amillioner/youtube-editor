@@ -1,0 +1,10 @@
+[
+  { "id": "w1-workspace", "type": "image", "label": "W1 — the canonical workspace (library asset)", "file": "media/library/workspace/w1-establishing.jpg",
+    "meta": "Nano Banana 2 via agy · free on Ultra · reusable set for ALL videos · known flaw: mug reads 'EREATOR'" },
+  { "id": "h1-at-desk", "type": "image", "label": "H1 — you at the desk (anchor still)", "file": "media/projects/short-blocks-30/broll/stills/v2/h1-at-desk.png",
+    "meta": "Nano Banana Pro · refs: your selfie + W1 · the identity+set anchor for all scene stills" },
+  { "id": "sA-checking", "type": "image", "label": "Scene A — 'you open it... loads in a blink'", "file": "media/projects/short-blocks-30/broll/stills/v2/sA-checking.png",
+    "meta": "Nano Banana Pro · refs: selfie + W1 + H1 · near-frontal, face fully visible, screen-glow surprise" },
+  { "id": "sB-building", "type": "image", "label": "Scene B — 'you built that app with Claude Code'", "file": "media/projects/short-blocks-30/broll/stills/v2/sB-building.png",
+    "meta": "Nano Banana Pro · refs: selfie + W1 + H1 · three-quarter typing, quietly pleased" }
+]

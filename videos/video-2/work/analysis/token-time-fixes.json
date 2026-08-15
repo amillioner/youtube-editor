@@ -1,0 +1,79 @@
+{
+ "note": "ASR token times corrected against the RMS envelope (tools in scratchpad: rms.py env/hot). Re-apply after any transcribe.py --force. Verified with `rms.py hot`: every corrected bound sits on a real speech edge.",
+ "fixes": [
+  {
+   "clip": "0277",
+   "word": "myself.",
+   "index": 247,
+   "from_ms": 188520,
+   "to_ms": 188320,
+   "late_s": 0.2,
+   "why": "atom start after a 1.41s gap; analyze_cut hard entry at 188.37 (+17.8 dB over floor). `rms.py hot` puts the true onset at 188.32, so the token was 0.20s late and head (0.15) cut into the word."
+  },
+  {
+   "clip": "0278",
+   "word": "gets",
+   "index": 62,
+   "from_ms": 43920,
+   "to_ms": 43690,
+   "late_s": 0.23,
+   "why": "atom start after a 4.24s gap; analyze_cut hard entry at 43.77 (+26.3 dB over floor). True onset measured at 43.69 — token 0.23s late, beyond head on both styles."
+  }
+ ],
+ "inflated_spans": [
+  {
+   "clip": "0272",
+   "word": "300,000",
+   "index": 91,
+   "start_ms": 55890,
+   "end_ms": 59770,
+   "new_end_ms": 59710,
+   "applied": true,
+   "superseded_by": "retimed_groups[0272 merged repeat]",
+   "why": "SUPERSEDED — see the retimed_group below. First pass assumed this 3.88s token merely spanned a silence; re-transcribing the two runs in ISOLATION proved it merged TWO utterances (the 'merged repeat' failure mode). The end value here is now just the true end of the second delivery."
+  }
+ ],
+ "retimed_groups": [
+  {
+   "clip": "0275",
+   "why": "PHANTOM TOKEN. 'Google' was timestamped 224.85-225.55, which is 0% hot (peak +1.7 dB over floor) — it sits inside a real 3.30s silence. Envelope: speech 221.36-223.14 ('No guide on Google'), silence 223.14-226.44, speech 226.44-227.21 ('knows this.'). split_atoms therefore built a single-word atom around pure silence and the renderer emitted ~0.9s of dead air mid-sentence; verify_cut caught it as a 1.46s interior pause between 'Google' and 'knows'. Fix pulls 'Google' back to the tail of the real run so it merges into the preceding atom, leaving one honest 3.41s pause for the engine to compress. 'on' is shortened to make room (it also overran the run end by 0.19s).",
+   "words": [
+    { "index": 328, "word": "on",     "from_start_ms": 222940, "to_start_ms": 222940, "from_end_ms": 223330, "to_end_ms": 223000 },
+    { "index": 329, "word": "Google", "from_start_ms": 224850, "to_start_ms": 223000, "from_end_ms": 225550, "to_end_ms": 223140 }
+   ],
+   "applied": true,
+   "caveat": "Split between 'on' and 'Google' inside the run is approximate; the bound that matters — the run end at 223.14 — is measured. Detector: scratchpad/phantoms.py flags any kept word whose span is <20% hot."
+  },
+  {
+   "clip": "0272",
+   "tag": "merged repeat",
+   "why": "MERGED REPEAT — the skill's failure mode #3, caught by Hasan's ear at ~1:44 of the natural preview and then proved by machine. The single ASR token '300,000' (55.89-59.77) had swallowed TWO separate deliveries. Re-transcribing each hot run in ISOLATION settles it: run 1 (55.30-57.00) = 'Around 300,000.'; run 2 (58.20-61.40) = 'Around 300,000 people watched the video.' The transcript only ever held 6 tokens for the 8 spoken words, which is why no duration / gap / phantom check could see the doubling — the evidence was destroyed at recognition time. Fix: re-point all 6 tokens at the SECOND (complete) delivery using the isolated pass's own word times. Run 1 then holds no tokens, so it falls between atoms and is never rendered; an explicit EXTRA_CUT records the intent in cuts.json so the editor shows it too.",
+   "words": [
+    { "index": 90, "word": "Around",  "from_start_ms": 55650, "to_start_ms": 58480, "from_end_ms": 55890, "to_end_ms": 58810 },
+    { "index": 91, "word": "300,000", "from_start_ms": 55890, "to_start_ms": 58810, "from_end_ms": 56710, "to_end_ms": 59710 },
+    { "index": 92, "word": "people",  "from_start_ms": 58470, "to_start_ms": 59710, "from_end_ms": 58910, "to_end_ms": 60100 },
+    { "index": 93, "word": "watched", "from_start_ms": 58920, "to_start_ms": 60100, "from_end_ms": 59710, "to_end_ms": 60430 },
+    { "index": 94, "word": "the",     "from_start_ms": 59720, "to_start_ms": 60430, "from_end_ms": 59900, "to_end_ms": 60530 },
+    { "index": 95, "word": "video.",  "from_start_ms": 59910, "to_start_ms": 60530, "from_end_ms": 61060, "to_end_ms": 61010 }
+   ],
+   "applied": true,
+   "caveat": "These times are AssemblyAI's own output over the isolated 58.20-61.40 slice (offset +58.20), not hand estimation — so text and times now agree with the audio."
+  }
+ ],
+ "transcription_errors_not_time": [
+  {
+   "clip": "0273",
+   "at_s": 259.96,
+   "heard_as": "WinCoding",
+   "actually": "Vibe Coding (ebook title, conf 0.48)",
+   "impact": "text only — audio ships as recorded. Flagged so /make-tsx does not grep for 'WinCoding'."
+  },
+  {
+   "clip": "0275",
+   "at_s": 221.49,
+   "heard_as": "No guy drinking on Google knows this.",
+   "actually": "most likely 'No guide on Google knows this.' (conf 0.43 on 'drinking')",
+   "impact": "text only — audio ships as recorded."
+  }
+ ]
+}

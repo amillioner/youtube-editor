@@ -1,0 +1,11 @@
+{
+  "prompt": "Photorealistic cinematic vertical still, 9:16. Over-the-shoulder close shot: a man's shoulder and hand on a mouse in the foreground (olive green t-shirt sleeve visible), sharp focus on a laptop screen showing a clean web app activity page that has just loaded — a list of recent items, fast and crisp. Bright modern home office, soft daylight, warm natural grade. Face NOT visible. No readable brand names, no text overlays, no watermark.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\projects\\short-ai-test\\ref-vertical.png"
+  ],
+  "created": "2026-08-13T18:23:22"
+}

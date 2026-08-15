@@ -1,0 +1,20 @@
+{
+  "note": "Block 30 Short — SFX per brand.md §10: sparse, felt-not-heard, ONE layered hero (the NAME stamp) plus the scripted riser→impact on the evidence turn. Times are absolute on the ShortBlocks30 comp timeline (51.4s @30fps). Library-first: all 8 cues from the shared library, zero generated.",
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "videos/short-blocks-30/output/preview-1080.mp4",
+    "out": "videos/short-blocks-30/output/preview-sfx.mp4",
+    "end_s": 52,
+    "duck": true
+  },
+  "events": [
+    { "at_s": 2.27, "sfx_id": "whoosh-soft", "gain_db": -7, "cue": "B1 cam → B2 b-roll cut (motion)" },
+    { "at_s": 19.3, "sfx_id": "riser-soft", "gain_db": -10, "cue": "B3: under the tail build — 'twenty of them took…'" },
+    { "at_s": 20.9, "sfx_id": "impact-soft", "gain_db": -7, "cue": "B3: 'nine full seconds' — tail flips red, p99 dot pulses" },
+    { "at_s": 28.9, "sfx_id": "riser-soft", "gain_db": -9, "cue": "HERO build: out of B4 cam into the name stamp" },
+    { "at_s": 30.0, "sfx_id": "impact-deep-soft", "gain_db": -5, "cue": "HERO land: 'latency percentiles' card stamps in (B5)" },
+    { "at_s": 39.7, "sfx_id": "keys-typing-soft", "gain_db": -12, "cue": "B6: the prompt types itself (typing span 39.7–44.1)" },
+    { "at_s": 44.9, "sfx_id": "ui-send", "gain_db": -8, "cue": "B6: send" },
+    { "at_s": 49.4, "sfx_id": "impact-deep-soft", "gain_db": -9, "cue": "B8: end card lands (soft, long tail into silence)" }
+  ]
+}

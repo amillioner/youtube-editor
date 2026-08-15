@@ -1,0 +1,94 @@
+# clip 0277 — 340 words, ends 04:35
+#01 [2.23 - 3.10] (00:02) After all this,
+     -- pause 0.9s --
+#02 [4.04 - 5.62] (00:04) it finally writes.
+     -- pause 6.9s --
+#03 [12.49 - 13.15] (00:12) But before,
+     -- pause 1.3s --
+#04 [14.41 - 17.33] (00:14) but before drafting, it pulls up my brain,
+     -- pause 3.2s --
+#05 [20.49 - 22.44] (00:20) my voice rules, my beliefs,
+     -- pause 2.7s --
+#06 [25.16 - 26.84] (00:25) my beliefs about self-hosting,
+     -- pause 2.9s --
+#07 [29.73 - 31.74] (00:29) The real story of my cloud bills
+     -- pause 2.9s --
+#08 [34.66 - 37.20] (00:34) and how I saved $8,000 a year,
+     -- pause 4.6s --
+#09 [41.81 - 44.08] (00:41) and the reason why I moved to self-hosting.
+     -- pause 4.7s --
+#10 [48.77 - 54.14] (00:48) So the draft opens with my argument. It's me talking, my brain talking.
+     -- pause 3.8s --
+#11 [57.92 - 60.97] (00:57) In my words, in my voice, and backed by,
+     -- pause 2.7s --
+#12 [63.63 - 65.04] (01:03) and backed by its evidence.
+     -- pause 12.9s --
+#13 [77.95 - 85.04] (01:17) After the first draft, we have the Now after the draft, we have the verification loops, and this is super important.
+     -- pause 3.5s --
+#14 [88.55 - 90.30] (01:28) One loop checks the evidence.
+     -- pause 3.6s --
+#15 [93.91 - 96.33] (01:33) One attacks the draft trying to find a—
+     -- pause 0.9s --
+#16 [97.20 - 100.61] (01:37) trying to find another take.
+     -- pause 0.9s --
+#17 [101.48 - 107.01] (01:41) One attacks the draft trying to find a wrong claim, other take. One attacks the draft to find
+     -- pause 2.9s --
+#18 [109.91 - 112.84] (01:49) Other, other take. And one attacks the draft,
+     -- pause 0.9s --
+#19 [113.69 - 116.35] (01:53) and one attacks the draft trying to find a wrong claim.
+     -- pause 2.9s --
+#20 [119.25 - 120.40] (01:59) One checks my voice,
+     -- pause 6.6s --
+#21 [127.00 - 130.30] (02:07) and each loop runs until it comes back clean.
+     -- pause 8.1s --
+#22 [138.35 - 139.00] (02:18) Then it ships.
+     -- pause 1.3s --
+#23 [140.29 - 144.92] (02:20) The page gets built, checked, rendered, and committed to my site's repo.
+     -- pause 6.3s --
+#24 [151.24 - 153.03] (02:31) But there's one more important—
+     -- pause 2.2s --
+#25 [155.26 - 164.56] (02:35) but there is one more thing because it go— Other take. But there is one more thing before— but there is one more thing before— other take.
+     -- pause 0.9s --
+#26 [165.45 - 167.91] (02:45) But there is one more thing before it goes live,
+     -- pause 2.7s --
+#27 [170.59 - 173.74] (02:50) and this is the most important step in the whole flow.
+     -- pause 5.6s --
+#28 [179.37 - 181.26] (02:59) It is the same rule from 2022.
+     -- pause 3.0s --
+#29 [184.21 - 187.11] (03:04) I read the full guide again, word by word,
+     -- pause 1.4s --
+#30 [188.52 - 189.05] (03:08) myself.
+     -- pause 2.1s --
+#31 [191.11 - 192.79] (03:11) Not skimming, really reading.
+     -- pause 2.6s --
+#32 [195.41 - 197.18] (03:15) Every claim, every command,
+     -- pause 0.9s --
+#33 [198.04 - 198.65] (03:18) every number.
+     -- pause 8.2s --
+#34 [206.82 - 210.53] (03:26) You never just copy and paste or rely directly on the output.
+     -- pause 9.2s --
+#35 [219.71 - 219.84] (03:39) Yes,
+     -- pause 1.2s --
+#36 [221.08 - 223.55] (03:41) compared to 2022, the AI now
+     -- pause 2.9s --
+#37 [226.42 - 228.69] (03:46) does maybe 1,000 times the work,
+     -- pause 5.2s --
+#38 [233.86 - 235.89] (03:53) maybe more than 1,000 times of the work.
+     -- pause 4.3s --
+#39 [240.24 - 240.74] (04:00) Other take.
+     -- pause 1.1s --
+#40 [241.88 - 243.55] (04:01) Now compared to 2022,
+     -- pause 3.5s --
+#41 [247.06 - 250.16] (04:07) now the AI does 1,000 times more of the work
+     -- pause 0.9s --
+#42 [251.04 - 252.32] (04:11) and the rule did not move.
+     -- pause 3.0s --
+#43 [255.32 - 257.40] (04:15) Nothing goes out under my name
+     -- pause 1.8s --
+#44 [259.22 - 261.87] (04:19) before I read and verify and approve.
+     -- pause 5.2s --
+#45 [267.06 - 268.27] (04:27) So automate the work
+     -- pause 1.9s --
+#46 [270.20 - 271.06] (04:30) as much as you can,
+     -- pause 2.4s --
+#47 [273.46 - 275.75] (04:33) but never automate the responsibility.

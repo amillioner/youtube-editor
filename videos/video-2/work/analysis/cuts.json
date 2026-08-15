@@ -1,0 +1,1108 @@
+{
+ "project": "video-2",
+ "clip_order": [
+  "0270",
+  "0271",
+  "0272",
+  "0273",
+  "0274",
+  "0275",
+  "0276",
+  "0277",
+  "0278"
+ ],
+ "clips": [
+  {
+   "id": "0270",
+   "file": "raw/DJI_20260813142309_0270_D.MP4",
+   "duration": 139.02,
+   "keeps": [
+    {
+     "s": 2.263,
+     "e": 7.787,
+     "text": "Watch this. A simple 2-line prompt to create a full technical guide",
+     "gap": {
+      "d": 0.257,
+      "t": "pause"
+     }
+    },
+    {
+     "s": 9.505,
+     "e": 15.703,
+     "text": "with my AI-powered content factory system. Let's run. First,",
+     "gap": {
+      "d": 0.305,
+      "t": "pause"
+     }
+    },
+    {
+     "s": 17.598,
+     "e": 23.378,
+     "text": "it pulls real search data and reads the top articles on Google related to the topic.",
+     "gap": {
+      "d": 1.284,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 26.962,
+     "e": 40.168,
+     "text": "And now it rents a real server in Frankfurt. It is deploying the actual app the guide talks about, testing it, breaking it, measuring everything.",
+     "gap": {
+      "d": 3.59,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 45.836,
+     "e": 65.026,
+     "text": "then it's taking its own screenshots. And finally, It writes. And here is the output, a full technical guide published on my website with numbers it tested itself.",
+     "gap": {
+      "d": 11.048,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 78.649,
+     "e": 100.435,
+     "text": "And what's really special and important about this system? It's connected to my brain. Yes, my brain. It knows my voice, my style, my opinions, my thoughts, everything about me.",
+     "gap": {
+      "d": 2.942,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 105.933,
+     "e": 113.702,
+     "text": "Look at this line and this one. This is me talking, my real stories, my real numbers, the way I write.",
+     "gap": {
+      "d": 4.476,
+      "t": "silence"
+     }
+    }
+   ],
+   "cuts": [
+    {
+     "s": 7.924,
+     "e": 8.646,
+     "cat": "false_start",
+     "text": "with my,",
+     "note": "'with my,' — doubled by 14-15; cut the FIRST"
+    },
+    {
+     "s": 15.888,
+     "e": 16.85,
+     "cat": "false_start",
+     "text": "it pulls the,",
+     "note": "'it pulls the,' — doubled by 26-27; cut the FIRST"
+    },
+    {
+     "s": 24.542,
+     "e": 25.007,
+     "cat": "false_start",
+     "text": "Then,",
+     "note": "'Then,' abandoned; superseded by 'And now'"
+    },
+    {
+     "s": 43.638,
+     "e": 44.974,
+     "cat": "false_start",
+     "text": "Then it's taking—",
+     "note": "'Then it's taking—' doubled by 71-73; cut the FIRST"
+    },
+    {
+     "s": 75.954,
+     "e": 78.259,
+     "cat": "false_start",
+     "text": "And what's special and super impor—",
+     "note": "'And what's special and super impor—' doubled by 105+; cut the FIRST"
+    },
+    {
+     "s": 103.257,
+     "e": 104.404,
+     "cat": "retake",
+     "text": "Look at this line.",
+     "note": "'Look at this line.' delivered twice back to back; cut the FIRST"
+    },
+    {
+     "s": 118.058,
+     "e": 123.943,
+     "cat": "retake",
+     "text": "In this video, I'll show you the 5 building blocks of this content factory system.",
+     "note": "intro line, superseded in-clip by the 'Another take.' at 125.03"
+    },
+    {
+     "s": 124.908,
+     "e": 131.448,
+     "cat": "retake",
+     "text": "Another take. In this video, I'll show you the 5 building blocks of this content factory system I built.",
+     "note": "intro line take 2; superseded by 0271 ('I will repeat the final section')"
+    }
+   ],
+   "fluff_suggestions": []
+  },
+  {
+   "id": "0271",
+   "file": "raw/DJI_20260813142610_0271_D.MP4",
+   "duration": 73.14,
+   "keeps": [
+    {
+     "s": 22.128,
+     "e": 26.258,
+     "text": "in this video, I'll show you the 5 building blocks of my content factory system.",
+     "gap": {
+      "d": 0.467,
+      "t": "pause"
+     }
+    },
+    {
+     "s": 62.882,
+     "e": 71.389,
+     "text": "and by the end, you know exactly how to build one for your own niche. If you are ready, let's get started."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 2.301,
+     "e": 5.103,
+     "cat": "false_start",
+     "text": "I will repeat the final section.",
+     "note": "slate: 'I will repeat the final section.' — spoken editor instruction"
+    },
+    {
+     "s": 6.988,
+     "e": 14.017,
+     "cat": "retake",
+     "text": "In this video, I'll show you the 5 building blocks of this AI-powered content factory system.",
+     "note": "take A of the intro line; killed by the 'Repeat, repeat.' slate at 18.58. NOTE: only take with 'AI-powered' — see flag 1"
+    },
+    {
+     "s": 18.457,
+     "e": 19.358,
+     "cat": "false_start",
+     "text": "Repeat, repeat.",
+     "note": "slate: 'Repeat, repeat.'"
+    },
+    {
+     "s": 20.571,
+     "e": 21.78,
+     "cat": "retake",
+     "text": "In this video,",
+     "note": "'In this video,' doubled by 27-29; cut the FIRST"
+    },
+    {
+     "s": 26.605,
+     "e": 27.718,
+     "cat": "retake",
+     "text": "And by the end,",
+     "note": "take B's 'And by the end,' — superseded by take E"
+    },
+    {
+     "s": 30.622,
+     "e": 32.853,
+     "cat": "retake",
+     "text": "you'll know exactly how to build your own",
+     "note": "take B: 'you'll know exactly how to build your own' — superseded by take E"
+    },
+    {
+     "s": 35.867,
+     "e": 37.547,
+     "cat": "retake",
+     "text": "for your own niche.",
+     "note": "take B: 'for your own niche.' — superseded by take E"
+    },
+    {
+     "s": 41.612,
+     "e": 42.415,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "slate: 'Other take.'"
+    },
+    {
+     "s": 43.302,
+     "e": 48.032,
+     "cat": "retake",
+     "text": "And by the end, you'll know exactly how to build your own for your own niche.",
+     "note": "take C of the closing line; killed by the 'Other take.' at 50.52"
+    },
+    {
+     "s": 50.399,
+     "e": 51.125,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "slate: 'Other take.'"
+    },
+    {
+     "s": 51.694,
+     "e": 52.728,
+     "cat": "retake",
+     "text": "And by the end,",
+     "note": "take D start: 'And by the end,' — self-slated"
+    },
+    {
+     "s": 54.022,
+     "e": 59.482,
+     "cat": "retake",
+     "text": "And by the end of this video, and by the end, you will have another take.",
+     "note": "take D; ends in its own 'another take.' slate"
+    },
+    {
+     "s": 61.54,
+     "e": 62.584,
+     "cat": "retake",
+     "text": "And by the end,",
+     "note": "take E's doubled 'And by the end,'; cut the FIRST"
+    }
+   ],
+   "fluff_suggestions": []
+  },
+  {
+   "id": "0272",
+   "file": "raw/DJI_20260813142800_0272_D.MP4",
+   "duration": 158.02,
+   "keeps": [
+    {
+     "s": 9.62,
+     "e": 61.01,
+     "text": "Back in 2021, I used to pay around $150 to $300 per one technical guide like this one. And sometimes I needed to wait like 7 days to finish it because It requires a lot of experiments, a lot of tests, back and forth between me and the writer. Then in 2022, one year later, I published a video here on my channel showing you how to write a full blog post in 10 minutes with the help of AI. Around 300,000 people watched the video.",
+     "gap": {
+      "d": 3.69,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 67.724,
+     "e": 111.366,
+     "text": "And it was really fast, yes. But I warned you then in that video. To use AI as writing assistant and don't just copy and paste because it wrote generic content. Today we have a name for that content, AI slop, and we don't want that. So today, with the new AI-powered content factory I built,",
+     "gap": {
+      "d": 2.884,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 116.93,
+     "e": 127.91,
+     "text": "and you will see today, honestly, no writer I ever hired",
+     "gap": {
+      "d": 5.245,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 135.919,
+     "e": 137.567,
+     "text": "could do the experiments and tests",
+     "gap": {
+      "d": 3.427,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 141.882,
+     "e": 146.55,
+     "text": "and write like this system. Sorry writers, but this is reality",
+     "gap": {
+      "d": 2.778,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 152.88,
+     "e": 153.626,
+     "text": "and you should adapt."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 4.045,
+     "e": 8.121,
+     "cat": "false_start",
+     "text": "Back in 2021, I used to pay like— another take.",
+     "note": "'Back in 2021, I used to pay like—' + its own 'another take.' slate"
+    },
+    {
+     "s": 55.3,
+     "e": 57.0,
+     "cat": "retake",
+     "text": "(no tokens remain here)",
+     "note": "First delivery 'Around 300,000.' — Hasan caught it by ear at ~1:44 of the natural preview. The ASR had MERGED both deliveries into one token, so no token remains here after the retime; this span is already excluded as inter-atom silence and the cut is recorded for the audit trail."
+    },
+    {
+     "s": 64.58,
+     "e": 66.026,
+     "cat": "retake",
+     "text": "It was fast, yes.",
+     "note": "'It was fast, yes.' doubled by 'And it was really fast, yes.'; cut the FIRST"
+    },
+    {
+     "s": 114.13,
+     "e": 115.359,
+     "cat": "retake",
+     "text": "that you will see today,",
+     "note": "'that you will see today,' doubled by 'and you will see today,'; cut the FIRST"
+    },
+    {
+     "s": 133.035,
+     "e": 134.584,
+     "cat": "retake",
+     "text": "could do the experiments,",
+     "note": "'could do the experiments,' doubled by 'could do the experiments and tests'; cut the FIRST"
+    },
+    {
+     "s": 140.874,
+     "e": 141.615,
+     "cat": "retake",
+     "text": "and write,",
+     "note": "'and write,' doubled by 'and write like this system'; cut the FIRST"
+    },
+    {
+     "s": 149.208,
+     "e": 150.274,
+     "cat": "retake",
+     "text": "and we should adapt",
+     "note": "AUDIT: 'and we should adapt' / 'and you should adapt.' — Hasan heard it as a repeat at ~2:21 and asked for the first to go. Was FLAG 3 (defaulted to keeping both as we/you escalation); his call overrides. Clean splice: 2.78s before, 2.73s after."
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 116.81,
+     "e": 117.938,
+     "text": "and you will see today,",
+     "crit": "restated-idea",
+     "note": "'and you will see today,' — 'So today,' already said it 9s earlier. Safe to drop (pre-gap 1.69s).",
+     "status": "suggested",
+     "pre_gap": 1.691
+    }
+   ]
+  },
+  {
+   "id": "0273",
+   "file": "raw/DJI_20260813143053_0273_D.MP4",
+   "duration": 281.02,
+   "keeps": [
+    {
+     "s": 27.984,
+     "e": 79.273,
+     "text": "So how does it actually work? We have mainly 5 building blocks running inside this content factory system. Block number 1, the contract. It's simply Claude skills. Think about it as the instructions the stages, the guidelines, the rules that the AI will follow when writing the guide. Number 2, the senses, and mainly keyword and search data. So it knows exactly what related content, what other competitors",
+     "gap": {
+      "d": 1.647,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 94.346,
+     "e": 120.926,
+     "text": "And what the internet already says about the topic. Number 3, the hands. Yes. Which is a real browser the AI controls by itself using the Playwright integration. And this is very important for testing, for screenshots, and much more.",
+     "gap": {
+      "d": 2.654,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 124.904,
+     "e": 126.392,
+     "text": "then number 4, the lab.",
+     "gap": {
+      "d": 5.272,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 134.418,
+     "e": 186.894,
+     "text": "In my case, it's a real server. Access to APIs, to tools, to servers, to companies, to websites, to services. A full lab that I can run real experiments inside. And number 5, the most important The brain, my brain in my case, which holds everything about who I am, my thoughts, my beliefs, my opinions, my projects, so it can write exactly like me. Great, let's now jump into the factory and see one piece Go through the whole process.",
+     "gap": {
+      "d": 3.658,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 194.424,
+     "e": 197.328,
+     "text": "But before that, and speaking of building blocks,",
+     "gap": {
+      "d": 2.525,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 210.164,
+     "e": 220.516,
+     "text": "I created a free ebook on the top vibe engineering building blocks you should know to move from a blind vibe coder to a real builder with AI. It's totally free",
+     "gap": {
+      "d": 0.689,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 229.458,
+     "e": 244.583,
+     "text": "and I designed it in a way that you can read and understand one block on each page. Grab it, read like 5 pages a day, and in one week you'll notice the difference. Trust me,",
+     "gap": {
+      "d": 3.81,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 255.114,
+     "e": 265.037,
+     "text": "You'll have a complete mind shift. WinCoding and Building with AI. It's free, grab it, and let's continue our work."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 2.656,
+     "e": 27.385,
+     "cat": "retake",
+     "text": "So how does it actually work? In simple words, it— other take. So how does it— so how does it actually work? Other take. So how does it actually work? Other take. So how does it work? Other take. So how does it work?",
+     "note": "5 slated attempts at the opener question ('other take.' x5) + an abandoned 'In simple words, it—'. The delivery at 27.98 supersedes all"
+    },
+    {
+     "s": 80.8,
+     "e": 93.674,
+     "cat": "retake",
+     "text": "And what, and what the internet says, and what, and what the internet already says, and what the internet already says about the content. Another take.",
+     "note": "3 attempts at 'what the internet already says', killed by the 'Another take.' slate at 93.04"
+    },
+    {
+     "s": 123.46,
+     "e": 124.059,
+     "cat": "false_start",
+     "text": "Then we—",
+     "note": "'Then we—' superseded by 'then number 4'"
+    },
+    {
+     "s": 131.544,
+     "e": 133.967,
+     "cat": "retake",
+     "text": "In my case, it's like a real server.",
+     "note": "'In my case, it's like a real server.' doubled by 'In my case, it's a real server.'; cut the FIRST"
+    },
+    {
+     "s": 190.432,
+     "e": 193.657,
+     "cat": "false_start",
+     "text": "But before that, and speaking— another take.",
+     "note": "'But before that, and speaking—' + its own 'another take.' slate"
+    },
+    {
+     "s": 199.733,
+     "e": 209.643,
+     "cat": "retake",
+     "text": "I created a free ebook on the top 5 engineering building blocks Other take.",
+     "note": "ebook take 1 ('the top 5 engineering building blocks'), killed by the 'Other take.' slate at 209.04"
+    },
+    {
+     "s": 221.085,
+     "e": 223.472,
+     "cat": "false_start",
+     "text": "and designed in a way that you read and then—",
+     "note": "'and designed in a way that you read and then—'"
+    },
+    {
+     "s": 223.969,
+     "e": 228.055,
+     "cat": "retake",
+     "text": "and designed in a way that you can read and understand. Other take.",
+     "note": "'and designed in a way that you can read and understand.' killed by the 'Other take.' slate at 227.53"
+    },
+    {
+     "s": 228.537,
+     "e": 228.921,
+     "cat": "false_start",
+     "text": "And,",
+     "note": "'And,' abandoned"
+    },
+    {
+     "s": 248.273,
+     "e": 254.027,
+     "cat": "retake",
+     "text": "you will have a complete mindset. You'll, you will have a mindset. Other take.",
+     "note": "two attempts at the 'complete mindset' line, killed by the 'Other take.' slate at 253.40"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 104.528,
+     "e": 104.962,
+     "text": "Yes.",
+     "crit": "evaluative-aside",
+     "note": "a standalone 'Yes.' between 'the hands.' and 'Which is a real browser'. Safe to drop (pre-gap 1.64s).",
+     "status": "suggested",
+     "pre_gap": 1.643
+    }
+   ]
+  },
+  {
+   "id": "0274",
+   "file": "raw/DJI_20260813143540_0274_D.MP4",
+   "duration": 175.92,
+   "keeps": [
+    {
+     "s": 1.962,
+     "e": 5.241,
+     "text": "Okay, so here's the input. One simple prompt",
+     "gap": {
+      "d": 0.84,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 8.682,
+     "e": 22.327,
+     "text": "self-host Supabase, focus on the hard parts nobody documents, and run it on a real server. That's it. No prompt engineering, no outline, nothing.",
+     "gap": {
+      "d": 2.465,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 46.569,
+     "e": 79.984,
+     "text": "The contract, which is the first step in the content factory system, already knows all the stages. So the first thing it does, it doesn't write, it reads. It pulls real search data, fetches the top-ranking results on Google, and reads every single one. What they cover, what they miss,",
+     "gap": {
+      "d": 0.719,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 86.739,
+     "e": 173.802,
+     "text": "and look at this, really super interesting. I told it to target self-host Supabase, and it has around 740 searches per month. It came back and said people actually search Supabase self-host, and the full cluster is around 1,100 searches a month. 3 times bigger than what I thought. This is the importance of relying on real data when writing. And the system is really honest. I built it in a way if it can't really find a real gap that we can fill online, it just tell me the topic is weak before anything written, so we don't waste time on a topic That's not useful and nobody will benefit from. So some ideas just die at step 1, and that's a feature."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 5.961,
+     "e": 7.219,
+     "cat": "false_start",
+     "text": "about self-hosting—",
+     "note": "'about self-hosting—' abandoned lead-in; the prompt text follows"
+    },
+    {
+     "s": 24.672,
+     "e": 37.179,
+     "cat": "retake",
+     "text": "The contract, which is the first building block in the factory system In the content factory already knows all the stages.",
+     "note": "'first building block in the factory system' take, killed by the 'Other take.' slate at 45.16"
+    },
+    {
+     "s": 45.044,
+     "e": 45.856,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "slate: 'Other take.'"
+    },
+    {
+     "s": 80.583,
+     "e": 82.887,
+     "cat": "retake",
+     "text": "And look at this, super interesting.",
+     "note": "'And look at this, super interesting.' killed by the 'Other take.' slate at 84.94"
+    },
+    {
+     "s": 84.82,
+     "e": 85.513,
+     "cat": "false_start",
+     "text": "Other take.",
+     "note": "slate: 'Other take.'"
+    },
+    {
+     "s": 85.727,
+     "e": 86.551,
+     "cat": "false_start",
+     "text": "And look at,",
+     "note": "'And look at,' doubled by 'and look at this,'; cut the FIRST"
+    }
+   ],
+   "fluff_suggestions": []
+  },
+  {
+   "id": "0275",
+   "file": "raw/DJI_20260813143841_0275_D.MP4",
+   "duration": 278.02,
+   "keeps": [
+    {
+     "s": 6.324,
+     "e": 31.349,
+     "text": "if it passes, then it writes a plan. The main idea, the 8 experiments it wants to run, and the cost. In my case, around $0.70, and with a hard cap of $1.50, it cannot pass. And then it stops. It doesn't touch any server before I approve the plan and the budget.",
+     "gap": {
+      "d": 6.68,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 44.139,
+     "e": 68.271,
+     "text": "I approve, and now the fun part. The AI, the engine, will rent a server. In my case, I'm using DigitalOcean. They have simple API access and fast server creation process, so I use it as my lab.",
+     "gap": {
+      "d": 4.11,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 86.537,
+     "e": 95.277,
+     "text": "It cloned the stack in 2 seconds, pulled like 8.9 gigabytes of images in 114 seconds, and 20 seconds later,",
+     "gap": {
+      "d": 0.257,
+      "t": "pause"
+     }
+    },
+    {
+     "s": 96.785,
+     "e": 105.333,
+     "text": "Supabase was up. 11 containers, all healthy, on a 4 gigabyte box. And it measured everything.",
+     "gap": {
+      "d": 4.807,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 115.081,
+     "e": 117.045,
+     "text": "down to the RAM of every container.",
+     "gap": {
+      "d": 4.343,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 126.532,
+     "e": 146.147,
+     "text": "Then it starts breaking things on purpose. And this is where it becomes really interesting because failures are evidence too. And here where it's really super difficult and takes a lot of time for you as a writer to do these experiments,",
+     "gap": {
+      "d": 1.372,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 153.276,
+     "e": 248.056,
+     "text": "while AI can run these experiments in like a couple of minutes. Then the big one. It rotated security keys and the connection pooler silently died. No errors, clients just hang forever. One experiment was stuck for 8 hours because of this. It diagnosed it, fixed it, and documented it. The fix became the headline advice of the guide: set all your secrets before the first boot, or your pool dies quietly later. No guy drinking on Google knows this. My factory system knows it because it lived it. It experimented it, and when the experiment finishes, it destroys the server.",
+     "gap": {
+      "d": 2.798,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 264.702,
+     "e": 271.505,
+     "text": "The teardown is part of the work, and the total bill is like 35 cents."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 3.51,
+     "e": 3.864,
+     "cat": "false_start",
+     "text": "If,",
+     "note": "'If,' doubled by 'if it passes,'; cut the FIRST"
+    },
+    {
+     "s": 37.909,
+     "e": 40.982,
+     "cat": "retake",
+     "text": "After I approve, the fun part starts.",
+     "note": "'After I approve, the fun part starts.' doubled by 'I approve, and now the fun part.'; cut the FIRST"
+    },
+    {
+     "s": 72.261,
+     "e": 85.791,
+     "cat": "retake",
+     "text": "It cloned the stack in like 2 seconds, pulled 8— it pulled 8.9 GB of images and 140 It pulled 8.9 gigabytes of images in 114 seconds. Another take.",
+     "note": "2 broken attempts at the clone/pull numbers, killed by the 'Another take.' slate at 84.47"
+    },
+    {
+     "s": 95.414,
+     "e": 96.44,
+     "cat": "retake",
+     "text": "Supabase,",
+     "note": "AUDIT: 'Supabase, Supabase was up' — Hasan flagged the repeat at ~6:22; cut the FIRST. Was left in as a tight splice (pre-gap 0.25s leaves a 0.125s tail on 'later,'); his call overrides. Post-side is clean (0.46s)."
+    },
+    {
+     "s": 110.02,
+     "e": 114.71,
+     "cat": "retake",
+     "text": "Down to the RAM of the container, down to the,",
+     "note": "'the RAM of the container' + a 'down to the,' stumble; superseded by 'every container'"
+    },
+    {
+     "s": 121.268,
+     "e": 125.816,
+     "cat": "retake",
+     "text": "Then it starts breaking things. Then it starts breaking things.",
+     "note": "two bare 'Then it starts breaking things.' deliveries; the third adds 'on purpose' (the payoff)"
+    },
+    {
+     "s": 147.399,
+     "e": 152.297,
+     "cat": "retake",
+     "text": "while AI can do like hundreds of exp— like hundreds of experiments in like a couple of minutes,",
+     "note": "'while AI can do like hundreds of exp—' run; superseded by the cleaner 'while AI can run these experiments'"
+    },
+    {
+     "s": 250.734,
+     "e": 264.257,
+     "cat": "retake",
+     "text": "The teardown is part of the flow, and we have a total server bill around $0.35. Other take.",
+     "note": "'teardown is part of the flow' + '$0.35' pair, killed by the 'Other take.' slate at 263.57"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 95.414,
+     "e": 96.44,
+     "text": "Supabase,",
+     "crit": "doubled-phrase",
+     "note": "'Supabase, Supabase was up' — cut the first 'Supabase,'. TIGHT: pre-gap 0.25s, would leave ~0.07s tail on 'later,'.",
+     "status": "suggested",
+     "pre_gap": 0.257
+    }
+   ]
+  },
+  {
+   "id": "0276",
+   "file": "raw/DJI_20260813144325_0276_D.MP4",
+   "duration": 84.42,
+   "keeps": [
+    {
+     "s": 3.499,
+     "e": 48.184,
+     "text": "Now of course a guide like this requires screenshots, and this is the most boring part for writers, especially technical guides where we need a lot of screenshots. The system I built takes them by itself. It drives a real browser Using Playwright— we talked about this before— it logs into the app we deployed and shoots every screenshot the guide needs. Think about how much time this is saving you.",
+     "gap": {
+      "d": 12.208,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 61.621,
+     "e": 63.367,
+     "text": "and it really has one rule I love.",
+     "gap": {
+      "d": 2.993,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 69.191,
+     "e": 78.508,
+     "text": "it never blurs a secret. If a real key appears on the screen, it replaces it automatically with a fake one."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 60.272,
+     "e": 61.142,
+     "cat": "false_start",
+     "text": "And it really has,",
+     "note": "'And it really has,' doubled by 'and it really has one rule I love'; cut the FIRST"
+    },
+    {
+     "s": 66.24,
+     "e": 68.712,
+     "cat": "retake",
+     "text": "It never blurs a secret on—",
+     "note": "'It never blurs a secret on—' doubled by 'it never blurs a secret.'; cut the FIRST"
+    }
+   ],
+   "fluff_suggestions": []
+  },
+  {
+   "id": "0277",
+   "file": "raw/DJI_20260813144456_0277_D.MP4",
+   "duration": 278.62,
+   "keeps": [
+    {
+     "s": 2.228,
+     "e": 5.618,
+     "text": "After all this, it finally writes.",
+     "gap": {
+      "d": 6.868,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 14.413,
+     "e": 59.892,
+     "text": "but before drafting, it pulls up my brain, my voice rules, my beliefs, my beliefs about self-hosting, The real story of my cloud bills and how I saved $8,000 a year, and the reason why I moved to self-hosting. So the draft opens with my argument. It's me talking, my brain talking. In my words, in my voice,",
+     "gap": {
+      "d": 0.163,
+      "t": "pause"
+     }
+    },
+    {
+     "s": 63.634,
+     "e": 65.036,
+     "text": "and backed by its evidence.",
+     "gap": {
+      "d": 12.918,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 80.623,
+     "e": 90.3,
+     "text": "Now after the draft, we have the verification loops, and this is super important. One loop checks the evidence.",
+     "gap": {
+      "d": 3.612,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 113.694,
+     "e": 144.921,
+     "text": "and one attacks the draft trying to find a wrong claim. One checks my voice, and each loop runs until it comes back clean. Then it ships. The page gets built, checked, rendered, and committed to my site's repo.",
+     "gap": {
+      "d": 6.316,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 165.448,
+     "e": 210.525,
+     "text": "But there is one more thing before it goes live, and this is the most important step in the whole flow. It is the same rule from 2022. I read the full guide again, word by word, myself. Not skimming, really reading. Every claim, every command, every number. You never just copy and paste or rely directly on the output.",
+     "gap": {
+      "d": 9.182,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 241.877,
+     "e": 275.747,
+     "text": "Now compared to 2022, now the AI does 1,000 times more of the work and the rule did not move. Nothing goes out under my name before I read and verify and approve. So automate the work as much as you can, but never automate the responsibility."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 12.366,
+     "e": 13.27,
+     "cat": "false_start",
+     "text": "But before,",
+     "note": "'But before,' doubled by 'but before drafting,'; cut the FIRST"
+    },
+    {
+     "s": 59.974,
+     "e": 61.089,
+     "cat": "retake",
+     "text": "and backed by,",
+     "note": "AUDIT: 'and backed by, and backed by its evidence' — Hasan flagged the repeat at ~8:33; cut the FIRST. Tight: pre-gap 0.16s leaves a 0.08s tail on 'voice,'. Cutting the SECOND instead was considered and rejected — it would leave a 0.035s head on 'its', and a clipped word ONSET is far more audible than a clipped release."
+    },
+    {
+     "s": 77.834,
+     "e": 80.15,
+     "cat": "false_start",
+     "text": "After the first draft, we have the",
+     "note": "'After the first draft, we have the' abandoned; restarted as 'Now after the draft,'"
+    },
+    {
+     "s": 93.792,
+     "e": 112.96,
+     "cat": "retake",
+     "text": "One attacks the draft trying to find a— trying to find another take. One attacks the draft trying to find a wrong claim, other take. One attacks the draft to find Other, other take. And one attacks the draft,",
+     "note": "4 attempts at 'one attacks the draft trying to find a wrong claim' (3 slates); the delivery at 113.69 supersedes all"
+    },
+    {
+     "s": 151.117,
+     "e": 164.684,
+     "cat": "retake",
+     "text": "But there's one more important— but there is one more thing because it go— Other take. But there is one more thing before— but there is one more thing before— other take.",
+     "note": "4 attempts at 'but there is one more thing before it goes live' (2 slates)"
+    },
+    {
+     "s": 219.587,
+     "e": 240.864,
+     "cat": "retake",
+     "text": "Yes, compared to 2022, the AI now does maybe 1,000 times the work, maybe more than 1,000 times of the work. Other take.",
+     "note": "'Yes, compared to 2022 ... maybe more than 1,000 times of the work.' killed by the 'Other take.' slate at 240.24"
+    }
+   ],
+   "fluff_suggestions": [
+    {
+     "s": 21.609,
+     "e": 22.561,
+     "text": "my beliefs,",
+     "crit": "doubled-phrase",
+     "note": "'my beliefs, my beliefs about self-hosting' — cut the first. TIGHT: pre-gap 0.04s; a splice here WILL clip 'rules,'.",
+     "status": "suggested",
+     "pre_gap": 0.048
+    },
+    {
+     "s": 59.974,
+     "e": 61.089,
+     "text": "and backed by,",
+     "crit": "doubled-phrase",
+     "note": "'and backed by, and backed by its evidence' — cut the first. TIGHT: pre-gap 0.16s; 2.66s pause between them makes it read as a deliberate restart.",
+     "status": "suggested",
+     "pre_gap": 0.163
+    }
+   ]
+  },
+  {
+   "id": "0278",
+   "file": "raw/DJI_20260813145010_0278_D.MP4",
+   "duration": 174.42,
+   "keeps": [
+    {
+     "s": 1.885,
+     "e": 5.865,
+     "text": "Now the last part, and my favorite one.",
+     "gap": {
+      "d": 4.328,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 14.859,
+     "e": 94.966,
+     "text": "Look at the first stage of the pipeline and the last one. The first thing it does, it reads my brain. And the last thing it does, it feeds my brain again. Every lesson from the lab, every experiment, every result gets distilled and offered back to the brain, and I approve what it enters. So every guide makes my brain better, and a better brain makes the next guide better. It's a closed loop, and this is why exactly The brain video came first last week. If you missed it, you'll find the link in the description below. Go watch it and see how you can build your own brain and connect with AI.",
+     "gap": {
+      "d": 2.15,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 133.625,
+     "e": 136.086,
+     "text": "if you learned something new today, smash the like button",
+     "gap": {
+      "d": 2.59,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 143.724,
+     "e": 147.674,
+     "text": "And go now and read the guide I showed you in this video.",
+     "gap": {
+      "d": 3.438,
+      "t": "silence"
+     }
+    },
+    {
+     "s": 158.468,
+     "e": 172.642,
+     "text": "And if you find any AI slop, tell me in the comments. I read every one of them. Thank you and see you in the upcoming videos."
+    }
+   ],
+   "cuts": [
+    {
+     "s": 10.073,
+     "e": 14.271,
+     "cat": "false_start",
+     "text": "Look at the first stage of the pipeline and the final— another take.",
+     "note": "'Look at the first stage of the pipeline and the final—' + its own 'another take.' slate"
+    },
+    {
+     "s": 96.996,
+     "e": 100.244,
+     "cat": "retake",
+     "text": "Go watch it and see how you can connect your brain to AI.",
+     "note": "second delivery 'Go watch it and see how you can connect your brain to AI.' — EXCEPTION to cut-the-first, see flag 2"
+    },
+    {
+     "s": 127.482,
+     "e": 129.937,
+     "cat": "retake",
+     "text": "If you learned something new today, smash the like button.",
+     "note": "'If you learned something new today, smash the like button.' killed by the 'Overtake.' [=Other take] slate at 131.39"
+    },
+    {
+     "s": 131.268,
+     "e": 131.774,
+     "cat": "false_start",
+     "text": "Overtake.",
+     "note": "slate: 'Overtake.' (mis-transcribed 'Other take.')"
+    },
+    {
+     "s": 131.774,
+     "e": 132.972,
+     "cat": "retake",
+     "text": "If you learned something new today,",
+     "note": "'If you learned something new today,' doubled by the next delivery; cut the FIRST"
+    },
+    {
+     "s": 138.556,
+     "e": 143.627,
+     "cat": "retake",
+     "text": "and go now read the guide I created with AI.",
+     "note": "'and go now read the guide I created with AI.' doubled by 'And go now and read the guide I showed you in this video.'; cut the FIRST"
+    },
+    {
+     "s": 150.992,
+     "e": 157.353,
+     "cat": "retake",
+     "text": "And you— and if you spot any AI slop or robotic sentences.",
+     "note": "'And you—' false start + 'and if you spot any AI slop or robotic sentences.'; the next delivery completes the thought with 'tell me in the comments'"
+    }
+   ],
+   "fluff_suggestions": []
+  }
+ ],
+ "styles": {
+  "tight": {
+   "internal_gap": 0.4,
+   "min_tail": 0.14,
+   "max_tail": 0.4,
+   "head": 0.15,
+   "margin": 5.0,
+   "soft_gap": 1.2,
+   "soft_max_tail": 0.9,
+   "soft_margin": 3.0
+  },
+  "natural": {
+   "internal_gap": 0.4,
+   "min_tail": 0.26,
+   "max_tail": 0.45,
+   "head": 0.17,
+   "margin": 5.0,
+   "soft_gap": 1.2,
+   "soft_max_tail": 0.95,
+   "soft_margin": 3.0
+  }
+ },
+ "flags": [
+  {
+   "id": 1,
+   "clip": "0271",
+   "at": "00:20",
+   "issue": "Intro line wording. The only take with the stronger 'of this AI-powered content factory system' (at 09:81) was explicitly killed by your 'Repeat, repeat.' slate, so the cut uses the surviving take: 'of my content factory system'.",
+   "default": "follow the slate — keep 'my content factory system'",
+   "alternative": "restore 0271 words 6-21 (07.11-13.90) and cut 27-41 instead"
+  },
+  {
+   "id": 2,
+   "clip": "0278",
+   "at": "01:30",
+   "issue": "'Go watch it and see how you can...' is delivered twice: first '...build your own brain and connect with AI.' (90.31-94.97), then '...connect your brain to AI.' (97.12-100.12). This is the ONE place I did not cut-the-first: the second is a thinner paraphrase, and cutting the first needs a 0.21s splice that would clip 'below.' to a ~0.07s tail.",
+   "default": "keep the FIRST (richer) delivery, cut the second",
+   "alternative": "flip it if you want the shorter line — accept the clipped 'below.'"
+  },
+  {
+   "id": 3,
+   "clip": "0272",
+   "at": "02:29",
+   "issue": "'and we should adapt' then 'and you should adapt.' — reads as intentional we/you escalation rather than a retake, so both are kept.",
+   "default": "keep both",
+   "alternative": "cut 195-198 (149.33-150.15) if it plays as a stumble"
+  },
+  {
+   "id": 4,
+   "clip": "0273",
+   "at": "03:14",
+   "issue": "The free-ebook CTA (194.42-265.04) is the only block big enough to move the runtime. plan.md specified a companion-guide CTA here instead; the ebook is what got recorded. Measured cost is +32s of RENDER time, not the ~70s its raw span suggests — that stretch is mostly long pauses the engine already compresses.",
+   "default": "keep as recorded",
+   "alternative": "cut 281-427 to reclaim 32s (tight 10:10 -> 9:39, natural 10:36 -> 10:03)",
+   "decided": "2026-08-13 — KEEP. Hasan chose to keep the CTA and accept ~10:10, over plan.md's 10:00 ceiling."
+  },
+  {
+   "id": 5,
+   "clip": "*",
+   "at": "-",
+   "issue": "The 5 fluff/doubling suggestions are all left IN. Three of them (0275 'Supabase,', 0277 'my beliefs,', 0277 'and backed by,') cannot be spliced cleanly anyway — pre-gaps of 0.25s / 0.04s / 0.16s would truncate the PRECEDING word's release.",
+   "default": "leave all 5 in (status stays 'suggested', renderer never drops them)",
+   "alternative": "flip any to 'auto_applied' in the editor after hearing it",
+   "decided": "2026-08-13 — LEAVE IN. Hasan: 'just follow my recording' — no discretionary fluff removal. Slate-driven retake/false-start cuts still apply, since those ARE the recording's spoken instructions."
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "_comment": "video-2 (The Content Factory) - step 2 visual beats. BUILD IN PROGRESS, beat-by-beat.",
+ "_master_note": "FINAL DELIVERY CONFIG (2026-08-15): master is the re-timed h264 comp source (master-natural.mp4 rendered from work/render/natural-final, gated v:0==a:0==632.181s, then transcoded with -r 60000/1001 BEFORE -i to true CFR — the hevc_nvenc PTS-fast quirk, see render_cuts.py:165). Bake output is 4K60 via h264_nvenc (ffmpeg pinned 7.1 for the nvenc API ceiling). Output = 632.181 + 8.7 (B2bQuoteInsert) = 640.881s. The 1080p30 iteration preview config this replaced: width 1920 height 1080 fps 30 out video-2-preview.mp4, master videos/video-2/output/preview-natural.mp4, no vcodec overrides.",
+ "_pending_artifacts": "Cold open (0:00-1:12), recon (4:32-5:26), plan/stop (5:31-5:56), lab (5:56-7:26), hands/captures (7:26-8:04), brain/voice (8:04-8:29), verify+ship (8:29-8:51) beats REPLAY the real Supabase run per plan.md section 5 - blocked until media/projects/video-2/run-artifacts/ lands from the other PC.",
+ "master": "videos/video-2/output/master-natural-h264.mp4",
+ "master_fps": 60,
+ "remotion_out": "remotion/out",
+ "preview": {
+  "end_s": 632.181,
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "out": "videos/video-2/output/video-2-final-4k.mp4",
+  "vcodec_seg": ["-c:v", "h264_nvenc", "-preset", "p5", "-rc", "vbr", "-cq", "19", "-b:v", "0", "-maxrate", "150M", "-bufsize", "300M"],
+  "vcodec_out": ["-c:v", "h264_nvenc", "-preset", "p5", "-rc", "vbr", "-cq", "20", "-b:v", "0", "-maxrate", "120M", "-bufsize", "240M"]
+ },
+ "shots": [
+  {
+   "id": "ColdOpenPrompt",
+   "type": "split",
+   "master_in_s": 0.0,
+   "master_out_s": 10.2,
+   "master_box": { "x": 1605, "y": 163, "w": 300, "h": 300 },
+   "master_crop_cx": 0.47,
+   "master_crop_cy": 0.28,
+   "master_crop_zoom": 1.5,
+   "beat": "B1-coldopen",
+   "note": "ROUND-7: Hasan stays on camera in a CIRCLE pip top-right of the empty welcome area (center 1755,313 r135) — the shot is a transparent .mov, opaque except a circular alpha hole + coral ring; the split places the zoomed square face crop behind it. Hole in at 0.0, closes before the montage cut at 10.2. ROUND-2 content unchanged: prompt typing, 'content-factory' highlight (7.39), send on 'Let's run.' (9.17)."
+  },
+  {
+   "id": "ColdOpenMontage",
+   "type": "cutaway",
+   "master_in_s": 10.2,
+   "master_out_s": 34.1,
+   "beat": "B1-coldopen",
+   "note": "ROUND-2: explorer collapses at the split (more room both panes); the second editor group + divider only exist once draft.md opens; keyword-volume panel sits UNDER the Google results on 'pulls real search data' (11.3); runs to 34.1 so no face flash. P1 Google SERP + volumes -> docs -> github #39820. P2 DigitalOcean region picker + Frankfurt map (pin + DE flag 20.4) + real droplet line. P3 integrated terminal deploy/break/measure (ROUND-3: iconed pills on the right at 25.4/26.6/27.8, no sped-up tag). P4 ROUND-3: live capture animation — browser opens each real page, shutter flash + freeze into a thumbnail rail (capture SFX slots f592/f616/f640). P5 draft.md types itself (33.2)."
+  },
+  {
+   "id": "ColdOpenOutput",
+   "type": "cutaway",
+   "master_in_s": 34.1,
+   "master_out_s": 41.6,
+   "beat": "B1-coldopen",
+   "note": "ROUND-1 rebuild: faithful clone of the REAL published page (v6 captures: LearnWithHasan header, TL;DR green rail, checklist purple rail, intro, measured 11-container stack grid, deeper sections, ebook sidebar). Scrolls through the FULL guide 35.6-39.4 and lands on the stack grid; markers sweep the measured MB values on 'numbers it tested itself' (39.6)."
+  },
+  {
+   "id": "ColdOpenLines",
+   "type": "cutaway",
+   "master_in_s": 54.6,
+   "master_out_s": 61.9,
+   "beat": "B1-coldopen",
+   "note": "ROUND-2: the two VERBATIM sentences highlighted IN PLACE on the real guide page (shared GuidePage clone) — marker 1 in the intro on 'this line' (55.4), page jumps to the pooler section, marker 2 on 'this one' (56.4); chips me-talking/my-real-stories/my-real-numbers on 57.6/58.4/59.5."
+  },
+  {
+   "id": "B2BlocksTease",
+   "type": "overlay",
+   "master_in_s": 63.0,
+   "master_out_s": 71.5,
+   "beat": "B2-origin",
+   "note": "ROUND-4: transparent bottom-band overlay while Hasan stays on camera - the 5 block cards (FactoryKit BLOCKS icons + names ONLY, no subs: don't pre-empt B3) pop one by one f16/26/36/46/56 on 'the 5 building blocks of my content factory' (63.5-65.7); out with a dip at 70.9 before 'If you are ready' (71.6)."
+  },
+  {
+   "id": "B2aPaid2021",
+   "type": "split",
+   "master_in_s": 74.8,
+   "master_out_s": 91.9,
+   "master_box": { "x": 1280, "y": 0, "w": 640, "h": 1080 },
+   "master_crop_cx": 0.5,
+   "beat": "B2-origin",
+   "note": "ROUND-4: split screen - visuals on the LEFT 2/3, me cropped into the RIGHT third (bake.py 'split' type: master under the transparent .mov overlay). Left panel: $150-$300 (77.8), 'for one technical guide' (79.9), mini GuidePage callback on 'like this one' (81.5), '7 days of waiting' pill (84.2), chips experiments/tests/back-and-forth 87.6/89.1/89.6."
+  },
+  {
+   "id": "B2bQuoteInsert",
+   "type": "insert",
+   "master_at_s": 109.7,
+   "duration_s": 8.7,
+   "gain_db": 2.5,
+   "beat": "B2-origin",
+   "note": "ROUND-7: THE REAL PAUSE. The master clock (narration + the B2bVideo2022 cutaway) freezes at 109.7 — mid-gap after 'in that video' — while the actual 2022 video plays full-attention WITH ITS ORIGINAL AUDIO (clip-quotes.mp4 source 575.3-584.0s: 'must be used as a writing assistant' 575.9 / 'not just generate copy and paste' 579.9). Then the cut resumes and the quote pills land as the recap. Adds 8.7s to the OUTPUT; timeline stays in master seconds."
+  },
+  {
+   "id": "B2bVideo2022",
+   "type": "cutaway",
+   "master_in_s": 91.9,
+   "master_out_s": 123.2,
+   "beat": "B2-origin",
+   "note": "ROUND-4: one continuous YouTube journey (Screencast, live-DOM pages). Full-screen '2022' statement (92.4, hides me), REAL channel page on 'published a video' (95.4) - real banner/avatar/78-video tiles via yt-dlp - fast scroll + cursor click (98.4) opens the REAL watch page; the actual video PLAYS muted (clip-open.mp4). Zoom + modal on the real count 295,604 on '300,000' (102.9); player SEEKS to 9:33 on 'warned you then' (107.7) where he ACTUALLY says the lines (captions 575.9s/579.9s, clip-quotes.mp4) so each quote pill (icons, dimmed player) lands as the source moment plays (110.3/113.9); grey on 'generic content' (116.6), AI SLOP stamp (120.7). NOTE: the 2022 video is watch-by-link only today (channel tab = 78 public videos, oldest ~2023), so the grid seats the real tile among the oldest real-era tiles."
+  },
+  {
+   "id": "B4Input",
+   "type": "cutaway",
+   "master_in_s": 255.9,
+   "master_out_s": 276.4,
+   "beat": "B4",
+   "note": "ROUND-5: conversational prompt (ColdOpenPrompt style, his spoken phrases: 'self-host supabase, focus on the hard parts nobody documents, and run it on a real server' + 'use the content-factory', highlight sweep on its word 273.3). Typing f100-298 synced to the read; send on 'That's it.' (266.6); struck chips kept (267.7/269.1/270.0). On 'already knows all the stages' (274.6) the 9-stage rail is REPLACED: the illustrated factory (_shared/FactoryLine) assembles/powers on across the bottom band, stations light one by one, and the prompt drops onto the belt as the PIECE.md piece (f598)."
+  },
+  {
+   "id": "B5aReconRead",
+   "type": "cutaway",
+   "master_in_s": 276.4,
+   "master_out_s": 290.5,
+   "beat": "B5",
+   "note": "ROUND-5: factory band along the bottom (piece rides hopper -> station 1 READ); top = compressed SERP dissection table (left) + a REAL browser reading beside it (right): real Google SERP, then supabase docs (f292) and github #39820 (f332) opened with cursor + clicks. Covers column lights on 'cover' (288.1), misses on 'miss' (289.1)."
+  },
+  {
+   "id": "B5bDiscovery",
+   "type": "cutaway",
+   "master_in_s": 290.5,
+   "master_out_s": 335.2,
+   "beat": "B5",
+   "note": "ROUND-5 re-lay for the top half (factory band: piece advances 1 -> 2 DISCOVER on the beat boundary). Real keyword table left, 3x badge + honesty gate right. 3x badge on '3 times bigger' (306.7); gate on 'really honest' (314.8); 'the topic is weak' 322.8; THAT'S A FEATURE stamp 333.9."
+  },
+  {
+   "id": "B6PlanStop",
+   "type": "cutaway",
+   "master_in_s": 335.2,
+   "master_out_s": 356.4,
+   "beat": "B6",
+   "note": "ROUND-5 re-lay for the top half (factory band: piece advances 2 -> 3 PLAN). Real S3 plan: thesis, E1-E8 chips, est $0.70 / cap $1.50. Gate dims the plan on 'it stops' (349.3); the REAL Checkpoint 1 record with verbatim 'apprive' lands on 'I approve.' (354.8)."
+  },
+  {
+   "id": "B3FiveBlocks",
+   "type": "split",
+   "master_in_s": 143.0,
+   "master_out_s": 216.0,
+   "master_box": { "x": 1280, "y": 0, "w": 640, "h": 1080 },
+   "master_crop_cx": 0.47,
+   "beat": "B3",
+   "note": "ROUND-7 REDESIGN: split + living mesh. Hasan cropped into the RIGHT third (B2a split language), presentation LEFT 1280px: the four blocks land in the CORNERS on their cues (contract 148.8 / senses 161.0 / hands 173.2 / lab 186.2), each with a LIVE mini-animation (mini pipeline / data streaming / mini browser clicking+typing / mini terminal breaking things). The BRAIN lands CENTER on 201.9, 'the most important' tag 203.1, then animated progress lines draw brain->cards forming the mesh. Chips/subs reveals kept per P2; caption 'writes exactly like me' 214.0."
+  },
+  {
+   "id": "EbookCta",
+   "type": "cutaway",
+   "master_in_s": 227.0,
+   "master_out_s": 255.9,
+   "beat": "CTA",
+   "note": "ROUND-7 REBUILD: the REAL book (my-books-creator/books/blocks/universal-foundations, pages rendered to media/projects/video-2/ebook/). The book floats LEFT as a hovering 3D mockup (tilt + shadow + slow bob) with the real cover; 100% FREE badge on 'totally free' (235.9); ZOOM INTO the book on 'I designed it' (237.3) — it opens and pages through real spreads synced to the narration (blocks page 239.0, 'one block on each page' 240.0, diagram spread 243.0, checklist spread 246.4, rules page 249.3); ZOOM OUT on 'It's free, grab it' (252.9). Extended to 255.9 (NO face gap): dip to dark on 'let's continue our work' and hard cut straight into B4Input's Claude Code view."
+  },
+  {
+   "id": "B7aLabBoot",
+   "type": "cutaway",
+   "master_in_s": 356.4,
+   "master_out_s": 387.9,
+   "beat": "B7-lab",
+   "note": "ROUND-5: terminal LEFT replaying e1_bringup.out; a real DigitalOcean droplet-creation browser working RIGHT (region FRA1 -> size 4GB -> Create, cursor + clicks, created strip); RAM chart takes over the right slot on 'measured everything' (384). Timing pills are a structural ChipRow (alignment fix): DigitalOcean 361.4 / cloned 2s 370.7 / 8.9GB in 114s 374.8 / up in 20s 378 / 11 healthy 379.7. Factory band: piece 3 -> 4 LAB."
+  },
+  {
+   "id": "B7bBreak",
+   "type": "cutaway",
+   "master_in_s": 387.9,
+   "master_out_s": 425.0,
+   "beat": "B7-lab",
+   "note": "ROUND-5: same layout language as B7a (terminal LEFT, story slot RIGHT). e3/e6/e7 montage cards pop as the terminal runs them; at 'the big one' (406.4) the E5 card takes the slot: keys rotated -> pooler silent hang (stalled cursor) -> 'stuck 8 hours' 415.4 -> diagnosed/fixed/documented ticks 419.1-421.6. Piece stays at station 4."
+  },
+  {
+   "id": "B7cAdvice",
+   "type": "cutaway",
+   "master_in_s": 425.0,
+   "master_out_s": 447.3,
+   "beat": "B7-lab",
+   "note": "ROUND-5: same layout language (terminal LEFT with the teardown typing at 440.5+, advice card RIGHT: secrets-before-first-boot 425.4 / pooler dies quietly 428.4 / no-guide 430.8 / lived it 436.4), $0.35 bill lands over the terminal on '35 cents' (445.9) - Hasan chose the narration's $0.35 over the $0.76 final actual. Piece stays at station 4."
+  },
+  {
+   "id": "B8Captures",
+   "type": "cutaway",
+   "master_in_s": 456.8,
+   "master_out_s": 481.3,
+   "beat": "B8-hands",
+   "note": "ROUND-6: a LIVE capture run. The browser surfs the run's real pages (a2 Studio editor -> a3 Mailpit -> a4 SQL -> a5 Auth users; cursor, scroll, URL changes); on each payoff a viewfinder pulse + shutter flash freezes it and the capture FLIES into the right rail, which starts empty and builds live (SFX shutter slots f150/f280/f410/f536). Pills removed. Never-blurs rule row kept on its cues (473.0-480.7). Factory band: piece 4 -> 5 SCREENSHOTS."
+  },
+  {
+   "id": "B9Brain",
+   "type": "cutaway",
+   "master_in_s": 484.8,
+   "master_out_s": 510.0,
+   "beat": "B9-brain",
+   "note": "ROUND-5: the brain feeds the page. Brain items land on their words (488-495.7) and emit feed particles INTO the real guide page assembling right: the TL;DR intro TYPES itself in his voice from 'draft opens' (500.8), the container/RAM grid drops on 'in my words' (506.5), Playwright screenshots snap on 'in my voice' (507.6), evidence marker sweeps the measured line on 'backed by its evidence' (508.5). Factory band: piece 5 -> 6 WRITE."
+  },
+  {
+   "id": "B10Verify",
+   "type": "cutaway",
+   "master_in_s": 510.0,
+   "master_out_s": 525.8,
+   "beat": "B10-verify",
+   "note": "ROUND-6 redesign: the REAL guide page (shared GuidePage clone in a browser, left) being CHECKED — scanning beams sweep the page per loop on its cue (V1 evidence 515.5 / V2 claims attack 517.4 / V4 voice 520.5), the page scrolls to each loop's section (stack grid / pooler trap / TL;DR), findings land in the loop cards right and everything ticks green on 'until it comes back clean' (522.6-524.8). Factory band: the piece advances 6 -> 7 VERIFY+SHIP."
+  },
+  {
+   "id": "B11Ship",
+   "type": "cutaway",
+   "master_in_s": 525.8,
+   "master_out_s": 531.7,
+   "beat": "B11-ship",
+   "note": "ROUND-6 redesign: the checked guide (green ring, 6/6 loops clean) left, build/ship terminal right — built/checked/rendered/committed lines on their words (527.4-529.4), real commit chip 057fb87 on 530.3, SHIPPED stamp. Factory band completes: piece parked at station 7."
+  },
+  {
+   "id": "RuleCard",
+   "type": "cutaway",
+   "master_in_s": 567.9,
+   "master_out_s": 573.4,
+   "beat": "rule",
+   "note": "The thesis card: 'Automate the work.' (568.0) / 'Never automate the responsibility.' (570.9) with accent underline wipe."
+  },
+  {
+   "id": "Flywheel",
+   "type": "cutaway",
+   "master_in_s": 576.6,
+   "master_out_s": 609.2,
+   "beat": "flywheel",
+   "note": "Closed loop: S1 read-arc draws on 'reads my brain' (581.2), S9 feed-arc on 'feeds my brain again' (584.4), lesson/experiment/result pellets flow back 586-593, 'I approve what enters' gate 594.3, headline flips to 'closed loop' 603.0, video-1 callback chip 606.4."
+  },
+  {
+   "id": "B15Close",
+   "type": "overlay",
+   "master_in_s": 618.0,
+   "master_out_s": 632.181,
+   "beat": "close",
+   "note": "ROUND-6: NOT a cutaway — Hasan stays on camera. Transparent bottom-band overlay (ProRes 4444 .mov): smash-the-like 619.3, guide-URL card 621.5, AI-slop comments card 625.5, LearnWithHasan signoff 630.3, all in the lower band, never covering the center-framed face. Runs to the exact end of the master."
+  }
+ ]
+}

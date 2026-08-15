@@ -35,7 +35,8 @@
         "vox-1-coffee",
         "short-11-map",
         "ch-5-three-skills",
-        "blue-man-1-door"
+        "blue-man-1-door",
+        "video-2"
       ]
     },
     {
@@ -95,7 +96,8 @@
         "short-11-map",
         "short-12-orbit",
         "ch-5-three-skills",
-        "blue-man-1-door"
+        "blue-man-1-door",
+        "video-2"
       ]
     },
     {
@@ -129,7 +131,8 @@
         "short-10-fees",
         "vox-1-coffee",
         "short-11-map",
-        "short-12-orbit"
+        "short-12-orbit",
+        "video-2"
       ]
     },
     {
@@ -159,7 +162,8 @@
         "short-10-fees",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -196,7 +200,8 @@
         "vox-1-coffee",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -230,7 +235,8 @@
         "short-10-fees",
         "vox-1-coffee",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -279,7 +285,8 @@
       "prompt": "A soft, quick message-send confirmation. Subtle airy swish with a light tick, like sending a chat message in a premium app. Very short, understated, dry, no music.",
       "used_in": [
         "ch-3-honeypot",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -302,7 +309,8 @@
       "license": "ElevenLabs generated (text-to-sfx); owner: the repo author, commercial use per the account's ElevenLabs plan",
       "prompt": "A single soft paper page turn. Light natural page flip of a storybook, gentle and clean, close-miked, short, dry, no music.",
       "used_in": [
-        "vox-1-coffee"
+        "vox-1-coffee",
+        "video-2"
       ]
     },
     {
@@ -332,7 +340,8 @@
         "short-4-git",
         "short-5-prob",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -410,7 +419,8 @@
         "short-10-fees",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -568,7 +578,8 @@
         "vox-1-coffee",
         "short-11-map",
         "short-12-orbit",
-        "ch-5-three-skills"
+        "ch-5-three-skills",
+        "video-2"
       ]
     },
     {
@@ -788,6 +799,30 @@
       "prompt": "A deep muffled launch thump, like a distant mortar or a rocket igniting far away: a soft round low-frequency push with a short body and a gentle tail. Warm and restrained, no sharp crack, no explosion debris, no reverb tail of a war film. Dry, clean, close to a felt mallet on a large drum.",
       "used_in": [
         "short-12-orbit"
+      ]
+    },
+    {
+      "id": "camera-shutter",
+      "file": "clips/camera-shutter.mp3",
+      "category": "foley",
+      "tags": [
+        "camera",
+        "shutter",
+        "photo",
+        "capture",
+        "screenshot",
+        "snap",
+        "foley"
+      ],
+      "duration_s": 0.522,
+      "peak_dbfs": -1.5,
+      "loudness_lufs": -21.2,
+      "source": "elevenlabs:sound-generation",
+      "model": "eleven_text_to_sound_v2",
+      "license": "ElevenLabs generated (text-to-sfx); owner: the repo author, commercial use per the account's ElevenLabs plan",
+      "prompt": "A single camera shutter firing once: a crisp, quick mechanical click-clack of an SLR photo capture, clean and satisfying, close-mic, premium and understated, very short, dry, no motor wind, no beep, no music.",
+      "used_in": [
+        "video-2"
       ]
     },
     {

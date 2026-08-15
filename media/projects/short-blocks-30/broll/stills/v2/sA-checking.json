@@ -1,0 +1,13 @@
+{
+  "prompt": "Photorealistic vertical photograph, 9:16. The SAME man as in the first reference image (identical face, short dark hair, full dark beard) in the SAME home office as the second and third reference images, same olive green t-shirt. Camera placed just beside the monitor, facing him almost frontally: he leans slightly toward the screen, eyes on the display (just off camera), lit by soft window light plus a faint screen glow, curious slightly-surprised expression as if a page just loaded instantly. Face fully visible, chest-up medium-close shot, hand on the mouse. Natural skin texture, warm natural grade, shallow depth of field, bookshelf and plants softly blurred behind. No text overlays, no watermarks.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\projects\\short-ai-test\\ref-vertical.png",
+    "media\\library\\workspace\\w1-establishing.jpg",
+    "media\\projects\\short-blocks-30\\broll\\stills\\v2\\h1-at-desk.png"
+  ],
+  "created": "2026-08-13T19:57:18"
+}

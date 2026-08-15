@@ -1,0 +1,9 @@
+﻿{
+    "result_video_url":  "https://v3b.fal.media/files/b/0aa5ebbb/sbAz7WQxmMUpXuYXNV5lg_video.mp4",
+    "resolution":  "1080p",
+    "duration":  10.057143,
+    "request_id":  "019ff142-8bdc-7681-860b-c2f5638a9abc",
+    "image":  "media\\projects\\video-1\\l5-ref-847.00.jpg",
+    "endpoint":  "fal-ai/bytedance/omnihuman/v1.5",
+    "audio":  "media\\projects\\video-1\\ai-self-test\\vo-v1.mp3"
+}

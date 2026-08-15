@@ -1,0 +1,11 @@
+{
+  "prompt": "Photorealistic cinematic vertical still, 9:16. A man seen strictly FROM BEHIND, sitting at a tidy desk in a bright modern home office, wearing an olive green t-shirt. He faces a large monitor showing a dark terminal-style coding interface (Claude Code) with orange accent text. Soft daylight from a window, shallow depth of field, warm natural grade. His face is NOT visible at all — back of head and shoulders only. No text overlays, no watermark.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\projects\\short-ai-test\\ref-vertical.png"
+  ],
+  "created": "2026-08-13T18:22:32"
+}

@@ -1,0 +1,1010 @@
+{
+ "id": "9e055627-3025-43ec-93a7-d7582fc3f83f",
+ "language_model": "assemblyai_default",
+ "acoustic_model": "assemblyai_default",
+ "language_code": "en",
+ "speech_understanding": null,
+ "translated_texts": null,
+ "status": "completed",
+ "audio_url": "https://cdn.assemblyai.com/upload/edb29b739226063a699f03b4ce1c71b37d0416517d5d2ffbf8c2a06a325805a6/799373b8-d254-4fe6-9895-44cc08d42cfd",
+ "text": "I will repeat the final section. In this video, I'll show you the 5 building blocks of this AI-powered content factory system. Repeat, repeat. In this video, in this video, I'll show you the 5 building blocks of my content factory system. And by the end, you'll know exactly how to build your own for your own niche. Other take. And by the end, you'll know exactly how to build your own for your own niche. Other take. And by the end, And by the end of this video, and by the end, you will have another take. And by the end, and by the end, you know exactly how to build one for your own niche. If you are ready, let's get started.",
+ "words": [
+  {
+   "text": "I",
+   "start": 2421,
+   "end": 2469,
+   "confidence": 0.9281416,
+   "speaker": null
+  },
+  {
+   "text": "will",
+   "start": 2567,
+   "end": 2648,
+   "confidence": 0.90914106,
+   "speaker": null
+  },
+  {
+   "text": "repeat",
+   "start": 2648,
+   "end": 3151,
+   "confidence": 0.9997789,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 3151,
+   "end": 3232,
+   "confidence": 0.99824715,
+   "speaker": null
+  },
+  {
+   "text": "final",
+   "start": 3232,
+   "end": 3816,
+   "confidence": 0.99741495,
+   "speaker": null
+  },
+  {
+   "text": "section.",
+   "start": 4545,
+   "end": 4983,
+   "confidence": 0.9956271,
+   "speaker": null
+  },
+  {
+   "text": "In",
+   "start": 7108,
+   "end": 7173,
+   "confidence": 0.9948939,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 7351,
+   "end": 7546,
+   "confidence": 0.9998424,
+   "speaker": null
+  },
+  {
+   "text": "video,",
+   "start": 7611,
+   "end": 8081,
+   "confidence": 0.99585897,
+   "speaker": null
+  },
+  {
+   "text": "I'll",
+   "start": 9810,
+   "end": 10053,
+   "confidence": 0.9980849,
+   "speaker": null
+  },
+  {
+   "text": "show",
+   "start": 10053,
+   "end": 10214,
+   "confidence": 0.99991333,
+   "speaker": null
+  },
+  {
+   "text": "you",
+   "start": 10214,
+   "end": 10279,
+   "confidence": 0.9998797,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 10295,
+   "end": 10392,
+   "confidence": 0.999703,
+   "speaker": null
+  },
+  {
+   "text": "5",
+   "start": 10392,
+   "end": 11006,
+   "confidence": 0.9999479,
+   "speaker": null
+  },
+  {
+   "text": "building",
+   "start": 11022,
+   "end": 11264,
+   "confidence": 0.99963295,
+   "speaker": null
+  },
+  {
+   "text": "blocks",
+   "start": 11361,
+   "end": 11684,
+   "confidence": 0.9999546,
+   "speaker": null
+  },
+  {
+   "text": "of",
+   "start": 11684,
+   "end": 11781,
+   "confidence": 0.9997929,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 11846,
+   "end": 12185,
+   "confidence": 0.9924859,
+   "speaker": null
+  },
+  {
+   "text": "AI-powered",
+   "start": 12314,
+   "end": 12960,
+   "confidence": 0.99971837,
+   "speaker": null
+  },
+  {
+   "text": "content",
+   "start": 12960,
+   "end": 13219,
+   "confidence": 0.8858071,
+   "speaker": null
+  },
+  {
+   "text": "factory",
+   "start": 13219,
+   "end": 13526,
+   "confidence": 0.9998727,
+   "speaker": null
+  },
+  {
+   "text": "system.",
+   "start": 13526,
+   "end": 13897,
+   "confidence": 0.99357694,
+   "speaker": null
+  },
+  {
+   "text": "Repeat,",
+   "start": 18577,
+   "end": 18916,
+   "confidence": 0.9780266,
+   "speaker": null
+  },
+  {
+   "text": "repeat.",
+   "start": 18980,
+   "end": 19238,
+   "confidence": 0.9967159,
+   "speaker": null
+  },
+  {
+   "text": "In",
+   "start": 20691,
+   "end": 20740,
+   "confidence": 0.99863225,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 20933,
+   "end": 21175,
+   "confidence": 0.9997124,
+   "speaker": null
+  },
+  {
+   "text": "video,",
+   "start": 21175,
+   "end": 21660,
+   "confidence": 0.9874584,
+   "speaker": null
+  },
+  {
+   "text": "in",
+   "start": 22128,
+   "end": 22273,
+   "confidence": 0.99325114,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 22305,
+   "end": 22547,
+   "confidence": 0.99995625,
+   "speaker": null
+  },
+  {
+   "text": "video,",
+   "start": 22547,
+   "end": 22935,
+   "confidence": 0.99975693,
+   "speaker": null
+  },
+  {
+   "text": "I'll",
+   "start": 23112,
+   "end": 23322,
+   "confidence": 0.99923533,
+   "speaker": null
+  },
+  {
+   "text": "show",
+   "start": 23354,
+   "end": 23500,
+   "confidence": 0.9999604,
+   "speaker": null
+  },
+  {
+   "text": "you",
+   "start": 23500,
+   "end": 23564,
+   "confidence": 0.99993753,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 23580,
+   "end": 23645,
+   "confidence": 0.9999205,
+   "speaker": null
+  },
+  {
+   "text": "5",
+   "start": 23677,
+   "end": 24129,
+   "confidence": 0.99998343,
+   "speaker": null
+  },
+  {
+   "text": "building",
+   "start": 24161,
+   "end": 24436,
+   "confidence": 0.9998423,
+   "speaker": null
+  },
+  {
+   "text": "blocks",
+   "start": 24484,
+   "end": 24823,
+   "confidence": 0.99994695,
+   "speaker": null
+  },
+  {
+   "text": "of",
+   "start": 24888,
+   "end": 25017,
+   "confidence": 0.9999145,
+   "speaker": null
+  },
+  {
+   "text": "my",
+   "start": 25033,
+   "end": 25210,
+   "confidence": 0.9994159,
+   "speaker": null
+  },
+  {
+   "text": "content",
+   "start": 25340,
+   "end": 25527,
+   "confidence": 0.99820065,
+   "speaker": null
+  },
+  {
+   "text": "factory",
+   "start": 25527,
+   "end": 25816,
+   "confidence": 0.9999232,
+   "speaker": null
+  },
+  {
+   "text": "system.",
+   "start": 25816,
+   "end": 26258,
+   "confidence": 0.9672478,
+   "speaker": null
+  },
+  {
+   "text": "And",
+   "start": 26725,
+   "end": 26791,
+   "confidence": 0.9632021,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 26889,
+   "end": 27054,
+   "confidence": 0.9996075,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 27054,
+   "end": 27137,
+   "confidence": 0.99988484,
+   "speaker": null
+  },
+  {
+   "text": "end,",
+   "start": 27285,
+   "end": 27598,
+   "confidence": 0.98906195,
+   "speaker": null
+  },
+  {
+   "text": "you'll",
+   "start": 30742,
+   "end": 30936,
+   "confidence": 0.9923793,
+   "speaker": null
+  },
+  {
+   "text": "know",
+   "start": 30936,
+   "end": 30969,
+   "confidence": 0.9999292,
+   "speaker": null
+  },
+  {
+   "text": "exactly",
+   "start": 30969,
+   "end": 31567,
+   "confidence": 0.9998971,
+   "speaker": null
+  },
+  {
+   "text": "how",
+   "start": 31616,
+   "end": 31778,
+   "confidence": 0.9999455,
+   "speaker": null
+  },
+  {
+   "text": "to",
+   "start": 31778,
+   "end": 31924,
+   "confidence": 0.9999107,
+   "speaker": null
+  },
+  {
+   "text": "build",
+   "start": 31940,
+   "end": 32183,
+   "confidence": 0.9999409,
+   "speaker": null
+  },
+  {
+   "text": "your",
+   "start": 32183,
+   "end": 32425,
+   "confidence": 0.9999045,
+   "speaker": null
+  },
+  {
+   "text": "own",
+   "start": 32506,
+   "end": 32733,
+   "confidence": 0.9999175,
+   "speaker": null
+  },
+  {
+   "text": "for",
+   "start": 35987,
+   "end": 36100,
+   "confidence": 0.97496957,
+   "speaker": null
+  },
+  {
+   "text": "your",
+   "start": 36100,
+   "end": 36343,
+   "confidence": 0.9998622,
+   "speaker": null
+  },
+  {
+   "text": "own",
+   "start": 36391,
+   "end": 36618,
+   "confidence": 0.9998739,
+   "speaker": null
+  },
+  {
+   "text": "niche.",
+   "start": 37120,
+   "end": 37427,
+   "confidence": 0.9994578,
+   "speaker": null
+  },
+  {
+   "text": "Other",
+   "start": 41732,
+   "end": 41909,
+   "confidence": 0.9794033,
+   "speaker": null
+  },
+  {
+   "text": "take.",
+   "start": 41909,
+   "end": 42295,
+   "confidence": 0.98980546,
+   "speaker": null
+  },
+  {
+   "text": "And",
+   "start": 43422,
+   "end": 43582,
+   "confidence": 0.99869823,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 43582,
+   "end": 43759,
+   "confidence": 0.9999192,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 43759,
+   "end": 43840,
+   "confidence": 0.9999517,
+   "speaker": null
+  },
+  {
+   "text": "end,",
+   "start": 43985,
+   "end": 44129,
+   "confidence": 0.9998283,
+   "speaker": null
+  },
+  {
+   "text": "you'll",
+   "start": 44306,
+   "end": 44516,
+   "confidence": 0.9993144,
+   "speaker": null
+  },
+  {
+   "text": "know",
+   "start": 44516,
+   "end": 44564,
+   "confidence": 0.99996924,
+   "speaker": null
+  },
+  {
+   "text": "exactly",
+   "start": 44644,
+   "end": 45336,
+   "confidence": 0.9999703,
+   "speaker": null
+  },
+  {
+   "text": "how",
+   "start": 45352,
+   "end": 45529,
+   "confidence": 0.9999598,
+   "speaker": null
+  },
+  {
+   "text": "to",
+   "start": 45529,
+   "end": 45626,
+   "confidence": 0.9999536,
+   "speaker": null
+  },
+  {
+   "text": "build",
+   "start": 45674,
+   "end": 45916,
+   "confidence": 0.9999826,
+   "speaker": null
+  },
+  {
+   "text": "your",
+   "start": 45916,
+   "end": 46173,
+   "confidence": 0.9999666,
+   "speaker": null
+  },
+  {
+   "text": "own",
+   "start": 46237,
+   "end": 46543,
+   "confidence": 0.9999536,
+   "speaker": null
+  },
+  {
+   "text": "for",
+   "start": 46752,
+   "end": 47042,
+   "confidence": 0.99963045,
+   "speaker": null
+  },
+  {
+   "text": "your",
+   "start": 47042,
+   "end": 47283,
+   "confidence": 0.9998839,
+   "speaker": null
+  },
+  {
+   "text": "own",
+   "start": 47283,
+   "end": 47509,
+   "confidence": 0.9999082,
+   "speaker": null
+  },
+  {
+   "text": "niche.",
+   "start": 47783,
+   "end": 47912,
+   "confidence": 0.9998779,
+   "speaker": null
+  },
+  {
+   "text": "Other",
+   "start": 50519,
+   "end": 50665,
+   "confidence": 0.9983956,
+   "speaker": null
+  },
+  {
+   "text": "take.",
+   "start": 50794,
+   "end": 51005,
+   "confidence": 0.99955356,
+   "speaker": null
+  },
+  {
+   "text": "And",
+   "start": 51814,
+   "end": 51992,
+   "confidence": 0.99365765,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 51992,
+   "end": 52154,
+   "confidence": 0.99972254,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 52154,
+   "end": 52300,
+   "confidence": 0.9996971,
+   "speaker": null
+  },
+  {
+   "text": "end,",
+   "start": 52381,
+   "end": 52608,
+   "confidence": 0.9070439,
+   "speaker": null
+  },
+  {
+   "text": "And",
+   "start": 54142,
+   "end": 54240,
+   "confidence": 0.98908603,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 54240,
+   "end": 54451,
+   "confidence": 0.9997867,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 54468,
+   "end": 54549,
+   "confidence": 0.9999814,
+   "speaker": null
+  },
+  {
+   "text": "end",
+   "start": 54630,
+   "end": 54744,
+   "confidence": 0.9999839,
+   "speaker": null
+  },
+  {
+   "text": "of",
+   "start": 54793,
+   "end": 54939,
+   "confidence": 0.9999331,
+   "speaker": null
+  },
+  {
+   "text": "this",
+   "start": 54972,
+   "end": 55086,
+   "confidence": 0.99996567,
+   "speaker": null
+  },
+  {
+   "text": "video,",
+   "start": 55199,
+   "end": 55622,
+   "confidence": 0.9550149,
+   "speaker": null
+  },
+  {
+   "text": "and",
+   "start": 56191,
+   "end": 56321,
+   "confidence": 0.998357,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 56354,
+   "end": 56598,
+   "confidence": 0.9999393,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 56598,
+   "end": 56679,
+   "confidence": 0.9999647,
+   "speaker": null
+  },
+  {
+   "text": "end,",
+   "start": 56826,
+   "end": 57167,
+   "confidence": 0.99870086,
+   "speaker": null
+  },
+  {
+   "text": "you",
+   "start": 57411,
+   "end": 57492,
+   "confidence": 0.9998281,
+   "speaker": null
+  },
+  {
+   "text": "will",
+   "start": 57492,
+   "end": 57590,
+   "confidence": 0.65160096,
+   "speaker": null
+  },
+  {
+   "text": "have",
+   "start": 57655,
+   "end": 57996,
+   "confidence": 0.9999175,
+   "speaker": null
+  },
+  {
+   "text": "another",
+   "start": 58566,
+   "end": 59118,
+   "confidence": 0.51211184,
+   "speaker": null
+  },
+  {
+   "text": "take.",
+   "start": 59118,
+   "end": 59362,
+   "confidence": 0.98671865,
+   "speaker": null
+  },
+  {
+   "text": "And",
+   "start": 61660,
+   "end": 61756,
+   "confidence": 0.9979906,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 61756,
+   "end": 61885,
+   "confidence": 0.9998802,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 61933,
+   "end": 62013,
+   "confidence": 0.9999857,
+   "speaker": null
+  },
+  {
+   "text": "end,",
+   "start": 62158,
+   "end": 62464,
+   "confidence": 0.9996202,
+   "speaker": null
+  },
+  {
+   "text": "and",
+   "start": 62882,
+   "end": 63010,
+   "confidence": 0.9988895,
+   "speaker": null
+  },
+  {
+   "text": "by",
+   "start": 63059,
+   "end": 63171,
+   "confidence": 0.99998546,
+   "speaker": null
+  },
+  {
+   "text": "the",
+   "start": 63284,
+   "end": 63445,
+   "confidence": 0.99999213,
+   "speaker": null
+  },
+  {
+   "text": "end,",
+   "start": 63445,
+   "end": 63589,
+   "confidence": 0.99995697,
+   "speaker": null
+  },
+  {
+   "text": "you",
+   "start": 63686,
+   "end": 63782,
+   "confidence": 0.9999013,
+   "speaker": null
+  },
+  {
+   "text": "know",
+   "start": 63782,
+   "end": 63879,
+   "confidence": 0.7648685,
+   "speaker": null
+  },
+  {
+   "text": "exactly",
+   "start": 63943,
+   "end": 64715,
+   "confidence": 0.9999546,
+   "speaker": null
+  },
+  {
+   "text": "how",
+   "start": 64828,
+   "end": 65021,
+   "confidence": 0.9999907,
+   "speaker": null
+  },
+  {
+   "text": "to",
+   "start": 65053,
+   "end": 65117,
+   "confidence": 0.9999938,
+   "speaker": null
+  },
+  {
+   "text": "build",
+   "start": 65149,
+   "end": 65455,
+   "confidence": 0.99999297,
+   "speaker": null
+  },
+  {
+   "text": "one",
+   "start": 65471,
+   "end": 65680,
+   "confidence": 0.9993672,
+   "speaker": null
+  },
+  {
+   "text": "for",
+   "start": 66114,
+   "end": 66275,
+   "confidence": 0.9996729,
+   "speaker": null
+  },
+  {
+   "text": "your",
+   "start": 66275,
+   "end": 66581,
+   "confidence": 0.9999788,
+   "speaker": null
+  },
+  {
+   "text": "own",
+   "start": 66581,
+   "end": 66806,
+   "confidence": 0.9999666,
+   "speaker": null
+  },
+  {
+   "text": "niche.",
+   "start": 67481,
+   "end": 67690,
+   "confidence": 0.9995344,
+   "speaker": null
+  },
+  {
+   "text": "If",
+   "start": 68350,
+   "end": 68510,
+   "confidence": 0.999683,
+   "speaker": null
+  },
+  {
+   "text": "you",
+   "start": 68510,
+   "end": 68575,
+   "confidence": 0.99998164,
+   "speaker": null
+  },
+  {
+   "text": "are",
+   "start": 68591,
+   "end": 68687,
+   "confidence": 0.9890304,
+   "speaker": null
+  },
+  {
+   "text": "ready,",
+   "start": 68687,
+   "end": 68977,
+   "confidence": 0.9999557,
+   "speaker": null
+  },
+  {
+   "text": "let's",
+   "start": 69491,
+   "end": 69845,
+   "confidence": 0.99995506,
+   "speaker": null
+  },
+  {
+   "text": "get",
+   "start": 70296,
+   "end": 70665,
+   "confidence": 0.9997261,
+   "speaker": null
+  },
+  {
+   "text": "started.",
+   "start": 70955,
+   "end": 71389,
+   "confidence": 0.98221,
+   "speaker": null
+  }
+ ],
+ "utterances": null,
+ "confidence": 0.98554116,
+ "audio_duration": 74,
+ "punctuate": true,
+ "format_text": true,
+ "webhook_url": null,
+ "webhook_status_code": null,
+ "webhook_auth": false,
+ "webhook_auth_header_name": null,
+ "speed_boost": false,
+ "auto_highlights_result": null,
+ "auto_highlights": false,
+ "audio_start_from": null,
+ "audio_end_at": null,
+ "word_boost": [],
+ "boost_param": null,
+ "prompt": "Verbatim transcription of a solo YouTube tutorial recording with multiple takes. Transcribe exactly as spoken: keep false starts, repeated words, self-corrections, and filler words (um, uh) \u2014 do not clean them up.",
+ "keyterms_prompt": [
+  "Claude Code",
+  "Anthropic",
+  "content factory",
+  "skill",
+  "subagent",
+  "Supabase",
+  "self-host",
+  "self-hosting",
+  "Supabase Pro",
+  "Postgres",
+  "PostgreSQL",
+  "pgvector",
+  "Docker",
+  "Docker Compose",
+  "Kong",
+  "GoTrue",
+  "Realtime",
+  "Supabase Studio",
+  "DigitalOcean",
+  "droplet",
+  "VPS",
+  "SSH",
+  "teardown",
+  "provision",
+  "SERP",
+  "keyword volume",
+  "answer engine",
+  "SEO",
+  "search intent",
+  "Playwright",
+  "headless",
+  "screenshot",
+  "recon",
+  "evidence manifest",
+  "claims map",
+  "claims table",
+  "checkpoint",
+  "verification loop",
+  "ledger",
+  "orphan claim",
+  "brainoutside.com",
+  "BrainOutside",
+  "second brain",
+  "LearnWithHasan",
+  "learnwithhasan.com",
+  "Langfuse",
+  "Open WebUI",
+  "n8n",
+  "Remotion",
+  "AssemblyAI",
+  "ElevenLabs",
+  "markdown",
+  "frontmatter"
+ ],
+ "filter_profanity": false,
+ "redact_pii": false,
+ "redact_pii_audio": false,
+ "redact_pii_audio_quality": null,
+ "redact_pii_audio_options": null,
+ "redact_pii_policies": null,
+ "redact_pii_sub": null,
+ "redact_static_entities": null,
+ "speaker_labels": false,
+ "speaker_options": null,
+ "content_safety": false,
+ "iab_categories": false,
+ "content_safety_labels": {
+  "status": "unavailable",
+  "results": [],
+  "summary": {}
+ },
+ "iab_categories_result": {
+  "status": "unavailable",
+  "results": [],
+  "summary": {}
+ },
+ "language_detection": true,
+ "language_detection_options": null,
+ "language_detection_results": null,
+ "language_confidence_threshold": null,
+ "language_confidence": 0.6899,
+ "custom_spelling": null,
+ "throttled": false,
+ "auto_chapters": false,
+ "summarization": false,
+ "summary_type": null,
+ "summary_model": null,
+ "custom_topics": false,
+ "topics": [],
+ "speech_threshold": null,
+ "speech_model": null,
+ "speech_models": [
+  "universal-3-5-pro",
+  "universal-2"
+ ],
+ "speech_model_used": "universal-3-5-pro",
+ "temperature": null,
+ "remove_audio_tags": "all",
+ "chapters": null,
+ "disfluencies": true,
+ "entity_detection": false,
+ "sentiment_analysis": false,
+ "sentiment_analysis_results": null,
+ "entities": null,
+ "speakers_expected": null,
+ "summary": null,
+ "custom_topics_results": null,
+ "is_deleted": null,
+ "multichannel": null,
+ "project_id": 1809504,
+ "token_id": 1834437
+}

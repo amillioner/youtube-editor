@@ -1,0 +1,18 @@
+[
+  { "id": "cam-b1", "label": "Cam B1 — the hook", "file": "media/projects/short-blocks-30/cam/b1.mp4",
+    "meta": "OmniHuman v1.5 · 2.3s · $0.36 · 'someone just told you your app is slow.'" },
+  { "id": "cam-b4", "label": "Cam B4 — the pivot", "file": "media/projects/short-blocks-30/cam/b4.mp4",
+    "meta": "OmniHuman v1.5 · 1.6s · $0.26 · 'there's a number that catches them.'" },
+  { "id": "cam-b7", "label": "Cam B7 — the close", "file": "media/projects/short-blocks-30/cam/b7.mp4",
+    "meta": "OmniHuman v1.5 · 3.1s · $0.49 · 'that's the skill. knowing what to ask for.'" },
+  { "id": "broll-overshoulder", "label": "B2 scene 1 — over-shoulder (faceless)", "file": "media/projects/short-blocks-30/broll/c2-overshoulder.mp4",
+    "meta": "Nano Banana Pro still → Kling 2.5 turbo · 5s · $0.35 · note: some AI-gibberish text on the page UI" },
+  { "id": "broll-behind", "label": "B2 scene 2 — from behind (faceless)", "file": "media/projects/short-blocks-30/broll/c1-behind.mp4",
+    "meta": "Nano Banana Pro still → Kling 2.5 turbo · 5s · $0.35" },
+  { "id": "broll-face", "label": "B2 VARIANT — face visible (the A/B)", "file": "media/projects/short-blocks-30/broll/c3-face.mp4",
+    "meta": "Nano Banana Pro still → Kling 2.5 turbo · 5s · $0.35 · faceless-first is the plan's default; this is the comparison" },
+  { "id": "diagram-embedded", "type": "image", "label": "Diagram option A — embed the square render", "file": "videos/short-blocks-30/work/compare-embedded-square.png",
+    "meta": "the X post's rendered square letterboxed into 9:16 — carries BLOCK pill, @handle footer, self-timed 8s loop" },
+  { "id": "diagram-fresh", "type": "image", "label": "Diagram option B — fresh vertical TSX", "file": "videos/short-blocks-30/work/compare-fresh-vertical.png",
+    "meta": "same computed dot-rain core, rebuilt 9:16, timed to the narration, no X furniture" }
+]

@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic vertical photograph, 9:16. The SAME man as in the first reference image (identical face, short dark hair, full dark beard, warm skin tone) sitting in the home office shown in the second reference image: light-wood desk, monitor with a dark orange-accented coding interface, light wooden bookshelf with books and trailing plants, big window with sheer curtains and soft morning daylight from the left, light-grey fabric chair. He wears an olive green crew-neck t-shirt and sits turned PARTLY TOWARD THE CAMERA, three-quarter front view, face clearly visible and softly lit by the window, relaxed confident expression, one hand resting near the white keyboard. Medium shot from chest up, eye-level camera, natural skin texture, warm natural grade, shallow depth of field on the background. No text overlays, no watermarks.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\projects\\short-ai-test\\ref-vertical.png",
+    "media\\library\\workspace\\w1-establishing.jpg"
+  ],
+  "created": "2026-08-13T19:52:23"
+}

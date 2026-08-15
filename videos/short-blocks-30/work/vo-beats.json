@@ -1,0 +1,9 @@
+{
+  "b1": "someone just told you your app is slow.",
+  "b2": "you open it... <break time=\"0.4s\" /> loads in a blink. <break time=\"0.4s\" /> so you blame their wifi. don't. <break time=\"0.5s\" /> you built that app with Claude Code, you tested it, it was fast. <break time=\"0.35s\" /> for you.",
+  "b3": "your page loaded a thousand times today. <break time=\"0.4s\" /> nine hundred came back in a tenth of a second. <break time=\"0.4s\" /> twenty of them took nine full seconds. <break time=\"0.5s\" /> and the average says four thirty. <break time=\"0.4s\" /> fine. nothing to fix.",
+  "b4": "there's a number that catches them.",
+  "b5": "it's called latency percentiles. <break time=\"0.4s\" /> p fifty is you. <break time=\"0.35s\" /> p ninety nine is the person about to quit your app.",
+  "b6": "one line to Claude: <break time=\"0.3s\" /> time every request, show me p fifty, p ninety five, and p ninety nine. <break time=\"0.4s\" /> not the average.",
+  "b7": "that's the skill. <break time=\"0.4s\" /> knowing what to ask for."
+}

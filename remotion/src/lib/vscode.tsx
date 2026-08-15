@@ -118,8 +118,11 @@ export const VSCodeWindow: React.FC<{
   rows: ExplorerRow[];
   groups: EditorGroup[];
   projectName?: string;
+  // animated sidebar width (px). Pass a frame-derived value to collapse the
+  // explorer (Ctrl+B style) and reclaim the room for editor content.
+  sidebarW?: number;
   children?: React.ReactNode;
-}> = ({ rows, groups, projectName = 'claude-image-generation', children }) => {
+}> = ({ rows, groups, projectName = 'claude-image-generation', sidebarW = VSC.SB_W, children }) => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{ backgroundColor: V.editor, fontFamily: FONT_BODY }}>
@@ -148,19 +151,23 @@ export const VSCodeWindow: React.FC<{
         </div>
         <Settings size={26} color={V.faint} strokeWidth={1.6} />
       </div>
-      {/* sidebar / explorer */}
-      <div style={{ position: 'absolute', top: VSC.TITLE_H, left: VSC.SB_X, width: VSC.SB_W, bottom: 0, background: V.sidebar, borderRight: `1px solid ${V.border}`, paddingTop: 8, overflow: 'hidden' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '8px 18px 12px' }}>
-          <span style={{ fontSize: 15, letterSpacing: 1, color: V.dim }}>EXPLORER</span><MoreHorizontal size={18} color={V.dim} />
+      {/* sidebar / explorer (width animatable; content stays fixed and clips) */}
+      {sidebarW > 6 && (
+        <div style={{ position: 'absolute', top: VSC.TITLE_H, left: VSC.SB_X, width: sidebarW, bottom: 0, background: V.sidebar, borderRight: `1px solid ${V.border}`, overflow: 'hidden' }}>
+          <div style={{ width: VSC.SB_W, paddingTop: 8 }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '8px 18px 12px' }}>
+              <span style={{ fontSize: 15, letterSpacing: 1, color: V.dim }}>EXPLORER</span><MoreHorizontal size={18} color={V.dim} />
+            </div>
+            <div style={{ fontSize: 16, fontWeight: 700, color: V.text, padding: '6px 14px', letterSpacing: 0.4 }}>{projectName.toUpperCase()}</div>
+            {rows.map((row, i) => <ExplorerRowView key={`${row.name}-${i}`} row={row} frame={frame} />)}
+          </div>
+          <div style={{ position: 'absolute', bottom: 0, left: 0, width: VSC.SB_W, borderTop: `1px solid ${V.border}`, background: V.sidebar }}>
+            {['OUTLINE', 'TIMELINE'].map((s) => (
+              <div key={s} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 16px' }}><span style={{ color: V.dim }}>›</span><span style={{ fontSize: 15, letterSpacing: 1, color: V.dim }}>{s}</span></div>
+            ))}
+          </div>
         </div>
-        <div style={{ fontSize: 16, fontWeight: 700, color: V.text, padding: '6px 14px', letterSpacing: 0.4 }}>{projectName.toUpperCase()}</div>
-        {rows.map((row, i) => <ExplorerRowView key={`${row.name}-${i}`} row={row} frame={frame} />)}
-        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, borderTop: `1px solid ${V.border}`, background: V.sidebar }}>
-          {['OUTLINE', 'TIMELINE'].map((s) => (
-            <div key={s} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 16px' }}><span style={{ color: V.dim }}>›</span><span style={{ fontSize: 15, letterSpacing: 1, color: V.dim }}>{s}</span></div>
-          ))}
-        </div>
-      </div>
+      )}
       {/* editor groups */}
       {groups.map((g, gi) => {
         const at = g.tab.appearAt ?? 0;

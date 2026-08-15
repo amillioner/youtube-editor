@@ -1,0 +1,20 @@
+{
+ "request_id": "019ffbb8-f763-7fc1-a3dd-9f21471fe601",
+ "endpoint": "fal-ai/bytedance/omnihuman/v1.5",
+ "alias": "omnihuman",
+ "inputs": {
+  "image": "media/projects/short-ai-test/ref-vertical.png",
+  "video": null,
+  "audio": "media/projects/short-blocks-30/vo/b4.mp3"
+ },
+ "prompt": null,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aa63033/fUZfz7AKZXUnOVs7G89RS_video.mp4",
+   "content_type": "video/mp4",
+   "file_name": "video.mp4",
+   "file_size": 1194997
+  },
+  "duration": 1.619592
+ }
+}

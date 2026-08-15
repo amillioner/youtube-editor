@@ -426,6 +426,21 @@
       "prompt": "A deep muffled launch thump, like a distant mortar or a rocket igniting far away: a soft round low-frequency push with a short body and a gentle tail. Warm and restrained, no sharp crack, no explosion debris, no reverb tail of a war film. Dry, clean, close to a felt mallet on a large drum."
     },
     {
+      "id": "camera-shutter",
+      "category": "foley",
+      "duration_s": 0.5,
+      "tags": [
+        "camera",
+        "shutter",
+        "photo",
+        "capture",
+        "screenshot",
+        "snap",
+        "foley"
+      ],
+      "prompt": "A single camera shutter firing once: a crisp, quick mechanical click-clack of an SLR photo capture, clean and satisfying, close-mic, premium and understated, very short, dry, no motor wind, no beep, no music."
+    },
+    {
       "id": "zap-electric",
       "category": "foley",
       "duration_s": 0.7,

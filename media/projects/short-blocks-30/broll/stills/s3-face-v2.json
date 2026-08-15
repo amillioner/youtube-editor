@@ -1,0 +1,11 @@
+{
+  "prompt": "Photorealistic cinematic vertical still, 9:16. Camera placed at the SIDE of a desk, level with the subject: a medium shot of the SAME man as the reference photo (exact same face, beard, hairline), shown in three-quarter profile view, face clearly visible and well lit, wearing an olive green t-shirt, hands on a keyboard, concentrating on an off-screen monitor to his right whose glow lights his face slightly. The monitor itself is seen edge-on from the side and its screen content is NOT visible to the camera. Bright modern home office, bookshelf and plants softly blurred behind him, soft daylight, warm natural grade. No text, no watermark.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\projects\\short-ai-test\\ref-vertical.png"
+  ],
+  "created": "2026-08-13T18:24:54"
+}

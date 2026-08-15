@@ -1,0 +1,11 @@
+{
+  "prompt": "Photorealistic cinematic vertical still, 9:16. The SAME man as the reference photo (exact same face, beard, hair), sitting at a tidy desk in a bright modern home office, wearing an olive green t-shirt, seen from a three-quarter side angle so his face IS clearly visible, looking at a large monitor showing a dark terminal-style coding interface with orange accent text. Relaxed focused expression. Soft daylight, shallow depth of field, warm natural grade. No text overlays, no watermark.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\projects\\short-ai-test\\ref-vertical.png"
+  ],
+  "created": "2026-08-13T18:23:50"
+}

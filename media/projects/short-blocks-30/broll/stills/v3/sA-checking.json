@@ -1,0 +1,13 @@
+{
+  "prompt": "Photorealistic vertical photograph, 9:16, casual camera shot. The SAME man as in the first reference photo — face IDENTICAL to that photo (same eyes, nose, full dark beard, short dark hair, warm skin tone) — in the SAME room as the second and third references: grey-blue wall, tall dracaena plant, white AC unit, WHITE desk, monitor with dark orange-accented code editor. Olive green crew-neck t-shirt. Camera just beside the monitor facing him almost frontally: he looks at the screen (just off camera), one hand on the mouse, calm attentive expression with a hint of a raised eyebrow, softly lit by daylight and a faint screen glow. Face fully visible, chest-up medium-close shot, natural skin texture, true-to-life colors. No text overlays, no watermarks.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "media\\library\\faces\\WIN_20250922_15_39_45_Pro.jpg",
+    "media\\library\\workspace\\w3-establishing.png",
+    "media\\projects\\short-blocks-30\\broll\\stills\\v3\\h1-at-desk.png"
+  ],
+  "created": "2026-08-13T20:51:17"
+}

@@ -1,0 +1,10 @@
+[
+  { "id": "w3-workspace", "type": "image", "label": "W3 — canonical workspace (your real room)", "file": "media/library/workspace/w3-establishing.png",
+    "meta": "Nano Banana Pro · ref: your real photo · grey-blue wall, dracaena, AC, WHITE desk" },
+  { "id": "h1-v3", "type": "image", "label": "H1 v3 — anchor still", "file": "media/projects/short-blocks-30/broll/stills/v3/h1-at-desk.png",
+    "meta": "refs: real photo + W3 · identity re-anchored to the real photo" },
+  { "id": "sA-v3", "type": "image", "label": "Scene A v3 — 'you open it... loads in a blink'", "file": "media/projects/short-blocks-30/broll/stills/v3/sA-checking.png",
+    "meta": "refs: real photo + W3 + H1v3 · near-frontal at the screen, calm attentive" },
+  { "id": "sB-v3", "type": "image", "label": "Scene B v3 — 'you built that app with Claude Code'", "file": "media/projects/short-blocks-30/broll/stills/v3/sB-building.png",
+    "meta": "refs: real photo + W3 + H1v3 · three-quarter typing" }
+]

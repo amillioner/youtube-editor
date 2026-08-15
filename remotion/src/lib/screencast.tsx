@@ -44,7 +44,7 @@ export type ScreencastPage = {
 export type CursorKey = { frame: number; x: number; y: number }; // x,y = viewport fraction
 
 // sample a piecewise cursor path (eased per segment) at `frame`
-const sampleCursor = (frame: number, keys: CursorKey[]) => {
+export const sampleCursor = (frame: number, keys: CursorKey[]) => {
   if (!keys.length) return { x: 0.5, y: 0.5 };
   if (frame <= keys[0].frame) return { x: keys[0].x, y: keys[0].y };
   const last = keys[keys.length - 1];
@@ -57,7 +57,7 @@ const sampleCursor = (frame: number, keys: CursorKey[]) => {
 };
 
 // classic macOS-style arrow pointer; hotspot (tip) ~ (0.16, 0.10) of the box
-const CursorPointer: React.FC<{ size?: number; press?: number }> = ({ size = 30, press = 1 }) => (
+export const CursorPointer: React.FC<{ size?: number; press?: number }> = ({ size = 30, press = 1 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" style={{
     transform: `scale(${press})`, transformOrigin: '16% 10%',
     filter: 'drop-shadow(0 2px 3px rgba(0,0,0,0.35))', display: 'block',

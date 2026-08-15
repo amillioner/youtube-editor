@@ -1,0 +1,55 @@
+{
+  "voice_id": "BTq6sz7H4zXMYN9OUp1X",
+  "model_id": "eleven_multilingual_v2",
+  "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 0.95
+  },
+  "recipe": "#18",
+  "beats": {
+    "b1": {
+      "text": "someone just told you your app is slow.",
+      "file": "b1.mp3",
+      "duration_s": 2.32,
+      "request_id": "UppBpyGJdj3lLOEQ5Yi7"
+    },
+    "b2": {
+      "text": "you open it... <break time=\"0.4s\" /> loads in a blink. <break time=\"0.4s\" /> so you blame their wifi. don't. <break time=\"0.5s\" /> you built that app with Claude Code, you tested it, it was fast. <break time=\"0.35s\" /> for you.",
+      "file": "b2.mp3",
+      "duration_s": 11.65,
+      "request_id": "Dx9ArFq3uZyqeqYUwhAR"
+    },
+    "b3": {
+      "text": "your page loaded a thousand times today. <break time=\"0.4s\" /> nine hundred came back in a tenth of a second. <break time=\"0.4s\" /> twenty of them took nine full seconds. <break time=\"0.5s\" /> and the average says four thirty. <break time=\"0.4s\" /> fine. nothing to fix.",
+      "file": "b3.mp3",
+      "duration_s": 13.98,
+      "request_id": "XkBOm3KfoHC8udZB0AKI"
+    },
+    "b4": {
+      "text": "there's a number that catches them.",
+      "file": "b4.mp3",
+      "duration_s": 1.62,
+      "request_id": "e2uH0wEeVjc9Vkrjy7CX"
+    },
+    "b5": {
+      "text": "it's called latency percentiles. <break time=\"0.4s\" /> p fifty is you. <break time=\"0.35s\" /> p ninety nine is the person about to quit your app.",
+      "file": "b5.mp3",
+      "duration_s": 8.02,
+      "request_id": "Hf9fNlou3ygT4NL6wp7Q"
+    },
+    "b6": {
+      "text": "one line to Claude: <break time=\"0.3s\" /> time every request, show me p fifty, p ninety five, and p ninety nine. <break time=\"0.4s\" /> not the average.",
+      "file": "b6.mp3",
+      "duration_s": 8.25,
+      "request_id": "0R7W8U4IOq2fXmpDJS7F"
+    },
+    "b7": {
+      "text": "that's the skill. <break time=\"0.4s\" /> knowing what to ask for.",
+      "file": "b7.mp3",
+      "duration_s": 3.11,
+      "request_id": "zAGnKNI8oJHaA3LXriK5"
+    }
+  }
+}
