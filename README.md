@@ -7,9 +7,9 @@ cut, the visuals, the voice, the sound effects, the thumbnail, and the upload. N
 screen recording. Every screen moment you see is built as code ([Remotion](https://remotion.dev) TSX)
 and composited over your cut.
 
-> 📺 **Watch it edit a real video, end to end:** [<!-- VIDEO_URL -->](#)
-> That video was made with this repo. The animations, the screencasts, the sound effects, and the
-> thumbnail you clicked — all of it.
+> 📖 **Read the full walkthrough:**
+> [Edit a YouTube Video With Claude Code](https://learnwithhasan.com/guide/how-to-edit-videos-with-claude-code/?utm_source=github&utm_medium=readme&utm_campaign=claude-youtube-editor&utm_content=body)
+> The beginner setup, step by step, on my site. Free to read, no login.
 
 ## The six steps
 
