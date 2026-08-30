@@ -1,6 +1,6 @@
 # Python deps for the video-editor pipeline tools (Python 3.10+).
 # Install into a venv at the repo root:
-#     python -m venv venv
+#     python -m venv venv                                         # Windows: py -m venv venv if python isn't on PATH
 #     venv/Scripts/python -m pip install -r requirements.txt      # Windows
 #     ./venv/bin/pip install -r requirements.txt                  # macOS/Linux
 # Then run tools as `python tools/<tool>.py ...` with that venv active.
@@ -16,6 +16,10 @@ google-api-python-client
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
+
+# Clip Factory scenes mode — PySceneDetect visual cut detection:
+scenedetect
+opencv-python-headless
 
 # Optional — only for tools/capture_web.py (auto-capturing public web pages to clone as beats):
 #   pip install playwright && playwright install chromium

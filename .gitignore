@@ -55,3 +55,6 @@ media/library/faces/*.webp
 .idea/
 .DS_Store
 Thumbs.db
+
+# Clip Factory (Lane B) — per-job renders
+work/clip-jobs/

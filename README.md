@@ -41,7 +41,7 @@ title card, and transition — as code, over your cut, synced to what you actual
 git clone https://github.com/hassancs91/claude-youtube-editor
 cd claude-youtube-editor
 
-python -m venv venv
+python -m venv venv                                     # Windows: if `python` isn't on PATH, use `py -m venv venv`
 venv/Scripts/python -m pip install -r requirements.txt   # Windows (./venv/bin/pip on macOS/Linux)
 
 cd remotion && npm install && npm run gen && cd ..       # build the Remotion registry

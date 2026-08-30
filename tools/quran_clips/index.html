@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quran Clips</title>
+<style>
+  :root {
+    --bg: #0f1412; --panel: #1a221e; --text: #e8efe9; --dim: #8a9a90;
+    --accent: #2f9e6c; --accent2: #c4a35a; --ok: #4caf82; --err: #e06c6c;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font: 14px/1.5 "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text);
+    min-height: 100vh; padding: 24px;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .sub { color: var(--dim); margin-bottom: 20px; font-size: 13px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+  .tabs button {
+    flex: 1; padding: 10px; font-weight: 600; font-size: 13px;
+    background: #243029; color: var(--dim); border: 1px solid #334038; border-radius: 8px; cursor: pointer;
+  }
+  .tabs button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .screen { display: none; }
+  .screen.active { display: block; }
+  .card {
+    background: var(--panel); border-radius: 10px; padding: 20px;
+    margin-bottom: 16px; border: 1px solid #2a3830;
+  }
+  label { display: block; font-weight: 600; margin-bottom: 6px; }
+  .hint { color: var(--dim); font-size: 12px; margin: 4px 0 12px; }
+  input[type=file], input[type=text], textarea {
+    width: 100%; background: #243029; color: var(--text);
+    border: 1px solid #3a4a40; border-radius: 6px; padding: 10px;
+  }
+  textarea {
+    min-height: 220px; resize: vertical;
+    font-family: ui-monospace, monospace; font-size: 12px; line-height: 1.45;
+  }
+  button.primary {
+    background: var(--accent); color: #fff; border: none; border-radius: 8px;
+    padding: 14px 24px; font-size: 15px; font-weight: 600; cursor: pointer; width: 100%;
+  }
+  button.primary:disabled { opacity: 0.5; cursor: default; }
+  button.ghost {
+    background: transparent; color: var(--dim); border: 1px solid #3a4a40;
+    border-radius: 6px; padding: 8px 12px; cursor: pointer; margin-right: 8px;
+  }
+  #log {
+    background: #0c100e; border-radius: 8px; padding: 12px; margin-top: 12px;
+    font-family: ui-monospace, monospace; font-size: 12px;
+    white-space: pre-wrap; max-height: 200px; overflow-y: auto; color: var(--dim);
+  }
+  .preview {
+    margin-top: 14px; padding: 12px; background: #15201a; border-radius: 8px; border: 1px solid #2a3830;
+  }
+  .preview h3 { font-size: 13px; color: var(--accent2); margin-bottom: 8px; }
+  .preview .meta { font-size: 12px; color: var(--dim); margin-bottom: 10px; }
+  .preview li { margin: 6px 0; font-size: 13px; }
+  .pack {
+    border: 1px solid #2a3830; border-radius: 8px; padding: 14px; margin-bottom: 12px; background: #15201a;
+  }
+  .pack h3 { font-size: 14px; margin-bottom: 8px; color: var(--accent2); }
+  .pack .yt-title { font-weight: 600; margin-bottom: 6px; word-break: break-word; }
+  .pack .meta { font-size: 12px; color: var(--dim); margin-bottom: 8px; }
+  .pack pre {
+    background: #0c100e; padding: 10px; border-radius: 6px; font-size: 12px;
+    white-space: pre-wrap; max-height: 180px; overflow-y: auto; margin: 8px 0;
+  }
+  .pack .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .pack a, .copy-btn {
+    display: inline-block; padding: 6px 10px; border-radius: 6px;
+    background: #243029; color: var(--accent); text-decoration: none;
+    border: 1px solid #3a4a40; font-size: 12px; cursor: pointer;
+  }
+  .err { color: var(--err); }
+  .ok { color: var(--ok); }
+  .dropzone {
+    border: 2px dashed #3a4a40; border-radius: 10px; padding: 28px 16px;
+    text-align: center; background: #15201a; cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .dropzone:hover, .dropzone.dragover {
+    border-color: var(--accent); background: #1a2c24;
+  }
+  .dropzone .dz-title { font-weight: 600; margin-bottom: 4px; }
+  .dropzone .dz-sub { color: var(--dim); font-size: 12px; }
+  .dropzone .dz-file { color: var(--ok); font-size: 13px; margin-top: 8px; word-break: break-all; }
+  .dropzone input[type=file] { display: none; }
+  .opt-row { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+  .opt {
+    display: flex; align-items: flex-start; gap: 10px;
+    flex: 1; min-width: 220px; margin-top: 0; padding: 12px; background: #15201a;
+    border: 1px solid #2a3830; border-radius: 8px; cursor: pointer;
+  }
+  .opt:has(input:checked) { border-color: var(--accent); background: #1a2c24; }
+  .opt input { margin-top: 3px; }
+  .opt .opt-text { flex: 1; }
+  .opt .opt-title { font-weight: 600; }
+  .opt .opt-hint { color: var(--dim); font-size: 12px; margin-top: 2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Quran Clips</h1>
+  <p class="sub">Drop or select the video → paste the prayer summary → Cut.
+    Auto: <strong>same Surah → one clip</strong> (all recited rak’ahs), <strong>different Surahs → one file each</strong>.
+    Override with the checkboxes. DeepSeek when keyed. Port <strong>8767</strong>.</p>
+
+  <div class="tabs">
+    <button type="button" id="tab_cut" class="active">1 · Cut</button>
+    <button type="button" id="tab_pack">2 · Titles &amp; publish</button>
+  </div>
+
+  <div id="screen_cut" class="screen active">
+    <form id="form" class="card">
+      <label>Video file</label>
+      <p class="hint">Drop an MP4 here, or click to browse.</p>
+      <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Drop or select video">
+        <div class="dz-title">Drop video here</div>
+        <div class="dz-sub">or click to select · MP4 / MOV / MKV</div>
+        <div class="dz-file" id="dz_file" hidden></div>
+        <input type="file" id="video" accept="video/*">
+      </div>
+
+      <label for="video_title" style="margin-top:16px">Video title</label>
+      <p class="hint">Date, prayer, and place come from this — e.g. <strong>15th Feb 2025 Makkah Maghrib Sheikh Shamsaan</strong>. Fills from the file name; you can edit it.</p>
+      <input type="text" id="video_title" placeholder="15th Feb 2025 Makkah Maghrib Sheikh Shamsaan" autocomplete="off">
+
+      <label for="summary" style="margin-top:16px">Paste summary</label>
+      <p class="hint">The text that lists rak’ahs or segments with timestamps (2, 3 for Maghrib, or 4). You do not fill clip fields.</p>
+      <textarea id="summary" placeholder="Four segments of prayer, each Al-Fatiha then Surah Al-Baqarah …
+
+* 1st Segment: Al-Fatiha (0:32 - 0:58), Al-Baqarah (0:58 - 3:12)
+* 2nd Segment: Al-Fatiha (3:58 - 4:26), Al-Baqarah (4:26 - 7:32)
+…"></textarea>
+
+      <div class="opt-row">
+        <label class="opt" for="one_clip">
+          <input type="checkbox" id="one_clip">
+          <span class="opt-text">
+            <span class="opt-title">One clip</span>
+            <span class="opt-hint">All recited rak’ahs in one file (2, 3, or 4). Includes Al-Fatiha from the first rak’ah if listed. Auto when they are the same Surah.</span>
+          </span>
+        </label>
+        <label class="opt" for="two_clips">
+          <input type="checkbox" id="two_clips">
+          <span class="opt-text">
+            <span class="opt-title">Separate clips</span>
+            <span class="opt-hint">One file per rak’ah. Auto when the rak’ahs are different Surahs.</span>
+          </span>
+        </label>
+      </div>
+      <p class="hint" style="margin-top:8px">Leave both unchecked to auto-pick. Check one to force that mode.</p>
+
+      <div style="margin-top:12px">
+        <button type="button" class="ghost" id="btn_parse">Parse only (preview)</button>
+      </div>
+
+      <div id="preview" class="preview" hidden>
+        <h3>Detected clips</h3>
+        <div class="meta" id="preview_meta"></div>
+        <ul id="preview_list"></ul>
+        <p class="hint" id="preview_warn"></p>
+      </div>
+
+      <button type="submit" class="primary" id="btn" style="margin-top:16px">Parse &amp; cut clips</button>
+      <div id="status" class="hint" style="margin-top:10px">Ready.</div>
+      <div id="log"></div>
+    </form>
+  </div>
+
+  <div id="screen_pack" class="screen">
+    <div class="card">
+      <p class="hint">Copy titles/descriptions into YouTube Studio. Open the output folder for MP4s.</p>
+      <div id="pack_list"><p class="hint">Nothing yet — run a cut first.</p></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const statusEl = document.getElementById('status');
+const logEl = document.getElementById('log');
+const packList = document.getElementById('pack_list');
+const btn = document.getElementById('btn');
+const preview = document.getElementById('preview');
+const videoInput = document.getElementById('video');
+const dropzone = document.getElementById('dropzone');
+const dzFile = document.getElementById('dz_file');
+const oneClip = document.getElementById('one_clip');
+const twoClips = document.getElementById('two_clips');
+const videoTitle = document.getElementById('video_title');
+let lastPackaging = null;
+let lastParsed = null;
+let selectedVideo = null;
+
+oneClip.addEventListener('change', () => {
+  if (oneClip.checked) twoClips.checked = false;
+});
+twoClips.addEventListener('change', () => {
+  if (twoClips.checked) oneClip.checked = false;
+});
+
+function clipMode() {
+  if (oneClip.checked) return 'one';
+  if (twoClips.checked) return 'two';
+  return 'auto';
+}
+
+function stemFromFilename(name) {
+  return String(name || '').replace(/\.[^.]+$/, '').replace(/[._]+/g, ' ').trim();
+}
+
+function videoTitleValue() {
+  return (videoTitle.value || '').trim() || (selectedVideo ? stemFromFilename(selectedVideo.name) : '');
+}
+
+videoTitle.addEventListener('input', () => {
+  videoTitle.dataset.user = '1';
+});
+
+function setVideoFile(file) {
+  if (!file) return;
+  if (file.type && !file.type.startsWith('video/') && !/\.(mp4|mov|mkv|webm|m4v)$/i.test(file.name)) {
+    statusEl.textContent = 'Drop a video file (MP4, etc.).';
+    statusEl.className = 'err';
+    return;
+  }
+  selectedVideo = file;
+  try {
+    const dt = new DataTransfer();
+    dt.items.add(file);
+    videoInput.files = dt.files;
+  } catch (_) { /* some browsers block DataTransfer assign — selectedVideo is enough */ }
+  dzFile.hidden = false;
+  dzFile.textContent = `${file.name} (${(file.size / (1024 * 1024)).toFixed(1)} MB)`;
+  if (videoTitle.dataset.user !== '1') {
+    videoTitle.value = stemFromFilename(file.name);
+  }
+  statusEl.textContent = 'Video ready.';
+  statusEl.className = 'ok';
+}
+
+dropzone.addEventListener('click', () => videoInput.click());
+dropzone.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); videoInput.click(); }
+});
+videoInput.addEventListener('change', () => {
+  if (videoInput.files[0]) setVideoFile(videoInput.files[0]);
+});
+videoInput.addEventListener('click', (e) => e.stopPropagation());
+
+['dragenter', 'dragover'].forEach((ev) => {
+  dropzone.addEventListener(ev, (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    dropzone.classList.add('dragover');
+  });
+});
+['dragleave', 'drop'].forEach((ev) => {
+  dropzone.addEventListener(ev, (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    dropzone.classList.remove('dragover');
+  });
+});
+dropzone.addEventListener('drop', (e) => {
+  const file = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+  if (file) setVideoFile(file);
+});
+// Prevent browser from opening the file if dropped outside the zone
+['dragover', 'drop'].forEach((ev) => {
+  document.body.addEventListener(ev, (e) => {
+    if (e.target === dropzone || dropzone.contains(e.target)) return;
+    e.preventDefault();
+  });
+});
+
+document.getElementById('tab_cut').onclick = () => showTab('cut');
+document.getElementById('tab_pack').onclick = () => {
+  showTab('pack');
+  if (lastPackaging) renderPack(lastPackaging);
+};
+
+function showTab(which) {
+  document.getElementById('tab_cut').classList.toggle('active', which === 'cut');
+  document.getElementById('tab_pack').classList.toggle('active', which === 'pack');
+  document.getElementById('screen_cut').classList.toggle('active', which === 'cut');
+  document.getElementById('screen_pack').classList.toggle('active', which === 'pack');
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function showPreview(data) {
+  lastParsed = data;
+  preview.hidden = false;
+  const m = data.meta || {};
+  const reason = data.mode_reason || (data.split_rakahs ? 'two clips' : 'one clip');
+  document.getElementById('preview_meta').textContent =
+    `${data.parser || '?'} · ${reason} · ${m.prayer || '?'} · ${m.sheikh || '?'} · ${m.place || '?'} · ${m.date || '?'}`;
+  if (clipMode() === 'auto') {
+    oneClip.checked = !data.split_rakahs;
+    twoClips.checked = !!data.split_rakahs;
+  }
+  const ul = document.getElementById('preview_list');
+  ul.innerHTML = '';
+  (data.clips || []).forEach((c, i) => {
+    const li = document.createElement('li');
+    const segs = c.segments;
+    let range = `${c.start_s}s → ${c.end_s}s`;
+    if (Array.isArray(segs) && segs.length >= 2) {
+      range = segs.map((s, j) => {
+        const ords = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th'];
+        const label = `${ords[j] || (j + 1)} rak’ah`;
+        const a = s.start || `${s.start_s}s`;
+        const b = s.end || `${s.end_s}s`;
+        return `${label} ${a}–${b}`;
+      }).join(' then ') + ' · one clip';
+    }
+    li.innerHTML = `<strong>${i + 1}.</strong> ${escapeHtml(c.surah)}
+      <span style="color:var(--dim)"> (${escapeHtml(range)})</span><br>
+      <span style="font-size:12px;color:var(--ok)">${c.title_len} chars · ${escapeHtml(c.youtube_title)}</span>`;
+    ul.appendChild(li);
+  });
+  const w = (data.warnings || []).join(' ');
+  document.getElementById('preview_warn').textContent = w || 'Adhan / Ruku / Taslim lines were skipped.';
+}
+
+document.getElementById('btn_parse').onclick = async () => {
+  const summary = document.getElementById('summary').value.trim();
+  if (!summary) {
+    statusEl.textContent = 'Paste a summary first.';
+    statusEl.className = 'err';
+    return;
+  }
+  statusEl.textContent = 'Parsing…';
+  statusEl.className = 'hint';
+  try {
+    const res = await fetch('/api/parse-summary', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        summary,
+        clip_mode: clipMode(),
+        video_title: videoTitleValue(),
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Parse failed');
+    showPreview(data);
+    statusEl.textContent = `Found ${data.clips.length} clip(s).`;
+    statusEl.className = 'ok';
+  } catch (e) {
+    statusEl.textContent = e.message || String(e);
+    statusEl.className = 'err';
+  }
+};
+
+function renderPack(result) {
+  const packs = result.packaging || [];
+  if (!packs.length) {
+    packList.innerHTML = '<p class="hint">No packaging in last result.</p>';
+    return;
+  }
+  const outPath = result.job_dir ? `${result.job_dir}\\output`.replace(/\//g, '\\') : '';
+  packList.innerHTML = '';
+  if (outPath) {
+    const top = document.createElement('div');
+    top.className = 'hint';
+    top.style.marginBottom = '12px';
+    top.innerHTML = `Output: <code style="color:var(--ok);word-break:break-all">${escapeHtml(outPath)}</code>`;
+    packList.appendChild(top);
+  }
+  packs.forEach((p) => {
+    const div = document.createElement('div');
+    div.className = 'pack';
+    const descUrl = `/api/download/${encodeURIComponent(p.description_file)}`;
+    let range = `${p.start_s}s → ${p.end_s}s`;
+    if (Array.isArray(p.segments) && p.segments.length >= 2) {
+      range = p.segments.map((s, j) => {
+        const ords = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th'];
+        const label = ords[j] || String(j + 1);
+        const a = s.start || `${s.start_s}s`;
+        const b = s.end || `${s.end_s}s`;
+        return `${label} ${a}–${b}`;
+      }).join(' then ');
+    }
+    div.innerHTML = `
+      <h3>${p.id} · ${escapeHtml(p.surah)}</h3>
+      <div class="meta">${escapeHtml(range)} · title ${p.title_len} chars</div>
+      <div class="yt-title">${escapeHtml(p.youtube_title)}</div>
+      <pre>${escapeHtml(p.description)}</pre>
+      <div class="actions">
+        <button type="button" class="copy-btn" data-open-folder>Open output folder</button>
+        <a href="${descUrl}" download>Download description</a>
+        <button type="button" class="copy-btn" data-copy="title">Copy title</button>
+        <button type="button" class="copy-btn" data-copy="desc">Copy description</button>
+      </div>
+    `;
+    div.querySelector('[data-open-folder]').onclick = async () => {
+      const res = await fetch('/api/open-output');
+      const data = await res.json();
+      if (!res.ok) alert(data.error || 'Could not open folder');
+    };
+    div.querySelector('[data-copy=title]').onclick = () => navigator.clipboard.writeText(p.youtube_title);
+    div.querySelector('[data-copy=desc]').onclick = () => navigator.clipboard.writeText(p.description);
+    packList.appendChild(div);
+  });
+}
+
+document.getElementById('form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const file = selectedVideo || videoInput.files[0];
+  const summary = document.getElementById('summary').value.trim();
+  if (!file) {
+    statusEl.textContent = 'Drop or select a video file.';
+    statusEl.className = 'err';
+    return;
+  }
+  if (!summary) {
+    statusEl.textContent = 'Paste the prayer summary.';
+    statusEl.className = 'err';
+    return;
+  }
+
+  btn.disabled = true;
+  statusEl.textContent = 'Parsing & cutting…';
+  statusEl.className = 'hint';
+  logEl.textContent = '';
+
+  const fd = new FormData();
+  fd.append('video', file);
+  fd.append('summary', summary);
+  fd.append('clip_mode', clipMode());
+  fd.append('video_title', videoTitleValue());
+
+  const res = await fetch('/api/process', { method: 'POST', body: fd });
+  const data = await res.json();
+  if (!res.ok) {
+    statusEl.textContent = data.error || 'Failed to start';
+    statusEl.className = 'err';
+    btn.disabled = false;
+    return;
+  }
+
+  const poll = setInterval(async () => {
+    const st = await (await fetch('/api/status')).json();
+    logEl.textContent = st.log || '';
+    logEl.scrollTop = logEl.scrollHeight;
+    if (st.running) return;
+    clearInterval(poll);
+    btn.disabled = false;
+    if (st.error) {
+      statusEl.textContent = st.error;
+      statusEl.className = 'err';
+      return;
+    }
+    if (st.result && st.result.parse) showPreview(st.result.parse);
+    statusEl.textContent = 'Done — open Titles & publish.';
+    statusEl.className = 'ok';
+    lastPackaging = st.result;
+    renderPack(st.result);
+    showTab('pack');
+  }, 800);
+});
+</script>
+</body>
+</html>

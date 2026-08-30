@@ -58,9 +58,11 @@ current brand (wordmark, palette, type) so you can see it. `/brand-setup` uses i
   venv/Scripts/python -m pip install -r requirements.txt     # Windows
   ./venv/bin/pip install -r requirements.txt                 # macOS/Linux
   ```
-  Then either activate the venv or call `venv/Scripts/python tools/<tool>.py`. A bare `python` that
-  resolves to a system interpreter will hit `ModuleNotFoundError` (requests, Pillow, google-*) — that
-  error means you're not on the venv. `ffmpeg`/`ffprobe` and `node`/`npx` must be on PATH (not pip).
+  **Windows:** if plain `python` isn't on PATH, use `py -m venv venv` to create the venv, then
+  `venv/Scripts/python` for everything else. Then either activate the venv or call
+  `venv/Scripts/python tools/<tool>.py`. A bare `python` that resolves to a system interpreter will hit
+  `ModuleNotFoundError` (requests, Pillow, google-*) — that error means you're not on the venv.
+  `ffmpeg`/`ffprobe` and `node`/`npx` must be on PATH (not pip).
 
 - **API keys** live in `.env` at the repo root (copy `.env.example`). Never commit `.env`.
   `ASSEMBLYAI_API_KEY` = transcription · `ELEVENLABS_API_KEY` = voice-isolate + SFX + music ·
