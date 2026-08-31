@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YT Clip Editor</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --panel: #1a2332;
+      --text: #e8eef5;
+      --dim: #8b9cb3;
+      --accent: #6366f1;
+      --green: #2f9e6c;
+      --gold: #c4a35a;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font: 16px/1.6 "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 48px 24px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    .sub { color: var(--dim); margin-bottom: 32px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid #2a3548;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    .card h2 { font-size: 1.1rem; margin-bottom: 8px; }
+    .card p { color: var(--dim); font-size: 14px; margin-bottom: 12px; }
+    .port { font-family: ui-monospace, monospace; color: var(--gold); font-size: 13px; }
+    code {
+      background: #0c1018;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    pre {
+      background: #0c1018;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 13px;
+      line-height: 1.5;
+      margin-top: 12px;
+    }
+    a { color: var(--accent); }
+    .note {
+      border-left: 3px solid var(--green);
+      padding-left: 16px;
+      color: var(--dim);
+      font-size: 14px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>YT Clip Editor</h1>
+    <p class="sub">Cut, clip, and package YouTube footage — Quran recitations, viral clips, and talking-head edits.</p>
+
+    <div class="card">
+      <h2>Quran Clips</h2>
+      <p>Paste a prayer summary, cut Surah clips, get YouTube titles and descriptions.</p>
+      <p class="port">Local UI → http://localhost:8767</p>
+      <pre>venv\Scripts\python tools\quran_clips\server.py</pre>
+    </div>
+
+    <div class="card">
+      <h2>Clip Factory</h2>
+      <p>Viral clips, compilations, scene detection, and full exports.</p>
+      <p class="port">Local UI → http://localhost:8766</p>
+      <pre>venv\Scripts\python tools\clip_factory\server.py</pre>
+    </div>
+
+    <div class="card">
+      <h2>Cut Editor</h2>
+      <p>Review and refine cuts on talking-head footage.</p>
+      <p class="port">Local UI → http://localhost:8765</p>
+      <pre>venv\Scripts\python tools\editor\server.py</pre>
+    </div>
+
+    <div class="card">
+      <h2>Setup (once)</h2>
+      <pre>git clone https://github.com/amillioner/youtube-editor
+cd youtube-editor
+py -m venv venv
+venv\Scripts\python -m pip install -r requirements.txt
+copy .env.example .env</pre>
+      <p style="margin-top:12px">Requires <code>ffmpeg</code>, <code>node</code>, and API keys in <code>.env</code>. See the repo README.</p>
+    </div>
+
+    <p class="note">
+      Video processing runs locally (ffmpeg, Python). This site is the project home —
+      run the servers above on your machine to use the editors.
+    </p>
+    <p style="margin-top:16px;font-size:14px;color:var(--dim)">
+      <a href="https://github.com/amillioner/youtube-editor">GitHub → amillioner/youtube-editor</a>
+    </p>
+  </div>
+</body>
+</html>
