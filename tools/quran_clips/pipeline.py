@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Callable
 
 from clip_factory.common import JOBS_DIR, JobConfig, JobPaths, new_job_id, slugify
-from clip_factory.export_clips import concat_clips, export_clip, probe_duration
+from clip_factory.export_clips import export_clip, export_stitched_segments, probe_duration
 
 from .titles import normalize_clip
 
@@ -36,7 +36,7 @@ def download_youtube(url: str, dest: Path, log: LogFn | None = None) -> Path:
         "--extractor-args",
         "youtube:player_client=android,tv",
         "-f",
-        "b[height<=720]/best[height<=720]/best",
+        "bv*+ba/b",
         "--merge-output-format",
         "mp4",
         "-o",
@@ -99,6 +99,7 @@ def run_quran_job(
         add_voice=False,
         stitch=False,
         max_clips=len(clips),
+        encode_quality="highest",
     )
     job.save_config(config)
 
@@ -160,30 +161,17 @@ def run_quran_job(
                 title=c["surah"],
             )
         else:
-            tmp_dir = job.output_dir / "_tmp"
-            tmp_dir.mkdir(parents=True, exist_ok=True)
-            tmp_paths: list[Path] = []
-            for j, seg in enumerate(segs, 1):
-                a, b = float(seg["start_s"]), float(seg["end_s"])
+            seg_ranges = [(float(seg["start_s"]), float(seg["end_s"])) for seg in segs]
+            for j, (a, b) in enumerate(seg_ranges, 1):
                 _log(f"Cutting {cid} rak'ah {j}: {a:.1f}s → {b:.1f}s — {c['surah']}\n")
-                tmp = tmp_dir / f"{cid}-r{j}.mp4"
-                export_clip(
-                    src_dest,
-                    tmp,
-                    a,
-                    b,
-                    config,
-                    transcript=None,
-                    title=f"{c['surah']} r{j}",
-                )
-                tmp_paths.append(tmp)
-            _log(f"Stitching {cid} into one clip ({len(tmp_paths)} rak'ahs)\n")
-            concat_clips(tmp_paths, out)
-            for p in tmp_paths:
-                try:
-                    p.unlink()
-                except OSError:
-                    pass
+            _log(f"Stitching {cid} into one clip ({len(seg_ranges)} rak'ahs, single encode)\n")
+            export_stitched_segments(
+                src_dest,
+                out,
+                seg_ranges,
+                config,
+                title=c["surah"],
+            )
         desc_path = job.output_dir / f"{cid}-{slugify(c['surah'])}.description.txt"
         desc_path.write_text(c["description"], encoding="utf-8")
         title_path = job.output_dir / f"{cid}-{slugify(c['surah'])}.title.txt"

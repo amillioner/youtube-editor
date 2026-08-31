@@ -75,6 +75,11 @@ class JobConfig:
     scene_export_stats: bool = True
     # Extract midpoint JPEG per final scene under output/_scene_thumbs/
     scene_export_thumbs: bool = True
+    # default | highest — highest keeps source resolution, CRF 16, frame-accurate cuts
+    encode_quality: str = "default"
+
+    def highest_quality(self) -> bool:
+        return self.encode_quality == "highest"
 
     def wants_stitch(self) -> bool:
         return self.stitch or self.mode == "compilation"

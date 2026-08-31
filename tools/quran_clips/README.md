@@ -25,6 +25,10 @@ Each video is parsed as **every recited rak’ah** (2, 3 for Maghrib including a
 
 The paste does **not** need to say “First/Second Rak’ah” — ranges are inferred by order/time. Labels are always `Surah Al-Fatiha & …`.
 
+## Export quality
+
+Exports keep the **source resolution** (including 4K). Video is frame-accurately re-encoded at CRF 16; audio is copied when possible. Multi-rak’ah stitches encode **once** from the source — no 1920px downscale and no double encode.
+
 ## Start
 
 From repo root (venv):

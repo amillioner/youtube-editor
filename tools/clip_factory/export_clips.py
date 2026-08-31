@@ -59,8 +59,26 @@ def _ffmpeg_escape_sub_path(path: Path) -> str:
     return s
 
 
+def _video_encode_args(config: JobConfig) -> list[str]:
+    if config.highest_quality():
+        return ["-c:v", "libx264", "-crf", "16", "-preset", "slow", "-pix_fmt", "yuv420p"]
+    return ["-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p"]
+
+
+def _audio_encode_args(config: JobConfig, *, after_filter: bool = False) -> list[str]:
+    if not config.keep_original_audio or config.add_voice:
+        return ["-an"]
+    if config.highest_quality() and not after_filter:
+        return ["-c:a", "copy"]
+    if config.highest_quality():
+        return ["-c:a", "aac", "-b:a", "320k"]
+    return ["-c:a", "aac", "-b:a", "192k"]
+
+
 def _video_filter(config: JobConfig, width: int, height: int) -> str | None:
     if not config.crop_enabled() and config.profile == "source":
+        if config.highest_quality():
+            return None
         if width <= 1920 and height <= 1920:
             return None
         return "scale='min(1920,iw)':-2"
@@ -148,17 +166,19 @@ def export_clip(
         cmd.extend(["-map", "0:v:0", "-map", "0:a:0?"])
     else:
         cmd.extend(["-map", "0:v:0"])
-        if not config.add_voice:
-            cmd.extend(["-an"])
 
     if filters:
         cmd.extend(["-vf", ",".join(filters)])
-        cmd.extend(["-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p"])
+        cmd.extend(_video_encode_args(config))
+    elif config.highest_quality():
+        cmd.extend(_video_encode_args(config))
     else:
         cmd.extend(["-c:v", "copy"])
 
     if config.keep_original_audio and not config.add_voice:
-        cmd.extend(["-c:a", "aac", "-b:a", "192k"])
+        cmd.extend(_audio_encode_args(config, after_filter=bool(filters)))
+    elif not config.add_voice:
+        cmd.extend(["-an"])
     cmd.extend(["-movflags", "+faststart", str(out)])
 
     r = subprocess.run(cmd, capture_output=True, text=True)
@@ -189,7 +209,79 @@ def export_all(job: JobPaths, config: JobConfig) -> list[Path]:
     return outputs
 
 
-def concat_clips(clip_paths: list[Path], out: Path) -> Path:
+def export_stitched_segments(
+    video: Path,
+    out: Path,
+    segments: list[tuple[float, float]],
+    config: JobConfig,
+    *,
+    title: str = "clip",
+) -> None:
+    """Cut multiple ranges from one source and encode once (frame-accurate, no double encode)."""
+    if not segments:
+        raise RuntimeError("No segments to export")
+    if len(segments) == 1:
+        start_s, end_s = segments[0]
+        export_clip(video, out, start_s, end_s, config, None, title=title)
+        return
+
+    cmd: list[str] = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"]
+    for start_s, end_s in segments:
+        dur = max(0.1, end_s - start_s)
+        cmd.extend(["-ss", f"{start_s:.3f}", "-t", f"{dur:.3f}", "-i", str(video)])
+
+    n = len(segments)
+    concat_in = "".join(f"[{i}:v][{i}:a]" for i in range(n))
+    fc = f"{concat_in}concat=n={n}:v=1:a=1[v][a]"
+    cmd.extend(
+        [
+            "-filter_complex",
+            fc,
+            "-map",
+            "[v]",
+            "-map",
+            "[a]",
+            *_video_encode_args(config),
+            *_audio_encode_args(config, after_filter=True),
+            "-movflags",
+            "+faststart",
+            str(out),
+        ]
+    )
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0:
+        fc_v = f"{''.join(f'[{i}:v]' for i in range(n))}concat=n={n}:v=1:a=0[v]"
+        cmd_no_a = [
+            "ffmpeg",
+            "-y",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+        ]
+        for start_s, end_s in segments:
+            dur = max(0.1, end_s - start_s)
+            cmd_no_a.extend(["-ss", f"{start_s:.3f}", "-t", f"{dur:.3f}", "-i", str(video)])
+        cmd_no_a.extend(
+            [
+                "-filter_complex",
+                fc_v,
+                "-map",
+                "[v]",
+                *_video_encode_args(config),
+                "-an",
+                "-movflags",
+                "+faststart",
+                str(out),
+            ]
+        )
+        r2 = subprocess.run(cmd_no_a, capture_output=True, text=True)
+        if r2.returncode != 0:
+            sys.stderr.write(r.stdout + r.stderr + r2.stdout + r2.stderr)
+            raise RuntimeError(f"ffmpeg stitch failed for {title}")
+    return None
+
+
+def concat_clips(clip_paths: list[Path], out: Path, config: JobConfig | None = None) -> Path:
     """Stitch exported clips into one MP4 via ffmpeg concat demuxer."""
     if not clip_paths:
         raise RuntimeError("No clips to concatenate")
@@ -208,6 +300,7 @@ def concat_clips(clip_paths: list[Path], out: Path) -> Path:
         lines.append(f"file '{escaped}'")
     list_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    cfg = config or JobConfig()
     # Re-encode for safety (filters/burns may leave incompatible streams)
     cmd = [
         "ffmpeg",
@@ -221,18 +314,8 @@ def concat_clips(clip_paths: list[Path], out: Path) -> Path:
         "0",
         "-i",
         str(list_path),
-        "-c:v",
-        "libx264",
-        "-crf",
-        "20",
-        "-preset",
-        "medium",
-        "-pix_fmt",
-        "yuv420p",
-        "-c:a",
-        "aac",
-        "-b:a",
-        "192k",
+        *_video_encode_args(cfg),
+        *_audio_encode_args(cfg, after_filter=True),
         "-movflags",
         "+faststart",
         str(out),
@@ -252,14 +335,7 @@ def concat_clips(clip_paths: list[Path], out: Path) -> Path:
             "0",
             "-i",
             str(list_path),
-            "-c:v",
-            "libx264",
-            "-crf",
-            "20",
-            "-preset",
-            "medium",
-            "-pix_fmt",
-            "yuv420p",
+            *_video_encode_args(cfg),
             "-an",
             "-movflags",
             "+faststart",
