@@ -96,17 +96,23 @@
     border: 1px solid #2a3830; border-radius: 8px; cursor: pointer;
   }
   .opt:has(input:checked) { border-color: var(--accent); background: #1a2c24; }
-  .opt input { margin-top: 3px; }
+  .opt input[type=checkbox] { margin-top: 3px; }
   .opt .opt-text { flex: 1; }
   .opt .opt-title { font-weight: 600; }
   .opt .opt-hint { color: var(--dim); font-size: 12px; margin-top: 2px; }
+  .opt .opt-num {
+    width: 52px; background: #243029; color: var(--text);
+    border: 1px solid #3a4a40; border-radius: 4px; padding: 4px 6px;
+    font-weight: 600; font-size: 14px;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Quran Clips</h1>
   <p class="sub">Drop or select the video → paste the prayer summary → Cut.
-    Auto: <strong>same Surah → one clip</strong> (all recited rak’ahs), <strong>different Surahs → one file each</strong>.
+    Auto: <strong>same Surah → one clip</strong> (all recited rak’ahs), <strong>different Surahs → one file per Surah</strong>
+    (consecutive same Surah combined).
     Override with the checkboxes. DeepSeek when keyed. Port <strong>8767</strong>.</p>
 
   <div class="tabs">
@@ -149,11 +155,26 @@
           <input type="checkbox" id="two_clips">
           <span class="opt-text">
             <span class="opt-title">Separate clips</span>
-            <span class="opt-hint">One file per rak’ah. Auto when the rak’ahs are different Surahs.</span>
+            <span class="opt-hint">One file per Surah. Consecutive rak’ahs of the same Surah (e.g. Al-Anfal twice) are combined. Auto when the rak’ahs are different Surahs.</span>
           </span>
         </label>
       </div>
       <p class="hint" style="margin-top:8px">Leave both unchecked to auto-pick. Check one to force that mode.</p>
+
+      <div class="opt-row">
+        <label class="opt" for="end_buffer">
+          <input type="checkbox" id="end_buffer" checked>
+          <span class="opt-text">
+            <span class="opt-title">
+              Until next sound
+              <input type="number" class="opt-num" id="end_buffer_s" value="8" min="1" max="30" step="1"
+                title="Max seconds to wait for the next sound after the Surah">
+              s max
+            </span>
+            <span class="opt-hint">Don’t cut at the listed time. After each Surah, keep the next short sound (usually the takbir), then stop. Combined clips do this after every rak’ah. Uncheck to cut exactly. Number = how long to wait for that sound.</span>
+          </span>
+        </label>
+      </div>
 
       <div style="margin-top:12px">
         <button type="button" class="ghost" id="btn_parse">Parse only (preview)</button>
@@ -191,10 +212,13 @@ const dropzone = document.getElementById('dropzone');
 const dzFile = document.getElementById('dz_file');
 const oneClip = document.getElementById('one_clip');
 const twoClips = document.getElementById('two_clips');
+const endBuffer = document.getElementById('end_buffer');
+const endBufferInput = document.getElementById('end_buffer_s');
 const videoTitle = document.getElementById('video_title');
 let lastPackaging = null;
 let lastParsed = null;
 let selectedVideo = null;
+const activePolls = new Map();
 
 oneClip.addEventListener('change', () => {
   if (oneClip.checked) twoClips.checked = false;
@@ -203,10 +227,24 @@ twoClips.addEventListener('change', () => {
   if (twoClips.checked) oneClip.checked = false;
 });
 
+endBufferInput.addEventListener('click', (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  endBufferInput.focus();
+});
+endBufferInput.addEventListener('mousedown', (e) => e.stopPropagation());
+
 function clipMode() {
   if (oneClip.checked) return 'one';
   if (twoClips.checked) return 'two';
   return 'auto';
+}
+
+function endBufferS() {
+  if (!endBuffer.checked) return 0;
+  const n = parseFloat(endBufferInput.value);
+  if (Number.isFinite(n) && n >= 0) return n;
+  return 8;
 }
 
 function stemFromFilename(name) {
@@ -300,8 +338,13 @@ function showPreview(data) {
   preview.hidden = false;
   const m = data.meta || {};
   const reason = data.mode_reason || (data.split_rakahs ? 'two clips' : 'one clip');
+  const pad = Number(data.end_buffer_s);
+  const snap = data.end_snap || (Number.isFinite(pad) && pad > 0 ? 'next_sound' : 'listed');
+  const padNote = snap === 'next_sound'
+    ? ` · ends snap to next sound (max ${pad}s wait)`
+    : '';
   document.getElementById('preview_meta').textContent =
-    `${data.parser || '?'} · ${reason} · ${m.prayer || '?'} · ${m.sheikh || '?'} · ${m.place || '?'} · ${m.date || '?'}`;
+    `${data.parser || '?'} · ${reason} · ${m.prayer || '?'} · ${m.sheikh || '?'} · ${m.place || '?'} · ${m.date || '?'}${padNote}`;
   if (clipMode() === 'auto') {
     oneClip.checked = !data.split_rakahs;
     twoClips.checked = !!data.split_rakahs;
@@ -347,6 +390,7 @@ document.getElementById('btn_parse').onclick = async () => {
         summary,
         clip_mode: clipMode(),
         video_title: videoTitleValue(),
+        end_buffer_s: endBufferS(),
       }),
     });
     const data = await res.json();
@@ -362,6 +406,7 @@ document.getElementById('btn_parse').onclick = async () => {
 
 function renderPack(result) {
   const packs = result.packaging || [];
+  const jobId = result.job_id || '';
   if (!packs.length) {
     packList.innerHTML = '<p class="hint">No packaging in last result.</p>';
     return;
@@ -378,7 +423,7 @@ function renderPack(result) {
   packs.forEach((p) => {
     const div = document.createElement('div');
     div.className = 'pack';
-    const descUrl = `/api/download/${encodeURIComponent(p.description_file)}`;
+    const descUrl = `/api/download/${encodeURIComponent(p.description_file)}${jobId ? `?job_id=${encodeURIComponent(jobId)}` : ''}`;
     let range = `${p.start_s}s → ${p.end_s}s`;
     if (Array.isArray(p.segments) && p.segments.length >= 2) {
       range = p.segments.map((s, j) => {
@@ -402,7 +447,8 @@ function renderPack(result) {
       </div>
     `;
     div.querySelector('[data-open-folder]').onclick = async () => {
-      const res = await fetch('/api/open-output');
+      const q = jobId ? `?job_id=${encodeURIComponent(jobId)}` : '';
+      const res = await fetch(`/api/open-output${q}`);
       const data = await res.json();
       if (!res.ok) alert(data.error || 'Could not open folder');
     };
@@ -427,45 +473,72 @@ document.getElementById('form').addEventListener('submit', async (e) => {
     return;
   }
 
-  btn.disabled = true;
-  statusEl.textContent = 'Parsing & cutting…';
+  statusEl.textContent = 'Submitting…';
   statusEl.className = 'hint';
-  logEl.textContent = '';
 
   const fd = new FormData();
   fd.append('video', file);
   fd.append('summary', summary);
   fd.append('clip_mode', clipMode());
   fd.append('video_title', videoTitleValue());
+  fd.append('end_buffer_s', String(endBufferS()));
 
   const res = await fetch('/api/process', { method: 'POST', body: fd });
   const data = await res.json();
   if (!res.ok) {
     statusEl.textContent = data.error || 'Failed to start';
     statusEl.className = 'err';
-    btn.disabled = false;
     return;
   }
 
+  const jobId = data.job_id;
+  const baseId = data.base_job_id || jobId;
+  const position = data.position || 1;
+  const copyNote = jobId !== baseId ? ` — saving as ${jobId}` : '';
+  if (position > 1) {
+    statusEl.textContent = `Queued (#${position})${copyNote} — you can submit another video.`;
+  } else {
+    statusEl.textContent = `Encoding…${copyNote}`;
+  }
+  statusEl.className = 'hint';
+  logEl.textContent = '';
+
+  if (activePolls.has(jobId)) return;
   const poll = setInterval(async () => {
-    const st = await (await fetch('/api/status')).json();
-    logEl.textContent = st.log || '';
-    logEl.scrollTop = logEl.scrollHeight;
-    if (st.running) return;
-    clearInterval(poll);
-    btn.disabled = false;
-    if (st.error) {
-      statusEl.textContent = st.error;
-      statusEl.className = 'err';
-      return;
+    const st = await (await fetch(`/api/status?job_id=${encodeURIComponent(jobId)}`)).json();
+    if (st.job_id === jobId || st.jobs?.[jobId]) {
+      const j = st.jobs?.[jobId] || st;
+      logEl.textContent = j.log || st.log || '';
+      logEl.scrollTop = logEl.scrollHeight;
+      if (j.status === 'queued') {
+        const pos = (st.queue?.indexOf(jobId) ?? -1) + 1 + (st.current ? 1 : 0);
+        statusEl.textContent = pos > 1 ? `Queued (#${pos}) — ${st.queue?.length || 0} waiting.` : 'Starting…';
+        statusEl.className = 'hint';
+        return;
+      }
+      if (j.status === 'running' || st.status === 'running') {
+        const copyNote = jobId !== baseId ? ` — ${jobId}` : '';
+        statusEl.textContent = `Encoding…${copyNote}`;
+        statusEl.className = 'hint';
+        return;
+      }
+      clearInterval(poll);
+      activePolls.delete(jobId);
+      if (j.error || st.error) {
+        statusEl.textContent = j.error || st.error;
+        statusEl.className = 'err';
+        return;
+      }
+      const result = j.result || st.result;
+      if (result && result.parse) showPreview(result.parse);
+      statusEl.textContent = 'Done — open Titles & publish.';
+      statusEl.className = 'ok';
+      lastPackaging = result;
+      renderPack(result);
+      showTab('pack');
     }
-    if (st.result && st.result.parse) showPreview(st.result.parse);
-    statusEl.textContent = 'Done — open Titles & publish.';
-    statusEl.className = 'ok';
-    lastPackaging = st.result;
-    renderPack(st.result);
-    showTab('pack');
   }, 800);
+  activePolls.set(jobId, poll);
 });
 </script>
 </body>

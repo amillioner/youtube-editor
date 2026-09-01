@@ -9,7 +9,7 @@ Separate UI from Clip Factory. Cut Surah clips from a prayer video using a **pas
 3. **Paste the video title** (or keep the file name) — date, prayer, and place come from this, not from a leftover example date
 4. **Paste** the segment summary (Adhan / First Rak'ah / Second Rak'ah / …)
 5. Optional: **Parse only** to preview detected clips
-6. **Parse & cut** → titles + descriptions on tab 2 for YouTube Studio
+6. **Parse & cut** → titles + descriptions on tab 2 for YouTube Studio. Re-cutting the same title keeps the old folder and writes `…_2`, `…_3`, …
 
 ## Parsing (DeepSeek preferred)
 
@@ -22,6 +22,7 @@ Each video is parsed as **every recited rak’ah** (2, 3 for Maghrib including a
 - **Same Surah** (or “further verses” / continued) → **one stitched clip** by default (all rak’ahs)
 - **Different Surahs** → **one file per rak’ah** by default
 - Override anytime with the **One clip** / **Separate clips** checkboxes
+- **Until next sound** (checkbox, on by default): after **every** Surah cut, keep going until the next short sound (usually the takbir) finishes, then stop — not a fixed 8 seconds. Combined clips do this after each rak’ah. Uncheck to cut at the listed time. The number is the max seconds to wait for that sound (default 8).
 
 The paste does **not** need to say “First/Second Rak’ah” — ranges are inferred by order/time. Labels are always `Surah Al-Fatiha & …`.
 
@@ -49,4 +50,4 @@ Grand Mosque in Makkah, led by Sheikh Waleed Al-Shamsaan.
 * Third and Fourth Rak'ahs: … ending with the Taslim.
 ```
 
-→ same Surah, so **one clip**: Al-Fatiha (first rak’ah if listed, else the next) plus every Surah window, stitched. Four-segment pastes (Fatiha + Surah × 4) keep all four rak’ahs. Different Surahs auto-split into one file each. Checkboxes override either way.
+→ same Surah, so **one clip**: Al-Fatiha (first rak’ah if listed, else the next) plus every Surah window, stitched. Four-segment pastes (Fatiha + Surah × 4) keep all four rak’ahs. Different Surahs auto-split **by Surah** (consecutive rak’ahs of the same Surah are combined — e.g. Al-Anfal in 3rd + 4th → one clip). Checkboxes override either way.

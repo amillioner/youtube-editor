@@ -165,16 +165,38 @@ def _normalize_clip_mode(
 
 
 def _resolve_split(clip_mode: str, windows: list[dict[str, Any]]) -> tuple[bool, str]:
-    """Return (one_file_per_rakah, reason). Auto: same Surah → one; different → split."""
+    """Return (split_by_surah, reason). Auto: same Surah → one; different → split by Surah."""
     n = len(windows)
     same = _all_same_surah(windows)
     if clip_mode == "one":
         return False, "one clip (manual)"
     if clip_mode == "two":
-        return True, f"{n} clips (manual)"
+        return True, f"separate by Surah ({n} rak'ahs)"
     if same:
         return False, f"same Surah -> one clip ({n} rak'ahs)"
-    return True, f"different Surahs -> {n} clips"
+    return True, f"different Surahs -> separate by Surah ({n} rak'ahs)"
+
+
+def _group_consecutive_same_surah(windows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """When splitting: merge consecutive rak'ahs of the same Surah into one stitched clip.
+
+    Example: Imran | Nisa | Anfal | Anfal → 3 clips (Anfal rak'ahs combined).
+    """
+    if len(windows) <= 1:
+        return list(windows)
+    groups: list[list[dict[str, Any]]] = [[windows[0]]]
+    for w in windows[1:]:
+        if _same_surah(groups[-1][-1], w):
+            groups[-1].append(w)
+        else:
+            groups.append([w])
+    out: list[dict[str, Any]] = []
+    for g in groups:
+        if len(g) == 1:
+            out.append(g[0])
+        else:
+            out.extend(_merge_rakahs_into_one(g))
+    return out
 
 
 def _fatiha_windows(summary: str) -> list[tuple[float, float]]:
@@ -410,21 +432,25 @@ def _canonicalize_clips(
         valid = valid[:8]
 
     named0 = next((c for c in valid if not _is_fatiha_only(c)), valid[0])
-    first_other = _surah_other_name(str(named0.get("surah") or ""))
+    prev_named = named0
     out: list[dict[str, Any]] = []
     for i, c in enumerate(valid):
         c2 = dict(c)
-        continued = i > 0 and not _is_fatiha_only(c) and _same_surah(named0, c)
+        continued = i > 0 and not _is_fatiha_only(c) and _same_surah(prev_named, c)
         if _is_fatiha_only(c):
             c2["surah"] = "Surah Al-Fatiha"
         elif i == 0:
             c2["surah"] = _fatiha_and_surah_label(str(c.get("surah") or ""), continued=False)
+            prev_named = c2
         elif continued:
+            prev_other = _surah_other_name(str(prev_named.get("surah") or ""))
             c2["surah"] = _fatiha_and_surah_label(
-                f"Surah Al-Fatiha & {first_other}", continued=True
+                f"Surah Al-Fatiha & {prev_other}", continued=True
             )
+            prev_named = c2
         else:
             c2["surah"] = _fatiha_and_surah_label(str(c.get("surah") or ""), continued=False)
+            prev_named = c2
         c2["rakah"] = _RAKAH_LABELS[i] if i < len(_RAKAH_LABELS) else f"Rak'ah {i + 1}"
         c2["start"] = format_clock(float(c2["start_s"]))
         c2["end"] = format_clock(float(c2["end_s"]))
@@ -466,6 +492,15 @@ def _finalize(
     n_windows = len(clips_raw)
     if not split:
         clips_raw = _merge_rakahs_into_one(clips_raw)
+    else:
+        clips_raw = _group_consecutive_same_surah(clips_raw)
+        if len(clips_raw) < n_windows:
+            reason = (
+                f"{n_windows} rak'ahs → {len(clips_raw)} clips "
+                "(same Surah combined)"
+            )
+        else:
+            reason = f"{len(clips_raw)} clips (one per Surah)"
 
     clips: list[dict[str, Any]] = []
     for raw in clips_raw:
@@ -474,10 +509,10 @@ def _finalize(
         except ValueError as e:
             warnings.append(str(e))
 
-    expected = n_windows if split else 1
+    expected = len(clips_raw)
     if len(clips) != expected:
         if split:
-            raise ValueError(f"Could not build {expected} clips (one per rak'ah)")
+            raise ValueError(f"Could not build {expected} clips (separate by Surah)")
         raise ValueError("Could not build 1 combined clip (all rak'ahs)")
 
     return {
@@ -859,23 +894,30 @@ def parse_summary(
     clip_mode: str = "auto",
     split_rakahs: bool | None = None,
     video_title: str = "",
+    end_buffer_s: float = 8.0,
 ) -> dict[str, Any]:
     """DeepSeek when keyed; otherwise local heuristic. No silent DeepSeek→heuristic fallback.
 
     clip_mode: auto (default) | one | two
     Auto: same Surah → one stitched clip (all recited rak'ahs); different Surahs → one file each.
     video_title: filename or pasted title — source of date, prayer, place.
+    end_buffer_s: extra seconds to wait for the next sound after each Surah (cut time; preview stays listed).
     """
     if deepseek_api_key():
-        return parse_summary_deepseek(
+        data = parse_summary_deepseek(
             summary,
             clip_mode=clip_mode,
             split_rakahs=split_rakahs,
             video_title=video_title,
         )
-    return parse_summary_heuristic(
-        summary,
-        clip_mode=clip_mode,
-        split_rakahs=split_rakahs,
-        video_title=video_title,
-    )
+    else:
+        data = parse_summary_heuristic(
+            summary,
+            clip_mode=clip_mode,
+            split_rakahs=split_rakahs,
+            video_title=video_title,
+        )
+    pad = max(0.0, float(end_buffer_s or 0))
+    data["end_buffer_s"] = pad
+    data["end_snap"] = "next_sound" if pad > 0 else "listed"
+    return data

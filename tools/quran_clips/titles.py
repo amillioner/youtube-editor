@@ -30,6 +30,18 @@ _SHEIKH_LED = re.compile(
 )
 _SHEIKH_ANY = re.compile(r"\b(" + _SHEIKH_NAME + r")")
 
+# Short filename forms → canonical channel reciter name
+_RECITER_ALIASES: dict[str, str] = {
+    "shamsaan": "Sheikh Waleed Al Shamsaan",
+    "shamasan": "Sheikh Waleed Al Shamsaan",
+    "sheikh shamsaan": "Sheikh Waleed Al Shamsaan",
+    "sheikh shamasan": "Sheikh Waleed Al Shamsaan",
+    "waleed al shamsaan": "Sheikh Waleed Al Shamsaan",
+    "waleed al shamasan": "Sheikh Waleed Al Shamsaan",
+    "sheikh waleed al shamsaan": "Sheikh Waleed Al Shamsaan",
+    "sheikh waleed al shamasan": "Sheikh Waleed Al Shamsaan",
+}
+
 
 def format_reciter(name: str) -> str:
     """Display form: 'Sheikh Waleed Al Shamsaan' (Al- → Al )."""
@@ -38,7 +50,13 @@ def format_reciter(name: str) -> str:
     s = re.sub(r"\s+", " ", s).strip().rstrip(".,;:")
     if not s:
         return ""
+    alias_key = re.sub(r"^(?:sheikh|shaikh|shaykh|imam)\s+", "", s, flags=re.I).strip().lower()
+    if alias_key in _RECITER_ALIASES:
+        return _RECITER_ALIASES[alias_key]
+    if s.lower() in _RECITER_ALIASES:
+        return _RECITER_ALIASES[s.lower()]
     s = re.sub(r"\b(Al|An|Ar|As|Ad|Ash|Adh|At|Az)-", r"\1 ", s, flags=re.I)
+    s = re.sub(r"\bShamasan\b", "Shamsaan", s, flags=re.I)
     if not re.match(r"^(sheikh|shaikh|shaykh|imam)\b", s, re.I):
         s = f"Sheikh {s}"
     s = re.sub(r"^(?:shaikh|shaykh|sheikh)\b", "Sheikh", s, flags=re.I)
@@ -96,6 +114,16 @@ _DATE_RAMADAN = re.compile(
     r"\b(\d{1,2})(?:st|nd|rd|th)?\s+(?:night\s+of\s+)?Ramadan\s+(\d{4})\b",
     re.I,
 )
+_HIJRI_MONTHS = (
+    r"Muharram|Safar|Rabi(?:\s+Al-?)?(?:Awwal|I|1|First)|Rabi(?:\s+Al-?)?(?:Thani|II|2|Second)"
+    r"|Jumada(?:\s+Al-?)?(?:Awwal|I|1|First)|Jumada(?:\s+Al-?)?(?:Thani|II|2|Second)"
+    r"|Rajab|Sha(?:'|\u2019)?ban|Ramadan|Shawwal|Dhul(?:\s+)?(?:Qa(?:'|\u2019)?dah|Qadah)"
+    r"|Dhul(?:\s+)?(?:Hijjah|Hijja)"
+)
+_DATE_HIJRI = re.compile(
+    rf"\b(\d{{1,2}})(?:st|nd|rd|th)?\s+({_HIJRI_MONTHS})\s+(\d{{4}})\b",
+    re.I,
+)
 _PRAYER = re.compile(
     r"\b(Maghrib|Isha|'Isha|‘Isha|Fajr|Dhuhr|Zuhr|Asr|Tahajjud|Taraweeh)\b",
     re.I,
@@ -114,6 +142,36 @@ def format_calendar_date(day: int, month: str, year: int) -> str:
     return f"{_month_name(month)} {day}, {year}"
 
 
+def _hijri_month_name(token: str) -> str:
+    t = re.sub(r"\s+", " ", token.strip())
+    low = t.lower().replace("'", "").replace("\u2019", "")
+    if "ramadan" in low:
+        return "Ramadan"
+    if "shawwal" in low:
+        return "Shawwal"
+    if "muharram" in low:
+        return "Muharram"
+    if low.startswith("safar"):
+        return "Safar"
+    if "rajab" in low:
+        return "Rajab"
+    if "shaban" in low or "sha ban" in low:
+        return "Shaban"
+    if "dhul" in low and ("hijjah" in low or "hijja" in low):
+        return "Dhul Hijjah"
+    if "dhul" in low and ("qadah" in low or "qada" in low):
+        return "Dhul Qadah"
+    if "rabi" in low and ("thani" in low or " ii" in low or low.endswith("2")):
+        return "Rabi Al-Thani"
+    if "rabi" in low:
+        return "Rabi Al-Awwal"
+    if "jumada" in low and ("thani" in low or " ii" in low or low.endswith("2")):
+        return "Jumada Al-Thani"
+    if "jumada" in low:
+        return "Jumada Al-Awwal"
+    return t.title()
+
+
 def extract_date(text: str) -> str:
     """Date from a video title or paste. Accepts '15th Feb 2025' and 'October 11, 2024'."""
     if not (text or "").strip():
@@ -127,6 +185,9 @@ def extract_date(text: str) -> str:
     m = _DATE_RAMADAN.search(text)
     if m:
         return f"{int(m.group(1))} Ramadan {m.group(2)}"
+    m = _DATE_HIJRI.search(text)
+    if m:
+        return f"{int(m.group(1))} {_hijri_month_name(m.group(2))} {m.group(3)}"
     return ""
 
 
@@ -233,39 +294,94 @@ def format_clock(seconds: float) -> str:
     return f"{m}:{sec:02d}"
 
 
+DEFAULT_END_BUFFER_S = 8.0
+
+
+def apply_end_buffer(
+    clips: list[dict[str, Any]],
+    pad_s: float,
+    *,
+    duration_s: float | None = None,
+) -> list[dict[str, Any]]:
+    """Add pad_s after every recitation cut (each rak'ah when stitched). Starts stay put."""
+    pad = float(pad_s or 0)
+    if pad <= 0 or not clips:
+        return clips
+    out: list[dict[str, Any]] = []
+    for clip in clips:
+        c2 = dict(clip)
+        segs = c2.get("segments")
+        if isinstance(segs, list) and segs:
+            new_segs: list[dict[str, Any]] = []
+            for i, seg in enumerate(segs):
+                s = dict(seg)
+                new_end = float(s["end_s"]) + pad
+                if i + 1 < len(segs):
+                    next_start = float(segs[i + 1]["start_s"])
+                    new_end = min(new_end, next_start)
+                if duration_s is not None:
+                    new_end = min(new_end, float(duration_s))
+                new_end = max(new_end, float(s["end_s"]))
+                s["end_s"] = round(new_end, 3)
+                s["end"] = format_clock(s["end_s"])
+                new_segs.append(s)
+            c2["segments"] = new_segs
+            c2["end_s"] = new_segs[-1]["end_s"]
+            c2["end"] = new_segs[-1]["end"]
+        else:
+            new_end = float(c2["end_s"]) + pad
+            if duration_s is not None:
+                new_end = min(new_end, float(duration_s))
+            c2["end_s"] = round(new_end, 3)
+            c2["end"] = format_clock(c2["end_s"])
+        out.append(c2)
+    return out
+
+
 def build_youtube_title(
     surah_label: str,
     *,
     sheikh: str,
     place: str,
     date: str,
+    prayer: str = "",
     max_len: int = 99,
 ) -> str:
     """Build a YouTube title under max_len chars.
 
-    Format: Surah … | Sheikh … | Place | Date
+    Format: Surah … | Sheikh … | Place | Prayer | Date
     """
     surah = (surah_label or "").strip()
     sheikh = format_reciter(sheikh)
     if not is_real_reciter(sheikh):
         sheikh = ""
     place = (place or "").strip()
+    prayer = (prayer or "").strip()
+    if prayer.lower() in {"'isha", "\u2018isha", "isha"}:
+        prayer = "Isha"
+    elif prayer:
+        prayer = prayer[0].upper() + prayer[1:].lower() if prayer.lower() != "dhuhr" else "Dhuhr"
     date = (date or "").strip()
 
     def join(parts: list[str]) -> str:
         return " | ".join(p for p in parts if p)
 
-    candidates = [
-        join([surah, sheikh, place, date]),
-        join([surah, sheikh, place]),
-        join([surah, sheikh, date]),
-        join([surah, sheikh]),
-        surah or "Quran Recitation",
-    ]
-    for title in candidates:
-        if len(title) <= max_len:
-            return title
-    return candidates[-1][: max_len - 1].rstrip(" |") + "…"
+    full = join([surah, sheikh, place, prayer, date])
+    if len(full) <= max_len:
+        return full
+    # Drop place, then date — never drop reciter or Surah
+    no_place = join([surah, sheikh, prayer, date])
+    if len(no_place) <= max_len:
+        return no_place
+    no_date = join([surah, sheikh, prayer])
+    if len(no_date) <= max_len:
+        return no_date
+    core = join([surah, sheikh])
+    if len(core) <= max_len:
+        return core
+    if sheikh and len(sheikh) <= max_len:
+        return sheikh[:max_len]
+    return (surah or "Quran Recitation")[:max_len]
 
 
 def build_description(
@@ -363,6 +479,7 @@ def normalize_clip(raw: dict[str, Any], meta: dict[str, str]) -> dict[str, Any]:
         sheikh=meta.get("sheikh", ""),
         place=meta.get("place", ""),
         date=meta.get("date", ""),
+        prayer=meta.get("prayer", ""),
     )
     desc = build_description(
         youtube_title=yt_title,

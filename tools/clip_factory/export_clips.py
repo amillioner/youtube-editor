@@ -59,10 +59,74 @@ def _ffmpeg_escape_sub_path(path: Path) -> str:
     return s
 
 
-def _video_encode_args(config: JobConfig) -> list[str]:
+_NVENC_AVAILABLE: bool | None = None
+
+
+def _probe_nvenc() -> bool:
+    global _NVENC_AVAILABLE
+    if _NVENC_AVAILABLE is not None:
+        return _NVENC_AVAILABLE
+    r = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-encoders"],
+        capture_output=True,
+        text=True,
+    )
+    _NVENC_AVAILABLE = r.returncode == 0 and "h264_nvenc" in (r.stdout or "")
+    return _NVENC_AVAILABLE
+
+
+def _video_encode_args(config: JobConfig, *, use_nvenc: bool | None = None) -> list[str]:
     if config.highest_quality():
-        return ["-c:v", "libx264", "-crf", "16", "-preset", "slow", "-pix_fmt", "yuv420p"]
+        if use_nvenc is False or (use_nvenc is None and not _probe_nvenc()):
+            return ["-c:v", "libx264", "-crf", "16", "-preset", "medium", "-pix_fmt", "yuv420p"]
+        return [
+            "-c:v",
+            "h264_nvenc",
+            "-preset",
+            "p4",
+            "-tune",
+            "hq",
+            "-rc",
+            "vbr",
+            "-cq",
+            "17",
+            "-b:v",
+            "0",
+            "-profile:v",
+            "high",
+            "-pix_fmt",
+            "yuv420p",
+        ]
     return ["-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p"]
+
+
+def _run_ffmpeg(cmd: list[str], *, title: str, config: JobConfig) -> None:
+    """Run ffmpeg; on NVENC failure retry once with libx264."""
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode == 0:
+        return
+    if config.highest_quality() and _probe_nvenc() and "h264_nvenc" in " ".join(cmd):
+        fallback = []
+        i = 0
+        while i < len(cmd):
+            if cmd[i] == "-c:v" and i + 1 < len(cmd) and cmd[i + 1] == "h264_nvenc":
+                fallback.extend(_video_encode_args(config, use_nvenc=False))
+                i += 2
+                while i < len(cmd) and cmd[i].startswith("-"):
+                    if cmd[i] in {"-preset", "-tune", "-rc", "-cq", "-b:v", "-profile:v"}:
+                        i += 2
+                        continue
+                    break
+                continue
+            fallback.append(cmd[i])
+            i += 1
+        r2 = subprocess.run(fallback, capture_output=True, text=True)
+        if r2.returncode == 0:
+            return
+        sys.stderr.write(r.stdout + r.stderr + r2.stdout + r2.stderr)
+        raise RuntimeError(f"ffmpeg export failed for {title}")
+    sys.stderr.write(r.stdout + r.stderr)
+    raise RuntimeError(f"ffmpeg export failed for {title}")
 
 
 def _audio_encode_args(config: JobConfig, *, after_filter: bool = False) -> list[str]:
@@ -181,10 +245,7 @@ def export_clip(
         cmd.extend(["-an"])
     cmd.extend(["-movflags", "+faststart", str(out)])
 
-    r = subprocess.run(cmd, capture_output=True, text=True)
-    if r.returncode != 0:
-        sys.stderr.write(r.stdout + r.stderr)
-        raise RuntimeError(f"ffmpeg export failed for {title}")
+    _run_ffmpeg(cmd, title=title, config=config)
 
 
 def export_all(job: JobPaths, config: JobConfig) -> list[Path]:
@@ -248,8 +309,9 @@ def export_stitched_segments(
             str(out),
         ]
     )
-    r = subprocess.run(cmd, capture_output=True, text=True)
-    if r.returncode != 0:
+    try:
+        _run_ffmpeg(cmd, title=title, config=config)
+    except RuntimeError:
         fc_v = f"{''.join(f'[{i}:v]' for i in range(n))}concat=n={n}:v=1:a=0[v]"
         cmd_no_a = [
             "ffmpeg",
@@ -274,10 +336,7 @@ def export_stitched_segments(
                 str(out),
             ]
         )
-        r2 = subprocess.run(cmd_no_a, capture_output=True, text=True)
-        if r2.returncode != 0:
-            sys.stderr.write(r.stdout + r.stderr + r2.stdout + r2.stderr)
-            raise RuntimeError(f"ffmpeg stitch failed for {title}")
+        _run_ffmpeg(cmd_no_a, title=title, config=config)
     return None
 
 
